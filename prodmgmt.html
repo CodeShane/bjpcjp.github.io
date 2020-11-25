@@ -7,14 +7,15 @@ permalink: /prodmgmt/
 {%- assign sorted  = site.data.prodmgmt.all | sort: "tags" | group_by: "tags" -%}
 
 <div class="textcard">
-	<div style="column-count: 2;">
+	<!--
+	<div style="column-count: 2;"> -->
 		<big><big><big>Tags:</big></big></big><br>
 	{%- for tag in sorted -%}
-		<span style="margin:0.5em;">
+		<!--<span style="margin:0.5em;">-->
 			<a href="#{{tag.name}}">{{tag.name}}</a>
-		</span><br>
+		</span><!--<br>--> &nbsp; &nbsp;
 	{%- endfor -%}
-	</div>
+	<!--</div>-->
 </div>
 <br>
 
