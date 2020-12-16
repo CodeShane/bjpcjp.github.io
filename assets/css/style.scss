@@ -35,6 +35,7 @@ code { font-size: 0.9em; background-color: beige; }
 	margin-right: auto;
 }
 
+/* Card divs */
 
 .textcard {
 	font-size: 0.9em;
@@ -155,43 +156,9 @@ img.zoomable:hover {
 	transform: scale(2.0);
 }
 
-/* test */
-
-.site-nav {
-	float: right;
-	line-height: 40px;
+/* ------------- paragraph content on book outlines ---------- */
+p.outline {
+	background-color: white; 
+	font-size: 0.9em; 
+	padding: 0.5em;
 }
-.gsc-search-box, .gsc-search-box-tools {
-	border: none;
-}
-.gsc-result-info {
-    display: none; }
-
-.gcsc-branding {
-    display: none; }
-
-.gsc-thumbnail {
-    display: none; }
-
-.gs-snippet { 
-    display: none; }
-
-.gs-title a { 
-    font-size: 14px; }
-
-.gs-snippet {
-    font-size: 12px; }
-
-.gs-title b, .gs-snippet b {
-    font-weight: normal; }
-
-/* Do no display the URL of web pages in search results */
-.gsc-url-top, .gsc-url-bottom {
-    display: none; }
-
-/* Highlight the pagination buttons at the bottom of search results */
-.gsc-cursor-page {
-    font-size: 1.5em;
-    padding: 4px 8px;
-    border: 1px solid #ccc; }
-
