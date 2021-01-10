@@ -1,0 +1,35 @@
+##########################
+
+- url: https://hbr.org/2020/10/the-surprising-upside-of-expensive-products-that-dont-sell
+  title: Surprising upsides to absurdly high pricing (HBR)
+  tags: pricing 
+  pic: 
+  notes: communicates expertise & prestige; props up other products; free publicity
+
+- url: https://www.websiteplanet.com/webtools/abtest-calculator/
+  title: A/B test Calculator
+  tags: analytics
+  pic: 
+  notes: courtesy of Miriam Fernandez
+
+- url: https://google.com
+  title: test link
+  tags: analytics
+  pic: 
+  notes: <p>this is a test paragraph.</p>
+
+- url: https://medium.com/swlh/the-ultimate-guide-to-a-b-testing-part-1-experiment-design-8315a2470c63
+  title: Ultimate Guide (Maria Paskevich)
+  tags: ab testing
+  pic:
+  notes: "<a href='https://medium.com/swlh/the-ultimate-guide-to-a-b-testing-part-1-experiment-design-8315a2470c63'>
+          Part I - experiment design</a><br>
+          <a href='https://towardsdatascience.com/the-ultimate-guide-to-a-b-testing-part-2-data-distributions-5ed429abbce'>
+          Part II - distributions</a><br>
+          <a href='https://towardsdatascience.com/the-ultimate-guide-to-a-b-testing-part-3-parametric-tests-2c629e8d98f8'>
+          Part III - parametric tests</a><br>
+          <a href='https://towardsdatascience.com/the-ultimate-guide-to-a-b-testing-part-4-non-parametric-tests-4db7b4b6a974'>
+          Part IV - non-parametric tests</a><br>
+          <a href='https://towardsdatascience.com/the-ultimate-guide-to-a-b-testing-part-4-bayesian-approach-binomial-variables-aa71e25d2165'>
+          Part V - Bayes/binomals</a><br>"
+

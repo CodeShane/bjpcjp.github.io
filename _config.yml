@@ -39,6 +39,7 @@ header_pages:
   #- ruby.html
   #- storytelling.html
   - semiconductors.html
+  #- testpage.html
   - uiux.html # titled as ui/ux.html
   - webdev.html # titled as web tech
   - posts-by-tag.html

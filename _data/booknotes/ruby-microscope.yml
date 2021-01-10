@@ -1,0 +1,542 @@
+##########################
+
+# ----- CHAPTER 1 - TOKENIZATION, PARSING
+
+- url: 
+  title: What are tokens?
+  tags: tokenization
+  pic:
+  notes:
+
+- url: 
+  title: parser_yylex function
+  tags: tokenization
+  pic:
+  notes:
+
+- url: 
+  title: Experiment 1-1 - Ripper & Tokenization
+  tags: tokenization
+  pic:
+  notes:
+
+- url: 
+  title: Summary
+  tags: parsing
+  pic:
+  notes: Ruby uses the Bison (related to YACC) parser for grammar rule files.
+
+- url: 
+  title: LALSR parsing algorithm
+  tags: parsing
+  pic:
+  notes:
+
+- url: 
+  title: example Ruby grammar rules
+  tags: parsing
+  pic:
+  notes:
+
+- url: 
+  title: reading bison grammar rules
+  tags: parsing
+  pic:
+  notes:
+
+- url: 
+  title: Experiment 1-2 - Ripper & Parsing
+  tags: parsing
+  pic:
+  notes:
+
+
+# ----- CHAPTER 2 - COMPILATION
+
+- url: 
+  title: Summary
+  tags: compilation
+  pic:
+  notes:
+
+- url: 
+  title: ruby 1.8 - no compiler
+  tags: compilation
+  pic:
+  notes:
+
+- url: 
+  title: ruby 1.9, 2.0 - compiler introduced
+  tags: compilation
+  pic:
+  notes:
+
+- url: 
+  title: simple script compilation mechanics
+  tags: compilation
+  pic:
+  notes:
+
+- url: 
+  title: compiling a call to a block
+  tags: compilation
+  pic:
+  notes:
+
+- url: 
+  title: how ruby iterates throught the AST
+  tags: compilation
+  pic:
+  notes:
+
+- url: 
+  title: experiment 2-1 - displaying YARV instructions
+  tags: compilation
+  pic:
+  notes:
+
+- url: 
+  title: the local table
+  tags: compilation
+  pic:
+  notes: 1) compiling optional args; 2) compiling keywords args
+
+
+- url: 
+  title: experiment 2-2 - displaying the local table
+  tags: compilation
+  pic:
+  notes:
+
+# ----- CHAPTER 3 - EXECUTION
+
+- url: 
+  title: intro
+  tags: execution
+  pic:
+  notes:
+
+- url: 
+  title: YARV internal stack & your ruby stack
+  tags: execution
+  pic:
+  notes: 1) executing a simple script<br>
+        2) executing a block call<br>
+
+- url:
+  title: experiment 3-1 - benchmarking 2.0, 1.9, 1.8
+  tags: execution
+  pic:
+  notes:
+
+- url:
+  title: ruby variables - local & dynamic access
+  tags: execution
+  pic:
+  notes:
+    
+- url:
+  title: experiment 3-2 - special variables
+  tags: execution
+  pic:
+  notes:
+
+# ----- CHAPTER 4 - CONTTROL STRUCTURES & METHOD DISPLATCH
+
+- url: 
+  title: if statements
+  tags: control structures
+  pic:
+  notes:
+
+- url: 
+  title: scope jumps
+  tags: control structures
+  pic:
+  notes: catch tables
+
+- url:
+  title: experiment 4-1 - how ruby implements loops
+  tags: control structures
+  pic:
+  notes:
+
+- url:
+  title: send instruction
+  tags: control structures
+  pic:
+  notes: method lookup/dispatch; 11 ruby method types
+    
+- url:
+  title: calling normal methods
+  tags: control structures
+  pic:
+  notes: preparing arguments
+    
+- url:
+  title: built-in Ruby methods
+  tags: control structures
+  pic:
+  notes: attr_reader, attr_writer
+    
+- url:
+  title: experiment 4-2 - how Ruby implements keyword args 
+  tags: control structures
+  pic:
+  notes:
+    
+# ----- CHAPTER 5 - OBJECTS & CLASSES
+
+- url: 
+  title: Inside a Ruby object
+  tags: objects & classes
+  pic:
+  notes:  1) inspecting klass & ivptr;
+          2) visualizing 2 instances of 1 class;
+          3) generic objects;
+          4) simple values don't require structures;
+          5) do generic objects have instance variables?
+          6) where does Ruby save inst vars for generic objects?
+
+- url: 
+  title: Experiment 5-1 - How long to save a new instance variable?
+  tags: objects & classes
+  pic:
+  notes:
+
+- url: 
+  title: Experiment 5-2 - where does Ruby save class methods?
+  tags: objects & classes
+  pic:
+  notes:
+
+# ----- (PART OF CHAPTER 5)
+
+- url: 
+  title: internals
+  tags: Rclass
+  pic:
+  notes:
+
+- url: 
+  title: inheritance
+  tags: Rclass
+  pic:
+  notes:
+
+- url: 
+  title: class instance variables vs class variables
+  tags: Rclass
+  pic:
+  notes:
+
+- url: 
+  title: class variables - get & set 
+  tags: Rclass
+  pic:
+  notes:
+
+- url: 
+  title: constants
+  tags: Rclass
+  pic:
+  notes:
+
+- url: 
+  title: actual structure
+  tags: Rclass
+  pic:
+  notes:
+
+
+# ----- CHAPTER 6 - METHOD & CONSTANT LOOKUP
+
+- url: 
+  title: Ruby modules
+  tags: method lookup
+  pic:
+  notes: modules are classes<br>
+        including a module in a class<br>
+
+- url: 
+  title: Ruby method lookup algorithm
+  tags: method lookup
+  pic:
+  notes: example; 
+        algo in action; 
+        multiple inheritance; 
+        global method cache; 
+        inline method cache; 
+        clearing caches; 
+        including 2 modules in 1 class; 
+        including 1 module in another; 
+        prepending; 
+        prepending implementation; 
+
+- url: 
+  title: experiment 6-1 - modifying a module after including it 
+  tags: method lookup 
+  pic: 
+  notes: 
+
+- url: 
+  title: constant lookup 
+  tags: method lookup 
+  pic: 
+  notes: constants in superclasses;
+          finding a constant in a parent namespace
+
+- url: 
+  title: lexical scope 
+  tags: method lookup 
+  pic: 
+  notes:  creating a constant for a new class or module;
+          finding a constant in the parent namespace; 
+          constant lookup algorithm
+
+- url: 
+  title: experiment 6-2 - which constant will ruby find first?
+  tags: method lookup 
+  pic: 
+  notes: 
+    
+# ----- CHAPTER 7 - HASH TABLES
+
+- url: 
+  title: load/save
+  tags: hash tables
+  pic:
+  notes:
+
+- url: 
+  title: experiment - retrieval from hashes of varying sizes
+  tags: hash tables
+  pic:
+  notes:
+
+- url: 
+  title: table expansions
+  tags: hash tables
+  pic:
+  notes: collisions; rehashing entries; 
+
+- url: 
+  title: experiment - insertion into hashes of varying sizes
+  tags: hash tables
+  pic:
+  notes:
+
+- url: 
+  title: Ruby implementation
+  tags: hash tables
+  pic:
+  notes:
+
+- url: 
+  title: experiment - using objects as keys
+  tags: hash tables
+  pic:
+  notes: optimization in Ruby 2.x
+
+
+# ----- CHAPTER 8 - BLOCKS & CLOSURES
+
+- url: 
+  title: blocks
+  tags: blocks & closures
+  pic:
+  notes:
+
+- url: 
+  title: calling a block
+  tags: blocks & closures
+  pic:
+  notes:
+
+- url: 
+  title: borrowing an idea from 1975
+  tags: blocks & closures
+  pic:
+  notes:
+
+- url: 
+  title: experiment - which is faster?
+  tags: blocks & closures
+  pic:
+  notes:
+
+- url: 
+  title: lambdas & procs
+  tags: blocks & closures
+  pic:
+  notes: stack vs heap memory; how Ruby saves a string; how Ruby creates a lambda; 
+          how Ruby calls a lambda; 
+          Proc objects;
+
+- url: 
+  title: experiment - changing local variables after calling lambda
+  tags: blocks & closures
+  pic:
+  notes:
+
+# ----- CHAPTER 9 - METAPROGRAMMING
+
+- url: 
+  title: Summary
+  tags: metaprogramming
+  pic:
+  notes: literal translation - program at a different or higher level of abstraction.
+
+- url: 
+  title: normal (default)
+  tags: metaprogramming - method definition alternatives
+  pic:
+  notes:
+
+- url: 
+  title: using an object prefix
+  tags: metaprogramming - method definition alternatives
+  pic:
+  notes:
+
+- url: 
+  title: using a new lexical scope
+  tags: metaprogramming - method definition alternatives
+  pic:
+  notes:
+
+- url: 
+  title: singleton classes
+  tags: metaprogramming - method definition alternatives
+  pic:
+  notes:
+
+- url: 
+  title: singleton classes in a lexical scope
+  tags: metaprogramming - method definition alternatives
+  pic:
+  notes:
+
+- url: 
+  title: refinements
+  tags: metaprogramming - method definition alternatives
+  pic:
+  notes:
+
+- url: 
+  title: experiment - how <code>self</code> changes with lexical scope
+  tags: metaprogramming
+  pic:
+  notes:
+
+- url: 
+  title: code that writes code 
+  tags: metaprogramming & closures 
+  pic: 
+  notes:
+
+- url: 
+  title: calling <code>eval</code> with <code>binding</code>
+  tags: metaprogramming & closures 
+  pic: 
+  notes:
+    
+- url: 
+  title: <code>instance_eval</code>
+  tags: metaprogramming & closures 
+  pic: 
+  notes:
+
+- url: 
+  title: <code>instance_eval</code> changes <code>self</code> to the receiver
+  tags: metaprogramming & closures 
+  pic: 
+  notes:
+    
+- url: 
+  title: <code>instance_eval</code> creates a singleton class for a new lexical scope
+  tags: metaprogramming & closures 
+  pic: 
+  notes:
+    
+- url: 
+  title: how Ruby tracks lexical scope for blocks
+  tags: metaprogramming & closures 
+  pic: 
+  notes:
+    
+- url: 
+  title: experiment - using a closure to define a method
+  tags: metaprogramming
+  pic: 
+  notes: using <code>define_method</code>;<br>
+          methods acting as closures
+    
+# ----- CHAPTER 10 - JRUBY
+
+- url: 
+  title: running programs with MRI & JRuby
+  tags: jruby
+  pic:
+  notes:
+
+- url: 
+  title: experiment - JRuby JIT compiler monitoring
+  tags: jruby
+  pic:
+  notes:
+
+- url: 
+  title: strings
+  tags: jruby
+  pic:
+  notes:
+
+- url: 
+  title: experiment - measuring copy-on-write performance
+  tags: jruby
+  pic:
+  notes:
+
+
+# ----- CHAPTER 11 - RUBINIUS
+
+- url: 
+  title: kernel & virtual machine
+  tags: rubinius
+  pic:
+  notes: tokenization & parsing; compiling Ruby with Ruby; bytecodes; Ruby & Cpp;
+          Ruby object implementation with cpp objects
+
+- url: 
+  title: experiment - compare Rubinius & MRI backtraces
+  tags: rubinius
+  pic:
+  notes:
+
+- url: 
+  title: arrays
+  tags: rubinius
+  pic:
+  notes: arrays in MRI; <code>RArray</code> C structure; arrays in Rubinius
+
+- url: 
+  title: experiment - Rubinius implementation of Array shifting
+  tags: rubinius
+  pic:
+  notes: intro; reading; modifying
+
+
+# ----- CHAPTER 12 - 
+- url: 
+  title: Summary
+  tags: garbage collection
+  pic:
+  notes:
+
+- url: 
+  title: Summary
+  tags: more ruby VMs
+  pic:
+  notes:
+
