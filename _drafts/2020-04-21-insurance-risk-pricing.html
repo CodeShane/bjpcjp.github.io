@@ -1,0 +1,36 @@
+---
+title: Insurance Risk Pricing (DRAFT)
+date: 2020-04-21
+layout: post
+tag: riskmgmt
+---
+
+<h1>Tweedie - pure premium estimation</h1>
+<h2>GLMs, Machine Leaarning</h2>
+<h4><a href="https://github.com/bjpcjp/insurance_risk_tweedle_r" _target="blank">Experiments (R 3.4.3)</a></h4>
+
+<div style="column-count: 2;">
+
+	<div class="textcard-white"><strong>Background</strong><br>
+		<li>you don't know your product costs until they're sold.</li>
+		<li><a href="https://medium.com/swlh/modeling-insurance-claim-frequency-a776f3bf41dc">count models</a></li>
+		<li><a href="https://medium.com/swlh/modeling-insurance-claim-severity-b449ac426c23">gamma model (claim severity)</a></li>
+		<li><em>claim frequency = claim count/exposure
+</em></li>
+		<li><em>claim severity = claim cost/claim count
+			</em></li>
+		<li><em>loss cost = claim frequency * claim severity</em></li>
+	</div>
+
+	<div class="textcard-white"><strong>tweedle</strong><br>
+		<li>used as distribution for GLMs</li>
+		<li>with cluster at x=0</li>
+		<li>use case: any industry with mix(zeros, non-negative continuous data)</li>
+		<li>features: mean, variance = mu * mean^p</li>
+		<li>mu = dispersion, p = index parameter</li>
+		<li>not defined for p=0->1, Y>0</li>
+		<li>continuous for p=1->2, with mass at y=0</li>
+		<li>continuous for p>2, for Y>0</li>
+		<li>p=1 --> Poisson; p=2 --> gamma, p=3 --> invGaussian</li>
+	</div>
+</div>

@@ -1,0 +1,1817 @@
+---
+layout: post
+title: Data Centers - On Premise or Cloud?
+date: 2020-05-14
+---
+
+I've been managing servers for quite some time now. At home, on prem, in the cloud...
+The more I learn, the more I believe cloud is the only competitive solution today, even for sensitive industries like banking or medical.
+
+I honestly fail to see any good reason not to use the cloud anymore, at least for business. Cost-wise, security-wise, whatever-wise.
+
+What's a good reason to stick to on-prem today for new projects? To be clear, this is not some troll question. I'm curious: am I missing something?
+
+
+Like many others have pointed out: Cost.
+I'm the CTO of a moderately sized gaming community, Hypixel Minecraft, who operates about 700 rented dedicated machines to service 70k-100k concurrent players. We push about 4PB/mo in egress bandwidth, something along the lines of 32gbps 95th-percentile. The big cloud providers have repeatedly quoted us an order of magnitude more than our entire fleet's cost....JUST in bandwidth costs. Even if we bring our own ISPs and cross-connect to just use cloud's compute capacity, they still charge stupid high costs to egress to our carriers.
+
+Even if bandwidth were completely free, at any timescale above 1-2 years purchasing your own hardware, LTO-ing, or even just renting will be cheaper.
+
+Cloud is great if your workload is variable and erratic and you're unable to reasonably commit to year+ terms, or if your team is so small that you don't have the resources to manage infrastructure yourself, but at a team size of >10 your sysadmins running on bare metal will pay their own salaries in cloud savings.
+
+
+A few years ago I was trying to start a company and get it off the ground. We had to make decisions on our tech stack and whether we were going to use AWS and build around their infra. Our business was very data heavy and required transferring large datasets from outside to our databases. Even in our early prototypes, we realized that we couldn’t scale cost-effectively on AWS. I figured out that we could colocate and rent racks, install HW, hire people to maintain, etc... for way less than we could use the cloud for. I was shocked at the difference. I remember saying to my cofounder why does anyone use AWS, you can do this on your own way cheaper.
+Later I worked at a FAANG and remember when Snap filed their S1 when they were going public they disclosed that they were paying Google $5B and we were totally shocked at the cost compared to our own spend on significantly larger infra.
+
+I think people don’t realize this is doable and it’s great to hear stories like yours showing the possibilities.
+
+
+Disclosure: I work on Google Cloud.
+> paying Google $5B
+
+You were off by 10x :). The annual commitment was $400M/yr on average. Snap’s S1 [1] said:
+
+> We have committed to spend $2 billion with Google Cloud over the next five years
+
+[1] https://www.sec.gov/Archives/edgar/data/1564408/000119312517...
+
+
+I remember saying to my cofounder why does anyone use AWS, you can do this on your own way cheaper.
+
+I agree with everything you say - I'm convinced that a huge part of the cloud's financial success is due to how it allows CTOs/CIOs to indulge their fantasies about having a mega-scalable app - even if their workloads are very regular and predictable. Along the lines of buying an expensive sports car but never driving it fast, you're just paying for the kudos it brings you in the eyes of other people.
+
+Having said that, we are happily using the cloud for our small app because it makes no sense to build out our own infrastructure for a single VPS and database.
+
+reply
+
+	
+karatestomp 7 days ago [-]
+
+> I agree with everything you say - I'm convinced that a huge part of the cloud's financial success is due to how it allows CTOs/CIOs to indulge their fantasies about having a mega-scalable app - even if their workloads are very regular and predictable.
+It's a sane choice given incentives, too. Cloud bullshit features prominently on an awful lot of technical job postings these days.
+
+But yeah I've definitely seen some heavy, expensive cloud setups that could have run on a toaster. 
+
+Smaller-scale B2B stuff seems especially prone to this—like, what's your max reasonable traffic? If you took off like crazy? What's the size of your market? Come on. Throw in really half-assed and inconsistent use of automation tools and lots of relying on shitty cloud web dashboards and hope, and often the toaster (or a couple low-end co-located servers, more seriously) would be easier and safer to manage, too.
+
+reply
+
+	
+
+From a developer perspective, I prefer to work with cloud providers because I can do more with fewer developers because I'm not dealing with sysadmins too. I can throw up a EMR cluster with minimal effort and get a working product out the door quickly.
+These things don't matter for large, established companies because they already have DevOps, SysAdmin, and Development teams. But for smaller dev shops, it absolutely makes a difference when you can generate a good bit more efficiency from your development staff.
+
+reply
+
+	
+fulafel 6 days ago [-]
+
+That may be the case for a startup. But in the average corporate IT environment the on-prem server infrastructure and procedural/political jungle is so terrible that you just have to get away from it. Before "cloud" became fashionable it was politically hard or impossible to host your project somewhere outside the bad corporate infrastructure, but now there's a way to present the choice in a palatable way.
+reply
+
+	
+adim86 7 days ago [-]
+
+I will chip in here. Although I agree with all that you guys have said. Your comments seem to be skewed to a perspective that all companies are being run in U.S.A, Canada, Germany, etc very developed countries where power is constant and can be relied on. The skilled labor to run these servers is available for hire. The parts and infrastructure are available to rent or buy. Majority of the world is not like this but there are formidable companies all over the world running, and for them, this is one less unreliable aspect of their company.
+To give you an idea, if you want to run a data center or your own servers in some countries you need a standby generator (because electricity is not a given) and the Diesel used to run these generators are imported and the economy of these countries is shaky so the exchange rate fluctuates, so suddenly the cost to keep your site up becomes a variable and is now subject to government announcements (not even in an evil authoritarian way), policies and import taxes. In the face of all of this, having a steady AWS bill with reliable infrastructure becomes priceless to these companies
+
+reply
+
+	
+ATsch 7 days ago [-]
+
+You wouldn't run your own datacenter, you would colocate. Even if that's not possible, you can still rent servers for significantly cheaper than cloud offerings.
+reply
+
+	
+Accujack 7 days ago [-]
+
+Wow... really a first world perspective here.
+reply
+
+	
+blaser-waffle 6 days ago [-]
+
+The you co-locate to the first world. Or somewhere that can get a data center built with resources that you trust.
+I ran data centers for a living in Northern VA and had all sorts of international clients. Egyptian schools who rented servers, Brazilian Protestant ministries who shipped servers to us, etc. There were some decent data centers in Mumbai we had to get VPNs built for, and we had a least one legit client in Lagos, Nigeria.
+
+reply
+
+	
+iajrz 6 days ago [-]
+
+3rd world perspective: They're not far off from the mark.
+You'd want to co-locate with ISP who already has infrastructure for continuous services through blackouts et al, or you could have a datacenter if it's small-ish, because you already have some infrastructure to keep operating during blackouts.
+
+reply
+
+	
+troupe 7 days ago [-]
+
+I believe you are saying that some countries don't have data centers where you can co-locate. Most of the places where AWS has a datacenter have other datacenter companies that offer co-location.
+reply
+
+	
+ATsch 6 days ago [-]
+
+I think you'll struggle to find any place without a few datacenters nearby, at least in a neighboring country. Of course it's going to be a bit further away if you're in central Africa.
+Even then, you can colocate in a datacenter anywhere you want, have equipment delivered there and pay remote hands to install it for you for a very reasonable fee.
+
+Of course this doesn't make sense if you just want a small webserver, but that's not who we are talking about here.
+
+reply
+
+	
+kuschku 7 days ago [-]
+
+If you can rent an AWS server, you can also rent a Hetzner server, or put some servers in a Hetzner DC.
+reply
+
+	
+irishcoffee 6 days ago [-]
+
+So its true [0]
+[0] https://pics.me.me/me-i-prefer-mangoes-to-oranges-random-per...
+
+reply
+
+	
+Hnrobert42 6 days ago [-]
+
+I support your comment.
+reply
+
+	
+WilliamEdward 7 days ago [-]
+
+You nailed it. The infrastructure in developed countries is taken for granted by its consumers. Websites are often not tuned for low speed internet, or for people across the ocean, because everything works so smooth in developed countries. Also, having a server that serves to the US and Europe if you live in a remote area obviously cannot be on-premise, it has to be in the cloud served in those countries for latency reasons.
+And you cannot have a website that doesn't cater to US and EU users, unless the website only solves local problems.
+
+reply
+
+	
+mD5pPxMcS6fVWKE 6 days ago [-]
+
+If web site caters to EU customers, just rent it from the EU datacenter, no need for a cloud. A Hetzner server costs $100/month, an equivalent amount of cloud resources will run you into thousands.
+reply
+
+	
+tekknik 6 days ago [-]
+
+And how much does Hetzners nosql/relational db, emr solution, faas, etc cost? Solutions aren’t built the traditional way anymore. You don’t go get some cots server and write everything yourself. So while you’re futzing around getting a database installed, tuned and setup the engineer using a more complete cloud platform has already moved onto business logic.
+reply
+
+	
+mD5pPxMcS6fVWKE 3 days ago [-]
+
+The person above wrote that she can't use local server to cater to US and EU customers. I pointed out that you don't need cloud to resolve that problem.
+reply
+
+	
+tekknik 2 days ago [-]
+
+Hetzner is a cloud, as per their own literature but my point being if you buy Hetzner you’re not getting a complete platform. You are buying into a platform just less of one. Hetzner also advertises themselves as thrifty, not exactly instilling confidence for critical infrastructures. My point remains though, buying a VPS is equivalent to an EC2 and this is not how things are built these days. Also note the posters name is WilliamEdwards, I know if you called me a she (I’m a he) it would be very offensive to me. It’s best to use gender neutral or pay attention to sex/identity if possible (not really here) and use the correct pronoun.
+reply
+
+	
+mD5pPxMcS6fVWKE 1 day ago [-]
+
+VPS is in no way equivalent to an EC2
+reply
+
+	
+tekknik 11 hours ago [-]
+
+Sure it is, for almost every use case. For edge cases, it’s not exactly equivalent sure. If you just need a place to run code then it most definitely is.
+reply
+
+	
+iajrz 6 days ago [-]
+
+Even so, having say a bare metal server (à la Vultr) can be way cheaper than having a cloud setup in one of the most flexible kinds of providers.
+The detail to look at is that flexibility is a feature of the cloud offering, and an expensive one at that. If you don't need it, you need to find a way to not pay for it.
+
+reply
+
+	
+RachelF 7 days ago [-]
+
+Dropbox did the same thing a few years back - moved everything from Amazon S3 to their own storage.
+My guess is they did it for cost reasons.
+
+reply
+
+	
+hn_throwaway_99 7 days ago [-]
+
+They did, but at Dropbox's size it should be pretty obvious. I mean, their whole business model is essentially acting as a cloud storage provider. Once they got big enough, of course it made sense for them to optimize their infrastructure instead of letting another company take x% off the top.
+reply
+
+	
+rumanator 6 days ago [-]
+
+> Once they got big enough, of course it made sense for them to optimize their infrastructure
+Isn't that true in all cases?
+
+There is no doubt that rolling and maintaining your own infrastructure can be and is better than dumping cash on the AWSs of this world. The only question is what size marks the breakeven point.
+
+reply
+
+	
+hn_throwaway_99 6 days ago [-]
+
+I think it is actually only very true in a small number of cases. First, you need to be big enough where the cost of the people needed to support your infrastructure can be amortized over a (very) large number of machines. Second, Amazon, Microsoft and Google pay some of the best salaries around, so they have some of the best infrastructure people working for them.
+Looking at the comments here, I think it's clear that there are a relatively small number of use cases where roll your own is a better idea, primarily where you have a huge number of servers basically all doing the same thing with lots of data transfer (which is comparatively expensive in the cloud). This may be cheaper to manage when a small team of people if you're essentially cloning similar setups.
+
+reply
+
+	
+llarsson 7 days ago [-]
+
+That S3 is eventually consistent with object updates (HTTP PUT) might also screw up things for a company whose core value is synchronized storage.
+reply
+
+	
+ayush--s 7 days ago [-]
+
+They might have implemented a metadata store 1 layer before S3 to guarantee read after write consistency since write to a new object is consistent in S3. Only updates are eventually consistent.
+reply
+
+	
+dfsegoat 7 days ago [-]
+
+I don't mean to sound daft, just clarifying my own understanding, but isn't Dropbox eventually consistent (as a system)?
+reply
+
+	
+llarsson 7 days ago [-]
+
+Oh, sure, but when they think they have written something to S3 and got a successful HTTP response back from the API, perhaps they want to be able to tell clients to go fetch the new data from the bucket. But those clients may not get the new data then, due to eventual consistency.
+reply
+
+	
+lozenge 7 days ago [-]
+
+S3 is immediately consistent for new objects unless the service received a GET on the object before it was created. It's easy to use this to make an immediately consistent system.
+reply
+
+	
+ozkatz 6 days ago [-]
+
+S3 ListObjects calls are eventually consistent (i.e. list-after-put). EMRFS [1] and S3Guard [2] mitigate this for data processing use cases.
+[1] - https://docs.aws.amazon.com/emr/latest/ManagementGuide/emr-f... [2] - https://blog.cloudera.com/introducing-s3guard-s3-consistency...
+
+reply
+
+	
+llarsson 7 days ago [-]
+
+Yes. HTTP POST (new objects) is immediate, HTTP PUT (updates to objects) is eventually consistent.
+If you want to use this to create new objects all the time, rather than update ones you already have, you now have to keep track of which objects in your bucket are "old" and should no longer be there. But yes, totally doable.
+
+reply
+
+	
+boredpudding 7 days ago [-]
+
+Since the move to S3 is only 'a few years ago', my guess is this was not the reason for them to move away from S3 since service at Dropbox is pretty much the same.
+reply
+
+	
+RachelF 7 days ago [-]
+
+I suspect that is behind many problems with Google Drive.
+Sometimes old versions seems to take precedence over newer ones, for some reason.
+
+reply
+
+	
+m463 5 days ago [-]
+
+I expect many companies do that. They prioritize growth over costs (stock price over profitability).
+Then they get to a certain inflection point on the growth curve and splurging for unpredictable capacity slowly is replaced with reasonable costs for the known capacity.
+
+reply
+
+	
+StreamBright 7 days ago [-]
+
+How many other companies do you know that have same problem as Dropbox?
+An average company that uses does not provide IT infrastructure (like storage in this case) to a massive amount of clients.
+
+reply
+
+	
+mayank 7 days ago [-]
+
+You’re not paying Google $5B for raw infra, you’re paying for cloud services like top-tier horizontally scalable databases, global availability, CDNs, datastores of different flavors, and transparently managed monitoring and hardware fault resolution.
+reply
+
+	
+mmmBacon 7 days ago [-]
+
+Yes, you’re paying for a ton of stuff there that you probably don’t use and then are susceptible to bugs that have nothing to do with your use case. At $5B it would not cost anywhere near that much to replicate. Your infra would be better tailored to your workloads and your sw teams which would further drive costs down. The upsides are that you only drive features you need and keep things simple. The downside is that your need a big org to do this. It’s a long term play.
+reply
+
+	
+nemothekid 7 days ago [-]
+
+Snap was spending 2B over 5 years - so 400M/yr. By comparison, Uber, who operates under managed colo, spends nearly 200M/yr alone on real estate for their datacenters. Who knows how much they are paying in engineering salaries so manage those datacenters.
+Personally I don't think there's a one size fits all solution, you will have to do the math (like I'm sure Snap, Netflix and others have done) to see if cloud is worth it. However, I agree, for most teams the default should be cloud.
+
+reply
+
+	
+twic 7 days ago [-]
+
+> Uber, who operates under managed colo, spends nearly 200M/yr alone on real estate for their datacenters
+200 million a year, huh.
+
+The cost of commercial office space in the U.S. can range from $6 per square foot in low cost regions to over $12 per square foot in New York City. On average, a 50-cabinet data center will occupy about 1,700 square feet. At a median cost of $8 per square foot, the space alone would cost about $13,600 per month. [1]
+
+Are Uber renting on the order of two million square feet of data centre? Do they have sixty thousand cabinets of hardware?
+
+If they do, i would absolutely love to see a quote for how much it would cost them to run in the cloud.
+
+I think it's far more likely that number is bullshit.
+
+[1] https://npifinancial.com/blog/data-center-pricing/
+
+reply
+
+	
+nemothekid 6 days ago [-]
+
+>Office and data center rent expense was $194 million and $221 million for the years ended December 31, 2017 and 2018, respectively.
+https://s23.q4cdn.com/407969754/files/doc_financials/2019/ar...
+
+Page 124
+
+reply
+
+	
+ptomato 6 days ago [-]
+
+So that number includes (and is almost certainly dominated by) the cost of their office space.
+reply
+
+	
+avifreedman 7 days ago [-]
+
+Unless that's capex for building, or includes server capex that they depreciate, that seems way high given Uber's scale.
+A pretty dense cabinet should only cost ~$1400/mo at wholesale (1MW+ rooms) rates, and $200M is 143,000 cabinets.
+
+And it's public that Uber uses multiple clouds as well.
+
+Disclaimer: I haven't reviewed public Uber filings, would be very interested if there's any data that indicates they're really spending $200M on opex for real estate (which would be equivalent to $400M/year on cloud, which is either opex or potentially mix if there is some reserved instance-type cloud spend).
+
+reply
+
+	
+user5994461 7 days ago [-]
+
+The 42U rack might be only $1400 per month but the servers to put inside are $5000 upfront per U.
+reply
+
+	
+wongarsu 7 days ago [-]
+
+42U times $5000 divided by 3 years is still only $5833 per month per rack. Add the $1400 and we have a total amortized rack cost of $7233 per month. (naively assuming you could fill every spot in the rack with servers).
+But servers can't be included in a "Uber spends nearly 200M/yr alone on real estate for their datacenters" figure anyway.
+
+reply
+
+	
+user5994461 7 days ago [-]
+
+The rack is $2800 per month, not $1400. The lowest advertised pricing does not include enough power to supply half of what's in the rack.
+Add $200 per server per month to have a gigabit uplink.
+
+Add $4000 per server per lifetime for VmWare licenses.
+
+These are reasonable estimates of course. Could be multiple of that depending on what hardware is used and what colo. Physical hardware easily gets as expensive as any cloud.
+
+reply
+
+	
+dijit 6 days ago [-]
+
+Not easily; you’re making the argument that there can be high expenses for collocating but you’re talking about a -lot- of computational power.
+I know that hardware varies a lot for sure, but for context I put together 3 racks 50% density with an 800gbit backplane for around 18k eur/mo.
+
+I spared no expense, official juniper QSFPs (which are egregiously overpriced) and top of the line Dell servers with full out of band licenses.
+
+And once there: interconnected bandwidth and IOPs became “free” (or, no extra charge).
+
+We put the same application in cloud And it costs us 40k eur/mo with a heavy amount of optimisation, with half-sized instances and an aggressive optimisation in bandwidth/iops.
+
+Clouds “sticker price” to us is 4x that of physical. You can buy a lot of human time for that price.
+
+reply
+
+	
+user5994461 6 days ago [-]
+
+Physical infrastructure is always overprovisioned because it has to be planned long in advance and the smallest unit is huge (8 cores? 128 GB of RAM? for a small server).
+If anything that's an argument against physical infra, not in favor of. Although it's fine if one wants a lot of the same big servers (an Hadoop cluster, or video computing cluster, or a CDN), which are the few use cases where physical can make sense (and hybrid cloud probably makes even more sense).
+
+With AWS, you'd never spin half of that infra upfront. You'd spin a few VMs and start running stuff. If the project goes well, spin more or bigger VMs, otherwise spin down. Cost is very dynamic and the company doesn't have to spend half a million upfront, which is a big financial problem for many companies.
+
+Anyway. We can both agree on AWS being overpriced. The reference on costs should be Google Cloud if one is cost conscious, not AWS. Google Cloud is often half the costs of AWS for the same thing.
+
+AWS vs Google comparison, bit old and instance types have changed but relative pricing has not moved https://thehftguy.com/2018/11/13/2018-cloud-pricing-aws-now-...
+
+And this one more recent since they've released high memory instances to compete with SoftLayer: https://thehftguy.com/2018/11/13/2018-cloud-pricing-aws-now-...
+
+reply
+
+	
+dijit 6 days ago [-]
+
+My costings are based on GCP; with sublime discounts even.
+And, I would really agree with you if not for 2 things:
+
+1) "wasted" cycles are not wasted, the CPU will clock down.
+
+2) Kubernetes was designed specifically for this, the idea is you slice the CPU up so much that you dont waste much resources.
+
+It's astonishingly capable of consuming all resources.
+
+By the by; RAM is never "wasted", it's used for various caches.
+
+reply
+
+	
+avifreedman 6 days ago [-]
+
+As the others say in the comments, understand completely re: servers. And network. And some management overhead. I will write a blog post laying out our COGS at Kentik including all these factors, hope it'll wind up helpful.
+reply
+
+	
+twic 7 days ago [-]
+
+> A pretty dense cabinet should only cost ~$1400/mo at wholesale (1MW+ rooms) rates, and $200M is 143,000 cabinets.
+The 200M is for a year - at $1400/mo, that's 11905 cabinets.
+
+reply
+
+	
+objclxt 7 days ago [-]
+
+400M/yr was just Snap’s Google Cloud spend, they also signed a 1B deal with AWS for redundancy.
+reply
+
+	
+junkilo 6 days ago [-]
+
+disclaimer: former uber engineer
+we ran the numbers continually and like others mentioned, it was a no-brainer to build on-prem. that said, there are a few use cases where aws/gcp are a great fit. people selling cloud without putting in real engineering work to enterprises generally make my life harder than it already is.
+
+reply
+
+	
+StreamBright 6 days ago [-]
+
+Exactly. Calculating TCO for on-prem vs cloud is tricky. Any time we have done it cloud came out the winner. I also found exceptions: predictable static workloads requiring a huge amount of bandwidth, mostly outgoing. An average company that needs some CPU and storage for various unpredictable workloads benefits from cloud services greatly.
+reply
+
+	
+raverbashing 7 days ago [-]
+
+Well those numbers are... weird
+Also Uber seems to be much less computing/BW demanding than Snap
+
+reply
+
+	
+kevindong 7 days ago [-]
+
+@nemothekid Can you provide a source for your claim on Uber's real estate costs for their data centers? I couldn't find anything on Google that corroborates your assertion.
+reply
+
+	
+soniman 7 days ago [-]
+
+Uber 10-K has operating lease payments in 2019 of $196M and in 2020 of $216M. That's not all data centers but a lot of it is data centers.
+reply
+
+	
+kortilla 7 days ago [-]
+
+Why would you assume that? SF office space goes for way more than data center space.
+reply
+
+	
+nemothekid 6 days ago [-]
+
+You can look up the prices of Uber's current office space - they currently pay 16M/yr for their HQ.
+reply
+
+	
+StreamBright 7 days ago [-]
+
+If I use S3 + EMR what exactly falls into the category of "a ton of stuff there that you probably don’t use"?
+>> Your infra would be better tailored to your workloads
+
+How do you scale elastically with an on-prem infra? What part do you tune more to your own workload when an average company cannot even tune the GC for Java for their own workload?
+
+Your claims do not reflect on reality, it is rather your imagination. I have migrated countless companies to the cloud, and almost every single migration was driven by a single factor: cost. Everything else was an added bonus: inscrased security, availability and elasticity.
+
+reply
+
+	
+mayank 7 days ago [-]
+
+> Yes, you’re paying for a ton of stuff there that you probably don’t use
+This is the antithesis of any cloud. You only pay for what you use.
+
+> At $5B it would not cost anywhere near that much to replicate.
+
+If you can recreate GCP for $5B in capex, there are likely some VCs lurking here who would like a word with you.
+
+reply
+
+	
+mmmBacon 7 days ago [-]
+
+Sorry but that’s not correct. Have you ever looked at the economics of cloud compute at that scale? You absolutely are paying for a lot of tooling that’s irrelevant to your use case. This is because GCP has to be a general provider. They have to offer the broadest possible solution to capture as much share as possible. This means there are money losing services (also low margin) that are offered to provide a complete end-to-end solution. However, the fact that those services exist means that the cost has to be made up for elsewhere. These economics are not some complicated rocket science and exist in many other types of businesses.
+reply
+
+	
+hinkley 7 days ago [-]
+
+Like cable TV.
+reply
+
+	
+xmprt 7 days ago [-]
+
+That's not a perfect analogy but it's easy enough for laymen to understand so I'm stealing it.
+reply
+
+	
+kevindong 7 days ago [-]
+
+IMO, the cloud providers' main advantage is that they will professionally manage all of the underlying hardware. Optionally, they can also manage the low level pieces of software also (e.g. databases, file store, etc.). It's a safe bet that GCP, AWS, Azure et al. can manage/architect their data center much better than the vast majority of companies.
+reply
+
+	
+toyg 7 days ago [-]
+
+The last point is something that “we”, as an industry, can often be blind to.
+If your business is something that is fundamentally not “pushing bytes”, you really, really don’t want to know about routers, firewalls, the OSI layer, SHA256, RAID arrays, all the way to this week’s JS framework. All of that is a big annoyance, and paying AWS to “take care of it” makes sense, even if it comes at a higher price: more often than not, the difference wouldn’t be offset by the time, effort, and risk exposure that you would have to allocate when building your own.
+
+This calculation is different if your business is primarily digital. The gentleman upthread making a game, for example, is perfectly right: his company naturally developed a culture that can evaluate and manage every aspect of its digital operations, because it’s part of its core business, so it makes sense to put that knowledge to good use and save money.
+
+reply
+
+	
+kortilla 7 days ago [-]
+
+But if you’re incompetent to that degree, AWS isn’t for you because you can’t even write software to run on it. You should be using a fully managed SaaS at that point.
+reply
+
+	
+twic 7 days ago [-]
+
+There are three things that make sense to me.
+Firstly, if you are big enough, you can manage/architect your data centre better than a cloud provider. You can afford to hire staff to do it, and they can build something specific to your needs. Companies like this should be on-prem.
+
+(It doesn't matter if the company is "digital" or not. It could be a huge retail chain, or a government agency, whatever. The only requirement is to be big enough that you have big needs and can afford a big spend on staff.)
+
+Secondly, if you are small enough, you really, really don’t want to know about routers, firewalls, the OSI layer, SHA256, RAID arrays, etc. Dealing with that would mean another couple of full-time employees, and you can't afford that. Companies like this should be on a SaaS (ideally one less full of gotchas than Heroku).
+
+Thirdly, if you are in between, you have the capacity to deal with system administration, there are some advantages to being able to shape your infrastructure to your needs, but you really don't want to get into real estate and millions of dollars of CAPEX. Companies like this should be on rented physical hardware.
+
+What doesn't make sense, at any scale, is renting VMs.
+
+reply
+
+	
+PreciousCarrot 7 days ago [-]
+
+> Firstly, if you are big enough, you can manage/architect your data centre better than a cloud provider. You can afford to hire staff to do it, and they can build something specific to your needs. Companies like this should be on-prem.
+It's interesting that competent engineers is only a question about cost to you. Where I am at (north of Europe) it's really hard to find good engineers. Even though it doesn't mean much about competence it's not mandatory for people in the IT industry to have a CS degree even if they're managing infrastructure in the cloud for millions every year.
+
+I've been working in the industry at different companies for a bit over 10 years and I would say that a huge majority is just an average person who knows basic concepts about infrastructure but wouldn't be able to design and implement any of it by their own. This includes network infrastructure for the biggest ISPs in the country.
+
+I work as a system engineer and the teams I've been working with the last 5 years, independent of company, have been looking for engineers constantly. The pay well and have great benefits but it's just not enough people out there to take these jobs and manage a full on-prem infrastructure.
+
+So a part of the money you're talking about that should be used to hire all these really competent people are instead used to pay for cloud services where we know that professional people with far more hardware (and software) knowledge is managing the infrastructure. And this is really convenient for a lot of companies.
+
+reply
+
+	
+tonyarkles 6 days ago [-]
+
+> The pay well and have great benefits but it's just not enough people out there to take these jobs and manage a full on-prem infrastructure.
+I’m from a small province in Canada and we have similar problems here sometimes. One of the questions I sometimes have to ask clients when they make a statement like that is: “do you pay well for the area? Or do you pay well enough to attract talent from out-of-province?”
+
+This often leads to them arguing that “but the cost of living is low here!” And inevitably I have to mention my friends who left the province to go to the Bay Area for 10 years and came back with $500k USD in stocks they collected, on top of what they had left over after paying their high cost-of-living rent.
+
+I feel your pain. Companies running in less desirable areas have to somehow pay a premium for top tier talent. One way, as you mention, is to outsource, whether to cloud providers or part time contractors.
+
+This isn’t meant as a brag at all, but I do the independent contractor thing here and make “pretty darned good for the area” money. Inevitably clients will ask me to come work full-time for them, and we have a painful conversation where I tell them what my taxable income was the year before, as well as the investments I made into equipment and licenses I use to provide the services I provide. The result so far has always been to continue being happy with me as a part-time contractor!
+
+Edit: sorry for the typos, written on mobile with the swipe text thing
+
+reply
+
+	
+tamiral 3 days ago [-]
+
+if it's ok to poke, can I ask what type of equipment and licenses? Is it like a home tech stack to test new infra setups on?
+p.s hope you're staying safe from COVID
+
+reply
+
+	
+cmendel 6 days ago [-]
+
+How much do you think a competent System engineer should be paid?
+reply
+
+	
+PreciousCarrot 6 days ago [-]
+
+I think that's way too hard to answer since it depends on so many factors. But again, my experience isn't that the pay is too low. It's not like there are 10 people coming to the interview with no one taking the offer because of the salary. It's more like no one have applied for the job in three months and the external recruiters sniping LinkedIn didn't find anyone.
+But to give some kind of estimate just so you know what page I'm at when I say they pay well I would say somewhere between $60-75k.
+
+reply
+
+	
+cmendel 4 days ago [-]
+
+So I checked on glassdoor, which is known to lowball tech wages, for Washington D.C. So It isn't NY or Silicon Valley/Forest. The Median wage for a System engineer is 182K USD. At the current conversion rate that is 167.7K Euro. Unfortunately, that's your problem.
+reply
+
+	
+metalforever 6 days ago [-]
+
+too low.
+reply
+
+	
+mwcampbell 7 days ago [-]
+
+> What doesn't make sense, at any scale, is renting VMs.
+I disagree. The big cloud providers will let you rent VMs across multiple availability zones in a single geographic region. That gives you better redundancy than you could get by renting one or more dedicated servers in a single data center. Yes, those same cloud providers offer bare-metal instances, but those are absurdly expensive for a company that only needs small-scale computing power but still cares about uptime.
+
+reply
+
+	
+twic 6 days ago [-]
+
+If you're small, you can get that redundancy on a PaaS. If you're big enough to move off a PaaS, you can rent physical machines in multiple datacentres.
+reply
+
+	
+mwcampbell 6 days ago [-]
+
+Size is not the only thing that dictates whether one should use a PaaS. It's entirely possible for a tiny generalist team, or even a single developer, to develop an application whose requirements prevent it from running on a PaaS. But that doesn't mean the team or solo developer should have to handle all the hassles of operating physical servers. (Source: I was that solo developer for many years.)
+reply
+
+	
+bravura 7 days ago [-]
+
+Do you mean PaaS, not SaaS? What other good PaaS exist besides heroku?
+reply
+
+	
+twic 6 days ago [-]
+
+I did mean PaaS, not Saas! Apologies, and thank you!
+I wish i had a good answer about PaaS. There are hosted Cloud Foundry services. I think CF is more sensible than Heroku, myself. The various serverless platforms are PaaS of a specific kind. I think SalesForce counts. Is OpenShift still a thing?
+
+reply
+
+	
+TheColorYellow 7 days ago [-]
+
+I'm not super familiar with Heroku and similar platforms, but if I don't rent EC2s (which I take to mean what you meant by "VMs"), how do I host and serve bespoke backend components?
+Even if all it does is suck data in, perform some computation, and send it off somewhere else - are you saying there are SAAS providers that are better equipped for this?
+
+reply
+
+	
+toyg 7 days ago [-]
+
+In many cases yes, but there are shades of grey. Some systems cannot be shared, for whatever reason.
+reply
+
+	
+kenhwang 7 days ago [-]
+
+The cloud providers' main advantage when you're unicorn scale is their engineering team acts as an extension of yours. We regularly hop on calls with AWS to scope out features for them to build for us. Our parent org can pretty much snap their fingers and Google will dispatch their engineers to fix/build whatever they wanted.
+That and very preferential pricing.
+
+reply
+
+	
+freepor 7 days ago [-]
+
+And a lot of people don't need that. There are a lot of applications that are highly cost sensitive but where losing some data or having some unavailability isn't a deal breaker.
+reply
+
+	
+f0ff 7 days ago [-]
+
+Avoiding cloud works well for small requirements too - worked for a company that ran a global store; we've opted for dedicated servers on OVH, all together had about 40 of them. It was 1/10th the price of running the infrastructure on AWS. We still used S3 though.
+reply
+
+	
+nickjj 7 days ago [-]
+
+Yeah, I'm seeing this too.
+I recently talked with someone who said their costs dropped in half from switching off a major cloud provider to OVH's dedicated servers. Performance went way up too.
+
+For $200 / month you can get a machine with a high end Xeon 8 core (16 threads) CPU, 128 GB of memory, 4.5 TB of SSD space across multiple disks with unlimited incoming / outgoing traffic and anti-DDoS protection.
+
+No reputable cloud provider is going to come close to that price with their listed prices.
+
+Of course there's trade offs like not being able to click a button and get it within 2 minutes for most server types but if you have consistent and predictable traffic, going with an over provisioned dedicated server seems like a very viable option.
+
+reply
+
+	
+chrismcb 4 days ago [-]
+
+I've worked with several start ups and my experience is the exact opposite of what you said. Due to costs of scale, it is virtually impossible up beat cloud architecture. Ignore the fact that you can get started for free it next to free with cloud. Even as you grow, it is difficult to do it for cheaper.
+reply
+
+	
+slewis 6 days ago [-]
+
+Did your business get off the ground?
+reply
+
+	
+StreamBright 7 days ago [-]
+
+> why does anyone use AWS, you can do this on your own way cheaper.
+Because they can calculate TCO correctly.
+
+reply
+
+	
+JanisL 7 days ago [-]
+
+Is it just me or is Total Cost of Ownership being talked about way less often these days?
+reply
+
+	
+blaser-waffle 6 days ago [-]
+
+It's easy to game. Source: was a sales engineer for ISPs and Data Centers.
+So assume you're doing a 3-year or 5-year TCO -- you build in credits, discounts, and bundled options. Execs are looking for a 3-year apples-to-apples spend, and you make your TCO look fucking amazing. They see the low price and decent technical options and they bite.
+
+3 years later those credits vanish and they're paying full OpEx costs. And after 3 years they're now invested -- stuck -- in their space/circuit/whatever. You can start raising the price or negotiating new contracts.
+
+Same thing with the cloud, for that matter. Cut a glorious bulk deal with Microsoft for Azure space, and then after you've moved everything to MS they can start nickle and diming you -- cuz the cost of moving that load to AWS or GCP isn't cheap, and you're not going out and buying more hardware and going back to CoLo are you?
+
+reply
+
+	
+jesterson 6 days ago [-]
+
+Exactly that. A lot of people do not understand that and get into trap of those credits "thousands of dollars worth" just to be scalped by their vendor-locked costs after those credits vanish.
+After all people who make decision on customer side are in same trap - in 3-5 years if not earlier they won't be at the company anymore and it won't be their problem.
+
+reply
+
+	
+JanisL 6 days ago [-]
+
+Thanks for this perspective, I guess the gameability of the metrics explains a lot.
+reply
+
+	
+StreamBright 6 days ago [-]
+
+Yes and also there is a ton of hand-wavy, without any merit bullcrap floating on HN. Without any in-depth analysis, numbers, apple-to-apple comparisons. AWS and Azure would not exist if moving to the cloud was a bad move. There are so many companies whose primary business is not to build data centers, yet they require some computational resources. These are the companies that are the primary users of cloud computing. Based on my experience, most of the financial companies fall into this category, including banks. Other industries that I have experience with include, travel, gaming, pharmaceutical, logistics, and a few more. Microsoft is doing a great job to get the most enterprise customers, while AWS has stronger offerings. The biggest winners with cloud migrations are the companies who can start to auto-scale while previously was impossible because the on-prem datacenter had no such features, even if they had, they could not sell the extra capacity to other companies like AWS. Other great cost optimization opportunities include the option to try to run the workload on different node types and find the best fit. Also not an option with most on-prem DCs. S3 itself can solve problems that are very hard to solve. For example, you have different security zones and you need to copy data around in your DC. This becomes not necessary anymore with S3, just give different users different access level and you do not need to copy the data around anymore. This was one of the big selling points for one of your customers. I could go on and on. In the last 5 years, we have saved several millions of EURs for our clients and made businesses possible that was impossible using on-prem resources. But some HN knows better and they argue that all of these companies which are rolling on AWS are morons and they should have built they own DCs because it is cheaper while AWS became a ~10 billion income business unit. There is some irony in this, I guess.
+reply
+
+	
+YarickR2 7 days ago [-]
+
+Gaming company senior reliability engineer/officer here, with the same tune. We're operating thousands of servers on three continents (NA, Europe, Asia), running our own game distribution network and basically doing as much as possible on prem. Every time we're trying to play by the cloud provider rules, we're getting stung with outrageous storage and bandwidth bills. I'm pushing for in-house k8s deployment to increase hardware utilisation and drive our price/performance ratio even lower, but even now we're much better financially purchasing hardware, putting it in leased racks, doing networking ourselves and going full cycle. Probably, if we would be a smaller shop, we'd outsource networking . That's it.
+reply
+
+	
+SteveNuts 7 days ago [-]
+
+Are you looking at a specific vendor for your on prem k8s?
+reply
+
+	
+SteveNuts 6 days ago [-]
+
+Not sure why I was downvoted here, I'm in the same boat looking for a solution, not trying to sell something.
+reply
+
+	
+koheripbal 7 days ago [-]
+
+Same here - CTO of medium sized company.
+Our IT infra costs are 1/10th the cost of cloud, simply because I happen to be comfortable having on-premise machine and working on them (sometime myself).
+
+We have two dozen servers in two locations. It's more time to setup, but maintenance is actually quite low.
+
+reply
+
+	
+wwn_se 7 days ago [-]
+
+On factor for small companies that I have noticed at the places where I have been is that (as a dev consultant). The places that use the cloud often scale up to much. Since the cloud don't limit developers its very easy to just "spinn up a new xx" and not think about the long term costs.
+Unless you are really small, have variable workloads then the cloud is maybe not for you. Unless the cost is a small part of the total cost of the plattform like not really related to how many users/sales you have.
+
+reply
+
+	
+kaydub 6 days ago [-]
+
+I've noticed small companies are more worried about the actual bills coming in where as big companies are more worried about the perceived lack of speed/agility in their development.
+We could spend time making sure we use the smallest aurora instances possible in AWS or we could standardize on a version to support and use the smallest size of that version that's available. We spend a lot on this extra capacity in some places, but it greatly increases our speed in other places.
+
+It's all about trade-offs and what your organization values.
+
+reply
+
+	
+degenerate 6 days ago [-]
+
+I see this a lot in my industry (health).
+More often than not, my fellow devs are happy throwing extra servers at a problem instead of tackling the problem :(
+
+reply
+
+	
+fragmede 6 days ago [-]
+
+Agreed. And it sucks to have to do this, but replacements can be deferred. During a global recession, they may have to be. Servers will eventually degrade (ram goes bad, SSDs fail, spinning rust rusts), but arguably thats better than going poof in the cloud.
+I'd rather not get put in that position. Pre-pandemic, business was pretty good, but that seems like an unwise assumption as we slide into a recession.
+
+Maintenance burden that's avoided has two inflection points rather than one. In a large enough data center, there's enough work simply replacing hard drives that justifies having a team that manages it. From the other end, that's just not true if there's a small number of hard drives (like O(1)). There's a middle area though, where there's enough work for more people but the overhead of there being a team is too expensive.
+
+reply
+
+	
+saltking112 7 days ago [-]
+
+Is this the all in cost? Including lease on land/building, staff, electricity etc...
+reply
+
+	
+koheripbal 7 days ago [-]
+
+Yes. Electricity is cheap and it's housed in an existing office(s).
+The real cost is IT talent and time. I happen to have homelab experience with HP servers, so (for us) those costs are extremely low.
+
+It's honestly not as complex or costly as cloud providers make it sound.
+
+Replication offsite is easy via s2s vpn and veeam - as is spinning up new VMs for dev or testing. Building already has good a/c and backup power, and hardware/drive failures are rare.
+
+reply
+
+	
+woofcat 7 days ago [-]
+
+It's likely colocation, getting to the physically building data-centers size is another size up.
+reply
+
+	
+wheelerwj 7 days ago [-]
+
+24 servers, interesting. That seems like a small enough setup that I would definitely have left it in the cloud. Much more than that and i think it makes sense to start moving to physical servers. But 24 I would have guessed would be cheaper to maintain in EC2.
+Are you setup with one or two racks in each location and maybe one full time IT/Sys admin at each location?
+
+reply
+
+	
+t0mas88 7 days ago [-]
+
+24 dedicated dual Xeon boxes can easily be comparable to 100 to 200 m5.2xlarge EC2 instances. So it's relatively small but not tiny, you're going to be paying at least 25k / month for that (inc reserved instance discounts)
+So if you use a lot of bandwidth on top of it (can be another 25-50k at AWS) this could reach into to levels where it's worth it to hire two devops guys to run your own in combination with some SLA/management agreements with a colo.
+
+reply
+
+	
+wheelerwj 6 days ago [-]
+
+I might need to re-look at this. That's much more efficient at an earlier stage than I was expecting. Thanks!
+reply
+
+	
+bsenftner 7 days ago [-]
+
+At my own startup we ran 17 colocated servers, each a high compute resource, at an monthly expense of $600, using purchased hardware that cost $55K. That is versus $96K per month that would be the same infrastructure at AWS.
+reply
+
+	
+wheelerwj 6 days ago [-]
+
+wow, that is substantial.
+reply
+
+	
+dkdk8283 7 days ago [-]
+
+> maintenance is actually quite low.
+I do hope you regularly patch and reboot your systems.
+
+reply
+
+	
+biztos 7 days ago [-]
+
+I hope so too, but it's not like a fleet of fine-tuned EC2 instances running CentOS 6.5 is going to be patched and rebooted regularly without a similar amount of sysadmin attention.
+(Not picking on CentOS, just using it as a placeholder for $REQUIRED_OS_BECAUSE_OF_CUSTOM_SOFTWARE.)
+
+reply
+
+	
+close04 7 days ago [-]
+
+The main difference is in admin effort even with the same amount of automation. It doesn't scale linearly because of economy of scales. With reasonable automation a relatively small team can handle a pretty large cloud fleet. For smaller on-prem fleets the scale down might not be ideal though.
+reply
+
+	
+mr_toad 7 days ago [-]
+
+Automatic unattended updates are totally possible (I haven’t tried it in CentOS but it works fine on Ubuntu). Even kernel updates can now be done without a reboot. And with the proper setup even reboots can be automated.
+reply
+
+	
+mrweasel 7 days ago [-]
+
+But that's not limited to cloud, you can do that for on-premise stuff.
+reply
+
+	
+twic 7 days ago [-]
+
+There's a cognitive failure i see a lot where people incorrectly conflate two different new hotnesses like this.
+Cloud? Automatically updating operating systems. On-prem? Must be stuck on an old version.
+
+Microservices? You can release to production in minutes. Monolith? Must take you weeks to get a release out.
+
+Go? Simple self-contained deployables. Java? Must need a JDK and Tomcat installed on the server.
+
+It always seem to come up when the leading term is something dubious (cloud, microservices, Go), but the following term is something unequivocally good. Or maybe that's just when i notice it.
+
+reply
+
+	
+m01 7 days ago [-]
+
+How do you do kernel updates without a reboot?
+I've looked several times and found different technologies over time (kexec, (Oracle's) ksplice, kGraft, kpatch, livepatch). They do appear to have some use-cases, e.g. delaying the need for a reboot by being able to install a critical vulnerability fix/workaround so that the reboot can be done at a more convenient time. Because many of the patch mechanisms are function-based, they don't appear to solve the general problem in such a way that reboots can be avoided all together for arbitrary large kernel changes. From my reading of the solutions none are at the level of unattended upgrades using apt/yum-cron or similar in a way that "most" can benefit from them without worrying too much about it (ksplice might do it, but not sure how much you need to pay for it for server use and therefore how accessible it is). kexec helps with skipping the bootloader/BIOS, but I'm not sure if it ends up restaring all the systemd services or going up/down the runlevels, some places suggest it reduces downtime but doesn't eliminate it. I've not experimented with any of these myself yet... so I'd be happy to be proven wrong and in any case learn more!
+
+References:
+
+- http://jensd.be/651/linux/linux-live-kernel-patching-with-kp...
+
+- https://linux-audit.com/livepatch-linux-kernel-updates-witho...
+
+- https://wiki.archlinux.org/index.php/Kernel_live_patching
+
+- https://wiki.archlinux.org/index.php/Kexec
+
+EDIT: forgot to mention livepatch
+
+reply
+
+	
+heavenlyblue 6 days ago [-]
+
+You don’t need to avoid reboot if you have enough machines
+reply
+
+	
+Conan_Kudo 7 days ago [-]
+
+This is totally possible on CentOS. Up to CentOS 7, yum-cron lets you do this. With CentOS 8, this has been replaced with dnf-automatic, which offers a lot more flexibility on how to configure automatic updates.
+reply
+
+	
+MCthrowaway12 7 days ago [-]
+
+[offtopic]
+Awesome seeing you here! I used to be super active on Hypixel when I was in high school (I was actually #1 on the leaderboards for one of the games for over a year). One of my first large scale programming projects ever was creating a Hypixel mod for my guild. Years later I am now a software engineer working at Google on the YouTube algorithm!
+
+reply
+
+	
+AgentK20 7 days ago [-]
+
+Great to hear! Lots of the people who learned how to code because of Minecraft have ended up all over the industry. It's where I got my start, as well as many of my coworkers. That's part of our passion for making Hytale, to empower the next generation of youth who want a game they can tinker with and use to learn. If you haven't seen it yet definitely go take a look, got lots of cool plans for moddability and customization :)
+reply
+
+	
+Yukonv 1 day ago [-]
+
+Little late but though I would say hi. I too got started programming thanks to Minecraft. My first real job was working at Overcast Network (oc.tc). I remember having to scale out our infrastructure to seven dedicated servers after a popular YouTuber featured us. At the time that felt crazy for a Minecraft server and here you are now with hundreds of servers. Huge congrats on scaling to where you are today.
+Have lots of fond memories of those early years, especially Minecon 2013.
+
+reply
+
+	
+kldavis4 7 days ago [-]
+
+Also offtopic, but my 12 year old is obsessed with Hytale.. Loves to read the blog updates and watch the videos and can't wait to eventually play it :)
+reply
+
+	
+djrogers 7 days ago [-]
+
+As is my 11yr old daughter. Cannot wait to play it. Actually, she’s a budding designer, and all she wants to do is mod it!
+reply
+
+	
+Jowsey 5 days ago [-]
+
+Haha same, admittedly I don't have a child, I am the child, I can't wait to get into Hytale and work on mods, servers, whatever. Hypixel is singlehandedly the reason I got into Minecraft and Minecraft is the reason I ended up learning Java. That Java knowledge has earned me a respectable income as I go through college. I owe a lot to Hypixel/Studios man :D
+reply
+
+	
+BrandoElFollito 3 days ago [-]
+
+This is the reason I like your site. It not only drags my son into coding (which neither the school nor me to a certain extend could not) but also since he was admitted as a helper (or something like that) he is also learning other skills.
+The downside is that this competes with school (thanks god he is very good so that's fine-ish)
+
+The upside is that it is quarantine in France so I can manage this.
+
+Thanks for all of that!
+
+reply
+
+	
+localhost 7 days ago [-]
+
+Since we're OT anyway, thank you for all the work you do on the YouTube algorithm. It has brought a tremendous amount of value into my life!
+reply
+
+	
+mnky9800n 7 days ago [-]
+
+people like the youtube algorithm?
+reply
+
+	
+notwedtm 7 days ago [-]
+
+I'll chime in and say hello as well! Great seeing Hypixel staying on top after all these years!
+reply
+
+	
+fxtentacle 7 days ago [-]
+
+Cost. We currently pay less than €5000 monthly for 500TB/month in traffic and 50 Ryzen CPUs. Amazon would be $30,000 traffic + $100,000 compute.
+reply
+
+	
+neeraga 7 days ago [-]
+
+Do you use any external dedicated host?
+reply
+
+	
+fxtentacle 6 days ago [-]
+
+Hetzner.de
+reply
+
+	
+machiaweliczny 7 days ago [-]
+
+I think you forgot to include cost of engineers in this calculation.
+reply
+
+	
+fxtentacle 7 days ago [-]
+
+It's a 1 person part-time job. Most of the work goes into coordinating package updates with Ansible. I can include $1000 in the calculation if that makes you feel better ;)
+Everything is deployed with Ansible, monitored with Monit. The servers have redundant PSUs and SATA hot-swappable HDDs, so you can fix minor hardware issues without having to reboot. As the result, we have more than a year of uptime on a typical server.
+
+On the other side, we've been hit with several S3 outages. My feeling is that the cloud needs fully automatic fail-over because it is failing much more often than all our bare metal server combined.
+
+reply
+
+	
+machiaweliczny 1 day ago [-]
+
+If I could have engineers for 1000$ who are able to build and operate infra better than AWS then Jeff Bezos fortune would look pale in comparison.
+reply
+
+	
+twic 7 days ago [-]
+
+An iron rule of these discussions is that when someone objects to non-cloud solutions on the grounds of staff costs, they have not actually calculated the staff costs.
+reply
+
+	
+tamiral 3 days ago [-]
+
+I'd agree...
+It's also for speed to market... Our Infra setup where I work is extremely slow and at times takes over 1 month to setup a database.... and a VM about the same.
+
+reply
+
+	
+igrekel 7 days ago [-]
+
+I know currently our problem is finding proper staff and that is why we are considering moving to a cloud provider. Especially for database hosting, using a database as a service becomes very attractive from a staffing perspective just because we can't seem to find good candidates and we've been training younger people into being DBAs but they ultimately want to do something else after a while.
+reply
+
+	
+fxtentacle 6 days ago [-]
+
+We use Amazon RDS. It's still 10x the price of bare metal, but that is acceptable and it's fast enough for most things. Plus they have automated backups and certified encryption.
+reply
+
+	
+fulafel 6 days ago [-]
+
+RDS and the like still need about the same amount of DBA'ing, no?
+reply
+
+	
+igrekel 6 days ago [-]
+
+I'm assuming it takes care of monitoring and managing space, disks, backups etc. I mean the true administration tasks, not helping with designing the database and queries.
+As I said, we are considering but the analysis hasn't been done yet. If you have insight, please.
+
+reply
+
+	
+insulanian 6 days ago [-]
+
+No.
+reply
+
+	
+greedo 6 days ago [-]
+
+Sure, because EC2 instances don't need any admin work. Unless you're doing serverless architectures, you'll still need sysadmins.
+reply
+
+	
+sgtfrankieboy 7 days ago [-]
+
+Engineers cost $130,000/month? Thats a fulltime salary for 14 network engineers (salary from Indeed).
+There is no way you need that many for maintaining a fleet of 50 CPUs (chance is that in OPs case they got duel socket servers as well).
+
+reply
+
+	
+HelloNurse 7 days ago [-]
+
+On the other hand, you also need to pay engineers, and rather senior ones, to monitor and upgrade cloud solutions. They are just less visible: typically an extra duty for "devops" programmers and project managers rather than dedicated server farm staff.
+reply
+
+	
+kaydub 6 days ago [-]
+
+$130,000 a month is not 14 network engineers. Salary is not the full cost of an employee to the business.
+reply
+
+	
+kitotik 6 days ago [-]
+
+Even fully loaded it should cover at least 8-9 engineers.
+reply
+
+	
+RhodesianHunter 7 days ago [-]
+
+> Cloud is great if your workload is variable and erratic
+Or if you're just constantly iterating on a large product with many engineers. Those engineers' salaries almost always outweigh all of your cloud costs and so making them productive is cost effective. Things like SNS/SQS/S3/VPC/ELB/etc. save you countless hours and often make up for the increased cloud costs with increased developer productivity.
+
+reply
+
+	
+dahfizz 7 days ago [-]
+
+> Those engineers' salaries almost always outweigh all of your cloud costs
+I think there is a divide here. Most people in this thread that mention cost as an issue are running some serious gear, and that does not come cheap. Your parent is running 70 servers plus some serious networking equipment, which is easily a couple million dollars. And he said that a cloud provider would 10x that cost.
+
+If all you need is a little VM to run a website, cloud hosting is cheap. If you are running real infrastructure, a couple hours of developer time will never out-weight the astronomical costs of cloud hosting.
+
+reply
+
+	
+kelnos 7 days ago [-]
+
+Not sure that's universally true. We have probably tens of thousands of EC2 instances in our infra right now. Just the cost alone to build out on-prem infra and migrate things over would likely wipe out a half-decade or more of cost savings. And in the meantime our shift in focus would hurt our market position.
+If we'd started in the beginning (11 or 12 years ago) with our own infra, I imagine our recurring infra costs would be lower right now, but I also suspect that our 3-person founding team would have failed to produce an MVP before their initial time and money ran out.
+
+If I were starting a company now, I'd probably do things in a more "platform agnostic" way such that a cloud->on-prem migration might be easier. But I still never expect it'd be easy.
+
+reply
+
+	
+pvorb 7 days ago [-]
+
+If you implement things in a cloud agnostic way you can also save a lot by choosing a traditional webhoster/server hoster. If you want your product to be cloud agnostic, you lose almost every advantage of the cloud.
+That's the whole problem why we haven't seen a competitive reduction in prices between cloud providers, yet.
+
+reply
+
+	
+Aeolun 7 days ago [-]
+
+> If you are running real infrastructure, a couple hours of developer time will never out-weight the astronomical costs of cloud hosting.
+Over time, buying things yourself will always win out on cloud architecture, or the cloud business would be bankrupt.
+
+reply
+
+	
+waterhouse 7 days ago [-]
+
+It would be theoretically possible for cloud providers, specializing in what they do, to gain from economies of scale of various sorts (having their own large purpose-built datacenters, needing less total redundant equipment to have the same replacement speed, having local servers in all parts of the world, being able to use nighttime idle cycles in servers in one part of the world for daytime customers on the other side), which could theoretically yield savings greater than the profit margin that they charge.
+Not saying this is what happens in practice.
+
+reply
+
+	
+twic 7 days ago [-]
+
+These economies could only put cloud ahead if they were larger than the provider's profit margin. If cloud saves 10% in costs but charges you 30% in markup, it costs you 20% more.
+AWS's margin is 20-25% (eg [1]). Is AWS's cost of goods sold really 25% lower?
+
+Admittedly this calculation is tricky, because it's not clear what to include. Does that figure for AWS's margin include R&D? Should it?
+
+[1] https://www.forbes.com/sites/greatspeculations/2018/10/17/ho...
+
+reply
+
+	
+worldsayshi 7 days ago [-]
+
+To me the economics of scale is the whole point of cloud. If vendors don't deliver on that promise and makes it more expensive than hosting it yourself they have fundamentally failed and there's no reason, market wise or utility wise, for them to continue in the long run.
+reply
+
+	
+winter_blue 7 days ago [-]
+
+If one could come up with an estimate of how many hours per year it would cost to maintain (plus initially setup cost), and multiple that by $75/hr (a reasonable rate for a good engineer), then you could estimate how much it all costs.
+I'd wager a guess that a properly-configured server won't actually cost that much to maintain. Unless you're frequently updating the OS and other stuff - but that's a software issue. I don't expect the hardware will fail that frequently at all. If there's a HDD failure, a good RAID system (with tolerance for 3 or 4 disks failing simultaneously) will alert you to it, and you'd grab the spare HDD (you should have a few spares), and pop it in, and the RAID would recover from the failure. What other hardware components frequently fail? RAM? CPU? Not really.
+
+The engineer who sets up the server should be someone who is a generalist, and a full-time employee who when not tending to the server, works on other stuff (like the product). Then you have someone on staff who is familiar with the system, and can fix something that goes wrong, without needing to ramp up on it first. I know a lot of programmers would love to set up a server. Any who enjoys buildings PCs (which many generalist programmers do) would probably love to have a one-month project where they pick parts and set up a powerful server.
+
+reply
+
+	
+sokoloff 7 days ago [-]
+
+In quarantine, I’m doing exactly that, fooling about at home with old enterprise gear you can buy seemingly by the pound on EBay now. It’s super fun and I somewhat enjoy getting all the power management right, all the networking setup, and ultimately running Proxmox and a bunch of small containers and VMs for things like Minecraft servers and file storage.
+In my day job and my side projects, I’m 100% paying for AWS for 99% of our workloads. I choose to let Amazon deal with all the staff issues and all the other, to use their words, undifferentiated heavy lifting.
+
+There’s some scale point at which you have to ask the question whether you ought to be in the cloud, but IMO if you think a cloud provider is only 50% more than you could DIY, you should probably be in the cloud.
+
+reply
+
+	
+RhodesianHunter 7 days ago [-]
+
+That reads as fairly dismissive to me.
+Most people running serious gear have serious engineering payroll overhead.
+
+Sure, some folks are managing something fairly static like game servers, but many of us work for bigco with two dozen products and massive teams.
+
+Even with thousands of ec2 instances we continue to move our on-prem infrastructure to the cloud because developer productivity saves us big money in the long run.
+
+reply
+
+	
+kortilla 7 days ago [-]
+
+Does it actually save or does it just encourage waste by the developers and poor system design?
+I’ve heard stories of companies having each PR spin up something like 20 ec2 instances to build up a whole deployment. A CICD design like that used to be a fireable offense. Now people see that and assume it’s saving them money because it would have bottlenecked before.
+
+reply
+
+	
+jameshart 6 days ago [-]
+
+That’s a pretty extreme example of CI infrastructure, but okay... so what?
+20 t2 mediums costs under a dollar an hour at list rates, and if you’re using a lot of AWS infrastructure can cost a lot less.
+
+How much is the confidence that that PR will not break master worth to you? How many hours of engineer code review time would it take to achieve that same level of confidence in your build that spinning up 20 ec2 instances and running regression tests wins? How much would a failed deployment into production cost you, per minute?
+
+Before you assume that it’s wasteful for any organization to throw cloud at a problem, realize there are many orgs for which a few hundred dollars of cloud compute spend per production release is an entirely reasonable trade off, not a firing offense.
+
+reply
+
+	
+kortilla 6 days ago [-]
+
+> How much is the confidence that that PR will not break master worth to you?
+That’s exactly the mental trap I’m talking about. Requiring 20 instances to try to mirror production instead of getting better testing in place is a sign of testing immaturity.
+
+I have significantly less confidence in the products that use this testing strategy because it really means they don’t have much in place for testing infrastructure to stub things out, inject failures, etc.
+
+And it’s not t2 mediums. It’s whatever is specced for production because we’re such good engineers that we want to test in a production like env, right?
+
+> Before you assume that it’s wasteful for any organization to throw cloud at a problem, realize there are many orgs for which a few hundred dollars of cloud compute spend per production release
+
+That’s not even close. It’s hundreds of dollars a day leading up to thousands per release with larger teams.
+
+reply
+
+	
+troupe 6 days ago [-]
+
+So I've setup processes like you described where every PR would spin up 20 ec2 instances, run a huge number of parallel testing, and then shut itself down. The savings associated with developers getting feedback on a full regression test of the system in 20 minutes vs. 400 minutes was significant.
+reply
+
+	
+kortilla 6 days ago [-]
+
+That’s parallelizing, which is not what I’m talking about. I’m talking about pointlessly building up huge environments that “match production”.
+reply
+
+	
+sokoloff 7 days ago [-]
+
+If it spins those EC2 instances up, runs for a hour of “waste” and then turns off (or the alternate cluster turns off when no longer in use), it very likely is saving money. It might be saving money in that very moment; it might be saving money invisibly when “time to patch the servers again” is a complete non-event for staff time.
+reply
+
+	
+twic 7 days ago [-]
+
+If you have ten thousand EC2 instances, you also have serious engineering payroll overhead.
+reply
+
+	
+C1sc0cat 7 days ago [-]
+
+In that case Use Linode and not AWS - I ported a little POC system I had built to Linode and it cost 10x to run it on AWS.
+Though I id get a understanding of the basics of AWS out of it probably not the best use of the share holders money
+
+reply
+
+	
+YarickR2 7 days ago [-]
+
+No they don't . Things you mentioned are very easy to deploy on-premises, and they won't take more than one man month to deploy and maintain.
+reply
+
+	
+kelnos 7 days ago [-]
+
+That's an incredibly naive assessment and is absolutely not true in practice, except for perhaps for some orgs where the stars just happen to align to make that a reality. Most places heavily build "cloud" into their frameworks, tooling, hiring, and, well, everything. Even just swapping out a single hosted/managed component (as my company did a few years ago, replacing Kinesis with Kafka) can require a lot of up-front work[0] and on-going maintenance.
+[0] Especially if you're already in production with the thing you want to replace, and want to transition without downtime for your customers.
+
+reply
+
+	
+RhodesianHunter 7 days ago [-]
+
+I love that you think mature products that took teams of highly skilled people at Amazon years to refine can just be slapped together in a month in your colo.
+What a joke.
+
+reply
+
+	
+pmlnr 7 days ago [-]
+
+Riiight, because you don't need people to keep the cloud stuff configured and working /s
+reply
+
+	
+brownbat 7 days ago [-]
+
+I remember a post here a while back from a guy running Bitcoin mining in his dorm room. One day he realized he could offer his spare cycles to grad students with high computing workloads and undercut cloud computing prices while increasing what he made far over just mining.
+It's very weird that we haven't fully arbitraged $/instruction to a single (low) price yet (or storage/hosting, whichever).
+
+If only there were an Uber for unused cycles or storage... let everyone turn their unused capacity into mini AWSs with a common interface and safety and reliability guarantees.
+
+Maybe there are too many barriers, like security.
+
+reply
+
+	
+user5994461 7 days ago [-]
+
+Then he got tracked down by the dorm and expelled, because him or his customers were running bitcoin miners. Turns out the dorm has to cover the electricity and that's not a supported use case for them or the dorm insurance.
+reply
+
+	
+Fornax96 7 days ago [-]
+
+> If only there were an Uber for unused cycles or storage... let everyone turn their unused capacity into mini AWSs with a common interface and safety and reliability guarantees
+This is exactly what Sia.tech is building for storage. A competitive marketplace for storage providers where anyone can set up a host and start selling their spare storage space. It's not completely finished yet, but it's pretty close.
+
+A bunch of companies are already building products on top of it (including me)
+
+reply
+
+	
+swyx 7 days ago [-]
+
+how much replication do you need to make this kind of thing reliable? since anyone can pull storage at any time. does that then make transactions super slow? any numbers you can put on this would be helpful. also, whats your product? (just curious)
+reply
+
+	
+Fornax96 7 days ago [-]
+
+Sia uses reed-solomon encoding to spread files over 30 hosts with a redundancy of 3x. So Any 20 hosts can fail at the same time and the files would still be available. This does mean that you need to upload all your data 3 times. Sia also needs to monitor your uploaded files all the time to make sure the hosts behave. This means hosts periodically run checksums on the stored data to prove to the client that the data is still there.
+The team is currently working hard on performance upgrades. On regular consumer hardware you can currently upload / download data at a rate of about 500 Mbps. The next release is expected to improve this significantly.
+
+Here's an introduction article which explains how Sia works with a bit more depth: https://support.sia.tech/article/dk91b0eibc-welcome-to-sia
+
+My own product is a file sharing website: https://pixeldrain.com. It uses Sia to store large files because it's cheaper than conventional cloud storage. I plan to make it possible to download directly from Sia hosts as well so I can save on bandwidth costs too.
+
+reply
+
+	
+thotypous 7 days ago [-]
+
+This is really interesting!
+How does Sia prevent hosts from precomputing the checksums to fake they are behaving but erasing the data itself? Does it checksum over random ranges of data?
+
+Which source does it use for entropy so that the network remains distributed but nodes can't predict the ranges? Does it use the last block nonce?
+
+Which checksum algorithm does it use? Is care taken as to not be vulnerable to prepend or append attacks from hosts who intend to host data partially whilst pretending they are hosting full data?
+
+reply
+
+	
+Taek 6 days ago [-]
+
+Sia founder here. The hashing algorithm we use is blake2b. Definitely secure.
+We do probabilistic proofs, so we have the host provide us a small random sampling of actual data (so the host can't rely on precomputing), plus a proof that this actual data is what the contract says the host should be storing.
+
+See chapter 5: https://sia.tech/sia.pdf
+
+reply
+
+	
+Fornax96 6 days ago [-]
+
+I'm not entirely sure on the specifics of storage proofs, but as far as I know it's something along these lines:
+When uploading data the renter (that's what we call the node which pays for storage) computes a merkle tree of the data which the host should be storing. When a contract is nearing its end the host will enter a proof window of 144 blocks (1 full day) in which it will need to prove that it is storing the renter's data. The proof is probably based on the block hash of the block where the window started. The host stores the proof in the blockchain and the renter will be able to see the transaction. If the proof matches the merkle tree (which the renter has stored) the contract will end and the host will receive the payment and their collateral back. If the proof is invalid or was not submitted at all the renter can cancel the contract which destroys the funds in it. The host won't get paid and loses its collateral, but the renter also won't get their money back (to discourage the renter from playing foul)
+
+There is some more info on this on the wiki: https://siawiki.tech/about/trustlessness and the website: https://sia.tech/technology. And here is some incomplete technical documentation: https://gitlab.com/NebulousLabs/Sia/-/blob/master/doc/Resour...
+
+If you want to go more in-depth you can go on our Discord where lots of developers hang out, eager to help others to get started with the network :) https://discordapp.com/invite/sia
+
+EDIT: The whitepaper is of course the best source of knowledge. It's quite old at this point but the core principles still apply https://sia.tech/sia.pdf
+
+reply
+
+	
+swyx 7 days ago [-]
+
+awesome :) i was able to upload a big file and immediately share it and view it in browser! very nice! what pdf viewer component did you use? i also like the pastebin functionality.
+im sure you hear this a lot but... has anyone done a heads up comparison with filecoin?
+
+reply
+
+	
+Fornax96 7 days ago [-]
+
+Thanks, glad you like it. I use Mozilla's pdf.js. It's super simple to implement, just load it in an iframe with the path to the PDF file in an URL parameter. Et voilà, a PDF viewer.
+Comparing with Filecoin is hard because there's not much information available about it. The rollout keeps getting delayed too. I know that the founder of Sia has criticized Filecoin's whitepaper a few times because it contains unsolved problems which could cause significant issues during the rollout of the network. Sia took a more conservative approach and worked out all the math before the development of the network started in 2015. Now, 5 years later, Sia has solved all the fundamental issues with the protocols and such and are working on upgrading the performance and building apps on top of Sia's core protocols. In terms of development Sia is about 3 years ahead of Filecoin.
+
+reply
+
+	
+swyx 7 days ago [-]
+
+awesome. thanks for your generous replies!!
+will spread the word about Sia and Pixeldrain when the topic comes up :)
+
+reply
+
+	
+Darkstryder 7 days ago [-]
+
+Remember that the "cost per instruction" ought to be very different depending on a lot of other factors, including but not limited to:
+- how much data do you need to move to actually perform the computation
+
+- whether the computation performance is expected to be reliable or if best-effort is acceptable
+
+- whether there are confidentiality and accuracy requirements on the input and output of the computation.
+
+Most software engineering teams are not working at a granular enough level to properly describe which parts of their computations and data are expected to be reliable or not (in availability, confidentiality and integrity). However this can impact the cost per instruction of a computation by multiple orders of magnitude.
+
+reply
+
+	
+akg_67 7 days ago [-]
+
+> If only there were an Uber for unused cycles or storage... let everyone turn their unused capacity into mini AWSs with a common interface and safety and reliability guarantees.
+Funny, this was our idea with first startup 18 years ago, federation of unused storage and redistribution. There were no takers as no one wanted to contribute their unused storage but wanted others. It was much easier to centrally locate our own storage and allocate to users who required it.
+
+reply
+
+	
+Animats 7 days ago [-]
+
+Yes. I wonder about Second Life, which is doing a "cloud uplift" to AWS. The parts of the system that are variable-load and web-like are already on AWS. But the region servers (one CPU for each 256m^2) are owned outright, and in a colo in Phoenix. They're obsolete machines. But they are compute bound, with a constant load 24/7. Even when no user is in a region, the simulated world continues to run. Uses a bit less CPU, but the physics engine is still doing 45 cycles every second, and all scripted objects are still running. Leaves fall from the trees, plants grow, animals graze, trains run, whether or not any human is watching.
+They think AWS will be cheaper. I hope they are right, but have doubts. Fortunately, they're doing this slowly and carefully, and if it turns out that AWS is too expensive, they should be able to move back or to elsewhere. Since what they're doing isn't even close to what AWS normally does, they're not that tied to AWS features.
+
+reply
+
+	
+lifeisstillgood 7 days ago [-]
+
+>> Leaves fall from the trees, plants grow, animals graze, trains run, whether or not any human is watching.
+Well that solves the age old question about trees falling in forests :-)
+
+reply
+
+	
+rbanffy 7 days ago [-]
+
+That's a poorly implemented universe. Unless information propagates, it didn't happen ;-)
+You could always fast forward the current state when the first external observer arrives. But I get there are time constraints - you can't just stop the real universe until it converges to a consensual state.
+
+reply
+
+	
+lifeisstillgood 5 days ago [-]
+
+This does bother me about the whole "likely we are living in the matrix" thing. If we want to design a universe that does not waste a lot of processing power we need to do things like have a speed of light limitation (keep it fairly slow too). But the sensible idea is to only process lazily - don't calculate till the observer observes - but it is very much like a dependency hell.
+reply
+
+	
+m463 5 days ago [-]
+
+I think they need to implement a tree tree.
+So if a tree falls in a forest and no one is around to hear it, it won't hit the sound code or the display code.
+
+reply
+
+	
+cwojno 7 days ago [-]
+
+I worked for a boss that pretty much demanded that we move to the cloud. I showed them the costs for the then 2 providers (GCP/AWS) and arrived at the exact same conclusion on server hosting alone, as bandwidth wasn't the main driver of our application. The rationale was that we'd save so much money by not having to manage the servers ourselves, but we honestly spent much, much more time in software deployments than managing hardware migrations and failures.
+reply
+
+	
+abathur 7 days ago [-]
+
+To be clear, it took much more time to deploy your own software to the cloud relative to on-prem?
+reply
+
+	
+smolder 7 days ago [-]
+
+I interpreted it as: prior to moving to the cloud, server maintenance was not a very significant cost, so the justification for moving to the cloud was weak.
+reply
+
+	
+eb0la 7 days ago [-]
+
+> Cloud is great if your workload is variable and erratic
+I would say also, the cloud is cheap if you can shut down or scale-down services when you need it.
+
+IMHO if you ow your software stack, you can use the cloud to rationalize your spending (for instance, Netflix changed their default codec some weeks ago which made them save a lot of monet in egress bandwith)... but nobody can do this.
+
+If your company runs prepackaged software, like an SAP, Manhattan, you don't have margin to shutdown services when they're not needed (at least by now).
+
+Also, after a long time working in a datacenter, I am still ashamed how powerful bare-metal has become: For less than 30K you can get a 1TB server (without storage) with at least 40 cores. Some vendors are even offering hardware as Opex in a pay-as-you-go seting to compete against the cloud.
+
+(disclaimer I work for a Google Cloud partner)
+
+reply
+
+	
+sokoloff 7 days ago [-]
+
+Netflix does not push their videos streams out of AWS (because that would be stratospherically unaffordable for them). They run their apps and systems on the cloud (search and preferences), but the video bits come from Netflix racks distributed to a variety of DCs and ISPs.
+reply
+
+	
+twic 7 days ago [-]
+
+> IMHO if you ow your software stack, you can use the cloud to rationalize your spending (for instance, Netflix changed their default codec some weeks ago which made them save a lot of monet in egress bandwith)... but nobody can do this.
+Netflix's content serving is done from physical hardware they own and place in datacentres. I don't understand your point.
+
+reply
+
+	
+gwd 7 days ago [-]
+
+> Some vendors are even offering hardware as Opex in a pay-as-you-go seting to compete against the cloud.
+Isn't that how IBM ran their mainframe business 50 years ago? The more things change...
+
+reply
+
+	
+sandGorgon 7 days ago [-]
+
+what i have generally seen is that storage - blob (s3) or database - is the blocker. Even if you go to k8s, the hassle to manage storage is non-trivial.
+And because of this singular fact, startups cannot move to on-premise. You really dont want to manage snapshots, restores, backups.
+
+Anyone can manage application servers.
+
+reply
+
+	
+rhlsthrm 7 days ago [-]
+
+s3 (or similar) and managed database seem to be the most "commoditized" (and cheapest) pieces of the cloud services stack. So it seems reasonable to move everything else to cloud-agnostic/on prem while still leaving those pieces in the cloud.
+reply
+
+	
+sandGorgon 6 days ago [-]
+
+how do you solve for egress traffic ? the traffic between the server and the database starts being the most expensive part of the stack
+reply
+
+	
+davedx 7 days ago [-]
+
+I don't understand. You're talking about a filesystem, with an option for backing that filesystem up?
+reply
+
+	
+hey_ross 2 days ago [-]
+
+Disclosure: I work at Oracle Cloud on the product management side (not sales ;-) )
+I'd like to chat with you about this; we charge a flat rate for dedicated connections and about 95-97% less than AWS on egress and are just starting to talk to people about it - it's how we picked up Zoom and 8x8 (bi-directional video has huge egress charges). Let me know if you are open to chatting, there wasn't a "exec team" link on your webpage to reach you directly.
+
+reply
+
+	
+dsieczko2 6 days ago [-]
+
+To elaborate, we've worked with many customers looking to get out of "slinging metal" and focus on what matters to their business most. Some have said that the revenue generated justifies the cost of <enter one of big 3 here> BUT others (and I think you'll see this more over the next decade) are looking at automated bare metal. You get the primitives of the cloud but on physical servers, and more importantly with economics closer to running your own gear. Especially if you consider TCO - power, network, ops people, etc
+reply
+
+	
+dsieczko2 6 days ago [-]
+
+Packet ^^
+reply
+
+	
+pixtemp7384 6 days ago [-]
+
+The Hypixel servers are at maximum capacity during the peak 4+ hours every day, meaning additional players cannot join. This is an obvious issue for other applications.
+reply
+
+	
+AgentK20 6 days ago [-]
+
+This isn't a limit of our ability to procure hardware, but instead a limit of one of our 7-year-old monolithic applications. We're working on increasing its stability at high player counts, but it's a totally separate issue from server provisioning and cloud vs bare metal.
+reply
+
+	
+pixtemp7384 6 days ago [-]
+
+I see. Out of curiosity, what is the limiting application?
+reply
+
+	
+AgentK20 6 days ago [-]
+
+An in-house application that we (I) developed in order to handle game balancing, queuing, and overall network state for a multi-LB Minecraft network. The application's name is MasterControl, and it's architecture and design (or lack thereof, it was literally the first program I ever wrote) has been the source of many headaches over the last few years. Had I known years back that we would see the kind of player numbers that we have this year, we 100% would have completely rewritten it into our modern microservice architecture.
+reply
+
+	
+weinzierl 7 days ago [-]
+
+Sorry, but what is LTO in this context? Google turns up Link Time Optimization and Legal Tribune Online and both seem not quite right....
+reply
+
+	
+plq 7 days ago [-]
+
+Not OP but he most probably meant lease-to-own. In my experience it's a financing model that spans the equipment's economical lifetime. Let's say 3 years for a server box. In the end of the contract you either pay the last instalment, which is bigger (5x-10x) than usual and keep it, or you return the equipment and get a new one.
+There are many variations of this scheme but that's more or less the idea.
+
+reply
+
+	
+michaelt 7 days ago [-]
+
+Probably "Lease To Own" a.k.a. "hire purchase" which is kinda similar to buying something on long-term credit.
+reply
+
+	
+winter_blue 7 days ago [-]
+
+> about 700 rented dedicated machines to service 70k-100k concurrent players
+Slightly off-topic, but it sounds like a single machine can't handle more than 150 concurrent players. How is this so?
+
+Is Hypixel Minecraft that resource intensive?
+
+What's the bottleneck — it is the CPU, or RAM, or the network latency(?) per machine, or is it something else?
+
+> We push about 4PB/mo in egress bandwidth
+
+With 70k players, 4PB / 70k is approximately ~57 GB per player per month. That divided by the number of seconds in a month (2.628e+6) is: 57 x 10^9 / 2.628e+6 = ~21.7 kB.
+
+Over a month, on average, a single player consumes a bandwidth of ~21.7 kB/sec, or about 174 kbps. This is an extraordinarily low per-player bandwidth consumption. At 150 players, each machine would average 26 Mbps of network traffic. This is fairly low as well. Of course, the machines have to be capable of handling of possibly much higher peak usage, but even an order of magnitude more — 260 Mbps, is something a Raspberry Pi 4 (which support full-throughput Gigabit Ethernet) can do.
+
+reply
+
+	
+AgentK20 7 days ago [-]
+
+About 60 of those machines are custom L7 frontend load balancers, and an additional 40-50 are database and dev machines. As for the actual gameservers, that's about the numbers we expect on average (150/box), although it varies wildly by gametype. Simple games of Skywars or Murder Mystery with no AI and an ultra-slimmed-down world we can fit 300+ players per box and are CPU-bound. Housing or Skyblock servers with full AI, dynamic worlds, and player-built structures we might only be able to fit 100 players per box and are RAM-bound.
+You're pretty accurate with the per player bandwidth. We measure it at an average of 200kbps/online player. We are incredibly compute-intensive, though, and these machines are all operating with E3-1271v3 CPUs, 32GB of RAM, and ~100GB SSD.
+
+reply
+
+	
+winter_blue 7 days ago [-]
+
+Thanks for the insightful comment.
+I saw you mentioned in another thread Minecraft performs better when the CPU has better single-threaded performance. I'm guessing, going forward into the future, you'd probably want to build machines with Zen 2 AMD Ryzen CPUs (or future Zen 3 Ryzens), like the Threadripper 3960X (which has a base clock of 3.8 GHz, 24 physical CPU cores, and costs ~$1200 — so $50 for each of those cores). Or, the AMD Ryzen 9 3950X, which is about $40 per core (when you get it on sale), and despite a lower nominal base clock actually performs better on single-threaded benchmarks (e.g. https://www.cpubenchmark.net/singleThread.html).
+
+reply
+
+	
+AgentK20 7 days ago [-]
+
+It's definitely something we're keeping our eye on. The challenge with that is that because Threadripper is so new, it's only just now beginning to be supported on server motherboards. In a few years we're hoping that there'll be enough competition in the AMD Ryzen motherboard market that we can get comparable pricing to what we're getting now for cheap Intel boards.
+reply
+
+	
+debian3 7 days ago [-]
+
+You should check Hetzner AX series. Even their cheap (39 euro with ecc) ryzen 5 3600 give us 4 times the performance than our E3 1245 cpu.
+reply
+
+	
+What about the other services? You’re running a Minecraft cluster so you’re fairly detached from what running a traditional service is like these days. Will those same sysadmins make API gateway for me? Or SNS? If you look at AWS and see only it’s EC2 offering then that’s part of the problem. I just moved a customer from onprem to AWS and they were flabbergasted at the performance difference (their processors being 3-4 yrs old at this point) and changed some of their processes from running for hours to a few minutes for zero capex. Then theres adding capacity. Need a new server to spin up your app? Brb while I go call dell, ETA 2 months....
+reply
+
+	
+bob33212 7 days ago [-]
+
+That is where the margins come from on AWS. They are charging 10x the cost of the hardware. Even the AWS well architected framework says that there are always tradeoffs between disaster recovery and cost. For your business cost is more important than having your servers replicated in many time zones.
+reply
+
+	
+jbverschoor 7 days ago [-]
+
+Servers aren’t replicated. As a matter of fact.. aws began out of unused machines for ephemeral servers
+reply
+
+	
+Very late into the discussion. One thing that bothers me a lot is Server Performance / Price hasn't dropped much over the last 5+ years. Memory prices over a long period has essentially been flat. The only thing that has gotten cheaper is NAND. 
+
+I kind of expect of hoping to have double the core, and memory of a Server for the same price in 5 - 6 years time. And this hasn't happened.
+
+It sounds like you've got a good setup going with colo, but just as a way of illustrating some of the small providers lower bandwidth costs:
+
+DigitalOcean gives 3TB bandwidth on a $15 2CPU/2GBMEM/60GBSSD instance. If you ran 1350 of them it'd cost you ~$20k/month and get you your 4PB egress within bandwidth allowance.
+
+The other problem is that Minecraft is single-threaded, so it performs better on a quad-core 4GHz than an octa-core 2GHz, for example. 
+
+Because of this, we use E3-12xx lineup CPUs at 3.6GHz+. 
+
+I don't believe DO publishes their underlying hardware specs, but last time that I ran benchmarks it performed in the 2.0-2.4GHz range, like most cloud providers. 
+
+Even if their CPUs were identical, it would cost us $112,000/mo at stock pricing, which is significantly more than we're paying for our current deploy.
+
+DigitalOcean gives 3TB bandwidth on a $15 2CPU/2GBMEM/60GBSSD instance.
+DigitalOcean is a VPS provider, not a cloud provider, and that's pretty similar to pricing on the nearest comparable AWS service (Amazon LightSail), not something showing DO as notably better (1Core/2GBRAM/60GBSSD/3TB transfer @ $10/mo or 2Core/4GBRAM/80GBSSD/4TB transfer @ $20/mo.)
+
+If you are optimizing price per TB of transfer quota, LightSail does best with the 1Core/1GB/40GBSSD/2TB transfer @ $5 instance size.
+
+
+This is one of the valid use cases of on-prem, predictable high network bandwidth workload. This is the exception though. An average company has the exact opposite. Non-predictable, low bandwidth workloads that are different (like data warehouse vs. website).
+
+	
+I'm super curious how you scale these Minecraft servers. I have a 60$ google cloud instance and it can barely handle 3 players with a few mods without lagging a few times per hour.
+
+
+It's a bit off topic, but the challenge there is similar to a reply I wrote elsewhere in this thread about clock speeds. Minecraft is almost entirely single threaded, which means that you could get a $400 Google cloud instance and still only be able to hold those three players. To scale past that you're going to need higher clock speed processors. Take a look at OVH's "GAME" series offering or any dedicated host with E3's or i7s.
+
+Who are you getting your bandwidth from?
+-
+We actually just get a datacenter blend, but I _believe_ they've got us cordoned off on our own dedicated 40gbps Level3 (now Centurylink) line to prevent us getting attacked from harming other customers. It's not so much about which provider you go to, it's more just about the economies of scale. Our entire fleet exists in one physical DC location due to the requirements of Minecraft's netcode, so rather than having five 10gbps lines at five facilities, we've got one 40gbps line. Because of that the ISPs don't meter by the GB, but by the 95th percentile traffic. At those scales, we're paying pennies on the dollar compared to public "by-the-GB" pricing.
+reply
+
+	
+What do you do about backups? I saw you only have one DC, are you worried about that DC being flooded etc and losing all your data?
+-
+Offsite AWS Glacier backups, as well as a warm redundancy in another DC.
+
+I’d be interested in your take on AWS Outposts?
+-
+I'll be totally honest, I hadn't heard of Outposts till you mentioned it, but from my quick glance I'd say there's definitely potential in it, but I don't think it fits our use case particularly well.
+
+One of the challenges for us is, to be honest, we're rather spoiled having run exclusively off-the-shelf open-source tech on our own hardware. It's difficult to start paying per million DB queries, for example, when we've been paying a flat rate of $X/mo for the past 7 years. 
+
+On top of that, our team is very comfortable operating and managing these services in-house, and while it would free them up to focus more on dev tasks, it's a tiny gain compared to the cost increase of moving to SaaS model.
+
+Having said that, though, I'm definitely going to look into Outposts more since it seems much more usable than full-cloud, so thanks for bringing it to my attention!
+
+Are you actually on-premises at your HQ, or are you colocated to a datacenter?
+-
+Neither. We've got a long-standing positive relationship with our data center and are operating on the same hardware that we started renting 4 years ago. Because of our initial investment to build up the fleet, we're now basically paying just the power and networking, plus a small markup, for our core fleet and fairly standard pricing for additional month-to-month machines that we spin up and down based on seasonal demand.
+
+Which dedicated infra host did you use?
+- 
+We bounced around through a few different hosts in the first two or three years of our operation, but for the past four years we've been consistently with SingleHop, now an INAP company. They've been great through the entire time that we've worked with them and have saved our asses on more than one occasion, especially back before mitigation tech like CloudFlare Spectrum was available.
+
+Netflix doesn't host its actual content on AWS. They built their own CDN and have their own dedicated servers all over the world. https://openconnect.netflix.com/en/

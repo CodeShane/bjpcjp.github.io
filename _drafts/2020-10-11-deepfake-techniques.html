@@ -1,0 +1,27 @@
+---
+title: Behave Book Notes (DRAFT)
+layout: post
+tags: behavior
+date: 2020-08-19
+excerpt_separator: <!--more-->
+---
+
+<center>
+	<a href="https://www.goodreads.com/book/show/31170723-behave">
+		<img src="/px/behavior/behave-book-cover.png" width="98%">
+	</a></center>
+<br><br>
+<p>This is a work in progress.</p>
+
+<!--more-->
+
+<div style="clear:both;"></div>
+
+<div style="columns: 2;">
+	{%- for record in site.data.behaviors.behave-book-notes -%}
+		<div class="textcard">
+			<strong>{{ record.chapter }}: {{ record.title }}</strong><br>
+			{%- if record.details -%} <small>{{record.details}}</small> {%- endif -%}
+		</div>
+	{%- endfor -%}
+</div>

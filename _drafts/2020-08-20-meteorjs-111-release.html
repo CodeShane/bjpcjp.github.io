@@ -1,0 +1,25 @@
+---
+title: Meteor 1.11 release notes
+layout: post
+date: 2020-08-24
+tags: javascript meteor
+---
+
+language: <big><big>Javascript</big></big><br>
+framework: <big><big>MeteorJS</big></big><br>
+<br>
+<div style="columns: 2;">
+	{%- for record in site.data.code.js.meteor.meteor111 -%}
+		<div class="textcard">
+			{%- if record.title -%}
+				<a href="{{ record.url }}">{{ record.title }}</a><br>
+				<!--
+				<strong>{{ record.library }}</strong></a><br>-->
+			{%- endif -%}
+			{%- if record.notes -%}
+				<em>{{ record.notes }}</em>
+			{%- endif -%}<br>
+		</div>
+	{%- endfor -%}
+</div>
+<br>

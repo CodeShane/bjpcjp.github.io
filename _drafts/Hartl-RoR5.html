@@ -1,0 +1,100 @@
+---
+layout: post
+title: RoRv6 - Hartl notes (draft)
+date: 2019-09-20
+tags:
+---
+
+<div style="columns: 2;">
+<div class="textcard">
+<strong>Ruby versions</strong>
+* Make sure you're using Ruby 2.6.0 or better. Otherwise you will see problems during deployment on Heroku. (Rake task errors.)<br>
+</div>
+
+<div class="textcard">
+<strong>Git setup</strong>
+$ git config --global user.name "Your Name"<br>
+$ git config --global user.email your.email@example.com<br>
+$ git config --global alias.co checkout<br>
+$ git config --global credential.helper "cache --timeout=86400"</small><br>
+</div>
+<h4>First-time repo setup</h4>
+<small>$ git init<br>
+  git add -A<br>
+  git status<br>
+  git commit -m "init repo"<br>
+  git log<br></small>
+
+<h4>GitHub repo setup</h4>
+<small>
+  (on GitHub/new): set HTTPS, privacy=on options<br>
+  $git remote add origin git@github.com:bjpcjp/rails6demo.git<br>
+  $git push -u origin master<br>
+</small>
+
+<h4>Creating 1st Git branch</h4>
+<small>$git checkout -b modify-readme # creates new branch<br>
+$git branch # lists branches<br>
+[edit README.md]<br>
+$git checkout master # switch to master branch<br>
+$git merge modify-readme # merge changes<br>
+$git push<br>
+</small>
+
+</div></div>
+
+<div class="textcard">
+<div style="columns: 2;">
+<h3>Deploying to Heroku</h3>
+
+<h4>add Postgres DB to production options</h4>
+<small>
+add 'pg' gem to group :production in Gemfile<br>
+move 'sqlite' gem to group :development, :test in Gemfile<br>
+$bundle install --without production<br>
+$git commit -a -m "update gemfile for heroku/postgres"<br>
+</small>
+
+<h4>create Heroku repo via CLI</h4>
+<small>
+$heroku --version<br>
+$heroku update<br>
+$heroku login --interactive<br>
+$heroku create<br>
+<code>https://radiant-plains-78978.herokuapp.com/</code><br>
+$ git push heroku master<br>
+</small>
+
+<h4>rename Heroku app via CLI</h4>
+<small>
+$ heroku rename rails6-hartl-demo<br>
+</small>
+</div></div>
+
+<div class="textcard">
+<div style="columns: 2;">
+<h4>static pages</h4>
+<small>
+  $git checkout -b static-pages<br>
+  $ rails g controller go home help<br>
+  git add -A<br>
+  git commit -m "add go controller"<br>
+  git push -u origin static-pages<br>
+</small>
+
+<h4>testing setup</h4>
+<small>
+  <strong>may need to run "$rails db:migrate" first</strong><br>
+  $cat test/controllers/go_controller_test.rb<br>
+  $rails test<br>
+</small>
+
+<h4>testing setup (Guard)</h4>
+<small>
+  $git checkout master<br>
+  $bundle exec guard init<br>
+  [review resulting Guardfile for details]<br>
+</small>
+
+
+</div></div>

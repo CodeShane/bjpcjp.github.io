@@ -1,0 +1,1487 @@
+---
+title: Nginx cookbook
+date: 2020-08-11
+tags: nginx devops
+layout: post
+---
+
+<span id="TOC"></span>
+<a href="#">
+	<img src="/px/devops/nginx-cookbook-2019-bookcover.png" 
+	style="width: 70%; float: right;"><br> 
+</a>
+<a href="#">Basics</a></strong><br>
+<a href="#loadbalancing">Load Balancing</a></strong><br>
+<a href="#traffic">Traffic</a></strong><br>
+<a href="#caching">Caching</a></strong><br>
+<a href="#automation">Automation</a></strong><br>
+<a href="#authentication">Authentication</a></strong><br>
+<a href="#security">Security</a></strong><br>
+<a href="#http2">HTTP/2</a></strong><br>
+<a href="#streaming">Streaming</a></strong><br>
+<a href="#cloud">Cloud Deployment</a></strong><br>
+<a href="#containers">Containers</a></strong><br>
+<a href="#hirel">High Reliability</a></strong><br>
+<a href="#monitors">Activity Monitors</a></strong><br>
+<a href="#debug">Debuggin</a></strong><br>
+<a href="#tuning">Tuning</a></strong><br>
+<a href="#tips">Tips</a></strong><br>
+
+<div style="clear: both;"></div>
+<br><br>
+<!--
+
+<div style="column-count: 2;">
+
+<div class="textcard"><strong>
+	<a href="#basics">Basics</a></strong><br>
+- Intro<br>
+- Debian/Ubuntu<br>
+- RedHat/CentOS<br>
+- NGINX Plus<br>
+- Verification<br>
+- Key Files, Commands, Directories<br>
+- Static Content<br>
+- Gracefull Reload
+</div>
+
+<div class="textcard"><strong>
+<a href="#loadbalancing">HP Load Balancing</a></strong><br>
+- Intro<br>
+- LB (HTTP)<br>
+- LB (TCP)<br>
+- LB (UDP)<br>
+- Methods<br>
+- Sticky Cookies<br>
+- Sticky Learn<br>
+- Sticky Routing<br>
+- Connection Drains<br>
+- Active Health Checks<br>
+- Slow Starts<br>
+- TCP Health Checks
+</div>
+
+<div class="textcard"><strong>
+	<a href="#traffic">Traffic Mgmt</a></strong><br>
+- Intro<br>
+- A/B Testing<br>
+- GeoIP<br>
+- Access & Countries<br>
+- Original Clients<br>
+- Connection Limits<br>
+- Rate Limits<br>
+- Bandwidth Limits
+</div>
+
+<div class="textcard"><strong>
+	<a href="#caching">Content Caching</a></strong><br>
+- Intro<br>
+- Zones<br>
+- Hash Keys<br>
+- Bypass<br>
+- Performance<br>
+- Purging<br>
+- Slicing
+</div>
+
+<div class="textcard"><strong>
+	<a href="#automation">Programmability, Automation</a></strong><br>
+- Intro<br>
+- NGINX Plus API<br>
+- K-V Store<br>
+- Puppet<br>
+- Chef<br>
+- Ansible<br>
+- SaltStack<br>
+- Consul Templates
+</div>
+
+<div class="textcard"><strong>
+	<a href="#authentication">Authentication</a></strong><br>
+- Intro<br>
+- Basics (HTTP)<br>
+- Subrequests<br>
+- Validating JWTs<br>
+- Creating JSON Web Keys<br>
+- OpenID Connect SSO<br>
+- Google JSON Web Key
+</div>
+
+<div class="textcard"><strong>
+	<a href="#security">Security Controls</a></strong><br>
+- Intro<br>
+- Access & IP Addresses<br>
+- Cross-Origin Resource Sharing<br>
+- Client-Side Encryption<br>
+- Upstream Encryptions<br>
+- Securing a Location<br>
+- Secure Links and Secrets<br>
+- Expiration Dates<br>
+- Generating an Expiring Link<br>
+- HTTPS Redirects<br>
+- HTTPS Redirects - when SSL/TLS is Terminated<br>
+- HTTP Strict Transport<br>
+- Multi-Security Methods<br>
+- Dynamic DDoS Mitigation
+</div>
+
+<div class="textcard"><strong>
+	<a href="#http2">HTTP/2</a></strong><br>
+- Intro<br>
+- Basic Config<br>
+- gPRC<br>
+- Server Push
+</div>
+
+<div class="textcard"><strong>
+	<a href="#streaming">Streaming</a></strong><br>
+- Intro<br>
+- MP4 and FLV<br>
+- HLS<br>
+- HDS<br>
+- Bandwidth<br>
+</div>
+
+<div class="textcard"><strong>
+	<a href="#cloud">Cloud Deployments</a></strong><br>
+- Intro<br>
+- AWS Auto-provisioning<br>
+- NGINX Node Routing without AWS ELB<br>
+- NLB "Sandwich"<br>
+- AWS Marketplace<br>
+- NGINX VM image on Azure<br>
+- Load Balancing, NGINX Scale Sets, Azure<br>
+- Azure Marketplace<br>
+- Google Compute Engine<br>
+- Google Compute images<br>
+- Google App Engine Proxies<br>
+</div>
+
+<div class="textcard"><strong>
+	<a href="#containers">Containers & Microservices</a></strong><br>
+- Intro<br>
+- DNS SRV Records<br>
+- Using NGINX image<br>
+- Creating NGINX Dockerfile<br>
+- Building NGINX Plus image<br>
+- NGINX Environment Vars<br>
+- Kubernetes Ingress Controller<br>
+- OpenShift router
+</div>
+
+<div class="textcard"><strong>
+	<a href="#hirel">Hi-Rel Deployment</a></strong><br>
+- Intro<br>
+- HA mode<br>
+- Load Balancing with DNS<br>
+- Load Balancing on EC2<br>
+- Config Synchronization<br>
+- State Sharing - Zone Sync
+</div>
+
+<div class="textcard"><strong>
+	<a href="#monitors">Activity Monitors</a></strong><br>
+- Intro<br>
+- NGINX open source stub status<br>
+- NGINX plus<br>
+- NGINX plus matrix<br>
+</div>
+
+<div class="textcard"><strong>
+	<a href="#debug">Debugging & Troubleshooting</a></strong><br>
+- Intro<br>
+- Access Logs Config<br>
+- Error Log Config<br>
+- Forwarding to Syslog<br>
+- Request Traces
+</div>
+
+<div class="textcard"><strong>
+	<a href="#">Tuning</a></strong><br>
+- Intro<br>
+- Load Drivers<br>
+- Keeping Connections Open (to clients)<br>
+- Keeping Connections Open (upstream)<br>
+- Buffering Responses<br>
+- Buffering Access Logs<br>
+- OS Tuning
+</div>
+
+<div class="textcard"><strong>
+	<a href="#tips">Tips</a></strong><br>
+- Intro<br>
+- Includes<br>
+- Debugging Configs<br>
+- Wrapup
+</div>
+</div>
+-->
+
+<!-- =============== BASICS =============== -->
+<h2><a id="basics" href="#TOC">BASICS</a></h2>
+
+<div class="textcard-white">
+	<strong>Intro</strong><br>
+	<p></p>
+	<code><small>
+	</small></code>
+</div>
+
+<div class="textcard-white">
+	<strong>Debian/Ubuntu</strong><br>
+	<p></p>
+	<code><small>
+	</small></code>
+</div>
+
+<div class="textcard-white">
+	<strong>Redhat/CentOS</strong><br>
+	<p></p>
+	<code><small>
+	</small></code>
+</div>
+
+<div class="textcard-white">
+	<strong>NGINX Plus install</strong><br>
+	<p><a href="http://cs.nginx.com/repo_setup">Repository</a></p>
+</div>
+
+<div class="textcard-white">
+	<strong>Verification</strong><br>
+	<p></p>
+	<code><small>
+		$ps -ef | grep nginx # list running processes
+	</small></code>
+</div>
+
+<div class="textcard-white">
+	<strong>Key Files, Commnds, Directories</strong><br>
+	<p></p>
+	<code><small>/etc/nginx/</small></code>
+
+	<p></p>
+	<code><small>/etc/nginx/nginx.conf</small></code>
+
+	<p></p>
+	<code><small>/etc/nginx/conf.d/</small></code>
+
+	<p></p>
+	<code><small>
+		nginx -h<br>
+		nginx -v<br>
+		nginx -V<br>
+		nginx -t<br>
+		nginx -T<br>
+		nginx -s signal<br>
+	</small></code>
+
+</div>
+
+<div class="textcard-white">
+	<strong>Static Content</strong><br>
+	<p></p>
+	<code><small>
+		server {<br>
+listen 80 default_server;<br>
+server_name www.example.com;<br>
+location / {<br>
+root /usr/share/nginx/html;<br>
+# alias /usr/share/nginx/html;<br>
+index index.html index.htm;<br>
+}<br>
+}<br>
+	</small></code>
+</div>
+
+<div class="textcard-white">
+	<strong>Graceful Reloads</strong><br>
+	<p></p>
+	<code><small>
+		$ nginx -s reload
+	</small></code>
+</div>
+
+
+<!-- =============== HP LOAD BALANCING =============== -->
+
+<h2><a id="loadbalancing" href="#TOC">HP LOAD BALANCING (LB)</a></h2>
+
+<div class="textcard-white">
+	<strong>Intro</strong><br>
+</div>
+
+<div class="textcard-white">
+	<strong>LB (HTTP)</strong><br>
+	<p>Use NGINX’s HTTP module to load balance over HTTP servers
+using the upstream block. This configuration balances load across two HTTP servers on port 80 . The weight parameter instructs NGINX to pass twice as many connections to the second server, and the weight parameter defaults
+to 1.</p>
+	<code><small>
+		upstream backend {<br>
+server 10.10.12.45:80<br>
+server app.example.com:80<br>
+}<br>
+server {<br>
+location / {<br>
+proxy_pass http://backend;<br>
+}<br>
+}<br>
+	</small></code>
+</div>
+
+<div class="textcard-white">
+	<strong>LB (TCP)</strong><br>
+	<p>The server block instructs NGINX to listen on TCP port 3306 and balance load between two MySQL database read replicas, and lists another as a backup that will be passed traffic if the primaries are down. This configuration is not to be added to the conf.d folder as that folder is included within an http block; instead, you should create another folder named stream.conf.d, open the stream block in the nginx.conf file, and include the new folder for stream configurations.</p>
+	<code><small>
+		stream {<br>
+upstream mysql_read {<br>
+server read1.example.com:3306<br>
+weight=5;<br>
+server read2.example.com:3306;<br>
+server 10.10.12.34:3306<br>
+backup;<br>
+}<br>
+server {<br>
+listen 3306;<br>
+proxy_pass mysql_read;<br>
+}<br>
+}<br>
+	</small></code>
+</div>
+
+<div class="textcard-white">
+	<strong>LB (UDP)</strong><br>
+	<p>This section of configuration balances load between two upstream
+Network Time Protocol (NTP) servers using the UDP protocol.
+Specifying UDP load balancing is as simple as using the udp parameter on the listen directive.</p>
+	<code><small>
+		stream {<br>
+upstream ntp {<br>
+server ntp1.example.com:123 weight=2;<br>
+server ntp2.example.com:123;<br>
+}<br>
+server {<br>
+listen 123 udp;<br>
+proxy_pass ntp;<br>
+}<br>
+}<br>
+	</small></code>
+</div>
+
+<div class="textcard-white">
+	<strong>Methods</strong><br>
+	<p>Use one of NGINX’s load-balancing methods such as least connections, least time, generic hash, IP hash, or random. This example sets the load-balancing algorithm for the backend upstream pool to be least connections. All load-balancing algorithms, with the exception of generic hash, random, and least-time, are standalone directives, such as the preceding example.</p>
+	<code><small>
+		upstream backend {<br>
+least_conn;<br>
+server backend.example.com;<br>
+server backend1.example.com;<br>
+}<br>
+	</small></code>
+</div>
+
+<div class="textcard-white">
+	<strong>Sticky Cookies</strong><br>
+	<p>Use the sticky cookie directive to instruct NGINX Plus to create
+and track a cookie. This allows you to bind a downstream client to an upstream server using NGINX Plus.</p>
+	<code><small>
+upstream backend {<br>
+server backend1.example.com;<br>
+server backend2.example.com;<br>
+sticky cookie<br>
+affinity<br>
+expires=1h<br>
+domain=.example.com<br>
+httponly<br>
+secure<br>
+path=/;<br>
+}<br>
+	</small></code>
+<p>This configuration creates and tracks a cookie that ties a down‐
+stream client to an upstream server. In this example, the cookie is
+named affinity , is set for example.com, expires in an hour, cannot
+be consumed client-side, can be sent only over HTTPS, and is valid
+for all paths.</p>
+</div>
+
+<div class="textcard-white">
+	<strong>Sticky Learn</strong><br>
+	<p>Use the sticky learn directive to discover and track cookies that
+are created by the upstream application.</p>
+	<code><small>
+upstream backend {<br>
+server backend1.example.com:8080;<br>
+server backend2.example.com:8081;<br>
+sticky learn<br>
+create=$upstream_cookie_cookiename<br>
+lookup=$cookie_cookiename<br>
+zone=client_sessions:2m;<br>
+}<br>
+	</small></code>
+	<p>This example instructs NGINX to look for and track sessions by
+looking for a cookie named COOKIENAME in response headers, and
+looking up existing sessions by looking for the same cookie on
+request headers. This session affinity is stored in a shared memory
+zone of 2 MB that can track approximately 16,000 sessions. The
+name of the cookie will always be application specific. Commonly
+used cookie names, such as jsessionid or phpsessionid , are typi‐
+cally defaults set within the application or the application server
+configuration.</p>
+</div>
+
+<div class="textcard-white">
+	<strong>Sticky Routing</strong><br>
+	<p>Use the sticky directive with the route parameter to use variables
+about the request to route.</p>
+	<code><small>
+map $cookie_jsessionid $route_cookie {<br>
+~.+\.(?P<route>\w+)$ $route;<br>
+}<br>
+map $request_uri $route_uri {<br>
+~jsessionid=.+\.(?P<route>\w+)$ $route;<br>
+}<br>
+upstream backend {<br>
+server backend1.example.com route=a;<br>
+server backend2.example.com route=b;<br>
+sticky route $route_cookie $route_uri;<br>
+}<br>
+	</small></code>
+	<p>This example attempts to extract a Java session ID, first from a
+cookie by mapping the value of the Java session ID cookie to a vari‐
+able with the first map block, and second by looking into the request
+URI for a parameter called jsessionid , mapping the value to a vari‐
+able using the second map block. The sticky directive with the
+route parameter is passed any number of variables. The first non‐
+zero or nonempty value is used for the route. If a jsessionid cookie
+is used, the request is routed to backend1 ; if a URI parameter is
+used, the request is routed to backend2 . Although this example is
+based on the Java common session ID, the same applies for other
+session technology like phpsessionid , or any guaranteed unique
+identifier your application generates for the session ID.</p>
+</div>
+
+<div class="textcard-white">
+	<strong>Connection Drains</strong><br>
+	<p>You need to gracefully remove servers for maintenance or other rea‐
+sons while still serving sessions with NGINX Plus.</p>
+	<code><small>
+
+$ curl -X POST -d '{"drain":true}' \<br>
+'http://nginx.local/api/3/http/upstreams/backend/servers/0'<br>
+{<br>
+"id":0,<br>
+"server":"172.17.0.3:80",<br>
+"weight":1,<br>
+"max_conns":0,<br>
+"max_fails":1,<br>
+"fail_timeout":<br>
+"10s","slow_start":<br>
+"0s",<br>
+"route":"",<br>
+"backup":false,<br>
+"down":false,<br>
+"drain":true<br>
+}
+	</small></code>
+
+	<p>Use the drain parameter through the NGINX Plus API to instruct NGINX to stop sending new connections that are not already tracked.</p>
+
+</div>
+
+<div class="textcard-white">
+	<strong>Passive Health Checks</strong><br>
+	<p>Use NGINX health checks with load balancing to ensure that only
+healthy upstream servers are utilized.</p>
+
+	<code><small>
+
+		upstream backend {<br>
+server backend1.example.com:1234 max_fails=3 fail_timeout=3s;<br>
+server backend2.example.com:1234 max_fails=3 fail_timeout=3s;<br>
+}<br>
+
+	</small></code>
+
+	<p>This configuration passively monitors the upstream health, setting the max_fails directive to three, and fail_timeout to three seconds. These directive parameters work the same way in both stream
+and HTTP servers.</p>
+</div>
+
+<div class="textcard-white">
+	<strong>Active Health Checks</strong><br>
+
+	<p></p>
+	<code><small>
+http {<br>
+server {<br>
+...<br>
+location / {<br>
+proxy_pass http://backend;<br>
+health_check interval=2s<br>
+fails=2<br>
+passes=5<br>
+uri=/<br>
+match=welcome;<br>
+}<br>
+}<br>
+# status is 200, content type is "text/html",<br>
+# and body contains "Welcome to nginx!"<br>
+match welcome {<br>
+status 200;<br>
+header Content-Type = text/html;<br>
+body ~ "Welcome to nginx!";<br>
+}<br>
+}<br>
+	</small></code>
+
+	<p>
+		This health check configuration for HTTP servers checks the health
+of the upstream servers by making an HTTP request to the URI '/'
+every two seconds. The upstream servers must pass five consecutive
+health checks to be considered healthy. They are considered unheal‐
+thy if they fail two consecutive checks. The response from the
+upstream server must match the defined match block, which defines
+the status code as 200 , the header Content-Type value as 'text/html' , and the string "Welcome to nginx!" in the response body.
+The HTTP match block has three directives: status, header, and
+body. All three of these directives have comparison flags, as well.
+	</p>
+</div>
+
+<div class="textcard-white">
+	<strong>Slow Start</strong><br>
+	<p></p>
+	<code><small>
+
+upstream {<br>
+zone backend 64k;<br>
+server server1.example.com slow_start=20s;<br>
+server server2.example.com slow_start=15s;<br>
+}<br>
+
+	</small></code>
+</div>
+
+<div class="textcard-white">
+	<strong>TCP Health Checks</strong><br>
+	<p></p>
+	<code><small>
+
+stream {<br>
+server {<br>
+listen<br>
+3306;<br>
+proxy_pass<br>
+read_backend;<br>
+health_check interval=10 passes=2 fails=3;<br>
+}<br>
+}<br>
+
+	</small></code>
+</div>
+
+<!-- =============== TRAFFIC MGMT =============== -->
+
+<h2><a id="traffic" href="#TOC">TRAFFIC MGMT</a></h2>
+
+<div class="textcard-white">
+	<strong>Intro</strong><br>
+</div>
+
+<div class="textcard-white">
+	<strong>A/B Testing</strong><br>
+	<p></p>
+
+	<code><small>
+split_clients "${remote_addr}AAA" $variant {<br>
+20.0%<br>
+"backendv2";<br>
+*<br>
+"backendv1";<br>
+}<br>
+	</small></code>
+
+</div>
+
+<div class="textcard-white">
+	<strong>GeoIP</strong><br>
+	<p></p>
+	<code><small>
+	</small></code>
+</div>
+
+<div class="textcard-white">
+	<strong>Country Access</strong><br>
+	<p></p>
+
+	<code><small>
+load_module<br>
+"/usr/lib64/nginx/modules/ngx_http_geoip_module.so";<br>
+http {<br>
+map $geoip_country_code $country_access {<br>
+"US" 0;<br>
+"RU" 0;<br>
+default 1;<br>
+}<br>
+...<br>
+}<br>
+	</small></code>
+
+</div>
+
+<div class="textcard-white">
+	<strong>Original Clients</strong><br>
+	<p></p>
+
+	<code><small>
+load_module "/usr/lib64/nginx/modules/ngx_http_geoip_module.so";<br>
+http {<br>
+geoip_country /etc/nginx/geoip/GeoIP.dat;<br>
+geoip_city /etc/nginx/geoip/GeoLiteCity.dat;<br>
+geoip_proxy 10.0.16.0/26;<br>
+geoip_proxy_recursive on;<br>
+...<br>
+}<br>
+	</small></code>
+
+</div>
+
+<div class="textcard-white">
+	<strong>Connection Limits</strong><br>
+	<p></p>
+
+	<code><small>
+http {<br>
+limit_conn_zone $binary_remote_addr zone=limitbyaddr:10m;<br>
+limit_conn_status 429;<br>
+...<br>
+server {<br>
+...<br>
+limit_conn limitbyaddr 40;<br>
+...<br>
+}<br>
+}<br>
+	</small></code>
+</div>
+
+<div class="textcard-white">
+	<strong>Rate Limits</strong><br>
+	<p></p>
+
+	<code><small>
+http {<br>
+limit_req_zone $binary_remote_addr<br>
+zone=limitbyaddr:10m rate=1r/s;<br>
+limit_req_status 429;<br>
+...<br>
+server { limit_req zone=limitbyaddr burst=10 nodelay; }<br>
+}<br>
+	</small></code>
+</div>
+
+<div class="textcard-white">
+	<strong>Bandwidth Limits</strong><br>
+	<p>This location block specifies that for URIs with
+the prefix download, the client response rate will be limited after 10 MB to 1MB/s. The bandwidth limit is per connection, so you may want
+to institute a connection limit as well as a bandwidth limit.</p>
+
+	<code><small>
+location /download/ {<br>
+limit_rate_after 10m;<br>
+limit_rate 1m;<br>
+}<br>
+	</small></code>
+</div>
+
+
+<!-- =============== CACHING =============== -->
+
+<h2><a id="caching" href="#TOC">CACHING</a></h2>
+
+<div class="textcard-white">
+	<strong>Intro</strong><br>
+	<p></p>
+	<code><small>
+	</small></code>
+</div>
+
+<div class="textcard-white">
+	<strong>Zones</strong><br>
+	<p></p>
+
+	<code><small>
+proxy_cache_path /var/nginx/cache<br>
+keys_zone=CACHE:60m<br>
+levels=1:2<br>
+inactive=3h<br>
+max_size=20g;<br>
+proxy_cache CACHE;<br>
+	</small></code>
+</div>
+
+<div class="textcard-white">
+	<strong>Hash Keys</strong><br>
+	<p></p>
+	<code><small>
+proxy_cache_key "$host$request_uri $cookie_user";<br>
+	</small></code>
+</div>
+
+<div class="textcard-white">
+	<strong>Bypass</strong><br>
+	<p></p>
+
+	<code><small>
+proxy_cache_bypass $http_cache_bypass;<br>
+	</small></code>
+</div>
+
+<div class="textcard-white">
+	<strong>Performance</strong><br>
+	<p></p>
+	<code><small>
+location ~* \.(css|js)$ {<br>
+expires 1y;<br>
+add_header Cache-Control "public";<br>
+}<br>
+	</small></code>
+</div>
+
+<div class="textcard-white">
+	<strong>Purging</strong><br>
+	<p></p>
+	<code><small>
+map $request_method $purge_method {<br>
+PURGE 1;<br>
+default 0;<br>
+}<br>
+server {<br>
+...<br>
+location / { proxy_cache_purge $purge_method; }<br>
+}<br>
+	</small></code>
+</div>
+
+<div class="textcard-white">
+	<strong>Slicing</strong><br>
+	<p></p>
+
+	<code><small>
+proxy_cache_path /tmp/mycache keys_zone=mycache:10m;<br>
+server {<br>
+...<br>
+proxy_cache mycache;<br>
+slice 1m;<br>
+proxy_cache_key $host$uri$is_args$args$slice_range;<br>
+proxy_set_header Range $slice_range;<br>
+proxy_http_version 1.1;<br>
+proxy_cache_valid 200 206 1h;<br>
+location / { proxy_pass http://origin:80; }<br>
+}<br>
+	</small></code>
+</div>
+
+<!-- =============== AUTOMATION =============== -->
+
+<h2><a id="automation" href="#TOC">AUTOMATION</a></h2>
+
+<div class="textcard-white">
+	<strong>Intro</strong><br>
+</div>
+
+<div class="textcard-white">
+	<strong>NGISX Plus API</strong><br>
+	<p></p>
+	<code><small>
+upstream backend {<br>
+zone http_backend 64k;v
+}<br>
+server {<br>
+# ...<br>
+location /api {<br>
+api [write=on];<br>
+# Directives limiting access to the API<br>
+}<br>
+location = /dashboard.html {<br>
+root<br>
+/usr/share/nginx/html;<br>
+}<br>
+}<br>
+	</small></code>
+
+	<p>Also see: <a href="https://demo.nginx.com/swagger-ui/">
+		Nginx Swagger API</a><br>
+</div>
+
+<div class="textcard-white">
+	<strong>Key Value Store</strong><br>
+	<p></p>
+	<code><small>
+	</small></code>
+</div>
+
+<div class="textcard-white">
+	<strong>Installation with Puppet</strong><br>
+	<p></p>
+	<code><small>
+class nginx {<br>
+package {"nginx": ensure => 'installed',}<br>
+service {"nginx":<br>
+ensure => 'true',<br>
+hasrestart => 'true',<br>
+restart => '/etc/init.d/nginx reload',<br>
+}<br>
+file { "nginx.conf":<br>
+path => '/etc/nginx/nginx.conf',<br>
+require => Package['nginx'],<br>
+notify => Service['nginx'],<br>
+content => template('nginx/templates/nginx.conf.erb'),<br>
+user=>'root',<br>
+group=>'root',<br>
+mode='0644';<br>
+}}<br>
+	</small></code>
+
+Also:<br>
+<a href="https://docs.puppet.com/">Puppet docs</a><br>
+<a href="http://bit.ly/2jfgpm4">Puppet packages</a><br>
+<a href="http://bit.ly/2jMq2cx">Puppet services</a><br>
+<a href="http://bit.ly/2jMz4q3">Puppet files</a><br>
+<a href="http://bit.ly/2isqAlP">Puppet templates</a><br>
+<a href="http://bit.ly/2jMspMn">Voxpupuli module</a>
+</div>
+
+<div class="textcard-white">
+	<strong>Installation with Chef</strong><br>
+	<p></p>
+	<code><small>
+package 'nginx' do<br>
+action :install<br>
+end<br>
+service 'nginx' do<br>
+supports :status => true, :restart => true, :reload => true<br>
+action<br>
+[ :start, :enable ]<br>
+end<br>
+template 'nginx.conf' do<br>
+path<br>
+"/etc/nginx.conf"<br>
+source "nginx.conf.erb"<br>
+owner 'root'<br>
+group 'root'<br>
+mode '0644'<br>
+notifies :reload, 'service[nginx]', :delayed<br>
+end<br>
+	</small></code>
+
+Also:<br>
+<a href="https://docs.chef.io/">Chef docs</a><br>
+<a href="https://docs.chef.io/resource_package.html">Chef package</a><br>
+<a href="https://docs.chef.io/resource_service.html">Chef service</a><br>
+<a href="https://docs.chef.io/resource_template.html">Chef template</a><br>
+<a href="https://supermarket.chef.io/cookbooks/nginx">Chef supermarket</a><br>
+
+</div>
+
+<div class="textcard-white">
+	<strong>Installation with Ansible</strong><br>
+	<p></p>
+	<code><small>
+- name: NGINX | Installing NGINX<br>
+package: name=nginx state=present<br>
+- name: NGINX | Starting NGINX<br>
+service:<br>
+name: nginx<br>
+state: started<br>
+enabled: yes<br>
+- name: Copy nginx configuration in place.<br>
+template:<br>
+src: nginx.conf.j2<br>
+dest: "/etc/nginx/nginx.conf"<br>
+owner: root<br>
+group: root<br>
+mode: 0644<br>
+notify:<br>
+- reload nginx		
+	</small></code>
+	<p></p>
+
+Ansible Docs:<br>
+<a href="http://docs.ansible.com/">Main</a><br>
+<a href="http://bit.ly/2jfiwGv">Packages</a><br>
+<a href="http://bit.ly/2jMGF7E">Service</a><br>
+<a href="http://bit.ly/2j8j526">Template</a><br>
+<a href="https://galaxy.ansible.com">Galaxy</a><br>
+
+</div>
+
+<div class="textcard-white">
+	<strong>SaltStack</strong><br>
+
+	<code><small>
+
+	</small></code>
+</div>
+
+<div class="textcard-white">
+	<strong>Consul Templates</strong><br>
+Consul Docs:<br>
+<a href="https://www.consul.io">Home</a><br>
+<a href="http://bit.ly/2iosmkV">Templates</a><br>
+<a href="https://github.com/hashicorp/consul-template">GitHub</a><br>
+
+</div>
+
+<!-- =============== AUTHENTICATION =============== -->
+
+<h2><a id="authentication" href="#TOC">AUTHENTICATION</a></h2>
+
+<div class="textcard-white">
+	<strong>Intro</strong><br>
+</div>
+
+<div class="textcard-white">
+	<strong>Basics (HTTP)</strong><br>
+	<p></p>
+	<code><small>
+	</small></code>
+</div>
+
+<div class="textcard-white">
+	<strong>Subrequests</strong><br>
+	<p></p>
+	<code><small>
+location /private/ {<br>
+auth_request /auth;<br>
+auth_request_set $auth_status $upstream_status;<br>
+}<br>
+location = /auth {<br>
+internal;<br>
+proxy_pass http://auth-server;<br>
+proxy_pass_request_body off;<br>
+proxy_set_header Content-Length "";<br>
+proxy_set_header X-Original-URI $request_uri;<br>
+}<br>
+	</small></code>
+</div>
+
+<div class="textcard-white">
+	<strong>JWTs</strong><br>
+	<p></p>
+	<code><small>
+	</small></code>
+</div>
+
+<div class="textcard-white">
+	<strong>JSON Web Keys</strong><br>
+	<p></p>
+	<code><small>
+	</small></code>
+</div>
+
+<div class="textcard-white">
+	<strong>OpenID Connect SSO</strong><br>
+	<p></p>
+	<code><small>
+	</small></code>
+</div>
+
+<div class="textcard-white">
+	<strong>Google JSON Web Key</strong><br>
+	<p></p>
+	<code><small>
+	</small></code>
+</div>
+
+<!-- =============== SECURITY =============== -->
+<h2><a id="security" href="#TOC">SECURITY</a></h2>
+
+<div class="textcard-white">
+	<strong>Intro</strong><br>
+</div>
+
+<div class="textcard-white">
+	<strong>Access & IP Addresses</strong><br>
+	<p></p>
+	<code><small>
+	</small></code>
+</div>
+
+<div class="textcard-white">
+	<strong>Cross-Origin Resource Sharing</strong><br>
+	<p></p>
+	<code><small>
+	</small></code>
+</div>
+
+<div class="textcard-white">
+	<strong>Client-Side Encryption</strong><br>
+	<p></p>
+	<code><small>
+	</small></code>
+</div>
+
+<div class="textcard-white">
+	<strong>Upstream Encryption</strong><br>
+	<p></p>
+	<code><small>
+	</small></code>
+</div>
+
+<div class="textcard-white">
+	<strong>Securing a Location</strong><br>
+	<p></p>
+	<code><small>
+	</small></code>
+</div>
+
+<div class="textcard-white">
+	<strong>Generating a Secure Link</strong><br>
+	<p></p>
+	<code><small>
+	</small></code>
+</div>
+
+<div class="textcard-white">
+	<strong>Expiration Dates</strong><br>
+	<p></p>
+	<code><small>
+	</small></code>
+</div>
+
+<div class="textcard-white">
+	<strong>Expiring Links</strong><br>
+	<p></p>
+	<code><small>
+	</small></code>
+</div>
+
+<div class="textcard-white">
+	<strong>Redirects</strong><br>
+	<p></p>
+	<code><small>
+	</small></code>
+</div>
+
+<div class="textcard-white">
+	<strong>Redirect to HTTPS when SSL/TLS Quits before NGINX</strong><br>
+	<p></p>
+	<code><small>
+	</small></code>
+</div>
+
+<div class="textcard-white">
+	<strong>Strict Transport</strong><br>
+	<p></p>
+	<code><small>
+	</small></code>
+</div>
+
+<div class="textcard-white">
+	<strong>Multi Security Methods</strong><br>
+	<p></p>
+	<code><small>
+	</small></code>
+</div>
+
+<div class="textcard-white">
+	<strong>Dynamic DDoS Mitigation</strong><br>
+	<p></p>
+	<code><small>
+	</small></code>
+</div>
+
+
+<!-- =============== HTTP/2 =============== -->
+<h2><a id="http2" href="#TOC">HTTP/2</a></h2>
+
+<div class="textcard-white">
+	<strong>Intro</strong><br>
+</div>
+
+<div class="textcard-white">
+	<strong>Basic Config</strong><br>
+	<p></p>
+	<code><small>
+	</small></code>
+</div>
+
+<div class="textcard-white">
+	<strong>gRPC</strong><br>
+	<p></p>
+	<code><small>
+	</small></code>
+</div>
+
+<div class="textcard-white">
+	<strong>Server Push</strong><br>
+	<p></p>
+	<code><small>
+	</small></code>
+</div>
+
+<!-- =============== CLOUD =============== -->
+<h2><a id="streaming" href="#TOC">STREAMING</a></h2>
+
+<div class="textcard-white">
+	<strong>Intro</strong><br>
+</div>
+
+<div class="textcard-white">
+	<strong>MP4 & FLV</strong><br>
+	<p></p>
+	<code><small>
+	</small></code>
+</div>
+
+<div class="textcard-white">
+	<strong>HLS</strong><br>
+	<p></p>
+	<code><small>
+	</small></code>
+</div>
+
+<div class="textcard-white">
+	<strong>HDS</strong><br>
+	<p></p>
+	<code><small>
+	</small></code>
+</div>
+
+<div class="textcard-white">
+	<strong>Bandwidth</strong><br>
+	<p></p>
+	<code><small>
+	</small></code>
+</div>
+
+
+<!-- =============== CLOUD =============== -->
+<h2><a id="cloud" href="#TOC">CLOUD DEPLOYMENTS</a></h2>
+
+<div class="textcard-white">
+	<strong>Intro</strong><br>
+</div>
+
+<div class="textcard-white">
+	<strong>AWS Auto-provisioning</strong><br>
+	<p></p>
+	<code><small>
+	</small></code>
+</div>
+
+<div class="textcard-white">
+	<strong>NGINX Node Routing w/o AWS ELB</strong><br>
+	<p></p>
+	<code><small>
+	</small></code>
+</div>
+
+<div class="textcard-white">
+	<strong>NLB "Sandwich"</strong><br>
+	<p></p>
+	<code><small>
+	</small></code>
+</div>
+
+<div class="textcard-white">
+	<strong>AWS Marketplace</strong><br>
+	<p></p>
+	<code><small>
+	</small></code>
+</div>
+
+<div class="textcard-white">
+	<strong>NGINX VM on Azure</strong><br>
+	<p></p>
+	<code><small>
+	</small></code>
+</div>
+
+<div class="textcard-white">
+	<strong>Load Balancing on Azure</strong><br>
+	<p></p>
+	<code><small>
+	</small></code>
+</div>
+
+<div class="textcard-white">
+	<strong>Azure Marketplace</strong><br>
+	<p></p>
+	<code><small>
+	</small></code>
+</div>
+
+<div class="textcard-white">
+	<strong>Google Compute Engine</strong><br>
+	<p></p>
+	<code><small>
+	</small></code>
+</div>
+
+<div class="textcard-white">
+	<strong>Google Compute images</strong><br>
+	<p></p>
+	<code><small>
+	</small></code>
+</div>
+
+<div class="textcard-white">
+	<strong>Google App Engine proxies</strong><br>
+	<p></p>
+	<code><small>
+	</small></code>
+</div>
+
+
+<!-- =============== CONTAINERS =============== -->
+<h2><a id="containers" href="#TOC">CONTAINERS</a></h2>
+
+<div class="textcard-white">
+	<strong>Intro</strong><br>
+</div>
+
+<div class="textcard-white">
+	<strong>DNS SRV Records</strong><br>
+	<code><small>
+        http {<br>
+			resolver 10.0.0.2;<br>
+			upstream backend {<br>
+			zone backends 64k;<br>
+			server api.example.internal service=http resolve;<br>
+			}<br>
+		}<br>
+	</small></code>
+</div>
+
+<div class="textcard-white">
+	<strong>Official NGINX image</strong><br>
+	<code><small>
+		$ docker run --name my-nginx -p 80:80 \<br>
+-v /path/to/content:/usr/share/nginx/html:ro -d nginx<br>
+	</small></code>
+</div>
+
+<div class="textcard-white">
+	<strong>NGINX Dockerfile</strong><br>
+	<code><small>
+		FROM centos:7<br>
+# Install epel repo to get nginx and install nginx<br>
+RUN yum -y install epel-release && \<br>
+yum -y install nginx<br>
+# add local configuration files into the image<br>
+ADD /nginx-conf /etc/nginx<br>
+EXPOSE 80 443<br>
+CMD ["nginx"]<br>
+	</small></code>
+</div>
+
+<div class="textcard-white">
+	<strong>NGINX Plus image</strong><br>
+	<p></p>
+	<code><small>
+	</small></code>
+</div>
+
+<div class="textcard-white">
+	<strong>NGINX Environment Vars</strong><br>
+	<p></p>
+	<code><small>
+	</small></code>
+</div>
+
+<div class="textcard-white">
+	<strong>Kubernetes Ingress Controller</strong><br>
+	<code><small>$ kubectl apply -f common/ns-and-sa.yaml<br>
+		$ kubectl apply -f common/default-server-secret.yaml<br>
+		$ kubectl apply -f common/nginx-config.yaml<br>
+		$ kubectl apply -f rbac/rbac.yaml<br>
+	</small></code>
+</div>
+
+<div class="textcard-white">
+	<strong>OpenShift Router</strong><br>
+	<p></p>
+	<code><small>
+	</small></code>
+</div>
+
+<!-- =============== HIREL =============== -->
+<h2><a id="hirel" href="#TOC">HI RELIABILITY</a></h2>
+
+<div class="textcard-white">
+	<strong>Intro</strong><br>
+</div>
+
+<div class="textcard-white">
+	<strong>HA Mode</strong><br>
+</div>
+	<p></p>
+	<code><small>
+	</small></code>
+
+<div class="textcard-white">
+	<strong>Load Balancing with DNS</strong><br>
+	<p></p>
+	<code><small>
+	</small></code>
+</div>
+
+<div class="textcard-white">
+	<strong>Load Balancing on EC2</strong><br>
+	<p></p>
+	<code><small>
+	</small></code>
+</div>
+
+<div class="textcard-white">
+	<strong>Config Synchronization</strong><br>
+	<p></p>
+	<code><small>
+	</small></code>
+</div>
+
+<div class="textcard-white">
+	<strong>Zone Sync</strong><br>
+	<p></p>
+	<code><small>
+	</small></code>
+</div>
+
+<!-- =============== MONITORS =============== -->
+<h2><a id="monitors" href="#TOC">ACTIVITY MONITORS</a></h2>
+
+<div class="textcard-white">
+	<strong>Intro</strong><br>
+</div>
+
+<div class="textcard-white">
+	<strong>Stub Status?</strong><br>
+	<p></p>
+	<code><small>
+	</small></code>
+</div>
+
+<div class="textcard-white">
+	<strong>NGINX Plus Dashboard</strong><br>
+	<p></p>
+	<code><small>
+	</small></code>
+</div>
+
+<div class="textcard-white">
+	<strong>NGINX Plus API</strong><br>
+	<p></p>
+	<code><small>
+	</small></code>
+</div>
+
+<!-- =============== DEBUG =============== -->
+<h2><a id="debug" href="#TOC">DEBUGGING</a></h2>
+
+<div class="textcard-white">
+	<strong>Intro</strong><br>
+</div>
+
+<div class="textcard-white">
+	<strong>Access Logs</strong><br>
+	<p></p>
+	<code><small>
+	</small></code>
+</div>
+
+<div class="textcard-white">
+	<strong>Error Logs</strong><br>
+	<p></p>
+	<code><small>
+	</small></code>
+</div>
+
+<div class="textcard-white">
+	<strong>SysLog Forwarding</strong><br>
+	<p></p>
+	<code><small>
+	</small></code>
+</div>
+
+<div class="textcard-white">
+	<strong>Request Tracing</strong><br>
+	<p></p>
+	<code><small>
+	</small></code>
+</div>
+
+<!-- =============== TUNING =============== -->
+
+<h2><a id="tuning" href="#TOC">PERFORMANCE TUNING</a></h2>
+
+<div class="textcard-white">
+	<strong>Intro</strong><br>
+</div>
+
+<div class="textcard-white">
+	<strong>Load Drivers</strong><br>
+	<p></p>
+	<code><small>
+	</small></code>
+</div>
+
+<div class="textcard-white">
+	<strong>Keeping Client Connections Open</strong><br>
+	<p></p>
+	<code><small>
+	</small></code>
+</div>
+
+<div class="textcard-white">
+	<strong>Keeping Upstream Connections Open</strong><br>
+	<p></p>
+	<code><small>
+	</small></code>
+</div>
+
+<div class="textcard-white">
+	<strong>Buffering Responses</strong><br>
+	<p></p>
+	<code><small>
+	</small></code>
+</div>
+
+<div class="textcard-white">
+	<strong>Buffering Access Logs</strong><br>
+	<p></p>
+	<code><small>
+	</small></code>
+</div>
+
+<div class="textcard-white">
+	<strong>OS Tweaks</strong><br>
+	<p></p>
+	<code><small>
+	</small></code>
+</div>
+
+<!-- =============== TIPS =============== -->
+
+<h2><a id="tips" href="#TOC">TIPS</a></h2>
+
+<div class="textcard-white">
+	<strong>Use Includes for Clean Configs</strong><br>
+	<code><small>
+		http {<br>
+			include config.d/compression.conf;<br>
+			include sites-enabled/*.conf<br>
+		}
+	</small></code>
+</div>
+
+<div class="textcard-white">
+	<strong>Debug Configs</strong><br>
+	Tips:<br>
+		<p><li>NGINX processes requests looking for the most specific
+matched rule.</li>
+			<li>Enable debug logging. Use NGINX with <code><small>--with-debug</small></code>. Set the error_log directive’s level to debug : <code><small>error_log /var/log/nginx/error.log debug.</small></code></li>
+		</p>
+
+	<a href="http://bit.ly/2crNKVM">How NGINX Handles Requests</a><br>
+	<a href="http://bit.ly/2iQYNsZ">Debug Admin Guide</a><br>
+	<a href="http://bit.ly/2j96jAH">Rewrite Log</a>
+	<small>
+</div>

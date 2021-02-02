@@ -1,0 +1,371 @@
+---
+layout: post
+title: CPU Architecture (Hennessy/Patterson) book notes
+date:   2019-08-30 1:0:0 -0500
+tags: cpus
+---
+
+<a href="https://books.google.com/books/about/Computer_Architecture.html?id=v3-1hVwHnHwC">
+<img src="/px/chips/quant-arch/book-cover.png" width="95%"></a><br>
+
+<p>Hennesssy & Patterson's "Quant" book is the gold standard. I had a hard copy of the original edition years ago, and got the 5th edition in 2018 to bring me back up to speed.</p>
+
+<div style="columns: 2;">
+
+<h2><a href="/pdfs/cpus-quant/comparchs-ch02.pdf">
+	Memory Hierarchies Overview</a></h2>
+
+<div class="textcard">
+	<strong>Cache Optimization Basics</strong><br>
+	1) Small, simple L1 caches<br>
+	2) Way prediction ==> reduced hit time<br>
+	3) Pipelined access ==> more bandwidth<br>
+	4) Nonblocking ==> more bandwidth<br>
+	5) Multibanked ==> more bandwidth<br>
+	6a) Critical word first ==> reduced miss penalty<br>
+	6b) Early restart ==> reduced miss penalty<br>
+	7) Merged write buffers ==> reduced miss penalty<br>
+	8) Compiler optimizations ==> reduced miss rate<br>
+	- Loop interchanges<br>
+	- Matrix "blocking"<br>
+	9) HW prefetching ==> reduced miss penalty/rate<br>
+	10) Compiler prefetching ==> reduced miss penalty/rate
+	<br>
+	Summary
+</div>
+
+<div class="textcard">
+	<strong>Memory Technologies</strong><br>
+	SRAM<br>
+	DRAM<br>
+	DRAM performance<br>
+	SDRAM power<br>
+	Flash<br>
+	Dependability
+</div>
+
+<div class="textcard">
+	<strong>Virtual Memory | Virtal Machines</strong><br>
+	Virtual memory<br>
+	Virtual machines<br>
+	Virtual machine monitor rqmnts<br>
+	ISA support for virtual machines<br>
+	Virtual machines - impact on vmemory & IO<br>
+	Example VMM (Xen)
+</div>
+
+<div class="textcard">
+	<strong>Crosscut Issues: Memory Hierarchy</strong><br>
+	Protection<br>
+	Cache coherency
+</div>
+
+<div class="textcard">
+	<strong>ARM Cortex-A8 vs Intel Core i7</strong><br>
+	Cortex A8<br>
+	Core i7
+</div>
+
+<div class="textcard">
+	<strong>Fallacies & Pitfalls</strong><br>
+	Predicting cache performance, one program to another<br>
+	Simulating enough instructions to get accurate memory performance,br>
+	No high memory bandwidth in cache-based systems<br>
+	VM monitors on an ISA that wasn't designed for it
+</div>
+
+
+<h2><a href="/pdfs/cpus-quant/comparchs-ch03.pdf">
+	Instruction Parallelism</a></h2>
+
+<div class="textcard">
+	<strong>Concepts</strong><br>
+	Definition<br>
+	Data dependencies & hazards<br>
+	Control dependencies<br>
+</div>
+	
+<div class="textcard">
+	<strong>Basic Compiler Techniques</strong><br>
+	Pipeline scheduling<br>
+	Loop unrolling<br>
+</div>
+
+<div class="textcard">
+	<strong>Branch Prediction</strong><br>
+	Correlating predictors<br>
+	Tournament predictors<br>
+	Intel i7 predictor
+</div>
+
+<div class="textcard">
+	<strong>Dynamic Scheduling</strong><br>
+	Intro<br>
+	Tomasulo approach<br>
+</div>
+
+<div class="textcard">
+	<strong>Dynamic Scheduling: Tomasulo Algorithm</strong><br>
+	Intro<br>
+	Details<br>
+	Loop-based example
+</div>
+
+<div class="textcard">
+	<strong>Hardware Speculation</strong><br>
+	Intro<br>
+</div>
+
+<div class="textcard">
+	<strong>Multiple Issues, Static Scheduling</strong><br>
+	VLIW approach
+</div>
+
+<div class="textcard">
+	<strong>Dyanmic Scheduling, Multiple Issue & Speculation</strong><br>
+</div>
+
+<div class="textcard">
+	<strong>Advanced Techniques</strong><br>
+	Increasing instruction fetch bandwidth<br>
+	- Branch-target buffers<br>
+	- Return address predictors<br>
+	- Integrated instruction fetch units<br>
+	Speculation implementation issues<br>
+	- Register renaming vs Reorder buffers<br>
+	- How much to speculate<br>
+	- Multiple-branch speculation<br>
+	- Speculation & energy efficiency<br>
+	- Value prediction
+</div>
+
+<div class="textcard">
+	<strong>Limitations</strong><br>
+	Hardware model<br>
+	"Realizable" processors<br>
+</div>
+
+<div class="textcard">
+	<strong>"Crosscut" Issues</strong><br>
+	HW vs SW speculation<br>
+	Speculative execution & memory
+</div>
+
+<div class="textcard">
+	<strong>Multithreading</strong><br>
+	Intro<br>
+	Sun T1: fine-grained multithreading<br>
+	Simultaneous multithreading on superscalar CPUs<br>
+	ARM Cortex-A8<br>
+	Intel i7
+</div>
+
+<div class="textcard">
+	<strong>Fallacies & Pitfalls</strong><br>
+	Easy to predict performance & energy efficiency<br>
+	CPUs with lower CPIs will always be faster<br>
+	CPUs with faster clock rates will always be faster<br>
+	Bigger & dumber is better
+</div>
+
+<h2><a href="/pdfs/cpus-quant/comparchs-ch04.pdf">
+	Data Parallelism</a></h2>
+
+<div class="textcard">
+	<strong>Intro</strong>
+</div>
+
+<div class="textcard">
+	<strong>Vector Architecture</strong><br>
+	VMIPS<br>
+	How they work<br>
+	Vector execution time<br>
+	Multiple lanes (>1 element/clock)<br>
+	Vector length registers<br>
+	Vector mask registers<br>
+	Memory banks<br>
+	Multi-D array "strides"<br>
+	Sparse matrices: gather/scatter<br>
+	Programming
+</div>
+
+<div class="textcard">
+	<strong>SIMD Instructions</strong><br>
+	Roofline models
+</div>
+
+<div class="textcard">
+	<strong>GPUs</strong><br>
+	Programming (ex: CUDA)<br>
+	nVidia GPU comp structures<br>
+	nVidia ISA<br>
+	Conditional branching<br>
+	Memory structures<br>
+	Fermi innovations<br>
+	GPUs vs Vector architectures<br>
+	GPUs vs Multimedia SIMD CPUs<br>
+	Summary
+</div>
+
+<div class="textcard">
+	<strong>Loop-Level Parallelism Detection</strong><br>
+	Finding dependencies<br>
+	Eliminating dependent computations<br>
+</div>
+
+<div class="textcard">
+	<strong>"Crosscut" Issues</strong><br>
+	Energy & DLP: Slow+Wide vs Fast+Narrow<br>
+	Banked & Graphics memory<br>
+	Striped Accesses & TLB misses<br>
+</div>
+
+<div class="textcard">
+	<strong>Mobile vs Server GPUs</strong><br>
+	GPU vs MIMD with Multimedia SIMD<br>
+</div>
+
+<div class="textcard">
+	<strong>Fallacies & Pitfalls</strong><br>
+	GPUs as co-processors<br>
+	Ignoring startup overhead<br>
+	Vector vs scalar performance<br>
+	Vector performance & memory bandwidth<br>
+	More threads != performance
+</div>
+
+<h2><a href="/pdfs/cpus-quant/comparchs-ch05.pdf">
+	Thread Parallelism</a></h2>
+
+<div class="textcard">
+	<strong>Intro</strong><br>
+	Multi-CPU approaches<br>
+	Parallel processing challenges<br>
+</div>
+
+<div class="textcard">
+	<strong>Centralized Shared-Memory Architectures</strong><br>
+	What is multi-CPU cache coherence?<br>
+	Coherence schemes<br>
+	Snooping protocols<br>
+	Implementation<br>
+	Example<br>
+	Extensions<br>
+	Limitations<br>
+	Implementation - Snoop Cache Coherence<br>
+</div>
+
+<div class="textcard">
+	<strong>Symmetric Shared-Memory Multi-CPU Performance</strong><br>
+	A commercial workload<br>
+	Performance<br>
+	Multiprogramming & OS workload<br>
+	Performance<br>
+</div>
+
+<div class="textcard">
+	<strong>Directory-based Coherence</strong><br>
+	Basics<br>
+	Example<br>
+</div>
+
+<div class="textcard">
+	<strong>Synchronization Basics</strong><br>
+	Hardware primitives<br>
+	Locks<br>
+</div>
+
+<div class="textcard">
+	<strong>Intro to Memory Consistency</strong><br>
+	Programmer's view<br>
+	Relaxed consistency models
+</div>
+
+<div class="textcard">
+	<strong>"Crosscut" Issues</strong><br>
+	Compiler optimization & consistency<br>
+	Hiding Latency with speculation - and coherency<br>
+	Inclusion<br>
+	Multiprocessing & multithreading gains
+</div>
+
+<div class="textcard">
+	<strong>Putting it all Together</strong><br>
+	Intel i7 performance & energy efficiency<br>
+</div>
+
+<div class="textcard">
+	<strong>Fallacies & Pitfalls</strong><br>
+	Measuring performance with linear speedup, not execution time<br>
+	Amdahl's law & parallel computing<br>
+	Linear speedups needed to make multi-cpus cost effective<br>
+	SW not optimized for multi-cpu architectures
+</div>
+
+<div class="textcard">
+<h2><a href="/pdfs/cpus-quant/comparchs-ch06.pdf">
+	Warehouse Scaling</a></h2>
+	Intro<br>
+	Workload Models<br>
+	Processor Architectures<br>
+	Physical Infrastructure & Costs<br>
+	"Crosscut" Issues<br>
+	Putting it all Together<br>
+	Fallacies<br>
+</div>
+
+<h2><a href="/pdfs/cpus-quant/comparchs-apxA.pdf">
+	Instruction Sets</a></h2>
+
+<div class="textcard">
+	Intro<br>
+</div>
+<div class="textcard">
+	<strong>Classifications</strong><br>
+	Major choices: <strong>stack</strong>-based, <strong>accumulator</strong>-based, <strong>register-memory</strong> based, or <strong>load-store</strong> based.<br>
+	2) Load-Store (can access memory only with load & store instructions)<br>
+</div>
+
+<div class="textcard">
+	<strong>Memory Addressing</strong><br>
+	Interpretation<br>
+	Modes<br>
+	<img src="/px/chips/quant-arch/A-addressing-modes.png" width="95%"><br>
+	Displacement Mode<br>
+	Immediate/Literal<br>
+	Summary
+</div>
+
+<div class="textcard">
+	<strong>Operations</strong><br>
+	<img src="/px/chips/quant-arch/A-operation-types.png" width="95%"><br>
+	<br>
+	<img src="/px/chips/quant-arch/A-operation-pareto-x86-integer.png" width="95%"><br>
+</div>
+
+<div class="textcard">
+	<strong>Control Flow Instructions</strong><br>
+	<p>Four types: Conditional branches, jumps, procedure calls, procedure returns</p>
+	<img src="/px/chips/quant-arch/A-control-flow-instruct-freqs.png" width="95%"><br>
+	<strong>Control Flow - Addressing Modes</strong><br>
+	<img src="/px/chips/quant-arch/A-branch-distance.png" width="95%"><br>
+	<br>
+	<strong>Conditional Branch Options</strong><br>
+	<br>
+	<strong>Procedure Invocation Options</strong><br>
+	<img src="/px/chips/quant-arch/A-branch-cond-eval-options.png" width="95%"><br>
+	<br>
+</div>
+
+<div class="textcard">
+	Encoding<br>
+</div>
+<div class="textcard">
+	Compilers<br>
+</div>
+<div class="textcard">
+	Example: MIPS<br>
+</div>
+<div class="textcard">
+	Fallacies<br>
+</div>

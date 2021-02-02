@@ -1,0 +1,31 @@
+---
+title: ideas
+layout: post
+date: 2020-08-10 05:00
+tags: ideas
+---
+
+<p>Here's a list of ideas. Some are startup-worthy. Some... are not.</p>
+
+<div style="columns: 2;">
+	{%- for record in site.data.ideas.nonumbers -%}
+		<div class="textcard">
+			<strong>Title: </strong>{{ record.title }}<br>
+			<strong>Working Repo:</strong> 
+			  {%- if record.subdir -%}
+				  {{ record.subdir }}<br> 
+			  {%- endif -%}<br>
+			
+			  {%- if record.why -%} 
+			  	<strong>Why (Rationale)? </strong>
+			  	{{ record.why }}<br> 
+			  {%- endif -%}
+
+			  {%- if record.notes -%} 
+			  	<strong>Notes: </strong>
+			  	{{ record.notes }}<br> 
+			  {%- endif -%}
+			  
+		</div>
+	{%- endfor -%}
+</div>

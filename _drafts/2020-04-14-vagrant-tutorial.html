@@ -1,0 +1,255 @@
+---
+title: Vagrant tutorial
+date: 2020-04-14
+layout: post
+tags: devops
+---
+
+<center><img src="/px/devops/vagrant-logo.png" width="33%"></center>
+
+<div style="column-count: 2;">
+
+<h2>Overview/getting started</h2>
+
+<div class="textcard"><h3><a href="https://www.vagrantup.com/downloads.html">Install</a></h3>
+<li><code>vagrant</code> auto-added to your system path)
+<li>verify by trying the CLI: <code>$vagrant</code>
+<li>*beware of system package managers* - often missing dependencies</li>
+</div>
+
+<div class="textcard"><h3>Project setup</h3>
+<li><code>$mkdir vagrant_getting_started && cd $_</code><br>
+<li><code>$vagrant init hashicorp/bionic64</code><br>
+<li><code>$vagrant box add hashicorp/bionic64</code><br>
+<ul>VagrantFile options:<br>
+	<code>config.vm.box = "hashicorp/bionic64"</code><br>
+    <code>config.vm.box_version = 1.1.0"</code><br>
+    <code>config.vm.box_url = "https://vagrantcloud.com/hashicorp/bionic64"</code><br>
+</ul>
+	<code>$vagrant up</code><br>
+	<code>$vagrant ssh</code><br>
+	<code>$vagrant destroy</code><br>
+	<code>$vagrant box remove</code><br>
+</div>
+
+<div class="textcard"><h3>Synced folders</h3>
+<li>default: Vagrant shares project directory with /vagrant on your guest machine.
+</div>
+
+<div class="textcard"><h3>Provisioning</h3></div>
+
+<div class="textcard"><h3>Networking</h3>
+    <li>*port forwarding*: allows you to pick a guest machine's port for sharing.
+<li>Share
+<li>Teardown
+<li>Rebuild
+<li>Providers
+</div>
+
+<div class="textcard"><h3>Installation</h3>
+<li>Backwards compatibility
+<li>Upgrading
+<li>Upgrading from 1.0.x
+<li>From source
+<li>Uninstall
+</div>
+
+<div class="textcard"><h3>CLI</h3>
+<strong><code>$vagrant [cmnd[opts]]</code></strong><br>
+<code>box</code>
+<code>cloud</code>
+<code>connect</code>
+<code>destroy</code>
+<code>global-status</code>
+<code>halt</code>
+<code>init</code>
+<code>login</code>
+<code>package</code>
+<code>plugin</code>
+<code>port</code>
+<code>powershell</code>
+<code>provision</code>
+<code>rdp</code>
+<code>reload</code>
+<code>resume</code>
+<code>share</code>
+<code>snapshot</code>
+<code>ssh</code>
+<code>ssh-config</code>
+<code>status</code>
+<code>suspend</code>
+<code>up</code>
+<code>upload</code>
+<code>validate</code>
+<code>version</code>
+(more)
+</div>
+
+<div class="textcard"><h3>Vagrant Share</h3>
+<li>over HTTP
+<li>over SSH
+<li>Connect
+<li>Security
+<li>Custom Providers
+</div>
+
+<div class="textcard"><h3>VagrantFiles</h3>
+<li>Configuration</li>
+<li>Minimum Vagrant Version</li>
+<li>Tips & Tricks</li>
+<code>config.vm</code>
+<code>config.ssh</code>
+<code>config.wimrm</code>
+<code>config.winssh</code>
+<code>config.vagrant</code>
+</div>
+
+<div class="textcard"><h3>Boxes</h3>
+<li>Versioning
+<li>Creating
+<li>Box File Format
+<li>Box Info Format
+</div>
+
+<div class="textcard"><h3>Provisioning</h3>
+<ul>Basics
+	<ul><em>config.vm.provision "shell" [options]</em></ul>
+	<ul>Running Provisioners
+		<li><code>vagrant up</code>,
+			<code>vagrant provision</code>,
+			<code>vagrant reload --provision</code></li>
+	</ul>
+	<ul>Once (default)|Always|Never
+	</ul>
+	<li>Multiple Provisioners</li>
+	<li>Overriding Settings</li>
+	<li>Dependency Provisioners</li>
+</ul>
+<ul><code>file</code>
+	<li>Options</li>
+	<li>Caveats</li>
+</ul>
+<ul><code>shell</code>
+	<li>Options</li>
+	<li>Inline Scripts</li>
+	<li>External Scripts</li>
+	<li>Script Arguments</li>
+</ul>
+<ul>Intro to Ansible
+	<li><a href="https://docs.ansible.com/playbooks.html">Playbook files</a></li>
+	<li>Running Ansible</li>
+	<li><a href="https://docs.ansible.com/intro_inventory.html">Inventory files</a></li>
+	<li><a href="https://docs.ansible.com/intro_configuration.html">Configuration files</a></li>
+</ul>
+<li>CFEngine
+<li>Chef (Common Config)
+<li>Chef Solo
+<li>Chef Zero
+<li>Chef Client
+<li>Clef Apply
+<li>Docker
+<li>Puppet Apply
+<li>Puppet Agent
+<li>Salt
+</div>
+
+<div class="textcard"><h3>Networking</h3>
+<li>Basics
+<li>Forwarded Ports
+<li>Private Networks
+<li>Public Networks
+</div>
+
+<div class="textcard"><h3>Synced Folders</h3>
+<li>Basics
+    <li>Options
+    <li>Enabling, Disabling
+    <li>Owners & Groups
+    <li>Symbolic Links
+<li>NFS (handles performance penalties)
+    + Prerequisites
+    + Enabling
+    + Folder Options
+    + Global Options
+    + NFS Arguments
+    + Root Privileges
+    + Other Notes
+<li>RSync
+    + Prerequisites
+    + Options
+    + Example
+    + Restricted Folders
+<li>SMB (Server Message Block)
+    + Prerequisites
+    + Options
+    + Example
+    + Preventing Idle Disconnects (Windows)
+    + Common Problems
+<li>VirtualBox
+    + Options
+    + Caveats
+</div>
+
+<div class="textcard"><h3>Disks (experimental)</h3>
+<li>Configuration
+<li>Usage
+</div>
+
+<div class="textcard"><h3>Multiple Machines</h3>
+<li>Defining
+<li>Controls
+<li>Machine Communications
+<li>Primary Machines
+<li>Autostarting
+</div>
+
+<div class="textcard"><h3>Providers</h3>
+<li>Install
+<li>Usage
+<li>Configuration
+<li>Default
+<li>VirtualBox
+<li>VMware
+<li>Docker
+<li>Hyper-V
+<li>Custom
+</div>
+
+<div class="textcard"><h3>Plugins</h3>
+<li>Usage
+<li>Basics
+<li>Action Hooks
+<li>Commands
+<li>Configuration
+<li>Guests
+<li>Guest Capabilities
+<li>Hosts
+<li>Host Capabilities
+<li>Providers
+<li>Provisioners
+<li>Packaging & Distribution
+</div>
+
+<div class="textcard"><h3>Push</h3>
+<li>FTP, SFTP
+<li>Heroku
+<li>Local execution
+</div>
+
+<div class="textcard"><h3>Triggers</h3>
+<li>Configuration
+<li>Usage
+</div>
+
+<div class="textcard"><h3>Experimental Features</h3>
+<li>typed_triggers
+<li>dependency_provisioners
+</div>
+
+<div class="textcard"><h3>Debug</h3></div>
+
+<div class="textcard"><h3>Environment Variables</h3></div>
+
+<div class="textcard"><h3>Vagrant Cloud</h3></div>
+
+</div>

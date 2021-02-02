@@ -1,0 +1,73 @@
+---
+layout: post
+title: CPU Architecture - Apndx A (ISAs) (Draft)
+date:   2019-08-30 1:0:0 -0500
+tags:
+---
+
+<a href="https://books.google.com/books/about/Computer_Architecture.html?id=v3-1hVwHnHwC">
+<img src="/px/chips/quant-arch/book-cover.png" width="95%"></a><br>
+
+<h2><a href="/pdfs/cpus-quant/comparchs-apxA.pdf">
+	Instruction Sets</a></h2>
+
+<div style="columns: 2;">
+
+<div class="textcard">
+	Intro<br>
+</div>
+<div class="textcard">
+	<strong>Classifications</strong><br>
+	Major choices: <strong>stack</strong>-based, <strong>accumulator</strong>-based, <strong>register-memory</strong> based, or <strong>load-store</strong> based.<br>
+	2) Load-Store (can access memory only with load & store instructions)<br>
+</div>
+
+<div class="textcard">
+	<strong>Memory Addressing</strong><br>
+	Interpretation<br>
+	Modes<br>
+	<img src="/px/chips/quant-arch/A-addressing-modes.png" width="95%"><br>
+	Displacement Mode<br>
+	Immediate/Literal<br>
+	Summary
+</div>
+
+<div class="textcard">
+	<strong>Operations</strong><br>
+	<img src="/px/chips/quant-arch/A-operation-types.png" width="95%"><br>
+	<br>
+	<img src="/px/chips/quant-arch/A-operation-pareto-x86-integer.png" width="95%"><br>
+</div>
+
+<div class="textcard">
+	<strong>Control Flow Instructions</strong><br>
+	<p>Four types: Conditional branches, jumps, procedure calls, procedure returns</p>
+	<img src="/px/chips/quant-arch/A-control-flow-instruct-freqs.png" width="95%"><br>
+	<strong>Control Flow - Addressing Modes</strong><br>
+	<img src="/px/chips/quant-arch/A-branch-distance.png" width="95%"><br>
+	<br>
+	<strong>Conditional Branch Options</strong><br>
+	<br>
+	<strong>Procedure Invocation Options</strong><br>
+	<img src="/px/chips/quant-arch/A-branch-cond-eval-options.png" width="95%"><br>
+	<br>
+	<img src="/px/chips/quant-arch/A-branch-compare-pareto.png" width="95%"><br>
+</div>
+
+<div class="textcard">
+	<strong>Instruction Encoding</strong><br>
+	<p>3 basic variations: variable length, fixed length, hybrid</p>
+	<img src="/px/chips/quant-arch/a-encoding-types.png" width="95%">
+	<strong>Reduced code size in RISC architectures</strong><br>
+</div>
+
+<div class="textcard">
+	<strong>Compilers</strong><br>
+</div>
+
+<div class="textcard">
+	Example: MIPS<br>
+</div>
+<div class="textcard">
+	Fallacies<br>
+</div>

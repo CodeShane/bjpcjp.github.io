@@ -1,0 +1,711 @@
+---
+title: Computer Vision booknotes
+date: 2020-03-03 7:00
+layout: page
+---
+
+<strong>(see below)</strong>
+
+<div style="column-count: 2; list-style: none;">
+
+<div class="textcard-white">
+<a href="#">Computer Vision book chapter notes</a>
+<img src="/px/cv/fig-1-12.png">
+</div>
+
+<div class="textcard-white">
+<!--<ul>-->
+	<li><strong>intro</strong></li>
+		<img src="/px/cv/fig-1-3.png">
+		<ul>
+			<li>definitions</li>
+			<li>history</li>
+			<li>overview</li>
+			<li>syllabus</li>
+			<li>notation</li>
+		</ul>
+</div>
+
+<div class="textcard-white">
+	<li><strong>image formation</strong></li>
+		<img src="/px/cv/fig-2-1.png">
+		<ul>
+			<li>geo primitives & transformers</li>
+				<ul>
+					<li>geometric primitives</li>
+						<ul>
+							<li>2D points, lines, conics</li>
+							<li>3D points, planes, lines, quadrics</li>
+						</ul>
+					<li>2D</li>
+						<ul>
+							<img src="/px/cv/fig-2-4.png">
+							<li>translation</li>
+							<li>rotation + translation</li>
+							<li>scaled rotation</li>
+							<li>affine</li>
+							<li>projection</li>
+							<li>hierarchy</li>
+							<li>co-vectors</li>
+							<img src="/px/cv/table-2-1.png">
+							<li>stretch, squash</li>
+							<li>planar surface flow</li>
+							<li>bilinear interpolant</li>
+						</ul>
+					<li>3D</li>
+						<ul>
+							<li>translation</li>
+							<li>rotation + translation</li>
+							<li>scaled rotation</li>
+							<li>affine</li>
+							<li>projection</li>
+						</ul>
+					<li>3D rotations</li>
+						<ul>
+							<li>euler angles</li>
+							<li>axis/angle</li>
+							<li>unit quaternions</li>
+							<li>which is better?</li>
+						</ul>
+					<li>3D -> 2D projections</li>
+						<ul>
+							<li>orthography, para-perspective</li>
+							<li>perspective</li>
+							<li>camera intrinsics</li>
+							<li>focal lengths</li>
+							<li>camera matrix</li>
+							<li>plane + parallax (projective depth)</li>
+							<li>mapping from one camera to another</li>
+							<li>object-centered projection</li>
+						</ul>
+					<li>lens distortions</li>
+				</ul>
+			<li>image formation</li>
+				<ul>
+					<li>lighting</li>
+					<li>reflections, shading</li>
+						<ul>
+							<li>BRDF (bidirectional reflectance distribution function)</li>
+							<li>diffuse reflection</li>
+							<li>specular reflection</li>
+							<li>phone shading</li>
+							<li>dichromatic reflections</li>
+							<li>global illumination (ray tracing, radiosity)</li>
+						</ul>
+
+					<li>optics</li>
+					<img src="/px/cv/fig-2-19.png">
+						<ul>
+							<li>chomatic aberration</li>
+							<li>vignetting</li>
+						</ul>
+				</ul>
+
+			<li>digital camera</li>
+				<img src="/px/cv/fig-2-23.png">
+				<ul>
+					<li>shutter speed</li>
+					<li>sampling pitch</li>
+					<li>fill factor</li>
+					<li>chip size</li>
+					<li>analog gain</li>
+					<li>sensor noise</li>
+					<li>adc resolution</li>
+					<li>digital post-processing</li>
+				</ul>
+				<ul>
+					<li>sampling, aliasing</li>
+					<li>color</li>
+						<ul>
+							<li>CIE RGB, XYZ</li>
+							<li>L*a*b color space</li>
+							<li>color cameras</li>
+							<li>color filter arrays</li>
+							<li>color balance</li>
+							<li>gamma</li>
+							<li>other coor spaces</li>
+						</ul>
+					<li>compression</li>
+						<ul>
+							<li>peak s/n (PSNR)</li>
+						</ul>
+				</ul>
+		</ul>
+</div>
+
+<div class="textcard-white">
+	<li><strong>image processing</strong></li>
+	<ul><li>point operations</li>
+		<ul><li>pixel ops</li>
+			<ul><li><em>g(x) = af(x)+b | a = gain; b = bias</em></li>
+			</ul>
+			<li>color ops</li>
+			<li>compositing, matting</li>
+			<li>histogram equialization</li>
+			<ul>
+			<li>locally adaptive</li>
+		</ul>
+	</ul>
+	<li>(app) tonal adjust</li>
+	<li>linear filtering</li>
+	<ul><li>padding (border effects)</li>
+		<li>separable filtering</li>
+		<li>examples</li>
+		<li>band-pass, steerable filters</li>
+		<li>summed area table (integral image)</li>
+		<li>recursive filtering</li>
+	</ul>
+	<li>neigborhood ops</li>
+	<ul><li>non-linear filtering</li>
+		<ul><li>median filtering</li>
+			<li>bilateral filtering</li>
+			<li>iterated adaptive smoothing, anisotropic diffusion</li>
+		</ul>
+		<li>morphology</li>
+		<img src="/px/cv/fig-3-21.png">
+		<ul><li>dilation, erosion, majority, opening, closing</li>
+		</ul>
+		<li>distance transforms</li>
+		<ul><li>manhattan distance</li>
+			<li>euclidean distance</li>
+		</ul>
+		<li>connected components</li>
+		<ul><li>statistics (area, perimeter, centroid, 2nd moments)</li>
+		</ul>
+	</ul>
+	<li>fourier xforms</li>
+	<ul><li>properties</li>
+		<img src="/px/cv/table-3-1.png">
+		<li>transform pairs</li>
+			<img src="/px/cv/table-3-2.png">
+			<img src="/px/cv/table-3-3.png">
+		<li>2D</li>
+		<li>wiener filters</li>
+		<li>discrete cosine transform (DCT)</li>
+		<li>(app) sharpening, blurring, noise removal</li>
+	</ul>
+	<li>pyramids, wavelets</li>
+	<ul><li>interpolation</li>
+		<li>decimation</li>
+		<li>multi-resolution representations</li>
+		<img src="/px/cv/fig-3-32.png">
+		<li>wavelets</li>
+		<li>(app) image blending</li>
+	</ul>
+	<li>geometric transforms</li>
+	<ul><li>warping</li>
+		<img src="/px/cv/fig-3-44.png">
+		<img src="/px/cv/fig-3-45.png">
+		<li>parametric</li>
+		<img src="/px/cv/table-3-5.png">
+		<ul><li>MIP mapping</li>
+			<li>elliptical weighted average (EWA)</li>
+			<li>anisotropic filtering</li>
+			<li>multipass transforms</li>
+		</ul>
+		<li>mesh-based warping</li>
+		<li>(app) feature-based</li>
+	</ul>
+	<li>global optimization</li>
+	<ul><li>regularization</li>
+		<li>robust regularization</li>
+		<li>markov random fields</li>
+		<ul><li>binary MRFs</li>
+			<li>ordinal MRFs</li>
+			<li>unordered labels</li>
+			<li>conditional random fields</li>
+		</ul>
+		<li>(app) image restoration</li>
+	</ul>
+</div>
+
+<div class="textcard-white">
+	<li><strong>features</strong></li>
+		<ul>
+			<li>points, patches</li>
+				<ul>
+					<li>detectors</li>
+						<ul>
+							<li>forstner-harris</li>
+							<li>adaptive non-max suppression (ANMS)</li>
+							<li>measuring repeatability</li>
+							<li>scale invariance</li>
+							<li>rotation invariance</li>
+							<li>affine invariance</li>
+						</ul>
+
+					<li>descriptors</li>
+						<ul>
+							<li>bias & gain normalization (MOPS)</li>
+							<li>scale invariant feature transform (SIFT)</li>
+							<li>PCA SIFT</li>
+							<li>gradient location-orientation histogram (GLOH)</li>
+							<li>steerable filters</li>
+							<li>local descriptors</li>
+						</ul>
+
+					<li>matching</li>
+						<ul>
+							<li>strategies, error rates</li>
+							<li>efficient matching</li>
+							<li>feature match verification</li>
+						</ul>
+
+					<li>tracking</li>
+					<li>(app) perf-based animation</li>
+				</ul>
+
+			<li>edges</li>
+				<ul>
+					<li>detection</li>
+						<ul><li>scale selection, blur estimation</li>
+							<li>color edge detection</li>
+							<li>combining cues</li>
+						</ul>
+
+					<li>linking</li>
+					<li>(app) image editor</li>
+				</ul>
+			<li>lines</li>
+				<ul>
+					<li>successive approximation</li>
+					<li>hough transforms</li>
+						<ul><li>RANSAC-based line detection</li>
+						</ul>
+
+					<li>vanishing points</li>
+					<li>(app) rectangle detection</li>
+				</ul>
+		</ul>
+</div>
+
+<div class="textcard-white">
+	<li><strong>segmentation</strong></li>
+		<img src="/px/cv/fig-5-1.png">
+		<ul>
+			<li>active contours</li>
+				<ul>
+					<li>snakes</li>
+						<ul><li>elastic nets, slippery springs</li>
+							<li>splines, shape priors</li>
+						</ul>
+
+					<li>dynamic snakes, CONDENSATION</li>
+					<li>scissors</li>
+					<li>level sets</li>
+					<li>(app) contour tracking, rotoscoping</li>
+				</ul>
+			<li>split, merge</li>
+				<ul>
+					<li>watershed</li>
+					<li>region splits (divisive clstrng)</li>
+					<li>region merges (agglom clstrng)</li>
+					<li>graph-based segmentation</li>
+					<li>probabilistic aggregation</li>
+				</ul>
+			<li>mean shift, mode finding</li>
+				<ul>
+					<li>k-means, gaussian mixures</li>
+					<li>mean shift</li>
+					<li>normalized cuts</li>
+					<li>graph cuts, energy-based methods</li>
+				</ul>
+			<li>normalized cuts</li>
+				<ul>
+				</ul>
+			<li>graph cuts, energy-based methods</li>
+				<ul>
+				</ul>
+		</ul>
+</div>
+
+<div class="textcard-white">
+	<li><strong>feature alignments</strong></li>
+		<img src="/px/cv//fig-6-1.png">
+		<ul>
+			<li>2D,3D</li>
+				<img src="/px/cv/table-6-1.png">
+				<ul>
+					<li>2D (least squares)</li>
+						<ul><li>uncertainty</li>
+						</ul>
+
+					<li>(app) panography</li>
+					<li>iterative algos</li>
+					<li>robust LS, RANSAC</li>
+						<ul><li>uncertainty</li></ul>
+
+					<li>3D alignment</li>
+				</ul>
+			<li>pose estimation</li>
+				<ul>
+					<li>linear algos</li>
+					<li>iterative algos</li>
+					<li>(app) augmented reality</li>
+				</ul>
+			<li>geometric intrinsic calibration</li>
+				<ul>
+					<li>cal patterns</li>
+						<ul><li>planar</li></ul>
+
+					<li>vanishing points</li>
+					<li>(app) single-view metrology</li>
+					<li>rotations</li>
+					<li>radial distortion</li>
+				</ul>
+		</ul>
+</div>
+
+<div class="textcard-white">
+	
+	<li><strong>motion</strong></li>
+	<img src="/px/cv/fig-7-1.png">
+	<ul><li>triangulation</li>
+		<li>2-frame structure</li>
+			<ul><li>pure translation</li>
+				<li>projective (uncalibrated) reconstruction</li>
+				<li>self-calibration</li>
+				<li>(app) view morphing</li>
+			</ul>
+		<li>factorization</li>
+			<ul><li>perspectives</li>
+				<li>(app) sparse 3D model extraction
+			</ul>
+		<li>bundle adjustment</li>
+			<ul><li>exploiting sparsity</li>
+				<li>(app) match move, augmented reality</li>
+				<li>uncertainty, ambiguity</li>
+				<li>(app) reconstruction from Internet photos</li>
+			</ul>
+		<li>constrained structure, motion</li>
+			<ul><li>line-based</li>
+				<li>plane-based</li>
+			</ul>
+	</ul>
+</div>
+
+<div class="textcard-white">
+	<li><strong>motion estimation (dense)</strong></li>
+		<img src="/px/cv/fig-8-1.png">
+		<ul>
+			<li>translational alignment</li>
+				<ul><li>robust error metrics</li>
+					<li>spatially varying weights</li>
+					<li>bias & gain</li>
+					<li>correlation</li>
+				</ul>
+			<li>hierarchical ME</li>
+			<li>fourier-based alignment</li>
+				<ul><li>windowed correlation</li>
+					<li>phased correlation</li>
+					<li>rotations & scale</li>
+				</ul>
+			<li>incremental refinement</li>
+				<ul><li>conditioning, aperture problems</li>
+					<li>uncertainty</li>
+					<li>bias, gain, weights, error metrics</li>
+				</ul>
+			<li>parametric motion</li>
+				<ul><li>patch-based approximation</li>
+					<li>compositional approach</li>
+					<li>(app) video stabilization</li>
+					<li>learned ME models</li>
+				</ul>
+			<li>spline-based</li>
+				<ul><li>(app) medical image registration</li>
+				</ul>
+			<li>optical flow</li>
+				<ul><li>multiframe ME</li>
+					<li>(app) denoising</li>
+					<li>(app) de-interlacing</li>
+				</ul>
+			<li>layered</li>
+				<ul><li>(app) frame interpolation</li>
+					<li>transparency, reflections</li>
+				</ul>
+		</ul>
+</div>
+
+<div class="textcard-white">
+	<li><strong>image stiching</strong></li>
+		<ul>
+			<li>motion models</li>
+				<img src="/px/cv/table-8-14.png">
+				<ul><li>planar motion</li>
+					<li>(app) whiteboards, doc scanning</li>
+					<li>rotations - panaramas</li>
+					<li>gap closing</li>
+					<li>(app) video summary, compression</li>
+					<li>cylindrical, spherical coords</li>
+				</ul>
+			<li>global alignment</li>
+				<ul><li>bundle adjustment</li>
+						<ul><li>up vector selection</li></ul>
+					<li>parallax removal</li>
+					<li>recognizing panoramas</li>
+					<li>direct vs feature based alignment</li>
+				</ul>
+			<li>composites</li>
+				<ul><li>choosing a surface</li>
+					<ul><li>view selection</li>
+						<li>coordinate transforms</li>
+						<li>sampling issues</li></ul>
+					<li>pixel selection, de-ghosting</li>
+						<ul><li>feathering, center-weighting</li>
+							<li>seam selection</li></ul>
+					<li>(app) photo montage</li>
+					<li>blending</li>
+						<ul><li>laplacian pyramids</li>
+							<li>gradient domains</li></ul>
+				</ul>
+		</ul>
+</div>
+
+<div class="textcard-white">
+	<li><strong>photography</strong></li>
+		<img src="/px/cv/fig-10-1.png">
+		<ul>
+			<li>calibration</li>
+				<ul><li>radiometric response function</li>
+					<li>noise levels</li>
+					<li>vignetting</li>
+					<li>optical blur (spatial response)</li>
+				</ul>
+			<li>high dynamic-range imaging</li>
+				<ul><li>HDR image formats</li>
+					<li>tone maps</li>
+					<li>(app) flash photos</li>
+				</ul>
+			<li>superresolution, blur removal</li>
+				<ul><li>color image demosiacing</li>
+					<li>(app) colorization</li>
+				</ul>
+			<li>image matting</li>
+				<ul><li>blue screens</li>
+					<ul><li>two-screen</li></ul>
+					<li>natural images</li>
+					<li>optimization-based</li>
+					<li>smoke, shadow, flash</li>
+					<li>video</li>
+				</ul>
+			<li>texture analysis, synthesis</li>
+				<ul><li>(app) hole fills, inpainting</li>
+					<li>(app) non-realistic rendering</li>
+				</ul>
+		</ul>
+</div>
+
+<div class="textcard-white">
+	<li><strong>stereo correspondence</strong></li>
+		<img src="/px/cv/fig-11-1.png">
+		<ul>
+			<li>epipolar geometry</li>
+				<ul><li>rectification</li>
+					<li>plane sweeps</li></ul>
+			<li>sparse correspondence</li>
+				<ul><li>3D curves, profiles</li></ul>
+			<li>dense correspondence</li>
+				<ul><li>similarity measures</li></ul>
+			<li>local methods</li>
+				<ul><li>sub-pixel estimation, uncertainty</li>
+					<li>(app) stereo head tracking</li></ul>
+			<li>global optimization</li>
+				<ul><li>cooperative algos</li>
+					<li>coarse-to-fine, incremental warping</li>
+					<li>dynamic programming</li>
+					<li>segmentation</li>
+					<li>(app) z-keying, background replacement</li></ul>
+			<li>multi-view</li>
+				<ul><li>volumetric & 3D surface reconstruction</li>
+					<ul><li>scene representation</li>
+						<li>photoconsistency</li>
+						<li>visibility</li>
+						<li>shape priors</li>
+						<li>algorithm</li>
+						<li>initialization</li>
+						<li>evaluation</li></ul>
+					<li>silhouettes</li></ul>
+		</ul>
+</div>
+
+<div class="textcard-white">
+	<li><strong>3D reconstruction</strong></li>
+		<img src="/px/cv/fig-12-1.png">
+		<ul><li>shape from X</li>
+				<ul><li>from shading</li>
+						<ul><li>photometric stereo</li></ul>
+					<li>from texture</li>
+					<li>from focus</li></ul>
+			<li>active rangefinding</li>
+				<ul><li>range data merges</li>
+					<li>(app) digital heritage</li></ul>
+			<li>surface representation</li>
+				<ul><li>interpolation</li>
+					<li>simplification</li>
+					<li>geometry images</li></ul>
+			<li>point representation</li>
+			<li>volume representation</li>
+				<ul><li>implicit surfaces</li></ul>
+			<li>model-based</li>
+				<ul><li>architecture</li>
+					<li>heads, faces</li>
+					<li>(app) face animation</li>
+					<li>whole-body modeling</li>
+						<ul><li>background subtraction</li>
+							<li>initialization, detection</li>
+							<li>tracking with flow</li>
+							<li>3D kinematics</li>
+							<li>probabilistics</li>
+							<li>adaptive shapes</li>
+							<li>activity recognition</li></ul></ul>
+			<li>texture maps, albedos</li>
+				<ul><li>estimating BRDFs</li>
+					<li>(app) 3D photography</li>
+				</ul>
+		</ul>
+</div>
+
+<div class="textcard-white">
+	<li><strong>rendering</strong></li>
+	<img src="/px/cv/fig-13-1.png">
+	<ul><li>view interpolation</li>
+		<ul><li>view-dependent texture maps</li>
+			<li>(app) photo tourism</li>
+		</ul>
+		<li>layered depth images</li>
+		<ul><li>imposters, sprites, layers</li>
+		</ul>
+		<li>light fields, lumigraphs</li>
+		<ul><li>unstructured lumigraph</li>
+			<li>surface light fields</li>
+			<li>(app) concentric mosiacs</li>
+		</ul>
+		<li>environment mattes</li>
+		<ul><li>high-D light fields</li>
+			<li>modeling to rendering</li>
+		</ul>
+		<li>video-based</li>
+		<ul><li>animation</li>
+			<li>video textures</li>
+			<li>(app) animating pics</li>
+			<li>3D video</li>
+			<li>(app) walkthroughs</li>
+		</ul>
+	</ul>
+</div>
+
+<div class="textcard-white">
+	<li><strong>recognition</strong></li>
+		<img src="/px/cv/fig-14-1.png">
+		<ul><li>object detection</li>
+				<ul><li>face detection</li>
+					<li>pedestrian detection</li>
+				</ul>
+			<li>face recognition</li>
+				<ul><li>eigenfaces</li>
+					<li>active appearance, 3D shape models</li>
+					<li>personal photo collections</li>
+				</ul>
+			<li>instance recognition</li>
+				<ul><li>geometric alignment</li>
+					<li>large dbs</li>
+					<li>location recognition</li>
+				</ul>
+			<li>category recognition</li>
+				<ul><li>bag of words</li>
+					<li>part-based models</li>
+					<li>recog w/ segmentation</li>
+					<li>intelligent photo editing</li>
+				</ul>
+			<li>contexts and scenes</li>
+				<ul><li>learning & large image collections</li>
+					<li>image search</li>
+				</ul>
+			<li>datasets</li>
+				<ul></ul>
+		</ul>
+</div>
+
+<div class="textcard-white">
+	<li><strong>linear algebra & numericals</strong></li>
+		<ul>
+			<li>matrix decomposition (factorization)</li>
+			<ul><li>singular-value decomp (SVD)</li>
+				<div class="textcard-almond">
+					<p>A_mxn_ = U_mxp_ * Sigma_pxp_ * V_pnx_^trnspse<br>
+						U,V = orthonormal</p>
+				</div>
+				<li>eigenvalue decomp</li>
+				<div class="textcard-almond">
+					<img src="/px/cv/fig-a-1.png">
+				</div>
+				<li>qr factorization</li>
+				<div class="textcard-almond">
+					<em>A=QR; Q*Q^T=I; R=upper triangular</em>
+				</div>
+				<li>cholesky factorization</li>
+				<div class="textcard-almond">
+					<p style="border: 1px;">can be apply to any symmetric, positive definite matrix C
+						to convert it into a product of symmetric lower & upper
+						triangular matrices:
+						C = L*L^T = R^T*R (L = low-triangular, R = upper triangular)
+					</p>
+				</div>
+			</ul>
+			<li>linear least squares</li>
+			<img src="/px/cv/fig-a-2.png">
+			<li>total LS</li>
+			<li>non-linear LS (non-linear regression)</li>
+			<li>sparse matrices</li>
+				<ul><li>variable reordering</li></ul>
+			
+			<li>iteratives</li>
+				<ul><li>conjugate gradient</li>
+					<li>preconditioning</li>
+					<li>multigrid</li>
+				</ul>
+		</ul>
+</div>
+
+<div class="textcard-white">
+	<li><strong>bayes</strong></li>
+		<ul>
+			<li>estimation theory</li>
+				<ul><li>likelihood for multivariate Gaussian noise</li>
+				</ul>	
+			<li>max likelihood estimates, least squares</li>
+			<li>robust stats</li>
+			<li>prior models, bayes inference</li>
+			<li>markov random fields</li>
+			<img src="/px/cv/fig-b-1.png">
+				<ul>
+					<li>gradient descent, simulated annealing</li>
+					<div class="textcard-almond">
+						gradient descent & local minima<br>
+						stochastic SGD or MCMC -- random occasional uphill steps<br>
+						gibb's sampler -- chooses state with probability = p(x) ~ e^(-E(x)/T)<br>
+						T = temperature
+					</div>
+					<li>dynamic programming</li>
+					<li>belief propagation</li>
+					<li>graph cuts</li>
+					<img src="/px/cv/fig-b-3.png">
+					<li>linear programming</li>
+				</ul>
+			<li>uncertainty estimation</li>
+		</ul>
+</div>
+
+<div class="textcard-white">
+	<li>datasets</li>
+	<li>software</li>
+		<ul><li><a href="https://github.com/opencv/opencv">openCV</a></li>
+			<li><a href="https://www.mathworks.com/products/image.html">Matlab</a></li>
+			...lots more...
+	<li>slides</li>
+	<li>bibliography</li> 
+</div>
+
+<!--</ul>-->
+
+</div>
