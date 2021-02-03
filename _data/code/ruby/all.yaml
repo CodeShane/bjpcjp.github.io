@@ -1,9 +1,21 @@
 - title: how to build your own
   url: https://blog.engineyard.com/how-to-build-your-own-gem-in-ruby
-  category: rubygems
+  category: Rubygems
   pic:
   source: engine yard
 
+- title: rubygems dot org 
+  url: https://rubygems.org/
+  category: Rubygems
+  pic:
+  source: Rubygems.org 
+
+- title: ruby toolbox
+  url: https://www.ruby-toolbox.com/
+  category: Rubygems
+  pic:
+  source: Ruby Toolbox
+  
 - title: Getting Started
   url: https://guides.rubyonrails.org/getting_started.html
   category: Tutorials & Resources

@@ -8,19 +8,16 @@ layout: page
 {%- assign grouped_sorted_records = sorted_records | group_by: "category" -%}
 
 <!-- TABLE OF CONTENTS -->
-<!--
+<h2>Tags:</h2>
 <div class="textcard">
-    <div style="column-count: 4;">
-        <big><big><big>Tags:</big></big></big><br>
     {%- for tag in grouped_sorted_records -%}
-        <span style="margin:0.5em;">
+        <span style="padding:0.75em;">
             <a href="#{{tag.name}}">{{tag.name}}</a>
-        </span><br>
+        </span><!-- <br> -->
     {%- endfor -%}
-    </div>
+    <!-- </div> -->
 </div>
 <br><br>
--->
 
 <!-- MAIN -->
 
