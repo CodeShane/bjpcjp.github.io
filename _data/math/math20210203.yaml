@@ -1446,13 +1446,6 @@
   pic:
   source: PWC
 
-- title: adversarial techniques papers
-  parent: DL
-  category: deep learning architectures
-  url: https://paperswithcode.com/area/adversarial
-  pic:
-  source: PWC
-
 - title: reasoning papers
   parent: DL
   category: deep learning architectures
@@ -3641,11 +3634,6 @@ double pendulum"
   category: feature extraction
   url: http://scikit-learn.org/stable/modules/feature_extraction.html#connectivity-graph-of-an-image
 
-- title: adversarial learning
-  parent: tbd
-  category: feature learning
-  url: https://arxiv.org/abs/1605.09782v6
-
 - title: feature scaling tutorial
   parent: tbd
   category: feature engineering
@@ -3732,91 +3720,6 @@ double pendulum"
   category: game theory
   url: https://paperswithcode.com/area/playing-games
   notes: "video, atari, realtime strategy, board, fps, card games, go, chess, poker, shogi, safe exploration"
-
-- title: 2019 overview
-  parent: DL
-  category: gans
-  url: https://venturebeat.com/2019/12/26/gan-generative-adversarial-network-explainer-ai-machine-learning/
- 
-- title: intro (MLwhiz)
-  parent: tbd
-  category: gans
-  url: https://mlwhiz.com/blog/2019/06/17/gans/
- 
-- title: intro (sigmoidal.io)
-  parent: tbd
-  category: gans
-  url: https://sigmoidal.io/beginners-review-of-gan-architectures/
- 
-- title: intro
-  parent: tbd
-  category: gans
-  url: https://towardsdatascience.com/overview-of-gans-generative-adversarial-networks-part-i-ac78ec775e31
-  source: TDS
- 
-- title: intro
-  parent: tbd
-  category: gans
-  url: https://blog.statsbot.co/generative-adversarial-networks-gans-engine-and-applications-f96291965b47
-  source: statsbot
- 
-- title: intro
-  parent: tbd
-  category: gans
-  url: https://www.oreilly.com/ideas/an-applied-introduction-to-generative-adversarial-networks
-  source: oreilly
- 
-- title: intro
-  parent: tbd
-  category: gans
-  url: /pdfs/math/gans-dive.pdf
-  source: DIDL
- 
-- title: extreme compression
-  parent: tbd
-  category: gans
-  url: https://data.vision.ee.ethz.ch/aeirikur/extremecompression/
- 
-- title: spectral normalization
-  parent: tbd
-  category: gans
-  url: https://christiancosgrove.com/blog/2018/01/04/spectral-normalization-explained.html
- 
-- title: adeshpande
-  parent: tbd
-  category: gans
-  url: https://adeshpande3.github.io/Deep-Learning-Research-Review-Week-1-Generative-Adversarial-Nets
- 
-- title: list of variants
-  parent: tbd
-  category: gans
-  url: https://deephunt.in/the-gan-zoo-79597dc8c347
- 
-- title: stacked
-  parent: tbd
-  category: gans
-  url: https://arxiv.org/abs/1612.04357
- 
-- title: wasserstein
-  parent: tbd
-  category: gans
-  url: http://www.alexirpan.com/2017/02/22/wasserstein-gan.html
- 
-- title: NIPS 2016 tutorial
-  parent: tbd
-  category: gans
-  url: https://arxiv.org/abs/1701.00160v3
- 
-- title: GauGAN (nV)
-  parent: tbd
-  category: gans
-  url: https://venturebeat.com/2019/07/30/nvidias-gaugan-has-been-used-to-create-500000-images/
- 
-- title: open problems
-  parent: tbd
-  category: gans
-  url: https://distill.pub/2019/gan-open-problems
-
 
 - title: gensim github
   parent: DL
