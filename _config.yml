@@ -76,5 +76,6 @@ algolia:
 #   - vendor/gems/
 #   - vendor/ruby/
 
-disqus:
-  shortname: brianpiercy
+# disabled 2021/02/05
+#disqus:
+#  shortname: brianpiercy
