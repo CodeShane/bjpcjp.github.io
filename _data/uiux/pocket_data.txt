@@ -1,0 +1,218 @@
+<li><a href="https://christiantietze.de/posts/2021/01/hyperlegible-font/" time_added="1612564761" tags="typography,uiux">Atkinson Hyperlegible Font</a></li>
+<li><a href="https://www.figmacrashcourse.com/" time_added="1612377890" tags="figma,tools,uiux">Figma Crash Course</a></li>
+<li><a href="https://conversionxl.com/science-of-familiarity" time_added="1612015111" tags="behaviors,familiarity,recognition,uiux">https://conversionxl.com/science-of-familiarity</a></li>
+<li><a href="https://uxdesign.cc/how-privilege-impacts-empathy-b34ad0c16431" time_added="1612014985" tags="behaviors,empathy,privilege,uiux">https://uxdesign.cc/how-privilege-impacts-empathy-b34ad0c16431</a></li>
+<li><a href="https://www.uxpin.com/studio/blog/cognitive-psychology-for-ux-design/" time_added="1611968951" tags="behaviors,bias,uiux">4 Cognitive Psychology Tricks for UX Design Excellence</a></li>
+<li><a href="http://www.visualcapitalist.com/18-cognitive-bias-examples-mental-mistakes/" time_added="1611968951" tags="behaviors,bias,uiux">18 Cognitive Bias Examples Show Why Mental Mistakes Get Made</a></li>
+<li><a href="https://uxdesign.cc/a-comprehensive-list-of-ux-design-methods-deliverables-2021-2feb3e70e168" time_added="1611583820" tags="glossary,uiux">https://uxdesign.cc/a-comprehensive-list-of-ux-design-methods-deliverables-2021-2feb3e70e168</a></li>
+<li><a href="https://www.retaildive.com/news/the-most-effective-technology-is-technology-that-no-one-sees-lowes-ceo/593687/" time_added="1611262477" tags="prodmgmt,retail,uiux">&#039;The most effective technology is technology that no one sees&#039;: Lowe&#039;s CEO</a></li>
+<li><a href="https://floodstate.substack.com/p/storming-reddits-moat" time_added="1611105942" tags="behaviors,moats,platforms,prodmgmt,uiux">Storming Reddit&#039;s Moat</a></li>
+<li><a href="https://link.medium.com/Umv40tMA9cb" time_added="1611018377" tags="behaviors,storytelling,uiux">https://link.medium.com/Umv40tMA9cb</a></li>
+<li><a href="https://www.uxpin.com/studio/blog/lorem-ipsum-design/" time_added="1610731489" tags="uiux">How Lorem Ipsum Kills Your Designs</a></li>
+<li><a href="https://unintendedconsequenc.es/do-we-create-shoplifters/" time_added="1609624909" tags="behaviors,prodmgmt,uiux">Do We Create Shoplifters? - Unintended Consequences</a></li>
+<li><a href="https://darkpatterns.org/types-of-dark-pattern.html" time_added="1609209086" tags="design,uiux">Dark Patterns - Types of Dark Pattern</a></li>
+<li><a href="https://t.co/u0HAok7ILU?ssr=true" time_added="1608603735" tags="prodmgmt,uiux">https://t.co/u0HAok7ILU?ssr=true</a></li>
+<li><a href="https://pair.withgoogle.com/guidebook/" time_added="1608575226" tags="design,uiux">People   AI Guidebook | PAIR</a></li>
+<li><a href="https://www.webdesignerdepot.com/2020/12/5-ways-to-boost-engagement-with-animation/" time_added="1608315856" tags="animation,uiux">5 Ways to Boost Engagement With Animation</a></li>
+<li><a href="https://designyoutrust.com/2020/12/brilliant-barcode-designs/" time_added="1608315854" tags="design,uiux">Brilliant Barcode Designs</a></li>
+<li><a href="https://www.nngroup.com/articles/lawn-mower-pattern/" time_added="1607891306" tags="uiux">The Lawn Mower Eyetracking Pattern for Scanning Comparison Tables</a></li>
+<li><a href="https://app.getpocket.com/read/3200506721" time_added="1607891300" tags="uiux">Pocket - The Lawn Mower Eyetracking Pattern for Scanning Comparison Tables</a></li>
+<li><a href="https://www.uxmatters.com/mt/archives/2020/12/discussion-guide-gaffes-and-how-to-fix-them.php" time_added="1607656638" tags="uiux">Discussion Guide Gaffes and How to Fix Them</a></li>
+<li><a href="https://www.uxmatters.com/mt/archives/2020/08/creating-low-fidelity-or-high-fidelity-prototypes-part-2.php" time_added="1607569935" tags="uiux">Creating Low-Fidelity or High-Fidelity Prototypes, Part 2</a></li>
+<li><a href="https://www.uxpin.com/studio/blog/landing-pages-guide/" time_added="1607568446" tags="uiux">Landing Pages: The Complete Guide to Effective UX Design</a></li>
+<li><a href="https://www.reddit.com/r/ProductManagement/comments/ihqjhc/infographic_the_periodic_table_of_ux_elements/?utm_source=share&amp;utm_medium=ios_app&amp;utm_name=iossmf" time_added="1607568384" tags="uiux">https://www.reddit.com/r/ProductManagement/comments/ihqjhc/infographic_the_periodic_table_of_ux_elements/?utm_source=share&amp;utm_medium=ios_app&amp;utm_name=iossmf</a></li>
+<li><a href="https://smashingmagazine.com/2020/09/checklist-cards-re-release/" time_added="1607568273" tags="uiux">Smart Interface Design Patterns In Your Pocket: Checklist Cards PDF</a></li>
+<li><a href="https://www.uxpin.com/studio/blog/button-design/" time_added="1606680681" tags="uiux">Button Design Guide: How to Get Site Visitors to Actually Click Your Button</a></li>
+<li><a href="https://dev.to/manu4543/responsive-images-a-reference-guide-from-a-to-z-30aa" time_added="1606323310" tags="css,html,uiux">Responsive Images - A Reference Guide from A to Z</a></li>
+<li><a href="https://www.nngroup.com/articles/complex-application-design/" time_added="1604938553" tags="uiux">8 Design Guidelines for Complex Applications</a></li>
+<li><a href="https://www.smashingmagazine.com/guides/ux-design/" time_added="1604446797" tags="uiux">UX Design — Smashing Magazine</a></li>
+<li><a href="https://www.fastcompany.com/90547531/want-to-ditch-pinterest-here-are-the-best-alternatives-for-visual-inspiration?partner=feedburner&amp;utm_source=feedburner&amp;utm_medium=feed&amp;utm_campaign=feedburner+fastcompany&amp;utm_content=feedburner" time_added="1604368589" tags="pinterest,uiux,visualization">Want to ditch Pinterest? Here are the best alternatives for visual inspirat</a></li>
+<li><a href="https://smashingmagazine.com/2020/10/principles-visual-communication/" time_added="1604367356" tags="uiux">The Principles Of Visual Communication</a></li>
+<li><a href="https://goodui.org/leaks/list/" time_added="1604364508" tags="uiux">https://goodui.org/leaks/list/</a></li>
+<li><a href="https://www.uxpin.com/studio/blog/creating-a-wireframe/" time_added="1604364495" tags="uiux">How to Create a Wireframe: Step-by-Step Guide   Examples</a></li>
+<li><a href="https://www.nngroup.com/articles/product-ux-benchmarks/" time_added="1604364280" tags="benchmarks,uiux">7 Steps to Benchmark Your Product’s UX</a></li>
+<li><a href="https://thenextweb.com/dd/2020/09/14/10-ux-lessons-i-learned-building-my-product-from-scratch-syndication/" time_added="1604364250" tags="prodmgmt,uiux">10 UX lessons I learned building my product from scratch</a></li>
+<li><a href="https://www.uxpin.com/studio/blog/ux-method/" time_added="1604364188" tags="uiux">The 6 UX Methods That Proved to Be Effective in Driving Results</a></li>
+<li><a href="https://www.uxpin.com/studio/blog/ui-animation-examples/" time_added="1604364136" tags="uiux">4 UI Animation Examples That Showcase Effective Individual Components</a></li>
+<li><a href="https://www.nngroup.com/articles/gestalt-similarity/" time_added="1604363796" tags="uiux">Similarity Principle in Visual Design</a></li>
+<li><a href="https://multithreaded.stitchfix.com/blog/2020/09/02/what-color-is-this/" time_added="1604363636" tags="color,machine-learning,uiux">What Color Is This?</a></li>
+<li><a href="https://www.toptal.com/designers/ui/web-layout-best-practices" time_added="1603157664" tags="css,uiux">Web Layout Best Practices: 12 Timeless UI Patterns Analyzed</a></li>
+<li><a href="https://www.nngroup.com/articles/spatial-memory/" time_added="1602589132" tags="uiux">Spatial Memory: Why It Matters for UX Design</a></li>
+<li><a href="https://creativemarket.com/blog/package-design-blogs-inspiration" time_added="1597829341" tags="packaging,prodmgmt,uiux">Awesome Package Design Blogs to Inspire Your Work | Creative Market Blog</a></li>
+<li><a href="https://www.uxmatters.com/mt/archives/2020/08/building-narrative-into-your-user-interface-part-2.php" time_added="1597163140" tags="uiux">Building Narrative into Your User Interface, Part 2</a></li>
+<li><a href="https://nickdewilde.substack.com/p/the-keyring-zac-halbert-on-ux-design" time_added="1597163110" tags="uiux">https://nickdewilde.substack.com/p/the-keyring-zac-halbert-on-ux-design</a></li>
+<li><a href="https://www.nngroup.com/articles/persona-types/" time_added="1597023315" tags="uiux">3 Persona Types: Lightweight, Qualitative, and Statistical</a></li>
+<li><a href="https://www.uxmatters.com/mt/archives/2020/07/designing-mobile-tables.php" time_added="1597023306" tags="uiux">Designing Mobile Tables</a></li>
+<li><a href="https://www.yworks.com/products/yed" time_added="1597023269" tags="tools,uiux">https://www.yworks.com/products/yed</a></li>
+<li><a href="https://livebook.manning.com/book/usability-matters/chapter-2/" time_added="1597023254" tags="uiux">Chapter 2. Who’s using the app? - Usability Matters: Mobile-first UX for de</a></li>
+<li><a href="https://getpocket.com/explore/item/the-secret-to-happy-ux-according-to-a-legendary-game-designer" time_added="1597023156" tags="uiux">https://getpocket.com/explore/item/the-secret-to-happy-ux-according-to-a-legendary-game-designer</a></li>
+<li><a href="https://yangshun.github.io/front-end-interview-handbook/" time_added="1597023139" tags="css,html,uiux">Front End Interview Handbook</a></li>
+<li><a href="https://www.uxmatters.com/mt/archives/2020/07/creating-low-fidelity-or-high-fidelity-prototypes-part-1.php" time_added="1597023074" tags="uiux">Creating Low-Fidelity or High-Fidelity Prototypes, Part 1</a></li>
+<li><a href="https://www.uxmatters.com/mt/archives/2020/07/book-review-the-jobs-to-be-done-playbook.php" time_added="1597023071" tags="uiux">Book Review: The Jobs To Be Done Playbook</a></li>
+<li><a href="https://www.uxmatters.com/mt/archives/2020/07/book-review-the-lean-product-playbook.php" time_added="1597023069" tags="uiux">Book Review: The Lean Product Playbook</a></li>
+<li><a href="https://www.uxmatters.com/mt/archives/2020/07/optimizing-information-design.php" time_added="1597023062" tags="uiux">Optimizing Information Design</a></li>
+<li><a href="https://www.designedbycave.co.uk/2020/LEGO-Interface-UX/" time_added="1596555155" tags="uiux">The UX of LEGO Interface Panels – George Cave</a></li>
+<li><a href="https://www.nngroup.com/articles/mobile-app-onboarding/" time_added="1593904888" tags="uiux">Mobile-App Onboarding: An Analysis of Components and Techniques</a></li>
+<li><a href="https://www.nngroup.com/articles/avoid-pdf-for-on-screen-reading/" time_added="1593903128" tags="uiux">Avoid PDF for On-Screen Reading</a></li>
+<li><a href="https://www.apollo-magazine.com/history-door-handle-designs/" time_added="1592578793" tags="uiux">https://www.apollo-magazine.com/history-door-handle-designs/</a></li>
+<li><a href="https://uxmag.com/articles/salience-the-psychology-of-an-experience-you-can’t-ignore?ref=weekly.ui-patterns.com&amp;utm_source=UI+Patterns+Weekly&amp;utm_campaign=e8101fe99a-EMAIL_CAMPAIGN_2020_05_22_10_26&amp;utm_medium=email&amp;utm_term=0_d9e2d04969-e8101fe99a-349136175&amp;goal=0_d9e2d04969-e8101fe99a-349136175&amp;mc_cid=e8101fe99a&amp;mc_eid=e535b3326a" time_added="1591029982" tags="uiux">https://uxmag.com/articles/salience-the-psychology-of-an-experience-you-can’t-ignore?ref=weekly.ui-patterns.com&amp;utm_source=UI+Patterns+Weekly&amp;utm_campaign=e8101fe99a-EMAIL_CAMPAIGN_2020_05_22_10_26&amp;utm_medium=email&amp;utm_term=0_d9e2d04969-e8101fe99a-349136175&amp;goal=0_d9e2d04969-e8101fe99a-349136175&amp;mc_cid=e8101fe99a&amp;mc_eid=e535b3326a</a></li>
+<li><a href="https://www.nngroup.com/articles/information-seeking-expectations/" time_added="1591029811" tags="uiux">Different Information-Seeking Tasks: Behavior Patterns and User Expectation</a></li>
+<li><a href="https://uxmag.com/articles/salience-the-psychology-of-an-experience-you-can%E2%80%99t-ignore" time_added="1590601509" tags="uiux">Salience: The psychology of an experience you can’t ignore | UX Magazine</a></li>
+<li><a href="https://www.figma.com/files/recent" time_added="1589761386" tags="figma,tools,uiux">Recently Viewed – Figma</a></li>
+<li><a href="https://thenextweb.com/syndication/2020/05/02/how-to-adapt-your-products-ux-for-the-chinese-market/" time_added="1588808591" tags="uiux">How to adapt your product’s UX for the Chinese market</a></li>
+<li><a href="https://www.uxmatters.com/mt/archives/2020/05/designing-for-progressive-disclosure.php" time_added="1588808574" tags="uiux">Designing for Progressive Disclosure</a></li>
+<li><a href="https://www.nngroup.com/articles/benchmarking-ux/" time_added="1588808561" tags="uiux">Benchmarking UX: Tracking Metrics</a></li>
+<li><a href="https://www.nngroup.com/articles/ux-workshops-in-hiring/" time_added="1588808549" tags="uiux">Applying UX-Workshop Techniques to the Hiring Process</a></li>
+<li><a href="https://themesberg.com/blog/open-source/10-open-source-free-svg-icon-libraries" time_added="1588360583" tags="uiux">https://themesberg.com/blog/open-source/10-open-source-free-svg-icon-libraries</a></li>
+<li><a href="https://baymard.com/" time_added="1588039353" tags="uiux">https://baymard.com/</a></li>
+<li><a href="https://baymard.com/ux-benchmark" time_added="1587840485" tags="ecommerce,uiux">Top 60 E-Commerce Sites Ranked by UX Performance - Baymard Institute</a></li>
+<li><a href="https://baymard.com/ecommerce-design-examples" time_added="1587840467" tags="uiux">4,096 E-Commerce Design Examples Distributed Across 52 Page Types - Baymard</a></li>
+<li><a href="http://www.techmeme.com/200422/p26#a200422p26" time_added="1587747214" tags="uiux">Google says Flutter, its open source UI framework, now has nearly 500,000 u</a></li>
+<li><a href="https://www.uxpin.com/studio/blog/what-you-need-to-know-about-negotiating-design-ideas-with-skeptical-customers/" time_added="1587746090" tags="design,uiux">What You Need to Know About Negotiating Design Ideas with Skeptical Custome</a></li>
+<li><a href="https://www.nngroup.com/reports/user-experience-careers/" time_added="1587745978" tags="uiux">https://www.nngroup.com/reports/user-experience-careers/</a></li>
+<li><a href="https://medium.com/@seandexter1/the-baymard-institute-a-glorious-evidence-based-trove-of-ux-best-practices-189d839b1176" time_added="1587463731" tags="uiux">https://medium.com/@seandexter1/the-baymard-institute-a-glorious-evidence-based-trove-of-ux-best-practices-189d839b1176</a></li>
+<li><a href="https://www.uxmatters.com/mt/archives/2020/04/how-to-create-better-alerts-and-symbols-in-your-designs.php" time_added="1587288718" tags="uiux">How to Create Better Alerts and Symbols in Your Designs</a></li>
+<li><a href="https://www.w3schools.com/howto/howto_css_tooltip.asp" time_added="1587086083" tags="css,uiux">https://www.w3schools.com/howto/howto_css_tooltip.asp</a></li>
+<li><a href="https://www.nngroup.com/articles/moderated-remote-usability-test/" time_added="1587086059" tags="uiux">Remote Moderated Usability Tests: How to Do Them</a></li>
+<li><a href="https://principles.adactio.com/" time_added="1585739973" tags="uiux">https://principles.adactio.com/</a></li>
+<li><a href="https://ordinarycoding.com/articles/creating-animations-with-uikit-ca/" time_added="1585739962" tags="uiux">Creating Animations with UIKit and Core Animation</a></li>
+<li><a href="https://www.smashingmagazine.com/2020/03/smart-interface-design-patterns-checklists/" time_added="1585714709" tags="uiux">Smart Interface Design Patterns Checklists PDF</a></li>
+<li><a href="https://www.simonmccade.com/ux-advice" time_added="1585320878" tags="uiux">UX Advice | Simon McCade | Product Designer for SaaS Companies | Bristol</a></li>
+<li><a href="https://www.nngroup.com/articles/analyze-customer-journey-map/" time_added="1584968066" tags="uiux">7 Ways to Analyze a Customer-Journey Map</a></li>
+<li><a href="https://link.medium.com/kdq8zYoXE4" time_added="1583785007" tags="uiux">https://link.medium.com/kdq8zYoXE4</a></li>
+<li><a href="https://www.noupe.com/design/cognitive-psychology-in-ux.html" time_added="1583785007" tags="uiux">Using Cognitive Psychology in UX Design: What to Know</a></li>
+<li><a href="https://www.noupe.com/design/what-is-change-blindness-in-ux-design.html" time_added="1583785007" tags="uiux">What is Change Blindness in UX Design</a></li>
+<li><a href="https://www.nngroup.com/articles/drag-drop/" time_added="1583785007" tags="uiux">Drag–and–Drop: How to Design for Ease of Use</a></li>
+<li><a href="https://github.com/Figma-Linux/figma-linux" time_added="1583785007" tags="figma,tools,uiux">https://github.com/Figma-Linux/figma-linux</a></li>
+<li><a href="https://www.uxmatters.com/mt/archives/2020/03/understanding-cultures.php" time_added="1583784757" tags="uiux">Understanding Cultures</a></li>
+<li><a href="https://tailwindui.com/" time_added="1582757546" tags="uiux">Tailwind UI</a></li>
+<li><a href="https://www.nngroup.com/articles/ux-quiz/" time_added="1582143110" tags="uiux">User-Experience Quiz: 2019 UX Year in Review</a></li>
+<li><a href="http://passfail.squarespace.com/" time_added="1582143110" tags="uiux">http://passfail.squarespace.com/</a></li>
+<li><a href="https://www.nngroup.com/articles/critical-incident-technique/" time_added="1582142974" tags="uiux">The Critical Incident Technique in UX</a></li>
+<li><a href="https://www.uxpin.com/studio/blog/top-books-movies-and-series-recommended-by-designers-in-2019/" time_added="1582142883" tags="uiux">Top books, movies, and series recommended by designers in 2019</a></li>
+<li><a href="https://www.nngroup.com/articles/animation-purpose-ux/" time_added="1582142817" tags="uiux">The Role of Animation and Motion in UX</a></li>
+<li><a href="https://www.thinkwithgoogle.com/consumer-insights/consumer-needs-research/?utm_source=rss-reader&amp;utm_medium=rss&amp;utm_campaign=rss-feed" time_added="1582142817" tags="behaviors,prodmgmt,uiux">Ask a researcher: How do needs drive intent?</a></li>
+<li><a href="https://www.uxmatters.com/mt/archives/2020/01/7-ecommerce-ux-tips-that-drive-sales.php" time_added="1582142817" tags="ecommerce,uiux">7 Ecommerce UX Tips That Drive Sales</a></li>
+<li><a href="https://www.benkuhn.net/autocomplete" time_added="1582142817" tags="uiux">Autocomplete as an interface | benkuhn.net</a></li>
+<li><a href="https://thenextweb.com/dd/2015/01/18/gather-quantitative-data-user-behaviors-mental-models/" time_added="1582142817" tags="behaviors,uiux">https://thenextweb.com/dd/2015/01/18/gather-quantitative-data-user-behaviors-mental-models/</a></li>
+<li><a href="https://www.uxmatters.com/mt/archives/2020/02/capture-attention-through-color-psychology.php" time_added="1582142562" tags="color,uiux">Capture Attention Through Color Psychology</a></li>
+<li><a href="https://www.uxmatters.com/mt/archives/2020/02/designing-for-touch.php" time_added="1582142562" tags="uiux">Designing for Touch</a></li>
+<li><a href="https://www.nngroup.com/articles/video-image-details/" time_added="1582142443" tags="images,uiux">How to Film and Photograph Online Content for Usability: UX Details for Vid</a></li>
+<li><a href="https://www.debugbear.com/blog/performant-front-end-architecture" time_added="1582142443" tags="uiux">https://www.debugbear.com/blog/performant-front-end-architecture</a></li>
+<li><a href="https://www.nngroup.com/articles/animation-duration/" time_added="1582142443" tags="uiux">https://www.nngroup.com/articles/animation-duration/</a></li>
+<li><a href="https://digital.heb.com/the-feed/article/microinteractions-can-make-a-big-difference/" time_added="1581783005" tags="uiux">H-E-B Digital | Microinteractions can make a big difference</a></li>
+<li><a href="https://www.noupe.com/design/ux-ui-prototyping-tools-for-web-app-designers.html" time_added="1581276577" tags="tools,uiux">12 Best Free UX/UI Prototyping Tools for Web/App Designers in 2020</a></li>
+<li><a href="https://www.interaction-design.org/literature/article/hick-s-law-making-the-choice-easier-for-users" time_added="1578958130" tags="uiux">https://www.interaction-design.org/literature/article/hick-s-law-making-the-choice-easier-for-users</a></li>
+<li><a href="https://www.smashingmagazine.com/2020/01/front-end-performance-checklist-2020-pdf-pages/" time_added="1578841488" tags="css,html,uiux,webdev">Front-End Performance Checklist 2020 [PDF, Apple Pages, MS Word] — Smashing</a></li>
+<li><a href="https://thenextweb.com/syndication/2019/12/23/how-to-design-better-buttons/" time_added="1577400364" tags="css,design,uiux">How to design better buttons</a></li>
+<li><a href="https://www.nngroup.com/articles/vanity-metrics/" time_added="1577120468" tags="analytics,uiux">Vanity Metrics: Add Context to Add Meaning</a></li>
+<li><a href="https://uxdesign.cc/great-products-do-less-things-but-better-5dde0ee3fc76" time_added="1577120468" tags="design,prodmgmt,uiux">Great products do less, but better</a></li>
+<li><a href="https://uxengineer.com/good-ux-boring-ui/" time_added="1577120358" tags="uiux">https://uxengineer.com/good-ux-boring-ui/</a></li>
+<li><a href="https://www.nngroup.com/articles/exit-intent-good-ux/" time_added="1577120350" tags="uiux">10 Ways to Use Exit-Intent Popups to Improve UX</a></li>
+<li><a href="https://tech.slashdot.org/story/19/11/11/2012215/study-of-over-11000-online-stores-finds-dark-patterns-on-1254-sites?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed" time_added="1577120238" tags="ecommerce,uiux">Study of Over 11,000 Online Stores Finds &#039;Dark Patterns&#039; on 1,254 sites</a></li>
+<li><a href="https://www.uxmatters.com/mt/archives/2019/11/artificial-intelligence-supervised-learning-and-user-experience.php" time_added="1577120213" tags="uiux">Artificial Intelligence, Supervised Learning, and User Experience</a></li>
+<li><a href="https://www.uxmatters.com/mt/archives/2019/11/molding-yourself-into-a-leader-part-1.php" time_added="1577120213" tags="leadership,uiux">Molding Yourself into a Leader, Part 1</a></li>
+<li><a href="https://www.uxmatters.com/mt/archives/2019/11/creating-a-ux-design-style-guide.php" time_added="1577120208" tags="uiux">Creating a UX Design Style Guide</a></li>
+<li><a href="https://www.nngroup.com/articles/usability-testing-101/" time_added="1577120201" tags="uiux">Usability Testing 101</a></li>
+<li><a href="https://www.uxbox.io/" time_added="1577120201" tags="tools,uiux">Uxbox – The open-source prototyping tool</a></li>
+<li><a href="https://www.nngroup.com/articles/login-walls/" time_added="1577120201" tags="uiux">Login Walls Stop Users in Their Tracks</a></li>
+<li><a href="http://ui-patterns.com/" time_added="1577120201" tags="uiux">UI-Patterns.com</a></li>
+<li><a href="https://www.webdesignerdepot.com/2019/12/is-the-f-pattern-still-relevant-in-web-design/" time_added="1576097651" tags="uiux">Is The F-Pattern Still Relevant in Web Design?</a></li>
+<li><a href="https://www.nngroup.com/articles/ecommerce-product-pages/" time_added="1574694448" tags="ecommerce,uiux">UX Guidelines for Ecommerce Product Pages</a></li>
+<li><a href="https://hbr.org/ideacast/2019/11/to-truly-delight-customers-you-need-aesthetic-intelligence" time_added="1574194151" tags="brands,uiux">To Truly Delight Customers, You Need Aesthetic Intelligence</a></li>
+<li><a href="https://uxdesign.cc/reflections-from-a-designer-turned-product-manager-6-unexpected-differences-23b81a20388c" time_added="1573695259" tags="uiux">Reflections from a designer turned product manager: 6 unexpected difference</a></li>
+<li><a href="https://venturebeat.com/2019/11/02/its-time-to-do-away-with-the-ux-discipline/" time_added="1572738733" tags="uiux">It’s time to do away with the UX discipline </a></li>
+<li><a href="https://www.uxmatters.com/mt/archives/2019/10/crafting-a-ux-portfolio.php" time_added="1572080592" tags="uiux">Crafting a UX Portfolio</a></li>
+<li><a href="https://goodui.org/patterns/list/" time_added="1571427629" tags="uiux">Patterns | GoodUI</a></li>
+<li><a href="https://skyclerk.com/blog/if-you-run-a-small-business-park-in-the-back-of-the-parking-lot" time_added="1570663883" tags="custsvc,prodmgmt,uiux">https://skyclerk.com/blog/if-you-run-a-small-business-park-in-the-back-of-the-parking-lot</a></li>
+<li><a href="https://medium.com/google-design/the-obvious-ui-is-often-the-best-ui-7a25597d79fd" time_added="1570653609" tags="uiux">https://medium.com/google-design/the-obvious-ui-is-often-the-best-ui-7a2559</a></li>
+<li><a href="https://thereader.mitpress.mit.edu/habits-of-expert-software-designers/" time_added="1570549456" tags="design,prodmgmt,uiux">https://thereader.mitpress.mit.edu/habits-of-expert-software-designers/</a></li>
+<li><a href="https://www.uxmatters.com/mt/archives/2019/10/navigating-ambiguity.php" time_added="1570480795" tags="ambiguity,uiux">Navigating Ambiguity</a></li>
+<li><a href="https://www.nngroup.com/articles/intelligent-assistants-poor-usability-high-adoption/" time_added="1567133690" tags="uiux">The Paradox of Intelligent Assistants: Poor Usability, High Adoption</a></li>
+<li><a href="https://www.interaction-design.org/literature/article/10-great-sites-for-ui-design-patterns" time_added="1567127015" tags="design,uiux">10 Great Sites for UI Design Patterns | Interaction Design Foundation</a></li>
+<li><a href="https://docs.google.com/presentation/d/1j_-tDctiFQew9PAKMZPvH87rFeXCSIcP81Ti8CDGnLg/edit?usp=embed_facebook" time_added="1567126661" tags="benchmarks,ecommerce,prodmgmt,uiux">https://docs.google.com/presentation/d/1j_-tDctiFQew9PAKMZPvH87rFeXCSIcP81Ti8CDGnLg/edit?usp=embed_facebook</a></li>
+<li><a href="https://www.nngroup.com/articles/everyone-as-users/" time_added="1567126552" tags="uiux">‘Our Users Are Everyone’: Designing Mass-Market Products for Large User Aud</a></li>
+<li><a href="https://github.com/netoguimaraes/awesome-ux" time_added="1567126429" tags="uiux">netoguimaraes/awesome-ux: a awesome list about User Experience disciplines</a></li>
+<li><a href="https://www.toptal.com/designers/ux/design-psychology-neuroscience-of-ux?utm_campaign=Toptal%20Design%20Blog&amp;utm_source=hs_email&amp;utm_medium=email&amp;utm_content=70119670&amp;_hsenc=p2ANqtz-_zNeJi-nMFwZFtF5HQe0cjOXBFyeWCO1z28Y1LwLqPmgbLhSWVs-VnpR7dMLimd8SNrImV2lmwoQEwu0AvhXBcHLliMg&amp;_hsmi=70119670" time_added="1567125485" tags="design,uiux">Design Psychology and the Neuroscience of Awesome UX | Toptal</a></li>
+<li><a href="https://ui-patterns.us10.list-manage.com/track/click?u=52822308d355dc96a394ce489&amp;id=f3a6d0fee9&amp;e=e535b3326a" time_added="1567124950" tags="analytics,uiux">https://ui-patterns.us10.list-manage.com/track/click?u=52822308d355dc96a394</a></li>
+<li><a href="https://www.nngroup.com/articles/creepiness/" time_added="1567124176" tags="behaviors,uiux">Creepiness–Convenience Tradeoff</a></li>
+<li><a href="https://uxmastery.com/how-to-run-an-heuristic-evaluation/?ref=weekly.ui-patterns.com&amp;utm_source=Designing+Engaging+UX&amp;utm_campaign=bd8595f7c3-RSS_EMAIL_CAMPAIGN&amp;utm_medium=email&amp;utm_term=0_d9e2d04969-bd8595f7c3-349136175&amp;goal=0_d9e2d04969-bd8595f7c3-349136175&amp;mc_cid=bd8595f7c3&amp;mc_eid=e535b3326a" time_added="1567123138" tags="uiux">How to run an heuristic evaluation – UX Mastery</a></li>
+<li><a href="https://www.uxmatters.com/mt/archives/2019/05/lessons-on-visualization-from-the-industrial-environment.php" time_added="1567122985" tags="uiux">Lessons on Visualization from the Industrial Environment</a></li>
+<li><a href="https://blog.mobile-patterns.com/practical-ux-design-tips-for-startups-and-teams-on-a-budget-fac58299984b" time_added="1567122748" tags="uiux">Practical UX Design Tips for Startups and Teams on a Budget</a></li>
+<li><a href="https://www.toptal.com/designers/visual/design-principles-hierarchy" time_added="1567122715" tags="uiux">Design Principles: an Introduction to Visual Hierarchy</a></li>
+<li><a href="https://t.co/RZ1Whcgiqq?ssr=true" time_added="1567122667" tags="behaviors,empathy,uiux">https://t.co/RZ1Whcgiqq?ssr=true</a></li>
+<li><a href="https://overreacted.io/the-elements-of-ui-engineering/" time_added="1567119472" tags="design,uiux">The Elements of UI Engineering</a></li>
+<li><a href="https://www.smashingmagazine.com/2019/04/privacy-ux-aware-design-framework/" time_added="1567118994" tags="uiux">Privacy UX: Privacy-Aware Design Framework</a></li>
+<li><a href="https://www.smashingmagazine.com/2019/04/privacy-better-notifications-ux-permission-requests/" time_added="1567118851" tags="uiux">https://www.smashingmagazine.com/2019/04/privacy-better-notifications-ux-pe</a></li>
+<li><a href="http://ui-patterns.com/blog/making-the-hook-model-actionable?utm_source=Designing+Engaging+UX&amp;utm_campaign=bd8595f7c3-RSS_EMAIL_CAMPAIGN&amp;utm_medium=email&amp;utm_term=0_d9e2d04969-bd8595f7c3-349136175&amp;goal=0_d9e2d04969-bd8595f7c3-349136175&amp;mc_cid=bd8595f7c3&amp;mc_eid=e535b3326a" time_added="1567118819" tags="uiux">Making the Hook Model actionable</a></li>
+<li><a href="https://ui-patterns.us10.list-manage.com/track/click?u=52822308d355dc96a394ce489&amp;id=4a2af742cb&amp;e=e535b3326a" time_added="1567114904" tags="design,uiux">https://ui-patterns.us10.list-manage.com/track/click?u=52822308d355dc96a394</a></li>
+<li><a href="https://ui-patterns.us10.list-manage.com/track/click?u=52822308d355dc96a394ce489&amp;id=4c79e0bc87&amp;e=e535b3326a" time_added="1567114844" tags="design,uiux">https://ui-patterns.us10.list-manage.com/track/click?u=52822308d355dc96a394</a></li>
+<li><a href="https://www.webdesignerdepot.com/2019/03/learnability-in-ux-design/" time_added="1567114830" tags="learning,uiux">Learnability in UX Design</a></li>
+<li><a href="https://www.nngroup.com/articles/change-blindness-definition/" time_added="1567099503" tags="uiux">Change Blindness in UX: Definition</a></li>
+<li><a href="https://medium.muz.li/using-interactions-to-shape-user-behavior-patterns-e7dac087eebe" time_added="1566689224" tags="behaviors,uiux">https://medium.muz.li/using-interactions-to-shape-user-behavior-patterns-e7dac087eebe</a></li>
+<li><a href="https://www.fastcompany.com/90369607/googles-six-rules-for-great-data-design?partner=rss&amp;utm_source=feedburner&amp;utm_medium=feed&amp;utm_campaign=feedburner+fastcompany&amp;utm_content=feedburner" time_added="1566600081" tags="design,uiux">See Google&#039;s first guidelines for data visualization</a></li>
+<li><a href="https://www.webdesignerdepot.com/2018/04/8-ways-to-emotionally-reward-your-users/" time_added="1566517371" tags="uiux">8 Ways to Emotionally Reward Your Users</a></li>
+<li><a href="https://medium.theuxblog.com/six-circles-a-experience-design-framework-fabe5fc5abc9" time_added="1566517100" tags="uiux">Six Circles : A Experience Design Framework - theuxblog.com</a></li>
+<li><a href="https://www.toptal.com/designers/ux-research/thematic-analysis-for-ux" time_added="1566341333" tags="uiux">How to Leverage Thematic Analysis for Better UX</a></li>
+<li><a href="https://matthewstrom.com/writing/doubt/" time_added="1566341125" tags="ambiguity,design,uiux">https://matthewstrom.com/writing/doubt/</a></li>
+<li><a href="https://gist.github.com/sleepyfox/a4d311ffcdc4fd908ec97d1c245e57dc" time_added="1566340907" tags="prodmgmt,uiux">https://gist.github.com/sleepyfox/a4d311ffcdc4fd908ec97d1c245e57dc</a></li>
+<li><a href="https://www.uxmatters.com/mt/archives/2019/07/readability-formulas-7-reasons-to-avoid-them-and-what-to-do-instead.php" time_added="1566340004" tags="uiux">Readability Formulas: 7 Reasons to Avoid Them and What to Do Instead</a></li>
+<li><a href="https://www.nngroup.com/articles/cognitive-mapping-user-research/" time_added="1566339894" tags="uiux">Cognitive Mapping in User Research</a></li>
+<li><a href="https://learnui.design/blog/4-rules-intuitive-ux.html" time_added="1566325137" tags="uiux">https://learnui.design/blog/4-rules-intuitive-ux.html</a></li>
+<li><a href="https://blog-origin.adioma.com/how-to-think-visually-using-visual-analogies-infographic/" time_added="1566061932" tags="analogies,uiux">How To Think Visually Using Visual Analogies - Infographic - Adioma</a></li>
+<li><a href="https://theness.com/neurologicablog/index.php/webers-law/" time_added="1565716150" tags="css,design,perception,uiux">Weber’s Law</a></li>
+<li><a href="https://www.toptal.com/designers/user-research/guide-to-ux-research-methods" time_added="1565105409" tags="uiux">The Complete Guide to UX Research Methods</a></li>
+<li><a href="https://learnui.design/blog/the-3-laws-of-locality.html" time_added="1565018545" tags="uiux">The 3 Laws of Locality – Learn UI Design</a></li>
+<li><a href="https://www.webdesignerdepot.com/2019/07/how-color-impacts-ux/" time_added="1563846758" tags="color,uiux">How Color Impacts UX</a></li>
+<li><a href="https://www.nngroup.com/articles/cognitive-mind-concept/" time_added="1563383716" tags="uiux">Cognitive Maps, Mind Maps, and Concept Maps: Definitions</a></li>
+<li><a href="https://www.nngroup.com/articles/dot-voting/" time_added="1562776630" tags="uiux">Dot Voting: A Simple Decision-Making and Prioritizing Technique in UX</a></li>
+<li><a href="https://dev.to/billlenoir/user-interfaces-usability-and-user-experience-the-square-milk-jug-edition-4ce5" time_added="1558445682" tags="uiux">User Interfaces, Usability, and User Experience: The Square Milk Jug Editio</a></li>
+<li><a href="https://uxdesign.cc/feature-design-checklist-93ee5be66fae?ref=weekly.ui-patterns.com&amp;goal=0_d9e2d04969-b31f0f876b-349136175&amp;mc_cid=b31f0f876b&amp;mc_eid=e535b3326a" time_added="1557886572" tags="design,uiux">Feature design checklist – UX Collective</a></li>
+<li><a href="https://www.uxmatters.com/mt/archives/2019/05/a-design-language-for-touch-gesture-and-motion.php" time_added="1557797625" tags="uiux">A Design Language for Touch, Gesture, and Motion</a></li>
+<li><a href="https://www.nngroup.com/articles/sympathy-vs-empathy-ux/" time_added="1557697047" tags="behaviors,empathy,uiux">Sympathy vs. Empathy in UX</a></li>
+<li><a href="https://asktog.com/atc/the-third-user/" time_added="1557688241" tags="uiux">https://asktog.com/atc/the-third-user/</a></li>
+<li><a href="https://www.nngroup.com/articles/split-buttons/" time_added="1557684865" tags="uiux">Split Buttons: Definition</a></li>
+<li><a href="https://medium.com/google-design/people-products-and-epiphanies-bfed0f3fbb2d?ref=weekly.ui-patterns.com&amp;goal=0_d9e2d04969-bd8595f7c3-349136175&amp;mc_cid=bd8595f7c3&amp;mc_eid=e535b3326a" time_added="1555860131" tags="prodmgmt,uiux">People, Products, and Epiphanies – Google Design – Medium</a></li>
+<li><a href="http://ui-patterns.com/blog/making-the-fogg-behavior-model-actionable?utm_source=Designing+Engaging+UX&amp;utm_campaign=bd8595f7c3-RSS_EMAIL_CAMPAIGN&amp;utm_medium=email&amp;utm_term=0_d9e2d04969-bd8595f7c3-349136175&amp;goal=0_d9e2d04969-bd8595f7c3-349136175&amp;mc_cid=bd8595f7c3&amp;mc_eid=e535b3326a" time_added="1555640059" tags="uiux">Making the Fogg Behavior Model actionable</a></li>
+<li><a href="http://ui-patterns.com/blog/i-wanted-to-write-a-book-but-ended-up-with-a-card-deck?ref=weekly.ui-patterns.com&amp;utm_source=Designing+Engaging+UX&amp;utm_campaign=bd8595f7c3-RSS_EMAIL_CAMPAIGN&amp;utm_medium=email&amp;utm_term=0_d9e2d04969-bd8595f7c3-349136175&amp;goal=0_d9e2d04969-bd8595f7c3-349136175&amp;mc_cid=bd8595f7c3&amp;mc_eid=e535b3326a" time_added="1555639828" tags="uiux">I wanted to write a book, but ended up with a card deck</a></li>
+<li><a href="https://www.nngroup.com/articles/visual-design-cheat-sheet/" time_added="1555407599" tags="design,uiux">Visual Design Terms Cheat Sheet</a></li>
+<li><a href="https://www.nngroup.com/articles/ux-public-bathrooms/" time_added="1554161003" tags="behaviors,uiux">The User Experience of Public Bathrooms</a></li>
+<li><a href="https://www.nngroup.com/articles/better-link-labels/" time_added="1553525969" tags="html,uiux">Better Link Labels: 4Ss for Encouraging Clicks</a></li>
+<li><a href="https://www.coglode.com/gem/reciprocity-decay?ref=weekly.ui-patterns.com&amp;utm_source=Designing+Engaging+UX&amp;utm_campaign=288a6a3df8-RSS_EMAIL_CAMPAIGN&amp;utm_medium=email&amp;utm_term=0_d9e2d04969-288a6a3df8-348202825&amp;goal=0_d9e2d04969-288a6a3df8-348202825&amp;mc_cid=288a6a3df8&amp;mc_eid=2236fd6cd5" time_added="1552423759" tags="behaviors,reciprocity,uiux">https://www.coglode.com/gem/reciprocity-decay?ref=weekly.ui-patterns.com&amp;utm_source=Designing+Engaging+UX&amp;utm_campaign=288a6a3df8-RSS_EMAIL_CAMPAIGN&amp;utm_medium=email&amp;utm_term=0_d9e2d04969-288a6a3df8-348202825&amp;goal=0_d9e2d04969-288a6a3df8-348202825&amp;mc_cid=288a6a3df8&amp;mc_eid=2236fd6cd5</a></li>
+<li><a href="https://www.nngroup.com/articles/responding-skepticism-small-usability-tests/" time_added="1552423305" tags="analytics,prodmgmt,uiux">How to Respond to Skepticism of Testing Small Groups of Users</a></li>
+<li><a href="https://htmltemplates.co/" time_added="1552355856" tags="html,uiux">https://htmltemplates.co/</a></li>
+<li><a href="https://www.toptal.com/designers/company-website-design/ui-design-best-practices" time_added="1551727980" tags="uiux">UI Design Best Practices for Better Scannability | Toptal</a></li>
+<li><a href="https://www.nngroup.com/articles/overpersonalization/" time_added="1549939624" tags="uiux">The Dangers of Overpersonalization</a></li>
+<li><a href="https://goodui.org/blog/13-course-landing-page-ui-changes-with-49-enrollments-for-designlab/" time_added="1548033316" tags="uiux">https://goodui.org/blog/13-course-landing-page-ui-changes-with-49-enrollments-for-designlab/</a></li>
+<li><a href="https://www.nngroup.com/articles/parallax-usability/" time_added="1548019918" tags="uiux">What Parallax Lacks</a></li>
+<li><a href="https://www.smashingmagazine.com/2019/01/front-end-performance-checklist-2019-pdf-pages/" time_added="1547414831" tags="css,html,javascript,uiux,webdev">https://www.smashingmagazine.com/2019/01/front-end-performance-checklist-2019-pdf-pages/</a></li>
+<li><a href="https://shakuro.com/blog/2019-ui-and-ux-design-trends/" time_added="1547261635" tags="uiux">https://shakuro.com/blog/2019-ui-and-ux-design-trends/</a></li>
+<li><a href="https://qz.com/1489900/interactive-the-secret-to-hotel-room-design-is-part-art-part-science/" time_added="1546483972" tags="design,uiux">https://qz.com/1489900/interactive-the-secret-to-hotel-room-design-is-part-art-part-science/</a></li>
+<li><a href="https://overreacted.io/the-elements-of-ui-engineering/?fbclid=IwAR0lbaeBca7jLeFvusbhHfMXTPROqOoGe82NPBTzaGDSnhZ7ZReBsNyyYho" time_added="1546482916" tags="uiux">The Elements of UI Engineering - Overreacted</a></li>
+<li><a href="https://www.nngroup.com/articles/journey-mapping-101/" time_added="1545667456" tags="uiux">https://www.nngroup.com/articles/journey-mapping-101/</a></li>
+<li><a href="https://refactoringui.com/previews/building-your-color-palette/" time_added="1544470934" tags="color,design,uiux">Building Your Color Palette</a></li>
+<li><a href="https://stratechery.com/2018/the-experience-economy/" time_added="1542757078" tags="ideas,prodmgmt,uiux">The Experience Economy</a></li>
+<li><a href="https://www.fastcompany.com/90265609/this-interface-clears-your-cookies-when-you-wipe-your-screen?partner=feedburner&amp;utm_source=feedly&amp;utm_medium=feed&amp;utm_campaign=feedburner+fastcompany&amp;utm_content=feedburner" time_added="1542380538" tags="design,uiux">This is the most interesting UI design of the year so far</a></li>
+<li><a href="https://www.webdesignerdepot.com/2018/11/10-tips-for-building-a-visual-language/" time_added="1541872558" tags="design,language,uiux,webdev">10 Tips for Building a Visual Language</a></li>
+<li><a href="http://mentalfloss.com/article/555041/how-hiking-trails-are-created" time_added="1541871453" tags="travel,uiux">http://mentalfloss.com/article/555041/how-hiking-trails-are-created</a></li>
+<li><a href="http://www.uxforthemasses.com/resources/example-ux-docs/" time_added="1541680905" tags="uiux">Example UX docs and deliverables - UXM</a></li>
+<li><a href="https://io.usabilityhub.com/how-to-optimize-saas-landing-pages-for-rapid-comprehension-40ab460780f" time_added="1541266729" tags="uiux">How to optimize SaaS landing pages for rapid comprehension</a></li>
+<li><a href="https://codewithoutrules.com/2018/09/21/users-considered-harmful/" time_added="1539037201" tags="design,security,uiux,webdev">Never use the word “User” in your code</a></li>
+<li><a href="https://uxdesign.cc/how-sephora-sucks-all-my-money-through-great-ux-and-psychology-60546e47d825" time_added="1538929806" tags="ecommerce,uiux">How Sephora “sucks” all my money through great UX and psychology</a></li>
+<li><a href="https://www.nngroup.com/articles/ecommerce-homepages-listing-pages/" time_added="1534113580" tags="ecommerce,uiux">UX Guidelines for Ecommerce Homepages, Category Pages, and Product Listing </a></li>
+<li><a href="https://medium.com/@caseorganic/why-do-we-keep-building-cars-with-touchscreens-alt-the-hidden-lives-of-touchscreens-55faf92799bf" time_added="1530632136" tags="uiux">https://medium.com/@caseorganic/why-do-we-keep-building-cars-with-touchscre</a></li>
+<li><a href="https://www.learnstorybook.com/" time_added="1528501183" tags="tools,uiux">Storybook Tutorial</a></li>
+<li><a href="https://darkpatterns.org/types-of-dark-pattern" time_added="1528168033" tags="uiux">https://darkpatterns.org/types-of-dark-pattern</a></li>
+<li><a href="https://mobilejazz.com/blog/dark-patterns-in-design/" time_added="1528056801" tags="design,uiux">https://mobilejazz.com/blog/dark-patterns-in-design/</a></li>
+<li><a href="https://www.smashingmagazine.com/2018/05/successful-ux-project-healthcare-sector/" time_added="1527546204" tags="uiux">How To Deliver A Successful UX Project In The Healthcare Sector</a></li>
+<li><a href="https://www.webdesignerdepot.com/2018/05/frictionless-ux-how-to-create-smooth-user-flows/" time_added="1527345073" tags="uiux">Frictionless UX: How to Create Smooth User Flows</a></li>
+<li><a href="http://designinginterfaces.com/patterns/" time_added="1526160959" tags="uiux">Patterns : Designing Interfaces</a></li>
+<li><a href="https://goodui.org/fastforward/patterns/" time_added="1526160219" tags="uiux">Patterns | GoodUI Fastforward</a></li>
+<li><a href="https://munchies.vice.com/en_us/article/bjp9xv/how-chain-restaurant-menus-get-made" time_added="1526093726" tags="uiux">The Weird Science Behind Chain Restaurant Menus - MUNCHIES</a></li>
+<li><a href="https://www.pinterest.com/wireframes/great-wireframe-examples/" time_added="1523467164" tags="uiux,wireframes">(87) Pinterest</a></li>
+<li><a href="https://www.nngroup.com/articles/post-it-in-ux/" time_added="1522005536" tags="design,uiux">In Defense of Post-its</a></li>
+<li><a href="https://www.gsb.stanford.edu/insights/power-free-popsicle?utm_source=TWITTER&amp;utm_medium=Social&amp;utm_campaign=Insights&amp;Date=20180223&amp;linkId=48424986" time_added="1520278963" tags="behaviors,marketing,prodmgmt,uiux">The Power of a Free Popsicle | Stanford Graduate School of Business</a></li>
+<li><a href="https://www.nngroup.com/articles/authority-principle/" time_added="1518400673" tags="behaviors,uiux">https://www.nngroup.com/articles/authority-principle/</a></li>
+<li><a href="https://www.smashingmagazine.com/2017/10/storyboarding-ux-design/" time_added="1511780964" tags="uiux">The Role Of Storyboarding In UX Design</a></li>
+<li><a href="https://builttoadapt.io/8-point-grid-vertical-rhythm-90d05ad95032" time_added="1508449276" tags="uiux">https://builttoadapt.io/8-point-grid-vertical-rhythm-90d05ad95032</a></li>
+<li><a href="https://www.smashingmagazine.com/2016/10/designing-card-based-user-interfaces/" time_added="1476328361" tags="uiux">Designing Card-Based User Interfaces</a></li>

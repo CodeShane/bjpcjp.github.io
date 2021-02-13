@@ -1,0 +1,2003 @@
+- url: https://www.uxmatters.com/mt/archives/2019/10/navigating-ambiguity.php
+  tags: ambiguity
+  title: Navigating Ambiguity (UXmatters)
+
+- url: https://blog.adioma.com/how-to-think-visually-using-visual-analogies-infographic/
+  img: /px/uiux/how-to-think-visually-using-visual-analogies-infographic.png
+  tags: analogies
+  title: Visual analogies
+
+  tags: animation
+  title: Durations & Motions (NN Group)
+- url: https://www.nngroup.com/articles/animation-duration/
+
+  tags: animation
+  title: The Proper Use (UX Design)
+- url: https://uxdesign.cc/the-ultimate-guide-to-proper-use-of-animation-in-ux-10bd98614fa9
+
+  tags: animation
+  title: Durations (NN Group)
+- url: https://www.nngroup.com/articles/animation-duration/
+
+  tags: animation
+  title: Usability (NN Group)
+- url: https://www.nngroup.com/articles/animation-usability
+
+  tags: annotation
+  title: Annotation is Now a Web Standard (Hypothes.is)
+- url: https://hypothes.is/blog/annotation-is-now-a-web-standard/
+
+  tags: dark patterns
+  title: CSS background-image properties as anti-patterns (NY Studio 107)
+- url: https://nystudio107.com/blog/the-css-background-image-property-as-an-anti-pattern
+
+  tags: attention 
+  title: reduction
+- url: http://ui-patterns.com/patterns/Reduction
+
+  tags: attention 
+  title: tunneling
+- url: http://ui-patterns.com/patterns/Tunnelling
+
+  tags: attention 
+  title: isolation
+- url: http://ui-patterns.com/patterns/isolation-effect
+
+  img: /px/uiux/gorgeious-ui.png
+  tags: best practices & checklists
+  title: Baymard Institute
+- url: https://baymard.com/ux-benchmark
+
+  title: UX Checklist (GitHub)
+  tags: best practices & checklists
+- url: http://uxchecklist.github.io/
+
+  tags: best practices & checklists
+  title: Front-End Performance (Smashing Magazine)
+- url: https://www.smashingmagazine.com/2016/12/front-end-performance-checklist-2017-pdf-pages/
+
+  tags: best practices & checklists
+  title: Gorgeous UI, pt 1 (erikdkennedy)
+- url: https://medium.com/erikdkennedy/7-rules-for-creating-gorgeous-ui-part-1-559d4e805cda
+
+  tags: best practices & checklists
+  title: Gorgeous UI pt 2 (erikdkennedy)
+- url: https://medium.com/erikdkennedy/7-rules-for-creating-gorgeous-ui-part-2-430de537ba96
+
+  tags: biases 
+  title: loss aversion
+- url: http://ui-patterns.com/patterns/Loss-aversion
+
+  tags: biases 
+  title: status-quo bias
+- url: http://ui-patterns.com/patterns/Statusquo-bias
+
+  tags: biases 
+  title: optimism bias
+- url: http://ui-patterns.com/patt erns/optimism-bias
+
+  tags: biases 
+  title: negativity bias
+- url: http://ui-patterns.com/patterns/Negativity-bias
+
+  tags: biases 
+  title: framing
+- url: http://ui-patterns.com/patterns/framing
+
+  tags: biases 
+  title: endowment effect
+- url: http://ui-patterns.com/patterns/Endowment-effect
+
+  tags: biases 
+  title: illusion of control
+- url: http://ui-patterns.com/patterns/Illusion-of-control
+
+  tags: biases 
+  title: need for closure
+- url: http://ui-patterns.com/patterns/Need-for-closure
+
+  tags: biases 
+  title: peak-end rules
+- url: http://ui-patterns.com/patterns/Peakend-rule
+
+  tags: biases 
+  title: curiosity
+- url: http://ui-patterns.com/patterns/curiosity
+
+  tags: biases 
+  title: set completion
+- url: http://ui-patterns.com/patterns/set-completion
+
+  tags: biases 
+  title: value attribution
+- url: http://ui-patterns.com/patterns/Value-attribution
+
+  tags: biases 
+  title: scarcity
+- url: http://ui-patterns.com/patterns/Scarcity
+
+  tags: biases 
+  title: limited choices
+- url: http://ui-patterns.com/patterns/Limited-choice
+
+  tags: biases 
+  title: limited durations
+- url: http://ui-patterns.com/patterns/Limited-duration
+
+  tags: biases (social) 
+  title: authority
+- url: http://ui-patterns.com/patterns/Authority
+
+  tags: biases (social) 
+  title: liking
+- url: http://ui-patterns.com/patterns/Liking
+
+  tags: biases (social) 
+  title: consistency
+- url: http://ui-patterns.com/patterns/Commitment-consistency
+
+  tags: biases (social) 
+  title: reputation
+- url: http://ui-patterns.com/patterns/reputation
+
+  tags: biases (social) 
+  title: role playing
+- url: http://ui-patterns.com/patterns/Roleplaying
+
+  tags: biases (social) 
+  title: social proof
+- url: http://ui-patterns.com/patterns/Social-proof
+
+  tags: biases (social) 
+  title: reciprocation
+- url: http://ui-patterns.com/patterns/Reciprocation
+
+  tags: biases (social) 
+  title: revenge
+- url: http://ui-patterns.com/patterns/revenge
+
+  tags: biases (social) 
+  title: self expression
+- url: http://ui-patterns.com/patterns/Self-expression
+
+  tags: biases (social) 
+  title: positive mimicry
+- url: http://ui-patterns.com/patterns/Positive-mimicry
+
+  tags: biases (social) 
+  title: status
+- url: http://ui-patterns.com/patterns/Status
+
+  tags: biases (social) 
+  title: nostalgia
+- url: http://ui-patterns.com/patterns/nostalgia-effect
+
+  tags: biases (social) 
+  title: competition
+- url: http://ui-patterns.com/patterns/Competition
+
+  tags: change blindness
+  title: What is it? (NN Group)
+- url: https://www.nngroup.com/articles/change-blindness-definition/
+
+  img: /px/uiux/tally.jpg
+  tags: choices
+  title: Hick's Law -Making Choices easier (interaction-design.org)
+- url: https://www.interaction-design.org/literature/article/hick-s-law-making-the-choice-easier-for-users
+
+  tags: colors
+  title: Capturing Attention (UX Matters)
+- url: https://www.uxmatters.com/mt/archives/2020/02/capture-attention-through-color-psychology.php
+
+  tags: colors
+  title: How Color Impacts UX (WebDesignerDepot)
+- url: https://www.webdesignerdepot.com/2019/07/how-color-impacts-ux/
+
+  tags: colors
+  title: Color Theory (Color Matters)
+- url: https://www.colormatters.com/color-and-design/basic-color-theory
+
+  tags: colors
+  title: Why Facebook is Blue (Buffer)
+- url: https://buffer.com/resources/the-science-of-colors-in-marketing-why-is-facebook-blue
+
+  tags: colors
+  title: Hues, Tints, Tones, Shades (MyBluPrint)
+- url: https://www.mybluprint.com/article/hues-tints-tones-shades-all-those-color-terms-are-about-to-get-way-less-confusing
+
+  tags: colors
+  title: Contrasting Colors (Canva)
+- url: https://learn.canva.com/blog/contrasting-colors/
+
+  img: /px/uiux/best_pay-to-promote-okcupid.jpg
+  tags: community patterns 
+  title: Pay to Promote
+- url: http://ui-patterns.com/patterns/pay-to-promote
+
+  tags: community patterns 
+  title: Vote to Promote
+- url: http://ui-patterns.com/patterns/VoteToPromote
+
+  tags: community patterns 
+  title: Rate Content
+- url: http://ui-patterns.com/patterns/RateContent
+
+  tags: community patterns 
+  title: Flagging & Reporting Content
+- url: http://ui-patterns.com/patterns/flagging-and-reporting
+
+  tags: community patterns 
+  title: Wikis
+- url: http://ui-patterns.com/patterns/Wiki
+
+  tags: content models
+  title: Content Models (UX for the Masses)
+- url: http://www.uxforthemasses.com/resources/example-ux-docs/#content-models
+
+  tags: critical incident technique
+  title: Intro (NN Group)
+- url: https://www.nngroup.com/articles/critical-incident-technique/
+
+  tags: dark patterns
+  title: Catalog (Dark Patterns)
+- url: https://darkpatterns.org/types-of-dark-pattern
+
+  tags: element patterns 
+  title: Adaptive Views
+- url: http://ui-patterns.com/patterns/AdaptableView
+
+  tags: element patterns 
+  title: Archives
+- url: http://ui-patterns.com/patter</ns/Archive
+
+  tags: element patterns 
+  title: Article Lists
+- url: http://ui-patterns.com/patterns/ArticleList
+
+  tags: element patterns 
+  title: Categorization
+- url: http://ui-patterns.com/patterns/categorization
+
+  tags: element patterns 
+  title: Carousels
+- url: http://ui-patterns.com/patterns/Carousel
+
+  img: /px/uiux/best_pinterest_cards.png
+  tags: element patterns 
+  title: Cards
+- url: http://ui-patterns.com/patterns/cards
+
+  tags: element patterns 
+  title: Copy Boxes
+- url: http://ui-patterns.com/patterns/CopyBox
+
+  tags: element patterns 
+  title: Dashboards
+- url: http://ui-patterns.com/patterns/dashboard
+
+  tags: element patterns 
+  title: Event Calendars
+- url: http://ui-patterns.com/patterns/EventCalendar
+
+  tags: element patterns 
+  title: FAQs
+- url: http://ui-patterns.com/patterns/frequently-asked-questions-faq
+
+  tags: element patterns 
+  title: Favorites
+- url: http://ui-patterns.com/patterns/favorites
+
+  tags: element patterns 
+  title: Progressive Disclosure
+- url: http://ui-patterns.com/patterns/ProgressiveDisclosure
+
+  tags: element patterns 
+  title: Pagination
+- url: http://ui-patterns.com/patterns/Pagination
+
+  tags: element patterns 
+  title: Continuous Scrolling
+- url: http://ui-patterns.com/patterns/ContinuousScrolling
+
+  tags: element patterns 
+  title: Tags
+- url: http://ui-patterns.com/patterns/Tag
+
+  tags: element patterns 
+  title: Tag Clouds
+- url: http://ui-patterns.com/patterns/TagCloud
+
+  tags: element patterns 
+  title: Thumbnail Images
+- url: http://ui-patterns.com/patterns/Thumbnail
+
+  tags: design patterns (web)
+  title: Designing Interfaces (OReilly)
+- url: http://designinginterfaces.com/patterns/
+
+  tags: design patterns (web)
+  title: Designing Web Interfaces
+- url: http://designingwebinterfaces.com/explore
+
+  tags: design patterns (web)
+  title: Explore-and-Exploit Interfaces (Medium)
+- url: https://medium.com/quora-design/a-survey-of-explore-and-exploit-interfaces-68c61ebb2379#.90o5m6djg
+
+  tags: design patterns (web)
+  title: Design Interface Patterns (Designing Interfaces)
+- url: http://designinginterfaces.com/patterns/
+
+  tags: design patterns (web)
+  title: Good UI Principles (Good UI)
+- url: http://www.goodui.org/
+
+  tags: ecommerce
+  title: 7 tips that drive sales (UX Matters)
+- url: https://www.uxmatters.com/mt/archives/2020/01/7-ecommerce-ux-tips-that-drive-sales.php
+
+  tags: ecommerce
+  title: Product Page UX (NN Group)
+- url: https://www.nngroup.com/articles/ecommerce-product-pages/
+
+  tags: ecommerce
+  title: Guidelines (NN Group)
+- url: https://www.nngroup.com/articles/ecommerce-homepages-listing-pages/
+
+  tags: ecommerce page examples (Baymard)
+  title: Home
+- url: https://baymard.com/homepage-and-category-usability/benchmark/page-types/homepage
+
+  tags: ecommerce page examples (Baymard)
+  title: Dropdown menus
+- url: https://baymard.com/homepage-and-category-usability/benchmark/page-types/drop-down-menu
+
+  tags: ecommerce page examples (Baymard)
+  title: Toplevel navigation
+- url: https://baymard.com/homepage-and-category-usability/benchmark/page-types/top-level-navigation
+
+  tags: search
+  title: Search fields
+- url: https://baymard.com/ecommerce-search/benchmark/page-types/search-field
+
+  tags: search
+  title: Autocompletion
+- url: https://baymard.com/ecommerce-search/benchmark/page-types/autocomplete-suggestions
+
+  tags: search
+  title: Results page
+- url: https://baymard.com/ecommerce-search/benchmark/page-types/search-results-page
+
+  tags: search
+  title: No results page
+- url: https://baymard.com/ecommerce-search/benchmark/page-types/no-search-results-page
+
+  tags: product lists & filtering
+  title: List by category
+- url: https://baymard.com/ecommerce-product-lists/benchmark/page-types/product-list-category
+
+  tags: product lists & filtering
+  title: List from search
+- url: https://baymard.com/ecommerce-product-lists/benchmark/page-types/product-list-search
+
+  tags: product lists & filtering
+  title: Sorting tool
+- url: https://baymard.com/ecommerce-product-lists/benchmark/page-types/sorting-tool
+
+  tags: product lists & filtering
+  title: Comparison tool
+- url: https://baymard.com/ecommerce-product-lists/benchmark/page-types/comparison-tool
+
+  tags: product pages
+  title: product pages
+- url: https://baymard.com/product-page/benchmark/page-designs/product-page
+
+  tags: product pages
+  title: Image gallery overlays
+- url: https://baymard.com/product-page/benchmark/page-designs/image-gallery-overlay
+
+  tags: product pages
+  title: Video & 360 views
+- url: https://baymard.com/product-page/benchmark/page-designs/video-and-360-views
+
+  tags: product pages
+  title: User reviews
+- url: https://baymard.com/product-page/benchmark/page-designs/user-reviews-section
+
+  tags: product pages
+  title: Spec sheets
+- url: https://baymard.com/product-page/benchmark/page-designs/product-spec-sheet
+
+  tags: shopping carts
+  title: Shopping carts
+- url: https://baymard.com/checkout-usability/benchmark/step-type/cart
+
+  tags: shopping carts
+  title: Cross-selling
+- url: https://baymard.com/checkout-usability/benchmark/step-type/cross-sell
+
+  tags: shopping carts
+  title: Account info
+- url: https://baymard.com/checkout-usability/benchmark/step-type/account
+
+  tags: shopping carts
+  title: Shipping addresses
+- url: https://baymard.com/checkout-usability/benchmark/step-type/shipping-address
+
+  tags: shopping carts
+  title: Delivery & shipping methods
+- url: https://baymard.com/checkout-usability/benchmark/step-type/delivery-options
+
+  tags: shopping carts
+  title: Address validations
+- url: https://baymard.com/checkout-usability/benchmark/step-type/address-validator
+
+  tags: shopping carts
+  title: Billing addresses
+- url: https://baymard.com/checkout-usability/benchmark/step-type/billing-address
+
+  tags: shopping carts
+  title: Payment
+- url: https://baymard.com/checkout-usability/benchmark/step-type/payment
+
+  tags: shopping carts
+  title: Order reviews
+- url: https://baymard.com/checkout-usability/benchmark/step-type/order-review
+
+  tags: shopping carts
+  title: Order confirmations
+- url: https://baymard.com/checkout-usability/benchmark/step-type/receipt
+
+  tags: shopping carts
+  title: Gifting
+- url: https://baymard.com/checkout-usability/benchmark/step-type/gifting
+
+  tags: shopping carts
+  title: Store pickups
+- url: https://baymard.com/checkout-usability/benchmark/step-type/store-pickup
+
+  tags: accounts & self-service
+  title: My Account dropdown
+- url: https://baymard.com/ecommerce-design-examples/57-my-account-drop-down
+
+  tags: accounts & self-service
+  title: Account dashboard
+- url: https://baymard.com/ecommerce-design-examples/58-account-dashboard
+
+  tags: accounts & self-service
+  title: Address book
+- url: https://baymard.com/ecommerce-design-examples/59-address-book
+
+  tags: accounts & self-service
+  title: Stored credit cards
+- url: https://baymard.com/ecommerce-design-examples/60-stored-credit-cards
+
+  tags: accounts & self-service
+  title: Newsletter management
+- url: https://baymard.com/ecommerce-design-examples/61-newsletter-management
+
+  tags: accounts & self-service
+  title: Orders overview
+- url: https://baymard.com/ecommerce-design-examples/62-orders-overview
+
+  tags: accounts & self-service
+  title: Order tracking
+- url: https://baymard.com/ecommerce-design-examples/63-order-tracking-page
+
+  tags: accounts & self-service
+  title: Order returns
+- url: https://baymard.com/ecommerce-design-examples/64-order-returns
+
+  tags: mobile e-commerce
+  title: Home
+- url: https://baymard.com/mcommerce-usability/benchmark/mobile-page-types/homepage
+
+  tags: mobile e-commerce
+  title: Navigation
+- url: https://baymard.com/mcommerce-usability/benchmark/mobile-page-types/navigation-menu
+
+  tags: mobile e-commerce
+  title: Categories
+- url: https://baymard.com/mcommerce-usability/benchmark/mobile-page-types/category-page
+
+  tags: mobile e-commerce
+  title: Products
+- url: https://baymard.com/mcommerce-usability/benchmark/mobile-page-types/product-list
+
+  tags: mobile e-commerce
+  title: Searches
+- url: https://baymard.com/mcommerce-usability/benchmark/mobile-page-types/search-field
+
+  tags: mobile e-commerce
+  title: Search Autocompletes
+- url: https://baymard.com/mcommerce-usability/benchmark/mobile-page-types/search-autocomplete
+
+  tags: mobile e-commerce
+  title: Search Results
+- url: https://baymard.com/mcommerce-usability/benchmark/mobile-page-types/search-results
+
+  tags: mobile e-commerce
+  title: Shopping Carts
+- url: https://baymard.com/mcommerce-usability/benchmark/mobile-page-types/cart
+
+  tags: mobile e-commerce
+  title: Checkout Account Selection
+- url: https://baymard.com/mcommerce-usability/benchmark/mobile-page-types/account
+
+  tags: mobile e-commerce
+  title: Shipping Address
+- url: https://baymard.com/mcommerce-usability/benchmark/mobile-page-types/shipping-address
+
+  tags: mobile e-commerce
+  title: Shipping Method
+- url: https://baymard.com/mcommerce-usability/benchmark/mobile-page-types/shipping-method
+
+  tags: mobile e-commerce
+  title: Billing Address
+- url: https://baymard.com/mcommerce-usability/benchmark/mobile-page-types/billing-details
+
+  tags: mobile e-commerce
+  title: Payment Method
+- url: https://baymard.com/mcommerce-usability/benchmark/mobile-page-types/payment
+
+  tags: mobile e-commerce
+  title: Order Review
+- url: https://baymard.com/mcommerce-usability/benchmark/mobile-page-types/review-order
+
+  tags: mobile e-commerce
+  title: Order Confirmation
+- url: https://baymard.com/mcommerce-usability/benchmark/mobile-page-types/receipt
+
+  tags: empathy maps
+  title: NN Group
+- url: https://www.nngroup.com/articles/sympathy-vs-empathy-ux/
+
+  tags: empathy maps
+  title: UX for the Masses
+- url: http://www.uxforthemasses.com/resources/example-ux-docs/#empathy-maps
+
+  tags: empathy maps
+  title: Innovation Games
+- url: http://www.innovationgames.com/empathy-map/
+
+  tags: experience/journey maps
+  title: ConversionXL
+- url: https://conversionxl.com/blog/customer-journey-mapping-examples/
+
+  tags: experience/journey maps
+  title: UX for the Masses
+- url: http://www.uxforthemasses.com/resources/example-ux-docs/#experience-maps
+
+  tags: experience/journey maps
+  title: Adaptive Path
+- url: http://www.adaptivepath.com/ideas/our-guide-to-experience-mapping/
+
+  tags: experience/journey maps
+  title: wnialloconnor
+- url: https://medium.com/wnialloconnor/how-to-build-an-experience-map-5e55b7ee4f32#.v68dluoyo
+
+  tags: explainers 
+  title: Wizards
+- url: http://ui-patterns.com/patterns/Wizard
+
+  tags: explainers 
+  title: Steps Remaining
+- url: http://ui-patterns.com/patterns/StepsLeft
+
+  tags: explainers 
+  title: Completeness Meters
+- url: http://ui-patterns.com/patterns/CompletenessMeter
+
+  tags: explainers 
+  title: Inline Help Boxes
+- url: http://ui-patterns.com/patterns/InlineHelpBox
+
+  img: /px/uiux/flat-design-office-desk-02-preview-o.jpg
+  tags: flat design
+  title: Design Contest
+- url: https://www.designcontest.com/blog/trend-what-is-flat-design/
+
+  tags: form elements 
+  title: WYSIWYG editors
+- url: http://ui-patterns.com/patterns/WYSIWYG
+
+  tags: form elements 
+  title: Password Strength Meters
+- url: http://ui-patterns.com/patterns/PasswordStrengthMeter
+
+  tags: form elements 
+  title: Input Feedback
+- url: http://ui-patterns.com/patterns/InputFeedback
+
+  tags: form elements 
+  title: Calendar Picker
+- url: http://ui-patterns.com/patterns/CalendarPicker
+
+  tags: form elements 
+  title: Settings / Preferences
+- url: http://ui-patterns.com/patterns/settings
+
+  tags: interactions
+  title: Drag & Drop
+- url: http://ui-patterns.com/patterns/drag-and-drop
+
+  tags: form elements 
+  title: Input Prompts
+- url: http://ui-patterns.com/patterns/InputPrompt
+
+  tags: form elements 
+  title: Structured Formats
+- url: http://ui-patterns.com/patterns/StructuredFormat
+
+  tags: form elements 
+  title: Fill in the Blanks
+- url: http://ui-patterns.com/patterns/FillInTheBlanks
+
+  tags: form elements 
+  title: Undo
+- url: http://ui-patterns.com/patterns/undo
+
+  tags: form elements 
+  title: Expandable Inputs
+- url: http://ui-patterns.com/patterns/expandable-input
+
+  tags: form elements 
+  title: Keyboard Shortcuts
+- url: http://ui-patterns.com/patterns/keyboard-shortcuts
+
+  tags: form elements 
+  title: Captchas
+- url: http://ui-patterns.com/patterns/Captcha
+
+  tags: form elements 
+  title: Morphing Controls
+- url: http://ui-patterns.com/patterns/morphing-controls
+
+  tags: form elements 
+  title: Previews
+- url: http://ui-patterns.com/patterns/LivePreview
+
+  tags: form elements 
+  title: Rule Builders
+- url: http://ui-patterns.com/patterns/rule-builder
+
+  tags: form elements 
+  title: Inplace Editors
+- url: http://ui-patterns.com/patterns/InplaceEditor
+
+  tags: form elements 
+  title: Forgiving Formats
+- url: http://ui-patterns.com/patterns/ForgivingFormat
+
+  tags: form elements 
+  title: Good Defaults
+- url: http://ui-patterns.com/patterns/GoodDefaults
+
+  tags: form elements 
+  title: Autosaving
+- url: http://ui-patterns.com/patterns/autosave
+
+  tags: game patterns 
+  title: periodic events
+- url: http://ui-patterns.com/patterns/periodic-events
+
+  tags: game patterns 
+  title: appropriate challenges
+- url: http://ui-patterns.com/patterns/Appropriate-challenge
+
+  tags: game patterns 
+  title: levels
+- url: http://ui-patterns.com/patterns/Levels
+
+  tags: game patterns 
+  title: self-monitoring
+- url: http://ui-patterns.com/patterns/self-monitoring
+
+  tags: game patterns 
+  title: storytelling
+- url: http://ui-patterns.com/patterns/Storytelling
+
+  tags: game patterns 
+  title: intentional gaps
+- url: http://ui-patterns.com/patterns/Intentional-gaps
+
+  tags: rewards
+  title: fixed
+- url: http://ui-patterns.com/patterns/Fixed-rewards
+
+  tags: rewards
+  title: variable
+- url: http://ui-patterns.com/patterns/Variable-rewards
+
+  tags: rewards
+  title: completions
+- url: http://ui-patterns.com/patterns/Completion
+
+  tags: rewards
+  title: prolonged play
+- url: http://ui-patterns.com/patterns/Prolonged-play
+
+  tags: rewards
+  title: powers
+- url: http://ui-patterns.com/patterns/Powers
+
+  tags: rewards
+  title: praise
+- url: http://ui-patterns.com/patterns/Praise
+
+  tags: rewards
+  title: unlocking features
+- url: http://ui-patterns.com/patterns/Unlock-features
+
+  tags: rewards
+  title: delighters
+- url: http://ui-patterns.com/patterns/delighters
+
+  tags: rewards
+  title: achievements
+- url: http://ui-patterns.com/patterns/Achievements
+
+  tags: grids
+  title: 5 Design Ideas (Canva)
+- url: https://learn.canva.com/learn/5-creative-design-ideas-using-grids/
+
+  img: /px/uiux/10-open-source-icon-libraries.jpg
+  tags: images & photos
+  title: open-source SVG icon libraries (Themesberg)
+- url: https://themesberg.com/blog/open-source/10-open-source-free-svg-icon-libraries
+
+  tags: images & photos
+  title: Slideshows 
+- url: http://ui-patterns.com/patterns/Slideshow
+
+  tags: images & photos
+  title: Galleries 
+- url: http://ui-patterns.com/patterns/Gallery
+
+  tags: images & photos
+  title: Image Zoom 
+- url: http://ui-patterns.com/patterns/ImageZoom
+
+  tags: images & photos
+  title: How to Film & Photograph (NN Group)
+- url: https://www.nngroup.com/articles/video-image-details/
+
+  tags: images & photos
+  title: Stock Photos (Canva)
+- url: https://www.canva.com/photos/free/
+
+  tags: intent
+  title: How do Needs drive Intent? (Google)
+- url: https://www.thinkwithgoogle.com/consumer-insights/consumer-needs-research/
+
+  tags: interactions
+  title: Digital.HEB
+- url: https://digital.heb.com/the-feed/article/microinteractions-can-make-a-big-difference/
+
+  tags: interactions
+  title: Shaping User Behaviors (Medium)
+- url: https://medium.muz.li/using-interactions-to-shape-user-behavior-patterns-e7dac087eebe
+
+  tags: interactions
+  title: Read Write Web
+- url: https://readwrite.com/2019/08/23/optimize-micro-interactions-to-enhance-your-ux-design
+
+  tags: logo design
+  title: Creative Bloq
+- url: https://www.creativebloq.com/graphic-design/pro-guide-logo-design-21221
+
+  img: /px/uiux/kerning-1-tb-800x0.png
+  tags: kerning
+  title: Canva
+- url: https://www.canva.com/learn/kerning/
+
+  img: /px/uiux/knolling.jpg
+  tags: knolling
+  title: 50 Examples (The Ultra Linx)
+- url: https://theultralinx.com/2013/09/50-amazing-examples-knolling-photography/
+
+  img: /px/uiux/letterpress.jpg
+  tags: letterpress
+  title: 50 Examples (Canva)
+- url: https://learn.canva.com/learn/letterpress-business-cards/
+
+  tags: locality
+  title: Locality Laws (Learn UI)
+- url: https://learnui.design/blog/the-3-laws-of-locality.html
+
+  tags: mapping
+  title: Cognitive Maps, Mind Maps, and Concept Maps- Definitions (NN Group)
+- url: https://www.nngroup.com/articles/cognitive-mind-concept/
+
+  tags: navigation elements 
+  title: Shortcut Dropdowns
+- url: http://ui-patterns.com/patterns/ShortcutDropdown
+
+  tags: navigation elements 
+  title: Notifications
+- url: http://ui-patterns.com/patterns/notifications
+
+  tags: navigation elements 
+  title: Breadcrumbs
+- url: http://ui-patterns.com/patterns/Breadcrumbs
+
+  tags: navigation elements 
+  title: Modal Windows
+- url: http://ui-patterns.com/patterns/modal-windows
+
+  tags: navigation elements 
+  title: Fat Footers
+- url: http://ui-patterns.com/patterns/FatFooter
+
+  tags: navigation elements 
+  title: Home Links
+- url: http://ui-patterns.com/patterns/HomeLink
+
+  tags: navigation elements 
+  title: Vertical Dropdown
+- url: http://ui-patterns.com/patterns/VerticalDropdownMenu
+
+  tags: navigation elements 
+  title: Accordions
+- url: http://ui-patterns.com/patterns/AccordionMenu
+
+  tags: navigation elements 
+  title: Horizontal Dropdown
+- url: http://ui-patterns.com/patterns/HorizontalDropdownMenu
+
+  tags: onboarding
+  title: Mobile App Onboarding (NN Group)
+- url: https://www.nngroup.com/articles/mobile-app-onboarding/
+
+  tags: design patterns
+  title: walkthroughs
+- url: http://ui-patterns.com/patterns/Tour
+
+  tags: design patterns
+  title: blank slates
+- url: http://ui-patterns.com/patterns/BlankSlate
+
+  tags: design patterns
+  title: coachmarks
+- url: http://ui-patterns.com/patterns/coachmarks
+
+  tags: design patterns
+  title: playthroughs
+- url: http://ui-patterns.com/patterns/playthrough
+
+  tags: design patterns
+  title: guided tours
+- url: http://ui-patterns.com/patterns/Guided-tour
+
+  tags: design patterns
+  title: inline hints
+- url: http://ui-patterns.com/patterns/inline-hints
+
+  tags: design patterns
+  title: lazy registration
+- url: http://ui-patterns.com/patterns/LazyRegistration
+
+  tags: design patterns
+  title: account registration
+- url: http://ui-patterns.com/patterns/AccountRegistration
+
+  tags: design patterns
+  title: paywalls
+- url: http://ui-patterns.com/patterns/Paywall
+
+  img: /px/uiux/parallax_example.gif
+  tags: parallax
+  title: What Parallax ... Lacks (NN Group)
+- url: https://www.nngroup.com/articles/parallax-usability/
+
+  img: /px/uiux/mobile-wiski.png
+  tags: pdfs
+  title: Read PDFs online? Just Say No. (NN Group)
+- url: https://www.nngroup.com/articles/avoid-pdf-for-on-screen-reading/
+
+  tags: personas
+  title: Personas (UX for the Masses)
+- url: http://www.uxforthemasses.com/personas/
+
+  tags: principles, guidelines, frameworks
+  title: Six Circles
+- url: https://medium.theuxblog.com/six-circles-a-experience-design-framework-fabe5fc5abc9
+
+  tags: principles, guidelines, frameworks
+  title: The Laws of UX
+- url: https://lawsofux.com/
+
+  tags: principles, guidelines, frameworks
+  title: Awesome Design Principles (Robin Stickel)
+- url: https://github.com/robinstickel/awesome-design-principles
+
+  tags: principles, guidelines, frameworks
+  title: Perception & Gestalt (Smashing Mag)
+- url: https://www.smashingmagazine.com/2014/03/design-principles-visual-perception-and-the-principles-of-gestalt/
+
+  tags: principles, guidelines, frameworks
+  title: Space & Figure-Ground Relations (Smashing Mag)
+- url: https://www.smashingmagazine.com/2014/05/design-principles-space-figure-ground-relationship/
+
+  tags: principles, guidelines, frameworks
+  title: Contrast & Similarity (Smashing Mag)
+- url: https://www.smashingmagazine.com/2014/09/design-principles-connecting-and-separating-elements-through-contrast-and-similarity/
+
+  tags: principles, guidelines, frameworks
+  title: Weight & Direction (Smashing Mag)
+- url: https://www.smashingmagazine.com/2014/12/design-principles-visual-weight-direction/
+
+  tags: principles, guidelines, frameworks
+  title: Dominance, Focal Points & Hierarchy (Smashing Mag)
+- url: https://www.smashingmagazine.com/2015/02/27/design-principles-dominance-focal-points-hierarchy/
+
+  tags: principles, guidelines, frameworks
+  title: Flow & Rhythm (Smashing Mag)
+- url: https://www.smashingmagazine.com/2015/04/design-principles-compositional-flow-and-rhythm/
+
+  tags: process diagrams
+  title: Process Diagrams (UX for the Masses)
+- url: http://www.uxforthemasses.com/resources/example-ux-docs/#process-diagrams
+
+  tags: reputational UI elements
+  title: collectible achievements
+- url: http://ui-patterns.com/patterns/CollectibleAchievements
+
+  tags: reputational UI elements
+  title: leaderboards
+- url: http://ui-patterns.com/patterns/leaderboard
+
+  tags: reputational UI elements
+  title: testimonials
+- url: http://ui-patterns.com/patterns/testimonials
+
+  tags: resources
+  title: Complete Guide to UX Research Methods (TopTal)
+- url: https://www.toptal.com/designers/user-research/guide-to-ux-research-methods
+
+  tags: resources
+  title: Awesome UX (GitHub)
+- url: https://github.com/netoguimaraes/awesome-ux
+
+  tags: resources
+  title: Awesome Design Resources (GitHub)
+- url: https://github.com/gztchan/awesome-design
+
+  tags: responsive UI
+  title: Brad Frost
+- url: https://bradfrost.github.io/this-is-responsive/patterns.html
+
+  tags: responsive UI
+  title: Large-Scale Responsive Site Design (UX Booth)
+- url: http://www.uxbooth.com/articles/how-to-design-a-large-scale-responsive-site/
+
+  tags: scale
+  title: Scale & Design (Canva)
+- url: https://learn.canva.com/learn/scale-designs/
+
+  tags: scarcity
+  title: Scarcity - The Psych Bias that become a Norm (UX Collective)
+- url: https://uxdesign.cc/scarcity-in-ux-the-psychological-bias-that-became-the-norm-3e666b749a9a
+
+  tags: scenario maps
+  title: Example Scenario Maps (UX for the Masses)
+- url: http://www.uxforthemasses.com/resources/example-ux-docs/#scenario-maps
+
+  img: /px/uiux/serp-origamicup.png
+  tags: search
+  title: 3 SERP features - advanced snips, people ask ask, & knowledge panels (NN Group)
+- url: https://www.nngroup.com/articles/key-serp-features/
+
+  tags: search
+  title: Autocomplete pattern 
+- url: http://ui-patterns.com/patterns/Autocomplete
+
+  tags: search
+  title: Live filter pattern 
+- url: http://ui-patterns.com/patterns/LiveFilter
+
+  tags: search
+  title: 7 Things I Wish Every Search Did (Intercom)
+- url: https://blog.intercom.com/7-things-wish-every-search-did/
+
+  tags: sitemaps
+  title: Example Sitemaps (UX for the Masses)
+- url: http://www.uxforthemasses.com/resources/example-ux-docs/#sitemaps
+
+  tags: sketching
+  title: Sketching (UX for the Masses)
+- url: http://www.uxforthemasses.com/sketching/
+
+  tags: social interaction elements 
+  title: friends list
+- url: http://ui-patterns.com/patterns/friend-list
+
+  tags: social interaction elements 
+  title: activity streams
+- url: http://ui-patterns.com/patterns/ActivityStream
+
+  tags: social interaction elements 
+  title: auto-sharing
+- url: http://ui-patterns.com/patterns/auto-sharing
+
+  tags: social interaction elements 
+  title: chats
+- url: http://ui-patterns.com/patterns/direct-messaging
+
+  tags: social interaction elements 
+  title: friending
+- url: http://ui-patterns.com/patterns/friend
+
+  tags: social interaction elements 
+  title: reactions
+- url: http://ui-patterns.com/patterns/reaction
+
+  tags: social interaction elements 
+  title: invitations
+- url: http://ui-patterns.com/patterns/invite-friends
+
+  tags: social interaction elements 
+  title: following
+- url: http://ui-patterns.com/patterns/follow
+
+  tags: spatial memory
+  title: Spatial Memory (NN Group)
+- url: https://www.nngroup.com/articles/spatial-memory/
+
+  tags: stories
+  title: Example StoryBoards (UX for the Masses)
+- url: http://www.uxforthemasses.com/resources/example-ux-docs/#storyboards
+
+  tags: stories
+  title: Intro to Storyboarding (Johnny Holland)
+- url: http://johnnyholland.org/2011/10/storyboarding-ux-part-1-an-introduction/
+
+  tags: stories
+  title: Intro to Storyboarding (Smashing Magazine)
+- url: https://www.smashingmagazine.com/2017/10/storyboarding-ux-design/
+
+  tags: style guides
+  title: Style Guides (UX for the Masses)
+- url: http://www.uxforthemasses.com/resources/example-ux-docs/#style-guides
+
+  tags: style guides
+  title: Creating a Style Guide (A List Apart)
+- url: http://alistapart.com/article/creating-style-guides
+
+  tags: style guides
+  title: Example Style Guide (Starbucks)
+- url: http://www.starbucks.com/static/reference/styleguide/
+
+  tags: style guides
+  title: Buffer's Style Guide
+- url: https://buffer.com/style-guide
+
+  tags: tables 
+  title: Table Filters
+- url: http://ui-patterns.com/patterns/TableFilter
+
+  tags: tables 
+  title: Alternating Row Colors
+- url: http://ui-patterns.com/patterns/AlternatingRowColors
+
+  tags: tables 
+  title: Sort by Column
+- url: http://ui-patterns.com/patterns/SortByColumn
+
+  tags: task grids, work breakdown diagrams
+  title: Task Grids (UX for the Masses)
+- url: http://www.uxforthemasses.com/resources/example-ux-docs/#task-grids
+
+  tags: tools
+  title: Free UX/UI prototyping tools, Feb'2020 (Noupe)
+- url: https://www.noupe.com/design/ux-ui-prototyping-tools-for-web-app-designers.html
+
+  tags: tools
+  title: Free UX Tools (UX for the Masses)
+- url: http://www.uxforthemasses.com/resources/free-ux-tools/
+
+  tags: tools
+  title: Visual Inspiration Tools (Awwwards)
+- url: https://www.awwwards.com/visual-tools-to-aid-your-daily-inspirational-process.html
+
+  tags: microinteractions
+  title: How to use Tooltips as Micro-Interactions (Web Designer Depot)
+- url: http://www.webdesignerdepot.com/2017/03/how-to-use-tooltips-as-microinteractions/
+
+  img: /px/uiux/4-2-photos-semantic-zoom.jpg
+  tags: touch
+  title: Design for Touch (UX Matters)
+- url: https://www.uxmatters.com/mt/archives/2020/02/designing-for-touch.php
+
+  tags: touch
+  title: Design Language (UX Matters)
+- url: https://www.uxmatters.com/mt/archives/2019/05/a-design-language-for-touch-gesture-and-motion.php
+
+  img: /px/uiux/typography.png
+  tags: typography
+  title: Intro (Practical Typography)
+- url: https://practicaltypography.com/what-is-typography.html
+
+  tags: typography
+  title: How to Pick Font Families (Lifewire)
+- url: https://www.lifewire.com/font-families-basics-3467382
+
+  tags: typography
+  title: Typographic Hierarchy (Tutsplus)
+- url: https://webdesign.tutsplus.com/articles/understanding-typographic-hierarchy--webdesign-11636
+
+  tags: typography
+  title: Glossary (Canva)
+- url: https://learn.canva.com/learn/visual-glossary-typographic-terms/
+
+  tags: use cases
+  title: Airline Boarding Passes (Squarespace)
+- url: http://passfail.squarespace.com/
+
+  tags: language
+  title: Why Japanese Web Design is so Different (RandomWire)
+- url: https://randomwire.com/why-japanese-web-design-is-so-different/
+
+  tags: language
+  title: Why do Chinese Websites Have all those Numbers? (New Republic)
+- url: https://newrepublic.com/article/117608/chinese-number-websites-secret-meaning-urls
+
+  tags: use cases
+  title: I Learned Everything I Needed to Know about UX While Working in Restaurants (NN Group)
+- url: https://www.nngroup.com/articles/ux-learn-in-restaurants/
+
+  tags: (uncategorized)
+  title: A Crash Course in User Psychology (The Hipper Element)
+- url: http://thehipperelement.com/post/87574750438/ux-crash-course-user-psychology
+
+  tags: user testing
+  title: Why you only need to test with 5 users (NN Group)
+- url: https://www.nngroup.com/articles/why-you-only-need-to-test-with-5-users/
+
+  tags: visualization
+  title: Periodic Table (Visual Literacy)
+- url: http://www.visual-literacy.org/periodic_table/periodic_table.html
+
+  tags: visualization
+  title: 10 Rules (Plos)
+- url: http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1003833
+
+  tags: visualization
+  title: Style Tiles
+- url: http://styletil.es/
+
+  tags: visualization
+  title: Beautiful Reasons (Accurat Studio)
+- url: https://medium.com/accurat-studio/beautiful-reasons-c1c6926ab7d7#.6stwta3w2
+
+  img: /px/uiux/wayfinding-4.jpg
+  tags: navigation
+  title: Waypoints (Matthew Strom)
+- url: https://matthewstrom.com/writing/wayfinding.html
+
+  img: /px/uiux/whitespace.jpg
+  tags: whitespace
+  title: Canva
+- url: https://learn.canva.com/learn/white-space-can-best-friend-designing/
+
+  img: /px/uiux/wireframe.jpg
+  tags: wireframes
+  title: Gallery (Pinterest)
+- url: https://www.pinterest.com/wireframes/great-wireframe-examples/
+
+  img: /px/uiux/wordcloud.png
+  tags: word clouds
+  title: TagCrowd
+- url: http://tagcrowd.com/
+
+  tags: word clouds
+  title: Wordle (Boxes & Arrows)
+- url: http://boxesandarrows.com/three-ways-to-improve-your-design-research-with-wordle/
+
+- url: https://christiantietze.de/posts/2021/01/hyperlegible-font/ #1612564761
+  tags: typography
+  title: Atkinson Hyperlegible Font
+
+- url: https://www.figmacrashcourse.com/ #1612377890
+  tags: tools
+  title: Figma Crash Course
+
+- url: https://conversionxl.com/science-of-familiarity #1612015111
+  tags: behaviors
+  title: science-of-familiarity
+
+- url: https://uxdesign.cc/how-privilege-impacts-empathy-b34ad0c16431 #1612014985
+  tags: behaviors
+  title: how-privilege-impacts-empathy
+
+- url: https://www.uxpin.com/studio/blog/cognitive-psychology-for-ux-design/ #1611968951
+  tags: behaviors
+  title: 4 Cognitive Psychology Tricks for UX Design Excellence
+
+- url: http://www.visualcapitalist.com/18-cognitive-bias-examples-mental-mistakes/ #1611968951
+  tags: behaviors
+  title: 18 Cognitive Bias Examples Show Why Mental Mistakes Get Made
+
+- url: https://uxdesign.cc/a-comprehensive-list-of-ux-design-methods-deliverables-2021-2feb3e70e168 #1611583820
+  tags: glossaries
+  title: a-comprehensive-list-of-ux-design-methods-deliverables
+
+- url: https://www.retaildive.com/news/the-most-effective-technology-is-technology-that-no-one-sees-lowes-ceo/593687/ #1611262477
+  tags: invisibility
+  title: The most effective technology is technology that no one sees
+
+- url: https://floodstate.substack.com/p/storming-reddits-moat #1611105942
+  tags: platforms
+  title: Storming Reddits Moat
+
+- url: https://link.medium.com/Umv40tMA9cb #1611018377
+  tags: stories
+  title: behaviors and storytelling
+
+- url: https://www.uxpin.com/studio/blog/lorem-ipsum-design/ #1610731489
+  tags: lorem ipsum
+  title: How Lorem Ipsum Kills Your Designs
+
+- url: https://unintendedconsequenc.es/do-we-create-shoplifters/ #1609624909
+  tags: behaviors
+  title: Do We Create Shoplifters? - Unintended Consequences
+
+- url: https://darkpatterns.org/types-of-dark-pattern.html #1609209086
+  tags: dark patterns
+  title: Dark Patterns - Types of Dark Pattern
+
+- url: https://www.webdesignerdepot.com/2020/12/5-ways-to-boost-engagement-with-animation/ #1608315856
+  tags: animation
+  title: 5 Ways to Boost Engagement With Animation
+
+- url: https://designyoutrust.com/2020/12/brilliant-barcode-designs/ #1608315854
+  tags: barcodes
+  title: Brilliant Barcode Designs
+
+- url: https://www.nngroup.com/articles/lawn-mower-pattern/ #1607891306
+  tags: eye patterns
+  title: The Lawn Mower Eyetracking Pattern for Scanning Comparison Tables
+
+- url: https://www.uxmatters.com/mt/archives/2020/12/discussion-guide-gaffes-and-how-to-fix-them.php #1607656638
+  tags: mistakes
+  title: Discussion Guide Gaffes and How to Fix Them
+
+- url: https://www.uxmatters.com/mt/archives/2020/08/creating-low-fidelity-or-high-fidelity-prototypes-part-2.php #1607569935
+  tags: fidelity
+  title: Creating Low-Fidelity or High-Fidelity Prototypes, Part 2
+
+- url: https://www.uxpin.com/studio/blog/landing-pages-guide/ #1607568446
+  tags: landing pages
+  title: Landing Pages - The Complete Guide
+
+- url: https://www.reddit.com/r/ProductManagement/comments/ihqjhc/infographic_the_periodic_table_of_ux_elements
+  tags: design elements
+  title: periodic_table_of_ux_elements
+
+- url: https://smashingmagazine.com/2020/09/checklist-cards-re-release/ #1607568273
+  tags: design patterns
+  title: Smart Interface Design Patterns In Your Pocket
+
+- url: https://www.uxpin.com/studio/blog/button-design/ #1606680681
+  tags: buttons
+  title: Button Design Guide
+
+- url: https://dev.to/manu4543/responsive-images-a-reference-guide-from-a-to-z-30aa #1606323310
+  tags: images & photos
+  title: Responsive Images - A Reference Guide from A to Z
+
+- url: https://www.nngroup.com/articles/complex-application-design/ #1604938553
+  tags: design guides
+  title: 8 Design Guidelines for Complex Applications
+
+- url: https://www.smashingmagazine.com/guides/ux-design/ #1604446797
+  tags: design guides
+  title: UX Design — Smashing Magazine
+
+- url: https://www.fastcompany.com/90547531/want-to-ditch-pinterest-here-are-the-best-alternatives-for-visual-inspiration
+  tags: pinterest
+  title: Alternatives to Pinterest
+
+- url: https://smashingmagazine.com/2020/10/principles-visual-communication/ #1604367356
+  tags: communication
+  title: The Principles Of Visual Communication
+
+- url: https://goodui.org/leaks/list/ #1604364508
+  tags: leaks
+  title: https://goodui.org/leaks/list/
+
+- url: https://www.uxpin.com/studio/blog/creating-a-wireframe/ #1604364495
+  tags: wireframes
+  title: How to Create a Wireframe
+
+- url: https://www.nngroup.com/articles/product-ux-benchmarks/ #1604364280
+  tags: benchmarking
+  title: 7 Steps to Benchmark Your Product’s UX
+
+- url: https://thenextweb.com/dd/2020/09/14/10-ux-lessons-i-learned-building-my-product-from-scratch-syndication/ #1604364250
+  tags: best practices & checklists
+  title: 10 UX lessons I learned building my product from scratch
+
+- url: https://www.uxpin.com/studio/blog/ux-method/ #1604364188
+  tags: methods
+  title: The 6 UX Methods That Proved to Be Effective in Driving Results
+
+- url: https://www.uxpin.com/studio/blog/ui-animation-examples/ #1604364136
+  tags: animation
+  title: 4 UI Animation Examples That Showcase Effective Individual Components
+
+- url: https://www.nngroup.com/articles/gestalt-similarity/ #1604363796
+  tags: similarity
+  title: Similarity Principle in Visual Design
+
+- url: https://multithreaded.stitchfix.com/blog/2020/09/02/what-color-is-this/ #1604363636
+  tags: colors
+  title: What Color Is This?
+
+- url: https://www.toptal.com/designers/ui/web-layout-best-practices #1603157664
+  tags: layouts
+  title: Web Layout Best Practices - 12 Timeless UI Patterns Analyzed
+
+- url: https://creativemarket.com/blog/package-design-blogs-inspiration #1597829341
+  tags: packaging
+  title: Awesome Package Design Blogs to Inspire Your Work | Creative Market Blog
+
+- url: https://www.uxmatters.com/mt/archives/2020/08/building-narrative-into-your-user-interface-part-2.php #1597163140
+  tags: stories
+  title: Building Narrative into Your User Interface, Part 2
+
+- url: https://nickdewilde.substack.com/p/the-keyring-zac-halbert-on-ux-design #1597163110
+  tags: frameworks, tools
+  title: Favorite frameworks & tools
+
+- url: https://www.nngroup.com/articles/persona-types/ #1597023315
+  tags: personas
+  title: 3 Persona Types - Lightweight, Qualitative, and Statistical
+
+- url: https://www.yworks.com/products/yed #1597023269
+  tags: tools
+  title: Yworks tools
+
+- url: https://livebook.manning.com/book/usability-matters/chapter-2/ #1597023254
+  tags: usability
+  title: Chapter 2. Who’s using the app?
+
+- url: https://getpocket.com/explore/item/the-secret-to-happy-ux-according-to-a-legendary-game-designer #1597023156
+  tags: games
+  title: the-secret-to-happy-ux-according-to-a-legendary-game-designer
+
+- url: https://yangshun.github.io/front-end-interview-handbook/ #1597023139
+  tags: front end design
+  title: Front End Interview Handbook
+
+- url: https://www.uxmatters.com/mt/archives/2020/07/creating-low-fidelity-or-high-fidelity-prototypes-part-1.php #1597023074
+  tags: fidelity
+  title: Creating Low-Fidelity or High-Fidelity Prototypes, Part 1
+
+- url: https://www.uxmatters.com/mt/archives/2020/07/book-review-the-jobs-to-be-done-playbook.php #1597023071
+  tags: jobs to be done
+  title: The Jobs To Be Done Playbook
+
+- url: https://www.uxmatters.com/mt/archives/2020/07/book-review-the-lean-product-playbook.php #1597023069
+  tags: lean
+  title: The Lean Product Playbook
+
+- url: https://www.uxmatters.com/mt/archives/2020/07/optimizing-information-design.php #1597023062
+  tags: info design
+  title: Optimizing Information Design
+
+- url: https://www.designedbycave.co.uk/2020/LEGO-Interface-UX/ #1596555155
+  tags: interfaces
+  title: The UX of LEGO Interface Panels – George Cave
+
+- url: https://www.apollo-magazine.com/history-door-handle-designs/ #1592578793
+  tags: use cases
+  title: history-door-handle-designs
+
+- url: https://uxmag.com/articles/salience-the-psychology-of-an-experience-you-can’t-ignore
+  tags: salience
+  title: salience-the-psychology-of-an-experience-you-can’t-ignore
+
+- url: https://www.nngroup.com/articles/information-seeking-expectations/ #1591029811
+  tags: search
+  title: Different Information-Seeking Tasks
+
+- url: https://www.figma.com/files/recent #1589761386
+  tags: tools
+  title: Recently Viewed – Figma
+
+- url: https://thenextweb.com/syndication/2020/05/02/how-to-adapt-your-products-ux-for-the-chinese-market/ #1588808591
+  tags: language
+  title: How to adapt your product’s UX for the Chinese market
+
+- url: https://www.uxmatters.com/mt/archives/2020/05/designing-for-progressive-disclosure.php #1588808574
+  tags: progressive disclosure
+  title: Designing for Progressive Disclosure
+
+- url: https://www.nngroup.com/articles/benchmarking-ux/ #1588808561
+  tags: benchmarking
+  title: Benchmarking UX - Tracking Metrics
+
+- url: https://www.nngroup.com/articles/ux-workshops-in-hiring/ #1588808549
+  tags: hiring
+  title: Applying UX-Workshop Techniques to the Hiring Process
+
+- url: https://themesberg.com/blog/open-source/10-open-source-free-svg-icon-libraries #1588360583
+  tags: images & photos
+  title: 10-open-source-free-svg-icon-libraries
+
+- url: https://baymard.com/ #1588039353
+  tags: benchmarking
+  title: baymard.com
+
+- url: https://baymard.com/ux-benchmark #1587840485
+  tags: benchmarking
+  title: Top 60 E-Commerce Sites Ranked by UX Performance - Baymard Institute
+
+- url: https://baymard.com/ecommerce-design-examples #1587840467
+  tags: benchmarking
+  title: 4,096 E-Commerce Design Examples Distributed Across 52 Page Types - Baymard
+
+- url: http://www.techmeme.com/200422/p26#a200422p26 #1587747214
+  tags: frameworks
+  title: Google says Flutter, its open source UI framework, now has nearly 500,000 users
+
+- url: https://www.uxpin.com/studio/blog/what-you-need-to-know-about-negotiating-design-ideas-with-skeptical-customers/ #1587746090
+  tags: customers
+  title: What You Need to Know About Negotiating Design Ideas with Skeptical Custome
+
+- url: https://www.nngroup.com/reports/user-experience-careers/ #1587745978
+  tags: job / career
+  title: user-experience-careers/
+
+- url: https://medium.com/@seandexter1/the-baymard-institute-a-glorious-evidence-based-trove-of-ux-best-practices-189d839b1176
+  tags: best practices & checklists
+  title: the-baymard-institute-a-glorious-evidence-based-trove-of-ux-best-practices
+
+- url: https://www.uxmatters.com/mt/archives/2020/04/how-to-create-better-alerts-and-symbols-in-your-designs.php #1587288718
+  tags: symbols
+  title: How to Create Better Alerts and Symbols in Your Designs
+
+- url: https://www.w3schools.com/howto/howto_css_tooltip.asp #1587086083
+  tags: design elements
+  title: tooltips
+
+- url: https://www.nngroup.com/articles/moderated-remote-usability-test/ #1587086059
+  tags: usability
+  title: Remote Moderated Usability Tests
+
+- url: https://principles.adactio.com/ #1585739973
+  tags: tbd
+  title: adactio principles
+
+- url: https://ordinarycoding.com/articles/creating-animations-with-uikit-ca/ #1585739962
+  tags: animation
+  title: Creating Animations with UIKit and Core Animation
+
+- url: https://www.smashingmagazine.com/2020/03/smart-interface-design-patterns-checklists/ #1585714709
+  tags: best practices & checklists
+  title: Smart Interface Design Patterns Checklists PDF
+
+- url: https://www.simonmccade.com/ux-advice #1585320878
+  tags: tbd
+  title: UX Advice | Simon McCade | Product Designer for SaaS Companies | Bristol
+
+- url: https://www.nngroup.com/articles/analyze-customer-journey-map/ #1584968066
+  tags: journey maps
+  title: 7 Ways to Analyze a Customer-Journey Map
+
+- url: https://link.medium.com/kdq8zYoXE4 #1583785007
+  tags: tools
+  title: Figma tutorial
+
+- url: https://www.noupe.com/design/cognitive-psychology-in-ux.html #1583785007
+  tags: cognition
+  title: Using Cognitive Psychology in UX Design
+
+- url: https://www.noupe.com/design/what-is-change-blindness-in-ux-design.html #1583785007
+  tags: change blindness
+  title: What is Change Blindness in UX Design
+
+- url: https://www.nngroup.com/articles/drag-drop/ #1583785007
+  tags: drag & drop
+  title: Drag–and–Drop design
+
+- url: https://github.com/Figma-Linux/figma-linux #1583785007
+  tags: tools
+  title: figma-linux
+
+- url: https://www.uxmatters.com/mt/archives/2020/03/understanding-cultures.php #1583784757
+  tags: cultures
+  title: Understanding Cultures
+
+- url: https://tailwindui.com/ #1582757546
+  tags: frameworks
+  title: Tailwind UI
+
+- url: https://www.nngroup.com/articles/ux-quiz/ #1582143110
+  tags: tbd
+  title: User-Experience Quiz - 2019 UX Year in Review
+
+- url: http://passfail.squarespace.com/ #1582143110
+  tags: tbd
+  title: passfail -squarespace
+
+- url: https://www.uxpin.com/studio/blog/top-books-movies-and-series-recommended-by-designers-in-2019/ #1582142883
+  tags: resources
+  title: Top books, movies, and series recommended by designers in 2019
+
+- url: https://www.nngroup.com/articles/animation-purpose-ux/ #1582142817
+  tags: animation
+  title: The Role of Animation and Motion in UX
+
+- url: https://www.thinkwithgoogle.com/consumer-insights/consumer-needs-research/
+  tags: behaviors
+  title: How do needs drive intent?
+
+- url: https://www.uxmatters.com/mt/archives/2020/01/7-ecommerce-ux-tips-that-drive-sales.php #1582142817
+  tags: ecommerce
+  title: 7 Ecommerce UX Tips That Drive Sales
+
+- url: https://www.benkuhn.net/autocomplete #1582142817
+  tags: autocompletion
+  title: Autocomplete as an interface | benkuhn.net
+
+- url: https://thenextweb.com/dd/2015/01/18/gather-quantitative-data-user-behaviors-mental-models/ #1582142817
+  tags: behaviors
+  title: gather-quantitative-data-user-behaviors-mental-models/
+
+- url: https://www.uxmatters.com/mt/archives/2020/02/capture-attention-through-color-psychology.php #1582142562
+  tags: colors
+  title: Capture Attention Through Color Psychology
+
+- url: https://www.uxmatters.com/mt/archives/2020/02/designing-for-touch.php #1582142562
+  tags: touch
+  title: Designing for Touch
+
+- url: https://www.nngroup.com/articles/video-image-details/ #1582142443
+  tags: video
+  title: How to Film and Photograph Online Content for Usability - UX Details for Video
+
+- url: https://www.debugbear.com/blog/performant-front-end-architecture #1582142443
+  tags: performance
+  title: performant-front-end-architecture
+
+- url: https://www.nngroup.com/articles/animation-duration/ #1582142443
+  tags: animation
+  title: animations & duration
+
+- url: https://digital.heb.com/the-feed/article/microinteractions-can-make-a-big-difference/ #1581783005
+  tags: microinteractions
+  title: H-E-B Digital | Microinteractions can make a big difference
+
+- url: https://www.noupe.com/design/ux-ui-prototyping-tools-for-web-app-designers.html #1581276577
+  tags: tools
+  title: 12 Best Free UX/UI Prototyping Tools for Web/App Designers in 2020
+
+- url: https://www.interaction-design.org/literature/article/hick-s-law-making-the-choice-easier-for-users #1578958130
+  tags: frameworks
+  title: hick-s-law-making-the-choice-easier-for-users
+
+- url: https://www.smashingmagazine.com/2020/01/front-end-performance-checklist-2020-pdf-pages/ #1578841488
+  tags: best practices & checklists
+  title: Front-End Performance Checklist 2020 [PDF, Apple Pages, MS Word]
+
+- url: https://thenextweb.com/syndication/2019/12/23/how-to-design-better-buttons/ #1577400364
+  tags: buttons
+  title: How to design better buttons
+
+- url: https://www.nngroup.com/articles/vanity-metrics/ #1577120468
+  tags: analytics
+  title: Vanity Metrics - Add Context to Add Meaning
+
+- url: https://uxdesign.cc/great-products-do-less-things-but-better-5dde0ee3fc76 #1577120468
+  tags: minimalism
+  title: Great products do less, but better
+
+- url: https://uxengineer.com/good-ux-boring-ui/ #1577120358
+  tags: minimalism
+  title: good-ux-boring-ui/
+
+- url: https://www.nngroup.com/articles/exit-intent-good-ux/ #1577120350
+  tags: exit intent
+  title: 10 Ways to Use Exit-Intent Popups to Improve UX
+
+- url: https://tech.slashdot.org/story/19/11/11/2012215/study-of-over-11000-online-stores-finds-dark-patterns-on-1254-sites?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed #1577120238
+  tags: dark patterns
+  title: Study of Over 11,000 Online Stores Finds Dark Patterns on 1,254 sites
+
+- url: https://www.uxmatters.com/mt/archives/2019/11/artificial-intelligence-supervised-learning-and-user-experience.php #1577120213
+  tags: ai
+  title: Artificial Intelligence, Supervised Learning, and User Experience
+
+- url: https://www.uxmatters.com/mt/archives/2019/11/molding-yourself-into-a-leader-part-1.php #1577120213
+  tags: leadership
+  title: Molding Yourself into a Leader, Part 1
+
+- url: https://www.uxmatters.com/mt/archives/2019/11/creating-a-ux-design-style-guide.php #1577120208
+  tags: style guides
+  title: Creating a UX Design Style Guide
+
+- url: https://www.nngroup.com/articles/usability-testing-101/ #1577120201
+  tags: usability
+  title: Usability Testing 101
+
+- url: https://www.uxbox.io/ #1577120201
+  tags: prototyping
+  title: Uxbox – The open-source prototyping tool
+
+- url: https://www.nngroup.com/articles/login-walls/ #1577120201
+  tags: logins
+  title: Login Walls Stop Users in Their Tracks
+
+- url: http://ui-patterns.com/ #1577120201
+  tags: design patterns
+  title: UI-Patterns.com
+
+- url: https://www.webdesignerdepot.com/2019/12/is-the-f-pattern-still-relevant-in-web-design/ #1576097651
+  tags: tbd
+  title: Is The F-Pattern Still Relevant in Web Design?
+
+- url: https://www.nngroup.com/articles/ecommerce-product-pages/ #1574694448
+  tags: ecommerce
+  title: UX Guidelines for Ecommerce product pages
+
+- url: https://hbr.org/ideacast/2019/11/to-truly-delight-customers-you-need-aesthetic-intelligence #1574194151
+  tags: brands
+  title: To Truly Delight Customers, You Need Aesthetic Intelligence
+
+- url: https://uxdesign.cc/reflections-from-a-designer-turned-product-manager-6-unexpected-differences-23b81a20388c #1573695259
+  tags: job / career 
+  title: Reflections from a designer turned product manager - 6 unexpected difference
+
+- url: https://venturebeat.com/2019/11/02/its-time-to-do-away-with-the-ux-discipline/ #1572738733
+  tags: job / career
+  title: It’s time to do away with the UX discipline 
+
+- url: https://www.uxmatters.com/mt/archives/2019/10/crafting-a-ux-portfolio.php #1572080592
+  tags: job / career
+  title: Crafting a UX Portfolio
+
+- url: https://goodui.org/patterns/list/ #1571427629
+  tags: design patterns
+  title: Patterns | GoodUI
+
+- url: https://skyclerk.com/blog/if-you-run-a-small-business-park-in-the-back-of-the-parking-lot #1570663883
+  tags: custsvc
+  title: if-you-run-a-small-business-park-in-the-back-of-the-parking-lot
+
+- url: https://medium.com/google-design/the-obvious-ui-is-often-the-best-ui-7a25597d79fd #1570653609
+  tags: best practices & checklists
+  title: the-obvious-ui-is-often-the-best-ui-7a2559
+
+- url: https://thereader.mitpress.mit.edu/habits-of-expert-software-designers/ #1570549456
+  tags: best practices & checklists
+  title: habits-of-expert-software-designers/
+
+- url: https://www.nngroup.com/articles/intelligent-assistants-poor-usability-high-adoption/ #1567133690
+  tags: assistants
+  title: The Paradox of Intelligent Assistants - Poor Usability, High Adoption
+
+- url: https://www.interaction-design.org/literature/article/10-great-sites-for-ui-design-patterns #1567127015
+  tags: design patterns
+  title: 10 Great Sites for UI Design Patterns | Interaction Design Foundation
+
+- url: https://www.nngroup.com/articles/everyone-as-users/ #1567126552
+  tags: mass-market products
+  title: Our Users Are Everyone - Designing Mass-Market Products for Large User Aud
+
+- url: https://github.com/netoguimaraes/awesome-ux #1567126429
+  tags: tbd
+  title: an awesome list about User Experience disciplines
+
+- url: https://www.toptal.com/designers/ux/design-psychology-neuroscience-of-ux
+  tags: cognition
+  title: Design Psychology and Neuroscience
+
+- url: https://www.nngroup.com/articles/creepiness/ #1567124176
+  tags: creepiness
+  title: Creepiness–Convenience Tradeoff
+
+- url: https://uxmastery.com/how-to-run-an-heuristic-evaluation
+  tags: evaluation
+  title: How to run an heuristic evaluation – UX Mastery
+
+- url: https://www.uxmatters.com/mt/archives/2019/05/lessons-on-visualization-from-the-industrial-environment.php #1567122985
+  tags: use cases
+  title: Lessons on Visualization from the Industrial Environment
+
+- url: https://blog.mobile-patterns.com/practical-ux-design-tips-for-startups-and-teams-on-a-budget-fac58299984b #1567122748
+  tags: best practices & checklists
+  title: Practical UX Design Tips for Startups and Teams on a Budget
+
+- url: https://www.toptal.com/designers/visual/design-principles-hierarchy #1567122715
+  tags: visual Hierarchy
+  title: Design Principles - an Introduction to Visual Hierarchy
+
+- url: https://t.co/RZ1Whcgiqq?ssr=true #1567122667
+  tags: empathy
+  title: behaviors - empathy
+
+- url: https://overreacted.io/the-elements-of-ui-engineering/ #1567119472
+  tags: elements
+  title: The Elements of UI Engineering
+
+- url: https://www.smashingmagazine.com/2019/04/privacy-ux-aware-design-framework/ #1567118994
+  tags: privacy
+  title: Privacy-Aware Design Framework
+
+- url: https://www.smashingmagazine.com/2019/04/privacy-better-notifications-ux-permission-requests/ #1567118851
+  tags: privacy
+  title: privacy-better-notifications-ux-pe
+
+- url: http://ui-patterns.com/blog/making-the-hook-model-actionable
+  tags: hooks
+  title: Making the Hook Model actionable
+
+- url: https://www.webdesignerdepot.com/2019/03/learnability-in-ux-design/ #1567114830
+  tags: learning
+  title: Learnability
+
+- url: https://www.nngroup.com/articles/change-blindness-definition/ #1567099503
+  tags: change blindness
+  title: Change Blindness
+
+- url: https://medium.muz.li/using-interactions-to-shape-user-behavior-patterns-e7dac087eebe #1566689224
+  tags: behaviors
+  title: using-interactions-to-shape-user-behavior-patterns
+
+- url: https://www.fastcompany.com/90369607/googles-six-rules-for-great-data-design
+  tags: visualization
+  title: See Googles first guidelines for data visualization
+
+- url: https://www.webdesignerdepot.com/2018/04/8-ways-to-emotionally-reward-your-users/ #1566517371
+  tags: rewards
+  title: 8 Ways to Emotionally Reward Your Users
+
+- url: https://medium.theuxblog.com/six-circles-a-experience-design-framework-fabe5fc5abc9 #1566517100
+  tags: frameworks
+  title: Six Circles - A Experience Design Framework - theuxblog.com
+
+- url: https://www.toptal.com/designers/ux-research/thematic-analysis-for-ux #1566341333
+  tags: themes
+  title: How to Leverage Thematic Analysis for Better UX
+
+- url: https://matthewstrom.com/writing/doubt/ #1566341125
+  tags: ambiguity
+  title: Doubt
+
+- url: https://gist.github.com/sleepyfox/a4d311ffcdc4fd908ec97d1c245e57dc #1566340907
+  tags: tbd
+  title: a gist
+
+- url: https://www.uxmatters.com/mt/archives/2019/07/readability-formulas-7-reasons-to-avoid-them-and-what-to-do-instead.php #1566340004
+  tags: readability
+  title: Readability Formulas - 7 Reasons to Avoid Them and What to Do Instead
+
+- url: https://www.nngroup.com/articles/cognitive-mapping-user-research/ #1566339894
+  tags: cognition
+  title: Cognitive Mapping in User Research
+
+- url: https://learnui.design/blog/4-rules-intuitive-ux.html #1566325137
+  tags: intuition 
+  title: 4-rules-intuitive-ux
+
+- url: https://blog-origin.adioma.com/how-to-think-visually-using-visual-analogies-infographic/ #1566061932
+  tags: analogies
+  title: How To Think Visually Using Visual Analogies - Infographic - Adioma
+
+- url: https://theness.com/neurologicablog/index.php/webers-law/ #1565716150
+  tags: perception
+  title: Weber’s Law
+
+- url: https://www.toptal.com/designers/user-research/guide-to-ux-research-methods #1565105409
+  tags: research
+  title: The Complete Guide to UX Research Methods
+
+- url: https://learnui.design/blog/the-3-laws-of-locality.html #1565018545
+  tags: locality
+  title: The 3 Laws of Locality – Learn UI Design
+
+- url: https://www.webdesignerdepot.com/2019/07/how-color-impacts-ux/ #1563846758
+  tags: colors
+  title: How Color Impacts UX
+
+- url: https://www.nngroup.com/articles/cognitive-mind-concept/ #1563383716
+  tags: cognition
+  title: Cognitive Maps, Mind Maps, and Concept Maps
+
+- url: https://www.nngroup.com/articles/dot-voting/ #1562776630
+  tags: decisions
+  title: Dot Voting - A Simple Decision-Making and Prioritizing Technique in UX
+
+- url: https://dev.to/billlenoir/user-interfaces-usability-and-user-experience-the-square-milk-jug-edition-4ce5 #1558445682
+  tags: best practices & checklists
+  title: User Interfaces, Usability & UX - The Square Milk Jug Editio
+
+- url: https://uxdesign.cc/feature-design-checklist-93ee5be66fae
+  tags: best practices & checklists
+  title: Feature design checklist – UX Collective
+
+- url: https://www.uxmatters.com/mt/archives/2019/05/a-design-language-for-touch-gesture-and-motion.php #1557797625
+  tags: touch
+  title: A Design Language for Touch, Gesture, and Motion
+
+- url: https://www.nngroup.com/articles/sympathy-vs-empathy-ux/ #1557697047
+  tags: empathy
+  title: Sympathy vs. Empathy in UX
+
+- url: https://asktog.com/atc/the-third-user/ #1557688241
+  tags: tbd
+  title: the-third-user
+
+- url: https://www.nngroup.com/articles/split-buttons/ #1557684865
+  tags: buttons
+  title: Split Buttons
+
+- url: https://medium.com/google-design/people-products-and-epiphanies-bfed0f3fbb2d
+  tags: tbd
+  title: People, Products, and Epiphanies – Google Design – Medium
+
+- url: http://ui-patterns.com/blog/making-the-fogg-behavior-model-actionable
+  tags: tbd
+  title: Making the Fogg Behavior Model actionable
+
+- url: http://ui-patterns.com/blog/i-wanted-to-write-a-book-but-ended-up-with-a-card-deck
+  tags: tbd
+  title: I wanted to write a book, but ended up with a card deck
+
+- url: https://www.nngroup.com/articles/visual-design-cheat-sheet/ #1555407599
+  tags: visualization
+  title: Visual Design Terms Cheat Sheet
+
+- url: https://www.nngroup.com/articles/ux-public-bathrooms/ #1554161003
+  tags: tbd
+  title: The User Experience of Public Bathrooms
+
+- url: https://www.nngroup.com/articles/better-link-labels/ #1553525969
+  tags: links
+  title: Better Link Labels
+
+- url: https://www.coglode.com/gem/reciprocity-decay
+  tags: behaviors
+  title: reciprocity-decay
+
+- url: https://htmltemplates.co/ #1552355856
+  tags: html
+  title: HTML templates
+
+- url: https://www.toptal.com/designers/company-website-design/ui-design-best-practices #1551727980
+  tags: best practices & checklists
+  title: UI Design Best Practices for Better Scannability
+
+- url: https://www.nngroup.com/articles/overpersonalization/ #1549939624
+  tags: personas
+  title: The Dangers of Overpersonalization
+
+- url: https://goodui.org/blog/13-course-landing-page-ui-changes-with-49-enrollments-for-designlab/ #1548033316
+  tags: landing pages
+  title: 13-course-landing-page-ui-changes-with-49-enrollments-for-designlab
+
+- url: https://www.smashingmagazine.com/2019/01/front-end-performance-checklist-2019-pdf-pages/ #1547414831
+  tags: performance
+  title: front-end-performance-checklist-2019-pdf-pages/
+
+- url: https://shakuro.com/blog/2019-ui-and-ux-design-trends/ #1547261635
+  tags: trends
+  title: 2019-ui-and-ux-design-trends/
+
+- url: https://qz.com/1489900/interactive-the-secret-to-hotel-room-design-is-part-art-part-science/ #1546483972
+  tags: tbd
+  title: interactive-the-secret-to-hotel-room-design-is-part-art-part-science/
+
+- url: https://overreacted.io/the-elements-of-ui-engineering
+  tags: elements
+  title: The Elements of UI Engineering - Overreacted
+
+- url: https://www.nngroup.com/articles/journey-mapping-101/ #1545667456
+  tags: journey maps
+  title: journey-mapping-101/
+
+- url: https://refactoringui.com/previews/building-your-color-palette/ #1544470934
+  tags: colors
+  title: Building Your Color Palette
+
+- url: https://stratechery.com/2018/the-experience-economy/ #1542757078
+  tags: tbd
+  title: The Experience Economy
+
+- url: https://www.fastcompany.com/90265609/this-interface-clears-your-cookies-when-you-wipe-your-screen
+  tags: cookies
+  title: This is the most interesting UI design of the year so far
+
+- url: https://www.webdesignerdepot.com/2018/11/10-tips-for-building-a-visual-language/ #1541872558
+  tags: visualization
+  title: 10 Tips for Building a Visual Language
+
+- url: http://mentalfloss.com/article/555041/how-hiking-trails-are-created #1541871453
+  tags: navigation elements
+  title: how-hiking-trails-are-created
+
+- url: http://www.uxforthemasses.com/resources/example-ux-docs/ #1541680905
+  tags: documents
+  title: Example UX docs and deliverables - UXM
+
+- url: https://io.usabilityhub.com/how-to-optimize-saas-landing-pages-for-rapid-comprehension-40ab460780f #1541266729
+  tags: landing pages
+  title: How to optimize SaaS landing pages for rapid comprehension
+
+- url: https://codewithoutrules.com/2018/09/21/users-considered-harmful/ #1539037201
+  tags: security
+  title: Never use the word User in your code
+
+- url: https://uxdesign.cc/how-sephora-sucks-all-my-money-through-great-ux-and-psychology-60546e47d825 #1538929806
+  tags: ecommerce
+  title: How Sephora sucks all my money through great UX and psychology
+
+- url: https://www.nngroup.com/articles/ecommerce-homepages-listing-pages/ #1534113580
+  tags: ecommerce
+  title: UX Guidelines for Ecommerce Homepages, Category Pages, and Product Listing 
+
+- url: https://medium.com/@caseorganic/why-do-we-keep-building-cars-with-touchscreens-alt-the-hidden-lives-of-touchscreens-55faf92799bf #1530632136
+  tags: use cases
+  title: Why-do-we-keep-building-cars-with-touchscreens?
+
+- url: https://www.learnstorybook.com/ #1528501183
+  tags: tools
+  title: Storybook Tutorial
+
+- url: https://darkpatterns.org/types-of-dark-pattern #1528168033
+  tags: dark patterns
+  title: dark-patterns
+
+- url: https://mobilejazz.com/blog/dark-patterns-in-design/ #1528056801
+  tags: dark patterns
+  title: dark-patterns-in-design/
+
+- url: https://www.smashingmagazine.com/2018/05/successful-ux-project-healthcare-sector/ #1527546204
+  tags: use cases
+  title: How To Deliver A Successful UX Project In The Healthcare Sector
+
+- url: https://www.webdesignerdepot.com/2018/05/frictionless-ux-how-to-create-smooth-user-flows/ #1527345073
+  tags: friction
+  title: Frictionless UX
+
+- url: http://designinginterfaces.com/patterns/ #1526160959
+  tags: frameworks
+  title: Designing Interfaces
+
+- url: https://goodui.org/fastforward/patterns/ #1526160219
+  tags: frameworks
+  title: GoodUI Fastforward
+
+- url: https://munchies.vice.com/en_us/article/bjp9xv/how-chain-restaurant-menus-get-made #1526093726
+  tags: use cases
+  title: The Weird Science Behind Chain Restaurant Menus
+
+- url: https://www.pinterest.com/wireframes/great-wireframe-examples/ #1523467164
+  tags: wireframes
+  title: Pinterest wireframes
+
+- url: https://www.nngroup.com/articles/post-it-in-ux/ #1522005536
+  tags: use cases
+  title: In Defense of Post-its
+
+- url: https://www.gsb.stanford.edu/insights/power-free-popsicle?utm_source=TWITTER&amp;utm_medium=Social&amp;utm_campaign=Insights&amp;Date=20180223&amp;linkId=48424986 #1520278963
+  tags: use cases
+  title: The Power of a Free Popsicle
+
+- url: https://www.nngroup.com/articles/authority-principle/ #1518400673
+  tags: behaviors
+  title: authority-principle/
+
+- url: https://www.smashingmagazine.com/2017/10/storyboarding-ux-design/ #1511780964
+  tags: stories
+  title: The Role Of Storyboarding In UX Design
+
+- url: https://builttoadapt.io/8-point-grid-vertical-rhythm-90d05ad95032 #1508449276
+  tags: grids
+  title: 8-point-grid-vertical-rhythm-90d05ad95032
+
+- url: https://www.smashingmagazine.com/2016/10/designing-card-based-user-interfaces/ #1476328361
+  tags: cards
+  title: Designing Card-Based User Interfaces
+
