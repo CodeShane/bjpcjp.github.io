@@ -1,128 +1,58 @@
 ---
-title: Math
 layout: page
-tags: math
+title:  Math
+permalink: /math/
 ---
 
-<div class="textcard-white">
-    <p>This page is a rough glossary of techniques covering basic math (ex: linear algebar),
-    machine learning, and deep learning techniques. It is under construction, and probably will
-    be for quite some time while I find an optimal grouping for hundreds of inter-related bookmarks.
-    <br>
-    (So... thanks for your patience.)</p>
-    
-</div>
-{%- assign show_sources = false -%}
-{%- assign show_tags    = true -%}
-{%- assign search_button = false -%}
-{%- assign show_group_detail = false -%}
+<p>
+This is a collection of links from various open-source publications on machine learning, deep learning, linear algebra, probability / statistics, and many other related topics. A few library-specific links are included - Scikit-Learn being a prominent example.
+</p>
 
-{%- if show_sources -%}
-<div class="textcard-white">
-    <h2>Common source materials:</h2>
-    <span style="column-count: 2;">
-        ADM = algorithm design manual (skiena)<br>
-        AJE = <a href="http://jeffe.cs.illinois.edu/teaching/algorithms/">
-            algos (erickson)</a><br>
-        BA = <a href="https://tor-lattimore.com/downloads/book/book.pdf">
-            bandit algos (lattimore et al)</a><br>
-        CSI = <a href="https://web.stanford.edu/~hastie/CASI/">
-            statistical inference (hastie, efron)</a><br>
-        DIDL = <a href="http://d2l.ai/">dive into deep learning</a><br>
-        DMMD = mining mssve datasets (leskovec, rajaraman, ullman)<br>
-        DSA = data structs & apps (mehta, sahni)<br>
-        EA = elementary algos (Liu)<br>
-        ESL = elements statistical learning (hastie et al)<br>
-        FDS = foundatations of ds (blum, hopcroft, kannan)<br>
-        GF = deep learning (goodfellow, bengio, courville)<br>
-        ITA = intro to algos, 3rd (cormen et al)<br>
-        IP = intro to probability (grinstead, snell)<br>
-        NP = numerical python (johansson)<br>
-        PA = planning algos (lavalle et al)<br>
-        PP = parallel processing (matloff)<br>
-        PSC = prob stats cookbook<br>
-        PSM = prob & stat modeling (matloff)<br>
-        PwC = <a href="https://paperswithcode.com/sota">papers with code</a><br>
-        PTDS = principles techniques of DS (berkeley)<br>
-        RL = reinforcement learning (sutton et al)<br>
-        SCDL = super cheatsheet DL<br>
-        SM = @soulmachine ML cheatsheet<br>
-    </span>
-</div>
-{%- endif -%}
+{%- assign sorted = site.data.math.bookchaps | sort: "tags" | group_by: "tags" -%}
 
-{%- assign sorted_records         = site.data.math.math20210203 | sort: "category" -%}
-{%- assign grouped_sorted_records =              sorted_records | group_by: "category" -%}
-
-<!-- TABLE OF CONTENTS -->
-{%- if show_tags -%}
-
-<h2>Tags:</h2>
 <div class="textcard">
-    <!-- <div style="column-count: 2;"> -->
-    {%- for tag in grouped_sorted_records -%}
-        <span style="padding:0.75em;">
-            <a href="#{{tag.name}}">{{tag.name}}</a>
-        </span><!-- <br> -->
-    {%- endfor -%}
-    <!-- </div> -->
+		<big><big><big>Tags:</big></big></big><br>
+	{%- for tag in sorted -%}
+			<a href="#{{tag.name}}">{{tag.name}}</a>
+		</span> &nbsp; &nbsp;
+	{%- endfor -%}
 </div>
-<br><br>
-
-{%- endif -%}
-
-<!-- MAIN -->
-
-<h2>Topics:</h2>
-
-{%- for group in grouped_sorted_records -%}
-    {%- if group.name != "" -%}
-
-        <!-- navigation points. -->
-
-        <span id="{{group.name}}">
-            <strong>{{group.name}}</strong>
-
-            {% if search_button %}
-            <span style="float:right;">
-                <button>
-                <a href="https://duckduckgo.com?q='{{group.name}}' AND 'deep learning' | 'machine learning' | 'linear algebra'"
-                   target="_blank">
-                    Search DuckDuckGo by topic</a>
-                </button>
-            </span>
-            <br>
-            {% endif %}
-
-        <!-- bookmarks are grouped into "groups", and sorted by the title field. -->
-
-            <div class="textcard">
-                <div style="column-count:2; column-rule: 4px solid #c6d9ec;">
-
-                {%- assign sorted_items = group.items | sort: "title" -%}
-                {%- for item in sorted_items -%}
-                    {%- if item.source -%}
-                        <span style="float:right;">
-                            <small><em> {{ item.source }} </em></small>
-                        </span>
-                    {%- endif -%}
-
-                    <a href="{{item.url}}">{{item.title}}</a><br>
-
-                    {%- if item.pic -%}
-                        <img src="{{ item.pic }}">
-                    {%- endif -%}
-
-                    {%- if item.notes -%}
-                        <small><em> {{ item.notes }} </em></small><br>
-                    {%- endif -%}
-
-                {%- endfor -%}
-                </div><br> <!-- end of column-count: 2 -->
-            </div><br><br> <!-- end of textcard -->
-        </span> <!-- end of group -->
-    {%- endif -%}
-{%- endfor -%}
 <br>
-</div>
 
+<div style="columns: 2;">
+    {%- for tag in sorted -%}
+        {%- if tag.name -%}
+	        <div class="textcard" id="{{tag.name}}">
+	        	<details>
+	        	<summary>
+	        		<a href="https://duckduckgo.com?q={{tag.name}} AND UI OR UX"
+	        		   style="color:black;">
+	        		{{ tag.name }}:</a>
+	        	</summary>
+
+	        	{%- assign sorted_tag_items = tag.items | sort: "title" -%}
+	        	{%- for item in sorted_tag_items -%}
+
+	        		<li style="list-style-type: none;">
+
+	        			<a href="/pdfs/math/{{item.url}}"
+	        				target="_blank">
+	        				{{item.title}}
+
+		        			{%- if item.img -%}
+		        				<img src="{{item.img}}" width=90%>
+	    	    			{%- endif -%}<br>
+
+		        			{%- if item.notes -%}
+		        				<blockquote><small>{{item.notes}}</small></blockquote>
+	    	    			{%- endif -%}
+
+	    	    		</a></li>
+
+	        	{%- endfor -%}
+	        	</details>
+        	</div>
+        {%- endif -%}
+    {%- endfor -%}
+</div>
+<br>

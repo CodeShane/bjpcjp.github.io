@@ -1,0 +1,2085 @@
+- url: 101-Data-Science-Interview-Questions.pdf
+  title: placeholder
+  tags: tbd
+
+- url: 1811.12808.pdf
+  title: placeholder
+  tags: tbd
+
+- url: adaptive-basis-function-models-SM.pdf
+  title: placeholder
+  tags: tbd
+
+- url: additive-models-trees-ESL.pdf
+  title: additive models
+  tags: trees
+
+- url: advertising-DMMD.pdf
+  title: advertising
+  tags: use cases
+
+- url: after-model-selection-estimation-CSI.pdf
+  title: placeholder
+  tags: tbd
+
+- url: algo-analysis-ADM.pdf
+  title: algorithm analysis
+  tags: analysis
+  notes: complexity, big-o, growth rates (constant, log, linear, superlinear, quadratic, cubic, exponential, factorial), logarithms
+
+- url: algorithms-role-ITA.pdf
+  title: placeholder
+  tags: tbd
+
+- url: all-pairs-shortest-paths-ITA.pdf
+  title: all-pairs shortest path
+  tags: search-sort
+
+- url: all-pairs-shortest-paths-JE.pdf
+  title: all-pairs shortest path
+  tags: search-sort
+
+- url: amortization-ITA.pdf
+  title: placeholder
+  tags: tbd
+
+- url: applications-DLgoodfellow.pdf
+  title: applications
+  tags: use cases
+
+- url: applications-DSA.pdf
+  title: applications
+  tags: use cases
+
+- url: applications-RL.pdf
+  title: applications
+  tags: use cases
+
+- url: approximate-inference-DLgoodfellow.pdf
+  title: approximate inference
+  tags: approximations
+  notes: expectation maximization (EM), MAP inference, sparse coding, variational inference, learned approx inf.
+
+- url: approximation-algos-ADM.pdf
+  title: intro
+  tags: approximations
+#  notes: reductions (closest pair, longest increasing subsequence, least common multiple, convex hull, hardness reductions, satisfiability
+
+- url: approximation-algos-ITA.pdf
+  title: placeholder
+  tags: approximations
+
+- url: approximation-off-policy-methods-RL.pdf
+  title: placeholder
+  tags: tbd
+
+- url: approximation-on-policy-control-RL.pdf
+  title: placeholder
+  tags: tbd
+
+- url: approximation-on-policy-prediction-RL.pdf
+  title: placeholder
+  tags: tbd
+
+- url: arbitrary-precision-math-ADM.pdf
+  title: arbitrary precision math
+  tags: number theory
+
+- url: attention-mechs-dive.pdf
+  title: attention
+  tags: deep learning architectures
+
+- url: autoencoders-DLgoodfellow.pdf
+  title: autoencoders (DLG)
+  tags: deep learning architectures
+
+- url: backtracking-AJE.pdf
+  title: backtracking
+  tags: tbd
+
+- url: backtracking-JE.pdf
+  title: backtracking
+  tags: tbd
+
+- url: bandits-adversarial-vs-stochastic-linear-BA.pdf
+  title: placeholder
+  tags: tbd
+
+- url: bandits-bayes-BA.pdf
+  title: bayes
+  tags: bandit algorithms
+
+- url: bandits-combinatorial-BA.pdf
+  title: placeholder
+  tags: bandit algorithms
+
+- url: bandits-concentration-of-measure-BA.pdf
+  title: placeholder
+  tags: bandit algorithms
+
+- url: bandits-contextual-BA.pdf
+  title: placeholder
+  tags: bandit algorithms
+
+- url: bandits-convex-analysis-BA.pdf
+  title: placeholder
+  tags: bandit algorithms
+
+- url: bandits-exp3-adversarial-linear-BA.pdf
+  title: placeholder
+  tags: bandit algorithms
+
+- url: bandits-exp3-IX-BA.pdf
+  title: placeholder
+  tags: bandit algorithms
+
+- url: bandits-exp3.pdf
+  title: placeholder
+  tags: bandit algorithms
+
+- url: bandits-explore-then-commit-BA.pdf
+  title: placeholder
+  tags: bandit algorithms
+
+- url: bandits-follow-the-leader-mirror-descent-BA.pdf
+  title: placeholder
+  tags: bandit algorithms
+
+- url: bandits-index-BA.pdf
+  title: placeholder
+  tags: bandit algorithms
+
+- url: bandits-info-theory-BA.pdf
+  title: placeholder
+  tags: bandit algorithms
+
+- url: bandits-intro-BA.pdf
+  title: placeholder
+  tags: bandit algorithms
+
+- url: bandits-least-squares-estimators-confidence-bounds-BA.pdf
+  title: placeholder
+  tags: bandit algorithms
+
+- url: bandits-least-squares-estimators-optimal-design-BA.pdf
+  title: placeholder
+  tags: bandit algorithms
+
+- url: bandits-lower-bounds-BA.pdf
+  title: placeholder
+  tags: bandit algorithms
+
+- url: bandits-lower-bounds-high-probability-BA.pdf
+  title: placeholder
+  tags: bandit algorithms
+
+- url: bandits-lower-bounds-instance-dependent-BA.pdf
+  title: placeholder
+  tags: bandit algorithms
+
+- url: bandits-lower-bounds-minimax-BA.pdf
+  title: placeholder
+  tags: bandit algorithms
+
+- url: bandits-markov-decisions-BA.pdf
+  title: placeholder
+  tags: bandit algorithms
+
+- url: bandits-non-stationary-BA.pdf
+  title: placeholder
+  tags: bandit algorithms
+
+- url: bandits-partial-monitoring-BA.pdf
+  title: placeholder
+  tags: bandit algorithms
+
+- url: bandits-probability-BA.pdf
+  title: placeholder
+  tags: bandit algorithms
+
+- url: bandits-pure-exploration-BA.pdf
+  title: placeholder
+  tags: bandit algorithms
+
+- url: bandits-ranking-BA.pdf
+  title: placeholder
+  tags: bandit algorithms
+
+- url: bandits-stochastic-finite-BA.pdf
+  title: placeholder
+  tags: bandit algorithms
+
+- url: bandits-stochastic-linear-asymptotic-lower-bounds-BA.pdf
+  title: placeholder
+  tags: bandit algorithms
+
+- url: bandits-stochastic-linear-BA.pdf
+  title: placeholder
+  tags: bandit algorithms
+
+- url: bandits-stochastic-linear-finite-many-arms-BA.pdf
+  title: placeholder
+  tags: bandit algorithms
+
+- url: bandits-stochastic-linear-minimax-lower-bounds-BA.pdf
+  title: placeholder
+  tags: bandit algorithms
+
+- url: bandits-stochastic-linear-sparsity-BA.pdf
+  title: placeholder
+  tags: bandit algorithms
+
+- url: bandits-stochastic-markov-BA.pdf
+  title: placeholder
+  tags: bandit algorithms
+
+- url: bandits-thompson-sampling-BA.pdf
+  title: placeholder
+  tags: bandit algorithms
+
+- url: bandits-UCB-algorithm-asymptotic-optimality-BA.pdf
+  title: placeholder
+  tags: bandit algorithms
+
+- url: bandits-UCB-algorithm-bernoulli-noise-BA.pdf
+  title: placeholder
+  tags: bandit algorithms
+
+- url: bandits-UCB-algorithm-minimax-optimality-BA.pdf
+  title: placeholder
+  tags: bandit algorithms
+
+- url: bandits-upper-confidence-bound-BA.pdf
+  title: placeholder
+  tags: bandit algorithms
+
+- url: bandwidth-reduction-ADM.pdf
+  title: placeholder
+  tags: bandit algorithms
+
+- url: basis-expansions-regularization-ESL.pdf
+  title: placeholder
+  tags: bandit algorithms
+
+- url: bayes-empirical-estimation-CSI.pdf
+  title: empirical estimation
+  tags: bayes
+
+- url: bayes-inference-CSI.pdf
+  title: bayes
+  tags: bayes
+
+- url: bayes-inference-PSC.pdf
+  title: placeholder
+  tags: bayes
+
+- url: bayes-nets-SM.pdf
+  title: placeholder
+  tags: bayes
+
+- url: bayes-NP.pdf
+  title: placeholder
+  tags: bayes
+
+- url: bayes-stats-SM.pdf
+  title: placeholder
+  tags: bayes
+
+#- url: bibliography-dive.pdf
+#  title: placeholder
+#  tags: tbd
+
+#- url: bibliography-DLgoodfellow.pdf
+#  title: placeholder
+#  tags: tbd
+
+- url: binary-search-trees-ITA.pdf
+  title: binary search trees
+  tags: trees
+
+- url: bin-packing-ADM.pdf
+  title: placeholder
+  tags: tbd
+
+- url: book-ADM.pdf
+  title: ADM
+  tags: complete books
+
+- url: book-AJE.pdf
+  title: placeholder
+  tags: complete books
+
+- url: book-algorithm-design-manual-ADM.pdf
+  title: placeholder
+  tags: complete books
+
+- url: book-algorithms-elementary-EA.pdf
+  title: placeholder
+  tags: complete books
+
+- url: book-Algorithms-JeffE.pdf
+  title: placeholder
+  tags: complete books
+
+- url: book-bandits-BA.pdf
+  title: placeholder
+  tags: complete books
+
+- url: book-computer-statistical-inference-hastie-CSI.pdf
+  title: placeholder
+  tags: complete books
+
+- url: book-convex-optimization-CO.pdf
+  title: placeholder
+  tags: complete books
+
+- url: book-data-mining-massive-datasets-v2.1-DMMD.pdf
+  title: placeholder
+  tags: complete books
+
+- url: book-Data_Structures_and_Apps-DSA.pdf
+  title: placeholder
+  tags: complete books
+
+- url: book-elements-of-statistical-learning-ESL.pdf
+  title: placeholder
+  tags: complete books
+
+- url: book-ESL.pdf
+  title: placeholder
+  tags: complete books
+
+- url: book-foundations-FDS.pdf
+  title: placeholder
+  tags: complete books
+
+- url: book-ITA.pdf
+  title: placeholder
+  tags: complete books
+
+- url: book-machine-learning-probabilistic-MLP.pdf
+  title: placeholder
+  tags: complete books
+
+- url: book-math4ml-thomas.pdf
+  title: placeholder
+  tags: complete books
+
+- url: book-matrix_cookbook_201707.pdf
+  title: placeholder
+  tags: complete books
+
+- url: book-numerical-algorithms-solomon.pdf
+  title: placeholder
+  tags: complete books
+
+- url: book-numerical-python-NP.pdf
+  title: placeholder
+  tags: complete books
+
+- url: book-prob-stats-cookbook-PSC.pdf
+  title: placeholder
+  tags: complete books
+
+- url: book-reinforcement-learning-v2-RL.pdf
+  title: placeholder
+  tags: complete books
+
+- url: book-super-cheatsheet-deep-learning-SCDL.pdf
+  title: placeholder
+  tags: complete books
+
+- url: boosting-additive-trees-ESL.pdf
+  title: additive trees
+  tags: boosting
+
+- url: bootstrap-confidence-intervals-CSI.pdf
+  title: placeholder
+  tags: tbd
+
+- url: b-trees-ITA.pdf
+  title: B trees
+  tags: trees
+
+- url: calendar-math-ADM.pdf
+  title: calendar math
+  tags: time series
+
+- url: chinese-postman-ADM.pdf
+  title: chinese postman
+  tags: search
+
+- url: cliques-ADM.pdf
+  title: placeholder
+  tags: tbd
+
+- url: clustering-DMMD.pdf
+  title: clustering
+  tags: machine learning
+
+- url: clustering-FDS.pdf
+  title: clustering
+  tags: machine learning
+
+- url: cnns-dive.pdf
+  title: convolutional (cnn)
+  tags: deep learning architectures
+
+- url: cnns-DLgoodfellow.pdf
+  title: convolutional (cnn)
+  tags: deep learning architectures
+
+- url: cnns-modern-dive.pdf
+  title: convolutional (cnn)
+  tags: deep learning architectures
+
+- url: cnns-super-cheatsheet-SCDL.pdf
+  title: convolutional (cnn) cheatsheet
+  tags: deep learning architectures
+
+- url: combinational-search-ADM.pdf
+  title: combinational
+  tags: search-sort
+
+- url: combinatorials-ADM.pdf
+  title: combinatorials
+  tags: number theory
+  notes: sort search, medians, permutations, subsets, partitions, generating graphs, calendars, job scheduling, satisfiability
+
+- url: complex-numbers-LAY.pdf
+  title: complex numbers
+  tags: number theory
+
+- url: computation-dive.pdf
+  title: placeholder
+  tags: tbd
+
+- url: connected-components-ADM.pdf
+  title: connected components
+  tags: tbd
+
+- url: convergence-PSC.pdf
+  title: convergence
+  tags: tbd
+
+- url: convex-hull-ADM.pdf
+  title: convex hulls
+  tags: tbd
+
+- url: counting-probability-ITA.pdf
+  title: counting & probability
+  tags: tbd
+
+- url: cross-validation-CSI.pdf
+  title: cross validation
+  tags: evaluation
+
+- url: cryptography-ADM.pdf
+  title: cryptography
+  tags: number theory
+
+#- url: data-mining-intro-DMMD.pdf
+#  title: placeholder
+#  tags: tbd
+
+- url: data-mining-streams-DMMD.pdf
+  title: streams
+  tags: streams
+
+- url: DataSci-CmndLine-cheat-20190804.pdf
+  title: command line cheatsheet
+  tags: tools
+
+- url: datastructs-ADM.pdf
+  title: ADM
+  tags: data structures
+
+- url: datastructs-augmenting-ITA.pdf
+  title: augmenting
+  tags: data structures
+
+- url: datastructs-disjoint-ITA.pdf
+  title: disjoint
+  tags: data structures
+
+- url: datastructs-intro-ITA.pdf
+  title: intro
+  tags: data structures
+
+- url: decision-theory-PSC.pdf
+  title: cheatsheet (PSC)
+  tags: decision theory
+  notes: defs, risk, admissability, bayes, minimax
+
+- url: deep-feedforward-nets-DLgoodfellow.pdf
+  title: deep feedforward
+  tags: deep learning architectures
+
+- url: deep-generative-models-DLgoodfellow.pdf
+  title: generative models
+  tags: deep learning architectures
+
+- url: deep-learning-CSI.pdf
+  title: CSI
+  tags: deep learning architectures
+
+- url: deep-learning-dive.pdf
+  title: dive
+  tags: deep learning architectures
+
+- url: deep-networks-modern-practices-DLgoodfellow.pdf
+  title: modern practices
+  tags: deep learning architectures
+
+- url: depth-first-search-AJE.pdf
+  title: depth-first
+  tags: search-sort
+
+- url: determinants-LAY.pdf
+  title: determinants
+  tags: linear algebra
+
+- url: dictionaries-ADM.pdf
+  title: dictionaries
+  tags: data structures
+
+- url: dictionaries-DSA.pdf
+  title: dictionaries
+  tags: data structures
+
+- url: diffeqs-ordinary-NP.pdf
+  title: ordinary
+  tags: differential equations
+
+- url: diffeqs-partial-NP.pdf
+  title: partial
+  tags: differential equations
+
+- url: dimensionality-ESL.pdf
+  title: ESL
+  tags: dimensionality
+
+- url: dimensionality-FDS.pdf
+  title: FDS
+  tags: dimensionality
+
+- url: dimensionality-reduction-DMMD.pdf
+  title: reduction 
+  tags: dimensionality
+
+- url: discrete-fourier-xform-ADM.pdf
+  title: discrete fourier transform (DFT)
+  tags: polynomials
+
+- url: distributions-multivariate-PSC.pdf
+  title: multivariate
+  tags: distributions
+
+- url: divide-conquer-ITA.pdf
+  title: divide & conquer
+  tags: tbd
+
+- url: dynamic-programming-ADM.pdf
+  title: ADM
+  tags: dynamic programming
+
+- url: dynamic-programming-AJE.pdf
+  title: AJE
+  tags: dynamic programming
+
+- url: dynamic-programming-ITA.pdf
+  title: ITA
+  tags: dynamic programming
+
+- url: dynamic-programming-JE.pdf
+  title: JE
+  tags: dynamic programming
+
+- url: dynamic-programming-RL.pdf
+  title: RL
+  tags: dynamic programming
+
+- url: edge-coloring-ADM.pdf
+  title: edge coloring
+  tags: vertexes
+
+- url: edge-vertex-connectivity-ADM.pdf
+  title: edge connectivity
+  tags: vertexes
+
+- url: eigenvectors-eigenvalues-LAY.pdf
+  title: eigenvectors, eigenvalues
+  tags: linear algebra
+
+- url: eligibility-traces-RL.pdf
+  title: eligibility traces
+  tags: tbd
+
+- url: ensembles-ESL.pdf
+  title: ESL
+  tags: ensembles
+
+- url: equation-solving-NP.pdf
+  title: equation solving
+  tags: tbd
+
+- url: exponential-family-SM.pdf
+  title: exponentials
+  tags: tbd
+
+- url: factoring-primes-ADM.pdf
+  title: factoring primes
+  tags: tbd
+
+- url: feedback-edge-vertex-set-ADM.pdf
+  title: feedback edge vertex set
+  tags: vertexes
+
+- url: fibonacci-heaps-ITA.pdf
+  title: fibonacci heaps
+  tags: data structures
+
+- url: file-io-NP.pdf
+  title: python file I/O
+  tags: tools
+
+- url: finite-state-machine-minimization-ADM.pdf
+  title: finite state machines
+  tags: tbd
+
+- url: flows-cuts-applications-JE.pdf
+  title: flows & cuts
+  tags: tbd
+
+- url: frequentist-stats-SM.pdf
+  title: frequentist stats
+  tags: tbd
+
+- url: frequent-itemsets-DMMD.pdf
+  title: frequent itemsets
+  tags: tbd
+
+#- url: frontiers-RL.pdf
+#  title: placeholder
+#  tags: tbd
+
+- url: function-estimation-non-parametric-PSC.pdf
+  title: function estimation
+  tags: tbd
+
+- url: gans-dive.pdf
+  title: gans
+  tags: deep learning architectures
+
+- url: gaussian-models-SM.pdf
+  title: SM
+  tags: gaussian models
+
+- url: gaussians-SM.pdf
+  title: SM
+  tags: gaussian models
+
+- url: generative-models-discrete-SM.pdf
+  title: gans - discrete
+  tags: deep learning architectures
+
+- url: geometric-primitives-ADM.pdf
+  title: primitives
+  tags: geometry
+
+- url: Geometric_topology.pdf
+  title: topology
+  tags: geometry
+
+- url: geometry-ITA.pdf
+  title: intro
+  tags: geometry
+
+#- url: getting-started-ITA.pdf
+#  title: placeholder
+#  tags: tbd
+
+#- url: glossary-FDS.pdf
+#  title: placeholder
+#  tags: tbd
+
+#- url: glossary-LAY.pdf
+#  title: placeholder
+#  tags: tbd
+
+#- url: glossary-machine-learning-GOOG.pdf
+#  title: placeholder
+#  tags: tbd
+
+- url: graph-algos-AJE.pdf
+  title: placeholder
+  tags: graphs
+
+- url: graph-algos-ITA.pdf
+  title: placeholder
+  tags: graphs
+
+- url: graph-datastructs-ADM.pdf
+  title: placeholder
+  tags: graphs
+
+- url: graph-drawing-ADM.pdf
+  title: drawing
+  tags: graphs
+
+- url: graph-generation-ADM.pdf
+  title: generation
+  tags: graphs
+
+- url: graph-isomorphism-ADM.pdf
+  title: isomorphism
+  tags: graphs
+
+- url: graph-partition-ADM.pdf
+  title: partitions
+  tags: graphs
+
+- url: graphs-connected-components-ADM.pdf
+  title: connected components
+  tags: graphs
+
+- url: graphs-hard-ADM.pdf
+  title: hard 
+  tags: graphs
+
+- url: graphs-JE.pdf
+  title: intro (JE)
+  tags: graphs
+
+- url: graphs-polynomial-time-ADM.pdf
+  title: polynomial time
+  tags: graphs
+
+- url: graphs-weighted-ADM.pdf
+  title: weighted
+  tags: graphs
+
+- url: graph-traversal-ADM.pdf
+  title: traversal
+  tags: graphs
+
+- url: greedy-algos-AJE.pdf
+  title: AJE
+  tags: greedy algorithms
+
+- url: greedy-algos-ITA.pdf
+  title: ITA
+  tags: greedy algorithms
+
+- url: greedy-algos-JE.pdf
+  title: JE
+  tags: greedy algorithms
+
+- url: growth-ITA.pdf
+  title: growth
+  tags: analysis
+
+- url: guidelines-methodology-DLgoodfellow.pdf
+  title: methodology
+  tags: analysis
+
+- url: hamiltonian-cycle-ADM.pdf
+  title: hamiltonian cycles
+  tags: tbd
+
+- url: hashes-ITA.pdf
+  title: hashes
+  tags: data structures
+
+- url: heaps-EA.pdf
+  title: heaps
+  tags: data structures
+
+- url: heapsort-ITA.pdf
+  title: heapsort
+  tags: sorting
+
+- url: how-to-design-algos-ADM.pdf
+  title: how to design
+  tags: analysis
+
+- url: hypothesis-testing-false-discovery-CSI.pdf
+  title: hypothesis testing - false discovery
+  tags: probability, statistics
+
+- url: hypothesis-testing-PSC.pdf
+  title: hypothesis testing
+  tags: probability, statistics
+
+#- url: image-credits-JE.pdf
+#  title: placeholder
+#  tags: tbd
+
+#- url: image-credits-LAY.pdf
+#  title: placeholder
+#  tags: tbd
+
+#- url: index-CSI.pdf
+#  title: placeholder
+#  tags: tbd
+
+#- url: index-DLgoodfellow.pdf
+#  title: placeholder
+#  tags: tbd
+
+#- url: index-DMMD.pdf
+#  title: placeholder
+#  tags: tbd
+
+#- url: index-FDS.pdf
+#  title: placeholder
+#  tags: tbd
+
+#- url: index-ITA.pdf
+#  title: placeholder
+#  tags: tbd
+
+#- url: index-LAY.pdf
+#  title: placeholder
+#  tags: tbd
+
+#- url: index-NP.pdf
+#  title: placeholder
+#  tags: tbd
+
+#- url: index-PSC.pdf
+#  title: placeholder
+#  tags: tbd
+
+#- url: index-RL.pdf
+#  title: placeholder
+#  tags: tbd
+
+- url: inequalities-PSC.pdf
+  title: inequalities
+  tags: tbd
+
+- url: inference-frequentist-CSI.pdf
+  title: frequentist inference
+  tags: tbd
+
+- url: inner-product-length-orthogonality-LAY.pdf
+  title: inner product length & orthogonality
+  tags: linear algebra
+
+#- url: install-dive.pdf
+#  title: placeholder
+#  tags: tbd
+
+#- url: install-NP.pdf
+#  title: placeholder
+#  tags: tbd
+
+- url: integration-NP.pdf
+  title: NP
+  tags: integration
+
+- url: interpolation-NP.pdf
+  title: NP
+  tags: interpolation
+
+- url: intersections-ADM.pdf
+  title: intersections
+  tags: tbd
+
+#- url: intro-ADM.pdf
+#  title: placeholder
+#  tags: tbd
+
+#- url: intro-CSI.pdf
+#  title: placeholder
+#  tags: tbd
+
+#- url: intro-dive.pdf
+#  title: placeholder
+#  tags: tbd
+
+#- url: intro-DLgoodfellow.pdf
+#  title: placeholder
+#  tags: tbd
+
+#- url: intro-ESL.pdf
+#  title: placeholder
+#  tags: tbd
+
+#- url: intro-FDS.pdf
+#  title: placeholder
+#  tags: tbd
+
+#- url: intro-JE.pdf
+#  title: placeholder
+#  tags: tbd
+
+#- url: intro-SM.pdf
+#  title: placeholder
+#  tags: tbd
+
+- url: jackknife-CSI.pdf
+  title: jackknife
+  tags: regression
+
+- url: job-scheduling-ADM.pdf
+  title: job scheduling
+  tags: tbd
+
+- url: kd-trees-ADM.pdf
+  title: K-D trees
+  tags: trees
+
+- url: kernel-smoothing-ESL.pdf
+  title: smoothing
+  tags: kernels
+
+- url: kernels-SM.pdf
+  title: SM
+  tags: kernels
+
+- url: knapsack-problem-ADM.pdf
+  title: knapsack problem
+  tags: tbd
+
+- url: large-scale-machine-learning-DMMD.pdf
+  title: large-scale learning
+  tags: tbd
+
+- url: latent-linear-models-SM.pdf
+  title: latent (inferred) linear models
+  tags: tbd
+
+- url: libraries-DSA.pdf
+  title: libraries
+  tags: tbd
+
+- url: linear_algebra-DLgoodfellow.pdf
+  title: DLG
+  tags: linear algebra
+
+- url: linear-algebra-LAY.pdf
+  title: LAY
+  tags: linear algebra
+
+- url: Linear-Algebra-Lay.pdf
+  title: placeholder
+  tags: linear algebra
+
+- url: linear-classification-ESL.pdf
+  title: linear classification
+  tags: tbd
+
+- url: linear-equations-ADM.pdf
+  title: ADM
+  tags: linear algebra
+
+- url: linear-factor-models-DLgoodfellow.pdf
+  title: linear factor models
+  tags: tbd
+
+- url: linear-nns-dive.pdf
+  title: linear NNs
+  tags: tbd
+
+- url: linear-programming-ADM.pdf
+  title: ADM
+  tags: linear programming
+
+- url: linear-programming-ITA.pdf
+  title: ITA
+  tags: linear programming
+
+- url: line-arrangements-ADM.pdf
+  title: line arrangements
+  tags: geometry
+
+- url: linear-regression-ESL.pdf
+  title: LR (ESL)
+  tags: regression
+
+- url: linear-regression-PSC.pdf
+  title: LR (PSC)
+  tags: regression
+
+- url: linear-regression-SM.pdf
+  title: LR (SM)
+  tags: regression
+
+- url: linear-time-sort-ITA.pdf
+  title: linear-time sort
+  tags: sorting
+
+- url: link-analysis-DMMD.pdf
+  title: link analysis
+  tags: graphs
+
+- url: lists-EA.pdf
+  title: lists
+  tags: data structures
+
+- url: logistic-regression-SM.pdf
+  title: logistic regression
+  tags: regression
+
+- url: longest-common-substring-ADM.pdf
+  title: LCS
+  tags: strings
+
+- url: machine-learning-basics-DLgoodfellow.pdf
+  title: basics
+  tags: machine learning
+
+- url: machine-learning-cheat-sheet.pdf
+  title: cheatsheet
+  tags: machine learning
+
+- url: machine-learning-glossary.pdf
+  title: glossary
+  tags: machine learning
+
+- url: machine-learning-intro-FDS.pdf
+  title: intro
+  tags: machine learning
+
+- url: machine-learning-NP.pdf
+  title: intro
+  tags: machine learning
+
+- url: mapreduce-DMMD.pdf
+  title: mapreduce
+  tags: tools
+
+- url: markov-chain-monte-carlo-CSI.pdf
+  title: MCMC (CSI)
+  tags: markov
+
+- url: markov-chain-monte-carlo-SM.pdf
+  title: MCMC (SM)
+  tags: markov
+
+- url: markov-chains-explained-visually.pdf
+  title: markov chains
+  tags: markov
+
+- url: markov-finite-RL.pdf
+  title: markov-finite
+  tags: reinforcement learning
+
+- url: matching-ADM.pdf
+  title: matching
+  tags: tbd
+
+- url: math-dive.pdf
+  title: placeholder
+  tags: tbd
+
+- url: matrix_cookbook_201707.pdf
+  title: cookbook
+  tags: matrices
+
+- url: matrix-determinants-ADM.pdf
+  title: determinants
+  tags: matrices
+
+- url: matrix-math-LAY.pdf
+  title: math ops
+  tags: matrices
+
+- url: matrix-multiply-ADM.pdf
+  title: matrix multiplication
+  tags: matrices
+
+- url: matrix-ops-ITA.pdf
+  title: matrix ops
+  tags: matrices
+
+- url: maxflow-ITA.pdf
+  title: maxflow
+  tags: tbd
+
+- url: max-likelihood-estimation-CSI.pdf
+  title: max likelihood estimation
+  tags: tbd
+
+- url: medial-axis-xforms-ADM.pdf
+  title: medial axis transforms
+  tags: tbd
+
+- url: medians-ADM.pdf
+  title: medians
+  tags: tbd
+
+- url: medians-orderstats-ITA.pdf
+  title: medians, orderstats
+  tags: probability, statistics
+
+- url: methodology-postwar-CSI.pdf
+  title: methodology
+  tags: tbd
+
+- url: minimum-spanning-tree-ADM.pdf
+  title: minimum spanning trees
+  tags: graphs
+
+- url: minimum-spanning-trees-AJE.pdf
+  title: minimum spanning trees
+  tags: graphs
+
+- url: minkowski-sum-ADM.pdf
+  title: minkowski sum
+  tags: tbd
+
+- url: min-spanning-tree-JE.pdf
+  title: minimum spanning trees
+  tags: graphs
+
+- url: min-spanning-trees-ITA.pdf
+  title: minimum spanning trees
+  tags: graphs
+
+- url: mixture-models-SM.pdf
+  title: mixture models & EM
+  tags: machine learning
+  notes: latent variable models (LVMs), 
+          mixture models,
+          expectation maximization,
+          LVM model selection
+
+#- url: ml-cheatsheet-toc-SM.pdf
+#  title: placeholder
+#  tags: tbd
+
+- url: model-assessment-ESL.pdf
+  title: model assessment
+  tags: analysis
+  notes: bias, variance, complexity, errors, cross validation, bootstrap methods, 
+
+- url: model-inference-averaging-ESL.pdf
+  title: inference averaging
+  tags: tbd
+
+- url: monte-carlo-methods-DLgoodfellow.pdf
+  title: monte carlo
+  tags: randomization
+
+- url: monte-carlo-RL.pdf
+  title: monte carlo
+  tags: randomization
+
+- url: motion-planning-ADM.pdf
+  title: motion planning
+  tags: planning algorithms
+
+- url: multithreading-ITA.pdf
+  title: multithreading
+  tags: performance
+
+- url: nearest-neighbors-ADM.pdf
+  title: nearest neighbors
+  tags: tbd
+
+- url: network-flow-ADM.pdf
+  title: network flow
+  tags: tbd
+
+- url: neural-net-cheatsheet.pdf
+  title: cheatsheet
+  tags: deep learning architectures
+
+- url: neural-nets-ESL.pdf
+  title: intro 
+  tags: deep learning architectures
+
+- url: nlp-dive.pdf
+  title: intro
+  tags: nlp
+
+- url: np-complete-ITA.pdf
+  title: np-complete
+  tags: analysis
+
+- url: np-hardness-AJE.pdf
+  title: np-hardness
+  tags: analysis
+
+- url: np-hardness-JE.pdf
+  title: np-hardness
+  tags: analysis
+
+- url: nstep-bootstrap-RL.pdf
+  title: placeholder
+  tags: tbd
+
+- url: numba-cython-NP.pdf
+  title: Numba, Cython
+  tags: tools
+
+- url: number-theory-ITA.pdf
+  title: intro
+  tags: number theory
+
+- url: numerical-computation-DLgoodfellow.pdf
+  title: computation factors
+  tags: deep learning
+  notes: underflow/overflow, conditioning, gradients, 
+        jacobian & hessian matrices, 
+        constrained optimization,
+        example - linear LS 
+
+
+- url: numericals-ADM.pdf
+  title: numerical ops (category)
+  tags: machine learning
+
+- url: optimization-ADM.pdf
+  title: placeholder
+  tags: optimization
+
+- url: optimization-dive.pdf
+  title: placeholder (Dive)
+  tags: optimization
+
+- url: optimization-DLgoodfellow.pdf
+  title: optimization (DLG)
+  tags: deep learning architectures
+  notes: early stopping, batching, minibatch, challenges,
+        basics (SGD, momentum, nesterov),
+        parameter initialization,
+        adaptive learning (adagrad, adam, RMSprop),
+        2nd-order methods (newton, conjugate gradients, BFGS),
+        meta-algorithms
+
+- url: optimization-NP.pdf
+  title: optimization (NP)
+  tags: optimization
+  notes: problem types, univariate, multivariate, nonlinear least squares, constrained
+
+- url: optimization-SM.pdf
+  title: optimization
+  tags: optimization
+
+- url: other-datastructs-DSA.pdf
+  title: other
+  tags: data structures
+
+- url: other-FDS.pdf
+  title: placeholder
+  tags: tbd
+
+- url: pandas-NP.pdf
+  title: Python-Pandas
+  tags: tools
+
+- url: parallel-processing.pdf
+  title: intro
+  tags: parallelism
+
+- url: parametric-inference-PSC.pdf
+  title: inference - parametric
+  tags: inference
+
+- url: parametric-models-exponentials-CSI.pdf
+  title: exponentials
+  tags: tbd
+
+#- url: part-1-basics-DLgoodfellow.pdf
+#  title: placeholder
+#  tags: tbd
+
+- url: partitions-ADM.pdf
+  title: partitions
+  tags: tbd
+
+- url: PCA-explained-visually.pdf
+  title: pca
+  tags: tbd
+
+- url: perceptrons-dive.pdf
+  title: perceptrons
+  tags: deep learning architectures
+
+- url: performance-dive.pdf
+  title: performance
+  tags: analysis
+
+- url: permutations-ADM.pdf
+  title: permutations
+  tags: combinationals
+
+- url: planarity-ADM.pdf
+  title: planarity
+  tags: tbd
+
+- url: planning-algorithms.pdf
+  title: intro
+  tags: planning algorithms
+
+- url: point-location-ADM.pdf
+  title: point location
+  tags: tbd
+
+- url: policy-gradients-RL.pdf
+  title: intro
+  tags: policy gradients
+
+- url: polygon-partitions-ADM.pdf
+  title: partitions
+  tags: polygons
+
+- url: polygon-simplification-ADM.pdf
+  title: simplification
+  tags: polygons
+
+- url: polynomials-fourier-ITA.pdf
+  title: fourier
+  tags: polynomials
+
+#- url: preface-ITA.pdf
+#  title: placeholder
+#  tags: tbd
+
+#- url: prelims-dive.pdf
+#  title: placeholder
+#  tags: tbd
+
+- url: priority-queues-ADM.pdf
+  title: priority queues
+  tags: queues
+
+- url: priority-queues-DSA.pdf
+  title: priority queues
+  tags: queues
+
+- url: probabilistic-randomized-ITA.pdf
+  title: randomized
+  tags: probability, statistics
+
+- url: probability-distributions-PSC.pdf
+  title: distributions
+  tags: probability, statistics
+
+- url: probability-DLgoodfellow.pdf
+  title: intro (Goodfellow)
+  tags: probability, statistics
+
+- url: probability-expectation-PSC.pdf
+  title: expectation
+  tags: probability, statistics
+
+- url: probability-other-math-PSC.pdf
+  title: other math
+  tags: probability, statistics
+
+- url: probability-random-vars-PSC.pdf
+  title: random variables
+  tags: probability, statistics
+
+- url: probability-SM.pdf
+  title: intro (SM)
+  tags: probability, statistics
+
+- url: probability-theory-PSC.pdf
+  title: intro (PSC)
+  tags: probability, statistics
+
+- url: prob_cheatsheet_william_chen.pdf
+  title: cheatsheet
+  tags: probability, statistics
+
+- url: prob-intro.pdf
+  title: intro
+  tags: probability, statistics
+
+- url: prob-stats-cheatsheet2.pdf
+  title: cheatsheet
+  tags: probability, statistics
+
+- url: prob-stats-cookbook v0.2.1.pdf
+  title: cookbook
+  tags: probability, statistics
+
+- url: prob-stats-modeling.pdf
+  title: prob | stats | modeling
+  tags: probability, statistics
+
+- url: prototypes-nearest-neighbors-ESL.pdf
+  title: nearest neighbors
+  tags: tbd
+
+- url: queues-sequences-EA.pdf
+  title: queues & sequences
+  tags: queues
+
+- url: quicksort-ITA.pdf
+  title: quicksort
+  tags: sorting
+
+- url: random-forests-boosting-CSI.pdf
+  title: random forest boosting
+  tags: boosting
+
+- url: random-forests-ESL.pdf
+  title: random forests
+  tags: trees
+
+- url: random-graphs-FDS.pdf
+  title: random graphs
+  tags: graphs
+
+- url: random-numbers-ADM.pdf
+  title: random numbers
+  tags: randomization
+
+- url: random-walks-markov-chains-FDS.pdf
+  title: random walks - markov chains
+  tags: markov
+
+- url: range-search-ADM.pdf
+  title: range search
+  tags: search
+
+#- url: README.pdf
+#  title: placeholder
+#  tags: tbd
+
+- url: recommenders-dive.pdf
+  title: recommenders
+  tags: recommenders
+
+- url: recommenders-DMMD.pdf
+  title: intro
+  tags: recommenders
+
+- url: recurrent-recursive-nets-DLgoodfellow.pdf
+  title: rnns
+  tags: deep learning architectures
+
+- url: recursion-JE.pdf
+  title: intro
+  tags: recursion
+
+- url: red-black-trees-ITA.pdf
+  title: red-black
+  tags: trees
+
+- url: regression-ridge-CSI.pdf
+  title: ridge
+  tags: regression
+
+- url: regression-trees-CSI.pdf
+  title: regression trees
+  tags: tbd
+
+- url: regularization-DLgoodfellow.pdf
+  title: regularization
+  tags: regression
+
+- url: representation-learning-DLgoodfellow.pdf
+  title: representation learning
+  tags: deep learning architectures
+
+- url: research-p3-DLgoodfellow.pdf
+  title: research
+  tags: deep learning architectures
+
+- url: resources-ADM.pdf
+  title: resources
+  tags: tbd
+
+#- url: esourcealgos-ADM.pdf
+#  title: placeholder
+#  tags: tbd
+
+- url: rnns-didl.pdf
+  title: rnns (DIDL)
+  tags: deep learning architectures
+
+- url: rnns-dive.pdf
+  title: rnns (dive)
+  tags: deep learning architectures
+
+- url: rnns-modern-dive.pdf
+  title: rnns - modern
+  tags: deep learning architectures
+
+- url: rnns-super-cheatsheet-SCDL.pdf
+  title: rnn cheatsheet
+  tags: deep learning architectures
+
+- url: sampling-PSC.pdf
+  title: sampling
+  tags: sampling
+
+- url: satisfiability-ADM.pdf
+  title: satisfiability
+  tags: tbd
+
+- url: search-depth-first-JE.pdf
+  title: depth first
+  tags: search
+
+- url: searching-ADM.pdf
+  title: search
+  tags: search
+
+- url: search-methods-ADM.pdf
+  title: methods
+  tags: search
+
+- url: set-cover-ADM.pdf
+  title: set cover
+  tags: set theory
+
+- url: set-packing-ADM.pdf
+  title: set packing
+  tags: set theory
+
+- url: sets-ADM.pdf
+  title: sets
+  tags: set theory
+
+- url: sets-independent-ADM.pdf
+  title: sets (independent)
+  tags: set theory
+
+- url: sets-ITA.pdf
+  title: sets
+  tags: set theory
+
+- url: sets-strings-ADM.pdf
+  title: sets-strings
+  tags: tbd
+
+- url: shape-similarity-ADM.pdf
+  title: shape similarity
+  tags: tbd
+
+- url: shortest-common-superstring-ADM.pdf
+  title: shortest common superstring
+  tags: strings
+
+- url: shortest-path-ADM.pdf
+  title: shortest path
+  tags: tbd
+
+- url: signal-processing-NP.pdf
+  title: signal processing
+  tags: tbd
+
+- url: similarity-search-DMMD.pdf
+  title: similarity search
+  tags: tbd
+
+- url: single-source-shortest-paths-ITA.pdf
+  title: shortest path - single source
+  tags: tbd
+
+- url: singular-value-decomposition-FDS.pdf
+  title: svd
+  tags: machine learning
+
+- url: social-graphs-DMMD.pdf
+  title: social graphs
+  tags: tbd
+
+- url: sorting-ADM.pdf
+  title: sorting (ADM)
+  tags: search-sort
+
+- url: sort-search-ADM.pdf
+  title: intro (ADM)
+  tags: search-sort
+
+- url: sort-search-EA.pdf
+  title: intro (EA)
+  tags: search-sort
+
+- url: sparse-matrices-graphs-NP.pdf
+  title: sparse data
+  tags: matrices
+
+- url: sparse-matrices-graphs-NP.pdf
+  title: sparse data
+  tags: graphs
+
+- url: sparse-models-lasso-CSI.pdf
+  title: lasso
+  tags: regression
+
+- url: spatial-DSA.pdf
+  title: DSA
+  tags: spatial data
+
+- url: splines-ESL.pdf
+  title: splines
+  tags: tbd
+
+- url: statistical-inference-PSC.pdf
+  title: intro (PSC)
+  tags: inference
+
+- url: statistics-NP.pdf
+  title: placeholder
+  tags: statistics
+
+- url: statsmodels-NP.pdf
+  title: statsmodel
+  tags: tools
+
+- url: steiner-tree-ADM.pdf
+  title: steiner trees
+  tags: trees
+
+- url: stochastic-process-PSC.pdf
+  title: stochastic processes
+  tags: tbd
+
+- url: string-matching-ADM.pdf
+  title: string matching
+  tags: strings
+
+- url: string-matching-approx-ADM.pdf
+  title: string matching (approx)
+  tags: strings
+
+- url: string-matching-ITA.pdf
+  title: string matching
+  tags: strings
+
+- url: structured-probabilistic-models-DLgoodfellow.pdf
+  title: structured probabilistic models
+  tags: tbd
+
+- url: subsets-ADM.pdf
+  title: subsets
+  tags: set theory
+
+- url: suffix-trees-ADM.pdf
+  title: suffix
+  tags: trees
+
+- url: summations-ITA.pdf
+  title: summations
+  tags: tbd
+
+- url: supervised-learning-ESL.pdf
+  title: supervised learning
+  tags: machine learning
+
+- url: support-vector-machines-ESL.pdf
+  title: summary
+  tags: support vector machines
+
+- url: support-vector-machines-kernels-CSI.pdf
+  title: kernels
+  tags: support vector machines
+
+- url: survival-analysis-expection-maximization-CSI.pdf
+  title: survival analysis
+  tags: machine learning
+
+- url: symbolic-math-NP.pdf
+  title: intro
+  tags: symbolic math
+
+- url: symmetric-matrices-LAY.pdf
+  title: symmetric
+  tags: matrices
+
+- url: tabular-method-planning-RL.pdf
+  title: tabular method planning
+  tags: tbd
+
+- url: temporal-distances-RL.pdf
+  title: temporal
+  tags: distances
+
+- url: text-compression-ADM.pdf
+  title: text compression
+  tags: strings
+
+- url: the-partition-problem-DLgoodfellow.pdf
+  title: the partition problem
+  tags: tbd
+
+- url: time-series-PSC.pdf
+  title: PSC
+  tags: time series
+
+- url: tips-super-cheatsheet-SCDL.pdf
+  title: cheatsheet
+  tags: tbd
+
+#- url: toc-dive.pdf
+#  title: placeholder
+#  tags: table of contents
+
+#- url: toc-DLgoodfellow.pdf
+#  title: placeholder
+#  tags: table of contents
+
+#- url: toc-ITA.pdf
+#  title: placeholder
+#  tags: table of contents
+
+- url: tools-dive.pdf
+  title: placeholder
+  tags: tools
+
+- url: topic-models-nnmf-hmg-graph-models-FDS.pdf
+  title: topic models
+  tags: tbd
+
+- url: topological-sort-ADM.pdf
+  title: topological
+  tags: sorting
+
+- url: transitive-closure-ADM.pdf
+  title: transitive closure
+  tags: tbd
+
+- url: traveling-salesman-ADM.pdf
+  title: traveling salesman
+  tags: search
+
+- url: tree-drawing-ADM.pdf
+  title: drawing
+  tags: trees
+
+- url: trees-EA.pdf
+  title: intro
+  tags: trees
+
+- url: triangulation-ADM.pdf
+  title: triangulation
+  tags: tbd
+
+- url: undirected-graphs-ESL.pdf
+  title: undirected
+  tags: graphs
+
+- url: unsupervised-learning-ESL.pdf
+  title: unsupervised learning
+  tags: machine learning
+
+- url: van-emde-boas-trees-ITA.pdf
+  title: van emde boas trees
+  tags: trees
+
+- url: variance-PSC.pdf
+  title: variances
+  tags: statistics
+
+- url: vectors-matrices-ndarrays-NP.pdf
+  title: vector | matrix | ndarray ops
+  tags: linear algebra
+
+- url: vector-spaces-LAY.pdf
+  title: vector spaces
+  tags: tbd
+
+- url: vertex-coloring-ADM.pdf
+  title: vertex coloring
+  tags: vertexes
+
+- url: vertex-cover-ADM.pdf
+  title: vertex covers
+  tags: vertexes
+
+- url: vision-dive.pdf
+  title: vision-dive
+  tags: tbd
+
+- url: vizualization-NP.pdf
+  title: placeholder
+  tags: visualization
+
+- url: voronoi-diagrams-ADM.pdf
+  title: placeholder
+  tags: voronoi
+
+- url: wavelets-FDS.pdf
+  title: FDS
+  tags: wavelets
+
+- url: https://scikit-learn.org/stable/modules/linear_model.html#ordinary-least-squares
+  title: OLS 
+  tags: linear regression 
+
+- url: https://scikit-learn.org/stable/modules/linear_model.html#ridge-regression-and-classification
+  title: ridge
+  tags: linear regression
+
+- url: https://scikit-learn.org/stable/modules/linear_model.html#lasso
+  title: lasso
+  tags: linear regression
+
+- url: https://scikit-learn.org/stable/modules/linear_model.html#multi-task-lasso
+  title: lasso (multitask)
+  tags: linear regression
+
+- url: https://scikit-learn.org/stable/modules/linear_model.html#elastic-net
+  title: elastic-net
+  tags: linear regression
+
+- url: https://scikit-learn.org/stable/modules/linear_model.html#multi-task-elastic-net
+  title: elastic-net (multitask)
+  tags: linear regression
+
+- url: https://scikit-learn.org/stable/modules/linear_model.html#least-angle-regression
+  title: least angle regression (LARS)
+  tags: linear regression
+
+- url: https://scikit-learn.org/stable/modules/linear_model.html#lars-lasso
+  title: LARS lasso
+  tags: linear regression
+
+- url: https://scikit-learn.org/stable/modules/linear_model.html#orthogonal-matching-pursuit-omp
+  title: orthogonal matching pursuit (OMP)
+  tags: linear regression
+
+- url: https://scikit-learn.org/stable/modules/linear_model.html#bayesian-regression
+  title: bayes regression
+  tags: linear regression
+
+- url: https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  title: logistic regression
+  tags: linear regression
+
+- url: https://scikit-learn.org/stable/modules/linear_model.html#generalized-linear-regression
+  title: linear regression, generalized 
+  tags: linear regression
+
+- url: https://scikit-learn.org/stable/modules/linear_model.html#stochastic-gradient-descent-sgd
+  title: stochastic gradient descent (SGD)
+  tags: linear regression
+
+- url: https://scikit-learn.org/stable/modules/linear_model.html#perceptron
+  title: perceptrons
+  tags: linear regression
+
+- url: https://scikit-learn.org/stable/modules/linear_model.html#passive-aggressive-algorithms
+  title: passive-aggressive algorithms 
+  tags: linear regression
+
+- url: https://scikit-learn.org/stable/modules/linear_model.html#robustness-regression-outliers-and-modeling-errors
+  title: robustness (outliers)
+  tags: linear regression
+
+- url: https://scikit-learn.org/stable/modules/linear_model.html#polynomial-regression-extending-linear-models-with-basis-functions
+  title: polynomial regression 
+  tags: linear regression
+
+- url: https://scikit-learn.org/stable/modules/lda_qda.html#dimensionality-reduction-using-linear-discriminant-analysis
+  title: linear discriminant analysis (LDA)
+  tags: discriminant analysis
+
+- url: https://scikit-learn.org/stable/modules/lda_qda.html#shrinkage-and-covariance-estimator
+  title: shrinkage & covariance 
+  tags: discriminant analysis
+
+- url: https://scikit-learn.org/stable/modules/lda_qda.html#estimation-algorithms
+  title: estimation 
+  tags: discriminant analysis
+
+- url: https://scikit-learn.org/stable/modules/kernel_ridge.html
+  title: kernel ridge 
+  tags: regression
+
+- url: https://scikit-learn.org/stable/modules/svm.html
+  title: scikit-learn
+  tags: support vector machines
+
+- url: https://scikit-learn.org/stable/modules/sgd.html
+  title: stochastic gradient descent (SGD)
+  tags: linear models
+
+- url: https://scikit-learn.org/stable/modules/neighbors.html
+  title: nearest neighbors
+  tags: linear models 
+  notes: unsupervised, classification, regression, algos, nearest centroid, transformer, neighborhood components analysis
+
+- url: https://scikit-learn.org/stable/modules/gaussian_process.html
+  title: gaussian processes
+  tags: linear models 
+
+- url: https://scikit-learn.org/stable/modules/cross_decomposition.html
+  title: cross_decomposition
+  tags: linear models 
+
+- url: https://scikit-learn.org/stable/modules/naive_bayes.html
+  title: naive bayes 
+  tags: linear models 
+  notes: gaussian, multinomial, complement, bernoulli, categorical, out-of-core
+
+- url: https://scikit-learn.org/stable/modules/tree.html
+  title: decision trees 
+  tags: linear models 
+
+- url: https://scikit-learn.org/stable/modules/ensemble.html
+  title: ensembles 
+  tags: linear models 
+  notes: bagging, forests, adaBoost, gradient-tree boosting, histogram boosting, voting
+
+- url: https://scikit-learn.org/stable/modules/multiclass.html
+  title: multiclass algorithms
+  tags: linear models 
+
+- url: https://scikit-learn.org/stable/modules/feature_selection.html
+  title: feature selection 
+  tags: linear models 
+  notes: removal, univariate, recursive, select-from-model, sequential
+
+- url: https://scikit-learn.org/stable/modules/semi_supervised.html
+  title: semi-supervised
+  tags: linear models 
+
+- url: https://scikit-learn.org/stable/modules/isotonic.html
+  title: isotonic regression 
+  tags: linear models 
+
+- url: https://scikit-learn.org/stable/modules/calibration.html
+  title: probability calibration
+  tags: linear models
+  notes: calibration curves, classifier calibration
+
+- url: https://scikit-learn.org/stable/modules/mixture.html
+  title: gaussian mixtures 
+  tags: gaussian
+
+- url: https://scikit-learn.org/stable/modules/manifold.html
+  title: manifolds 
+  tags: machine learning
+  notes: isomap, LLE, modified LLE, hessian eigenmaps, spectral embedding, LTSA, MDS, multi-task-elastic-net
+
+- url: https://scikit-learn.org/stable/modules/clustering.html
+  title: clustering
+  tags: machine learning  
+  notes: k-means, affinity propagation, mean shift, spectral, hierarchical, DBSCAN, OPTICS, binary-search-trees-ITA
+
+- url: https://scikit-learn.org/stable/modules/biclustering.html
+  title: biclustering
+  tags: machine learning
+
+- url: https://scikit-learn.org/stable/modules/decomposition.html
+  title: matrix factorization 
+  tags: machine learning
+  notes: PCA, LSA, factor analysis, ICA, NMF, LDA
+
+- url: https://scikit-learn.org/stable/modules/covariance.html
+  title: covariance
+  tags: machine learning
+  notes: empirical, shrunk, sparse inverse, robustness
+
+- url: https://scikit-learn.org/stable/modules/outlier_detection.html
+  title: novelty & outlier detection 
+  tags: machine learning
+
+- url: https://scikit-learn.org/stable/modules/density.html
+  title: density estimates 
+  tags: machine learning
+
+- url: https://scikit-learn.org/stable/modules/cross_validation.html
+  title: cross validation 
+  tags: evaluation 
+
+- url: https://scikit-learn.org/stable/modules/grid_search.html
+  title: hyperparameter tuning 
+  tags: evaluation 
+
+- url: https://scikit-learn.org/stable/modules/model_evaluation.html
+  title: model scoring 
+  tags: evaluation 
+  notes: classification, multilabel ranking, regression, clustering, dummy estimators
+
+- url: https://scikit-learn.org/stable/modules/learning_curve.html
+  title: validation curves
+  tags: evaluation
+
+- url: https://scikit-learn.org/stable/modules/partial_dependence.html
+  title: partial dependence plots 
+  tags: inspection 
+
+- url: https://scikit-learn.org/stable/modules/permutation_importance.html
+  title: permutation feature importance 
+  tags: inspection 
+
+- url: https://scikit-learn.org/stable/visualizations.html#available-plotting-utilities
+  title: plotting utilities 
+  tags: visualizations
+
+- url: https://scikit-learn.org/stable/modules/compose.html
+  title: composite (pipelined) estimators 
+  tags: feature engineering 
+
+- url: https://scikit-learn.org/stable/modules/feature_extraction.html
+  title: feature extraction 
+  tags: feature engineering
+  notes: from dicts, hashing, from text, from images 
+
+- url: https://scikit-learn.org/stable/modules/preprocessing.html
+  title: preprocessing 
+  tags: feature engineering
+  notes: standardization, non-linear, normalization, category encoding, discretization, missing values, polynomial features, custom ops 
+
+- url: https://scikit-learn.org/stable/modules/impute.html
+  title: missing data imputation 
+  tags: feature engineering 
+
+- url: https://scikit-learn.org/stable/modules/unsupervised_reduction.html
+  title: unsupervised dimensionality reduction 
+  tags: feature engineering 
+
+- url: https://scikit-learn.org/stable/modules/random_projection.html
+  title: random projections 
+  tags: feature engineering
+
+- url: https://scikit-learn.org/stable/modules/kernel_approximation.html
+  title: kernel approximations 
+  tags: feature engineering
+  notes: nystroem method, kernels (RBF, add chi-sqd, skew chi-sqd, ...)
+
+- url: https://scikit-learn.org/stable/modules/metrics.html
+  title: pairwise functions 
+  tags: feature engineering
+  notes: cosine similarity, linear, polynomial, sigmoid, RBF, laplacian, chi-sqd
+
+- url: https://scikit-learn.org/stable/modules/preprocessing_targets.html
+  title: prediction target transforms 
+  tags: feature engineering
+
+- url: https://scikit-learn.org/stable/datasets/toy_dataset.html
+  title: toy data 
+  tags: datasets 
+
+- url: https://scikit-learn.org/stable/datasets/real_world.html
+  title: real-world data 
+  tags: datasets 
+
+- url: https://scikit-learn.org/stable/datasets/sample_generators.html
+  title: artificial data
+  tags: datasets 
+  notes: for class/clusters, for regression, for manifolds, for decomposition 
+
+- url: https://scikit-learn.org/stable/datasets/loading_other_datasets.html
+  title: other data 
+  tags: datasets 
+  notes: sample images, svmlight/libsvm, openml.org, external data
+
+- url: https://scikit-learn.org/stable/computing/scaling_strategies.html
+  title: scaling 
+  tags: performance 
+
+- url: https://scikit-learn.org/stable/computing/computational_performance.html
+  title: latency & throughput 
+  tags: performance
+
+- url:   https://scikit-learn.org/stable/computing/parallelism.html
+  title: parallelism & configs
+  tags: performance 
+
+- url: https://scikit-learn.org/stable/modules/model_persistence.html#python-specific-serialization
+  title: serialization (python)
+  tags: file IO 
