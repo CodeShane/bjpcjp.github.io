@@ -10,14 +10,12 @@ layout: page
 <!-- TABLE OF CONTENTS -->
 
 <div class="textcard">
-    <div style="column-count: 4;">
         <big><big><big>Tags:</big></big></big><br>
     {%- for tag in grouped_sorted_records -%}
         <span style="margin:0.5em;">
             <a href="#{{tag.name}}">{{tag.name}}</a>
-        </span><br>
+        </span>&nbsp; &nbsp;
     {%- endfor -%}
-    </div>
 </div>
 <br><br>
 

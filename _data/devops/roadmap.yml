@@ -60,67 +60,67 @@
 
 - url: https://prometheus.io/docs/introduction/overview/
   title: prometheus
-  tags: tools
+  tags: other tools
   pic: 
   notes:
 
 - url: https://www.nagios.org/
   title: nagios
-  tags: tools
+  tags: other tools
   pic: 
   notes:
 
 - url: https://grafana.com/
   title: grafana
-  tags: tools
+  tags: other tools
   pic: 
   notes:
 
 - url: https://www.zabbix.com/
   title: zabbix
-  tags: tools
+  tags: other tools
   pic: 
   notes:
 
 - url: https://www.monnit.com/
   title: monnit
-  tags: tools
+  tags: other tools
   pic: 
   notes:
 
 - url: https://www.datadoghq.com/it-infrastructure-monitoring/
   title: datadog
-  tags: tools
+  tags: other tools
   pic: 
   notes:
 
 - url: https://www.jaegertracing.io/
   title: jaeger
-  tags: tools
+  tags: other tools
   pic:
   notes:
 
 - url: https://newrelic.com/
   title: new relic
-  tags: tools
+  tags: other tools
   pic:
   notes:
 
 - url: https://www.appdynamics.com/
   title: appdynamics
-  tags: tools
+  tags: other tools
   pic:
   notes:
 
 - url: https://www.instana.com/
   title: instana
-  tags: tools
+  tags: other tools
   pic:
   notes:
 
 - url: https://opentracing.io/
   title: opentracing
-  tags: tools
+  tags: other tools
   pic:
   notes:
 
@@ -174,181 +174,181 @@
 
 - url: https://www.elastic.co/elastic-stack
   title: elastic stack
-  tags: tools
+  tags: other tools
   pic:
   notes:
 
 - url: https://www.graylog.org/
   title: graylog
-  tags: tools
+  tags: other tools
   pic:
   notes:
 
 - url: https://www.splunk.com/
   title: splunk
-  tags: tools
+  tags: other tools
   pic:
   notes:
 
 - url: https://www.papertrail.com/
   title: papertrail
-  tags: tools
+  tags: other tools
   pic:
   notes:
 
 - url: https://docs.gitlab.com/ee/ci/
   title: gitlab CI
-  tags: tools
+  tags: other tools
   pic:
   notes:
 
 - url: https://github.com/features/actions
   title: github actions
-  tags: tools
+  tags: other tools
   pic:
   notes:
 
 - url: https://www.atlassian.com/software/bamboo
   title: bamboo
-  tags: tools
+  tags: other tools
   pic:
   source: atlassian
 
 - url: https://docs.microsoft.com/en-us/azure/architecture/solution-ideas/articles/cicd-for-azure-vms
   title: azure ci
-  tags: tools
+  tags: other tools
   pic:
   notes:
 
 - url: https://www.jenkins.io/
   title: jenkins
-  tags: tools
+  tags: other tools
   pic:
   notes:
 
 - url: https://travis-ci.org/
   title: travis CI
-  tags: tools
+  tags: other tools
   pic:
   notes:
 
 - url: https://www.jetbrains.com/teamcity/
   title: teamcity (jetbrains)
-  tags: tools
+  tags: other tools
   pic:
   notes:
 
 - url: https://circleci.com/
   title: circle CI
-  tags: tools
+  tags: other tools
   pic:
   notes:
 
 - url: https://www.docker.com/
   title: docker
-  tags: tools
+  tags: other tools
   pic:
   notes:
 
 - url: https://linuxcontainers.org/
   title: lxc
-  tags: tools
+  tags: other tools
   source: linuxcontainers
   notes: 
 
 - url: https://www.ansible.com/
   title: ansible
-  tags: tools
+  tags: other tools
   pic:
   notes:
 
 - url: https://www.chef.io/
   title: chef
-  tags: tools
+  tags: other tools
   pic:
   notes:
 
 - url: https://saltstackfordevops.com/
   title: saltstack
-  tags: tools
+  tags: other tools
   pic:
   notes:
 
 - url: https://puppet.com/devops/
   title: puppet
-  tags: tools
+  tags: other tools
   pic:
   notes:
 
 - url: https://kubernetes.io/
   title: kubernetes
-  tags: tools
+  tags: other tools
   pic:
   notes:
 
 - url: https://docs.docker.com/engine/swarm/
   title: docker swarm
-  tags: tools
+  tags: other tools
   pic:
   notes:
 
 - url: http://mesos.apache.org/
   title: mesos
-  tags: tools
+  tags: other tools
   source: apache
   notes:
 
 - url: https://digital.ai/technology/nomad
   title: nomad
-  tags: tools
+  tags: other tools
   pic:
   notes:
 
 - url: https://www.terraform.io/
   title: terraform
-  tags: tools
+  tags: other tools
   pic:
   notes:
 
 - url: https://aws.amazon.com/cloudformation/
   title: cloudformation
-  tags: tools
+  tags: other tools
   source: AWS
   notes:
 
 - url: https://www.pulumi.com/
   title: pulumi
-  tags: tools
+  tags: other tools
   pic:
   notes:
 
 - url: https://tech.slashdot.org/story/20/10/15/2111233/canonical-introduces-high-availability-micro-kubernetes
   title: kubernetes HA
-  tags: tools
+  tags: other tools
   pic:
   notes: high-availability
 
 - url: https://microk8s.io/
   title: kubernetes MicroK8s
-  tags: tools
+  tags: other tools
   pic:
   notes:
 
 - url: https://www.hashicorp.com/blog/announcing-waypoint
   title: waypoint (hashicorp)
-  tags: tools
+  tags: other tools
   pic:
   notes:
 
 - url: https://kubernetes.io/docs/setup/learning-environment/minikube/
   title: minikube
-  tags: tools
+  tags: other tools
   pic:
   notes:
 
 - url: https://circleci.com/blog/getting-started-with-kubernetes-how-to-set-up-your-first-cluster/
   title: kubernetes - my first cluster setup
-  tags: tools
+  tags: other tools
   pic:
   notes: using Amazon elastic Kubernetes Service (EKS) and Terraform (Hashicorp)
   source: circleci
@@ -559,7 +559,7 @@
 
 - url:  https://www.guru99.com/devops-tools.html 
   title: tools (2020) 
-  tags: tools
+  tags: other tools
   source: guru99
   notes: 
     <a href="https://bit.ly/2ZPA0uA">QuerySurge</a>,&nbsp;
@@ -599,19 +599,19 @@
  
 - url:  https://www.thecloud.coach/ansible-crash-course 
   title: ansible crash course 
-  tags: tools
+  tags: other tools
  
 - url:  http://jenkins.io/ 
   title: jenkins 
-  tags: tools
+  tags: other tools
  
 - url:  https://www.vagrantup.com/intro/index.html 
-  title: vagrant 
-  tags: tools
+  title: intro
+  tags: vagrant
  
 - url:  /pdfs/devops/Vagrant-Up-and-Running-2016-v2.4.pdf 
-  title: vagrant 2016 
-  tags: tools
+  title: vagrant 2016 ebook
+  tags: other tools
  
 - url:  https://www.virtualbox.org/wiki/Linux_Downloads 
   title: virtualbox 
@@ -619,46 +619,46 @@
  
 - url:  https://dashboard.ngrok.com/get-started 
   title: ngrok (localhost URL tunnel)
-  tags: tools
+  tags: other tools
  
 - url: https://github.com/bjpcjp/the-book-of-secret-knowledge#cli-tools-toc
   title: command line interfaces
-  tags: tools 
+  tags: other tools 
   source: book of secret knowledge
 
 - url: https://github.com/bjpcjp/the-book-of-secret-knowledge#gui-tools-toc
   title: guis
-  tags: tools 
+  tags: other tools 
   source: book of secret knowledge
 
 - url: https://github.com/bjpcjp/the-book-of-secret-knowledge#web-tools-toc
   title: web tools
-  tags: tools 
+  tags: other tools 
   source: book of secret knowledge
 
 - url: https://github.com/bjpcjp/the-book-of-secret-knowledge#networks-toc
   title: networking tools
-  tags: tools 
+  tags: other tools 
   source: book of secret knowledge
 
 - url: https://github.com/bjpcjp/the-book-of-secret-knowledge#systemsservices-toc
   title: tools/system services 
-  tags: tools 
+  tags: other tools 
   source: book of secret knowledge
 
 - url: https://github.com/bjpcjp/the-book-of-secret-knowledge#manualshowtostutorials-toc 
   title: manuals, howtos, tutorials 
-  tags: tools 
+  tags: other tools 
   source: book of secret knowledge
 
 - url: https://github.com/bjpcjp/the-book-of-secret-knowledge#one-liners-toc
   title: one-liners 
-  tags: tools 
+  tags: other tools 
   source: book of secret knowledge
 
 - url: https://github.com/bjpcjp/the-book-of-secret-knowledge#shell-functions-toc
   title: shell functions 
-  tags: tools 
+  tags: other tools 
   source: book of secret knowledge
 
 - url: https://github.com/bjpcjp/the-book-of-secret-knowledge#blogs-toc 
@@ -673,97 +673,97 @@
 
 - url:  https://linuxjourney.com/lesson/boot-process-overview 
   title: bootup 
-  tags: tutorial
+  tags: linux tutorial
   source: linuxjourney
 
 - url:  https://linuxjourney.com/lesson/dev-directory 
   title: devices 
-  tags: tutorial
+  tags: linux tutorial
   source: linuxjourney
  
 - url:  https://linuxjourney.com/lesson/filesystem-hierarchy 
   title: file system 
-  tags: tutorial
+  tags: linux tutorial
   source: linuxjourney
  
 - url:  https://linuxjourney.com/lesson/sysv-overview 
   title: init 
-  tags: tutorial
+  tags: linux tutorial
   source: linuxjourney
  
 - url:  https://linuxjourney.com/lesson/kernel-overview 
   title: kernel overview 
-  tags: tutorial
+  tags: linux tutorial
   source: linuxjourney
  
 - url:  https://linuxjourney.com/lesson/system-logging 
   title: logs 
-  tags: tutorial
+  tags: linux tutorial
   source: linuxjourney
  
 - url:  https://linuxjourney.com/lesson/network-basics 
   title: networks - basics 
-  tags: tutorial
+  tags: linux tutorial
   source: linuxjourney
  
 - url:  https://linuxjourney.com/lesson/network-interfaces 
   title: networks - config 
-  tags: tutorial
+  tags: linux tutorial
   source: linuxjourney
  
 - url:  https://linuxjourney.com/lesson/what-is-dns 
   title: networks - dns 
-  tags: tutorial
+  tags: linux tutorial
   source: linuxjourney
  
 - url:  https://linuxjourney.com/lesson/network-file-sharing 
   title: networks - file sharing 
-  tags: tutorial
+  tags: linux tutorial
   source: linuxjourney
  
 - url:  https://linuxjourney.com/lesson/what-is-a-router 
   title: networks - routing 
-  tags: tutorial
+  tags: linux tutorial
   source: linuxjourney
  
 - url:  https://linuxjourney.com/lesson/icmp 
   title: networks - troubleshooting 
-  tags: tutorial
+  tags: linux tutorial
   source: linuxjourney
  
 - url:  https://linuxjourney.com/lesson/ipv4 
   title: networks - subnets 
-  tags: tutorial
+  tags: linux tutorial
   source: linuxjourney
  
 - url:  https://linuxjourney.com/lesson/software-distribution 
   title: packages 
-  tags: tutorial
+  tags: linux tutorial
   source: linuxjourney
  
 - url:  https://linuxjourney.com/lesson/file-permissions 
   title: permissions 
-  tags: tutorial
+  tags: linux tutorial
   source: linuxjourney
  
 - url:  https://linuxjourney.com/lesson/monitor-processes-ps-command 
   title: processes 
-  tags: tutorial
+  tags: linux tutorial
   source: linuxjourney
  
 - url:  https://linuxjourney.com/lesson/tracking-processes-top 
   title: resource monitoring 
-  tags: tutorial
+  tags: linux tutorial
   source: linuxjourney
  
 - url:  https://sysdig.com/blog/fascinating-world-linux-system-calls/ 
   title: linux system calls 
-  tags: tutorial
+  tags: linux tutorial
   source: linuxjourney
  
 - url:  https://linuxjourney.com/lesson/users-and-groups 
   title: users & groups 
-  tags: tutorial
+  tags: linux tutorial
   source: linuxjourney
 
 - url:  https://blog.robertelder.org/data-science-linux-command-line/ 
@@ -780,7 +780,7 @@
   
 - url:  https://github.com/bit-team/backintime 
   title: back in time 
-  tags: tools
+  tags: other tools
  
 - url:  http://cb.vu/unixtoolbox.xhtml#certs 
   title: certificates 
@@ -821,12 +821,12 @@
 
 - url:  http://cb.vu/unixtoolbox.xhtml#crypt 
   title: crypt
-  tags: tools
+  tags: other tools
   source: cb.vu
  
 - url:  http://cb.vu/unixtoolbox.xhtml#cryptpart 
   title: cryptpart
-  tags: tools
+  tags: other tools
   source: cb.vu
  
 - url:  http://cb.vu/unixtoolbox.xhtml#filesystem 
@@ -1006,25 +1006,25 @@
 
 - url: https://aarvik.dk/four-linux-server-monitoring-and-management-tools/
   title: iotop
-  tags: tools
+  tags: other tools
   pic:
   notes:
 
 - url: https://aarvik.dk/four-linux-server-monitoring-and-management-tools/
   title: htop
-  tags: tools
+  tags: other tools
   pic:
   notes:
         
 - url: https://aarvik.dk/four-linux-server-monitoring-and-management-tools/
   title: apachetop
-  tags: tools
+  tags: other tools
   pic:
   notes:
 
 - url: https://aarvik.dk/four-linux-server-monitoring-and-management-tools/
   title: glances
-  tags: tools
+  tags: other tools
   pic:
   notes:
        
@@ -1039,18 +1039,18 @@
   source: nixcraft
 
 - url: https://www.youtube.com/playlist?list=PL2We04F3Y_43dAehLMT5GxJhtk3mJtkl5
-  title: kubernetes for beginners
-  tags: tools
+  title: beginners
+  tags: kubernetes
   source: youtube
 
 - url: https://medium.com/swlh/how-to-use-docker-images-containers-and-dockerfiles-39e4e8fc181a
-  title: docker for beginners 
-  tags: tools
+  title: beginners 
+  tags: docker
   source: medium
 
 - url: https://caylent.com/50-useful-kubernetes-tools-for-2020
-  title: kubernetes toolbox (2020)
-  tags: tools
+  title: toolbox (2020)
+  tags: kubernetes
   source: caylent 
 
 - url: https://www.nakivo.com/blog/use-virtualbox-quick-overview/
@@ -1064,13 +1064,13 @@
   source: 
 
 - url: https://thenewstack.io/do-i-really-need-kubernetes/
-  title: kubernetes - do i need it?
-  tags: tools
+  title: do i need it?
+  tags: kubernetes
   source: thenewstack
 
 - url: https://learn.hashicorp.com/collections/vagrant/getting-started
-  title: vagrant - getting started 
-  tags: tools
+  title: getting started  tutorial
+  tags: vagrant
   source: hashicorp
 
 - url: https://www.nginx.com/resources/glossary/glossary/
@@ -1090,7 +1090,7 @@
 
 - url: https://devopsunlocked.com/kubernetes-curated-list-of-tools-and-resources/
   title: kubernetes tools & resources 
-  tags: tools
+  tags: other tools
   source: devopsunlocked
 
 - url: https://dev.to/stlnick/how-to-deploy-a-full-stack-mern-app-with-heroku-netlify-ncb
@@ -1122,3 +1122,478 @@
   title: linux commands handbook (pdf)
   tags: linux CLI 
   source: flaviocopes
+
+- url: 12-factor-apps.pdf
+  title: 12-factor apps
+  tags: 12 factor apps
+  pic:
+  notes:
+  
+- url: /pdfs/devops/ansible-best-practices.pdf
+  title: best practices
+  tags: ansible
+  pic:
+  notes:
+  
+- url: /pdfs/devops/ansible-certificates.pdf
+  title: certificates
+  tags: ansible
+  pic:
+  notes:
+  
+- url: /pdfs/devops/ansible-cookbooks.pdf
+  title: cookbooks
+  tags: ansible
+  pic:
+  notes:
+  
+- url: /pdfs/devops/ansible-deployment.pdf
+  title: deployment
+  tags: ansible
+  pic:
+  notes:
+  
+- url: /pdfs/devops/ansible-docker.pdf
+  title: docker
+  tags: ansible
+  pic:
+  notes:
+  
+- url: /pdfs/devops/ansible-getting-started.pdf
+  title: getting started
+  tags: ansible
+  pic:
+  notes:
+  
+- url: /pdfs/devops/ansible-inventories.pdf
+  title: inventories
+  tags: ansible
+  pic:
+  notes:
+  
+- url: /pdfs/devops/ansible-kubernetes.pdf
+  title: kubernetes
+  tags: ansible
+  pic:
+  notes:
+  
+- url: /pdfs/devops/ansible-local-adhoc-commands.pdf
+  title: adhoc commands
+  tags: ansible
+  pic:
+  notes:
+  
+- url: /pdfs/devops/ansible-local-dev.pdf
+  title: local devt
+  tags: ansible
+  pic:
+  notes:
+  
+- url: /pdfs/devops/ansible-playbooks-org.pdf
+  title: playbooks-org
+  tags: ansible
+  pic:
+  notes:
+  
+- url: /pdfs/devops/ansible-playbooks.pdf
+  title: playbooks
+  tags: ansible
+  pic:
+  notes:
+  
+- url: /pdfs/devops/ansible-playbooks-pt2.pdf
+  title: playbook pt2
+  tags: ansible
+  pic:
+  notes:
+  
+- url: /pdfs/devops/ansible-server-security.pdf
+  title: server security
+  tags: ansible
+  pic:
+  notes:
+  
+- url: /pdfs/devops/ansible-toc.pdf
+  title: TOC
+  tags: ansible
+  pic:
+  notes:
+  
+- url: /pdfs/devops/ansible-tower-cicd.pdf
+  title: tower CI/CD
+  tags: ansible
+  pic:
+  notes:
+  
+- url: /pdfs/devops/ansible-windows.pdf
+  title: on Windows
+  tags: ansible
+  pic:
+  notes:
+  
+- url: /pdfs/devops/CWM-apxa-kpis.pdf
+  title: appendix - KPIs
+  tags: complete web monitoring 
+  pic:
+  notes:
+  
+- url: /pdfs/devops/CWM-chap01-why-pdf
+  title: ch01 - purpose
+  tags: complete web monitoring 
+  pic:
+  notes:
+  
+- url: /pdfs/devops/CWM-chap02-bizcase.pdf
+  title: ch02 - biz cases
+  tags: complete web monitoring 
+  pic:
+  notes:
+  
+- url: /pdfs/devops/CWM-chap03-what2watch.pdf
+  title: ch03 -  what to watch
+  tags: complete web monitoring 
+  pic:
+  notes:
+  
+- url: /pdfs/devops/CWM-chap04-4questions.pdf
+  title: ch04 - questions
+  tags: complete web monitoring 
+  pic:
+  notes:
+  
+- url: /pdfs/devops/CWM-chap05-analytics.pdf
+  title: ch05 - analytics
+  tags: complete web monitoring 
+  pic:
+  notes:
+  
+- url: /pdfs/devops/CWM-chap06-usability.pdf
+  title: ch06 - usability
+  tags: complete web monitoring 
+  pic:
+  notes:
+  
+- url: /pdfs/devops/CWM-chap07-voiceofcustomer.pdf
+  title: ch07 - voice of the customer
+  tags: complete web monitoring 
+  pic:
+  notes:
+  
+- url: /pdfs/devops/CWM-chap08-uxmgmt.pdf
+  title: ch08 - UX mgmt
+  tags: complete web monitoring 
+  pic:
+  notes:
+  
+- url: /pdfs/devops/CWM-chap09-synthmonitoring.pdf
+  title: ch09 - synthetic monitoring
+  tags: complete web monitoring 
+  pic:
+  notes:
+  
+- url: /pdfs/devops/CWM-chap10-usermonitoring.pdf
+  title: ch10 - user monitoring
+  tags: complete web monitoring 
+  pic:
+  notes:
+  
+- url: /pdfs/devops/CWM-chap11-communities.pdf
+  title: ch11 - communities
+  tags: complete web monitoring 
+  pic:
+  notes:
+  
+- url: /pdfs/devops/CWM-chap12-communities-whycare.pdf
+  title: ch12 - communities - why care?
+  tags: complete web monitoring 
+  pic:
+  notes:
+  
+- url: /pdfs/devops/CWM-chap13-convos.pdf
+  title: ch13 - conversations
+  tags: complete web monitoring 
+  pic:
+  notes:
+  
+- url: /pdfs/devops/CWM-chap14-tracking.pdf
+  title: ch14 - tracking
+  tags: complete web monitoring 
+  pic:
+  notes:
+  
+- url: /pdfs/devops/CWM-chap15-internal-communities.pdf
+  title: ch15 - internal communities
+  tags: complete web monitoring 
+  pic:
+  notes:
+  
+- url: /pdfs/devops/CWM-chap16-competitors.pdf
+  title: ch16 - competitors
+  tags: complete web monitoring 
+  pic:
+  notes:
+  
+- url: /pdfs/devops/CWM-chap17-summary.pdf
+  title: ch17 - summary
+  tags: complete web monitoring 
+  pic:
+  notes:
+  
+- url: /pdfs/devops/CWM-chap18-future.pdf
+  title: ch18 - future
+  tags: complete web monitoring 
+  pic:
+  notes:
+  
+- url: /pdfs/devops/CWM-ndx.pdf
+  title: index
+  tags: complete web monitoring 
+  pic:
+  notes:
+  
+#- url: /pdfs/devops/CWM-toc-pdf
+#  title: placeholder
+#  tags: complete web monitoring 
+#  pic:
+#  notes:
+  
+- url: /pdfs/devops/DDIA-batching.pdf
+  title: batching
+  tags: data-intensive app design
+  pic:
+  notes:
+  
+- url: /pdfs/devops/DDIA-consistency.pdf
+  title: consistency
+  tags: data-intensive app design
+  pic:
+  notes:
+  
+- url: /pdfs/devops/DDIA-data-models.pdf
+  title: data models
+  tags: data-intensive app design
+  pic:
+  notes:
+  
+- url: /pdfs/devops/DDIA-encoding.pdf
+  title: encoding
+  tags: data-intensive app design
+  pic:
+  notes:
+  
+- url: /pdfs/devops/DDIA-futures.pdf
+  title: futures
+  tags: data-intensive app design
+  pic:
+  notes:
+  
+- url: /pdfs/devops/DDIA-glossary.pdf
+  title: glossary
+  tags: data-intensive app design
+  pic:
+  notes:
+  
+- url: /pdfs/devops/DDIA-issues.pdf
+  title: issues
+  tags: data-intensive app design
+  pic:
+  notes:
+  
+- url: /pdfs/devops/DDIA-partitioning.pdf
+  title: partitoining
+  tags: data-intensive app design
+  pic:
+  notes:
+  
+- url: /pdfs/devops/DDIA-replication.pdf
+  title: replication
+  tags: data-intensive app design
+  pic:
+  notes:
+  
+- url: /pdfs/devops/DDIA-storage.pdf
+  title: storage
+  tags: data-intensive app design
+  pic:
+  notes:
+  
+- url: /pdfs/devops/DDIA-streams.pdf
+  title: streams
+  tags: data-intensive app design
+  pic:
+  notes:
+  
+- url: /pdfs/devops/DDIA-terminology.pdf
+  title: terminology
+  tags: data-intensive app design
+  pic:
+  notes:
+  
+#- url: /pdfs/devops/DDIA-toc.pdf
+#  title: placeholder
+#  tags: data-intensive app design
+#  pic:
+#  notes:
+  
+- url: /pdfs/devops/DDIA-transactions.pdf
+  title: transactions
+  tags: data-intensive app design
+  pic:
+  notes:
+  
+- url: /pdfs/devops/linux-commands-handbook.pdf
+  title: placeholder
+  tags: linux CLI
+  pic:
+  notes: flavio copes
+  
+- url: /pdfs/devops/SRS-adversaries.pdf
+  title: adversaries
+  tags: secure, reliable systems design
+  pic:
+  notes:
+  
+- url: /pdfs/devops/SRS-changing-landscapes.pdf
+  title: landscapes
+  tags: secure, reliable systems design
+  pic:
+  notes:
+  
+- url: /pdfs/devops/SRS-crisis-mgmt.pdf
+  title: crisis mgmt
+  tags: secure, reliable systems design
+  pic:
+  notes:
+  
+- url: /pdfs/devops/SRS-culture.pdf
+  title: culture
+  tags: secure, reliable systems design
+  pic:
+  notes:
+  
+- url: /pdfs/devops/SRS-ddos.pdf
+  title: ddos
+  tags: secure, reliable systems design
+  pic:
+  notes:
+  
+- url: /pdfs/devops/SRS-deploying-code.pdf
+  title: deploying code
+  tags: secure, reliable systems design
+  pic:
+  notes:
+  
+- url: /pdfs/devops/SRS-disaster-assess-matrix.pdf
+  title: disaster assessment matrix
+  tags: secure, reliable systems design
+  pic:
+  notes:
+  
+- url: /pdfs/devops/SRS-disaster-planning.pdf
+  title: disaster planning
+  tags: secure, reliable systems design
+  pic:
+  notes:
+  
+- url: /pdfs/devops/SRS-example-chrome.pdf
+  title: example - Chrome
+  tags: secure, reliable systems design
+  pic:
+  notes:
+  
+#- url: /pdfs/devops/SRS-index.pdf
+#  title: placeholder
+#  tags: secure, reliable systems design
+#  pic:
+#  notes:
+  
+- url: /pdfs/devops/SRS-investigating.pdf
+  title: investigating
+  tags: secure, reliable systems design
+  pic:
+  notes:
+  
+- url: /pdfs/devops/SRS-privileges.pdf
+  title: privileges
+  tags: secure, reliable systems design
+  pic:
+  notes:
+  
+- url: /pdfs/devops/SRS-public-certificate-authorities.pdf
+  title: public certificate authorities
+  tags: secure, reliable systems design
+  pic:
+  notes:
+  
+- url: /pdfs/devops/SRS-recovery.pdf
+  title: recovery
+  tags: secure, reliable systems design
+  pic:
+  notes:
+  
+- url: /pdfs/devops/SRS-resilience.pdf
+  title: resilience
+  tags: secure, reliable systems design
+  pic:
+  notes:
+  
+- url: /pdfs/devops/SRS-roles.pdf
+  title: roles
+  tags: secure, reliable systems design
+  pic:
+  notes:
+  
+- url: /pdfs/devops/SRS-safe-proxies.pdf
+  title: safe proxies
+  tags: secure, reliable systems design
+  pic:
+  notes:
+  
+- url: /pdfs/devops/SRS-security-reliability.pdf
+  title: security-reliability
+  tags: secure, reliable systems design
+  pic:
+  notes:
+  
+- url: /pdfs/devops/SRS-testing-code.pdf
+  title: testing code
+  tags: secure, reliable systems design
+  pic:
+  notes:
+  
+#- url: /pdfs/devops/SRS-toc.pdf
+#  title: TOC
+#  tags: secure, reliable systems design
+#  pic:
+#  notes:
+  
+- url: /pdfs/devops/SRS-tradeoffs.pdf
+  title: tradeoffs
+  tags: secure, reliable systems design
+  pic:
+  notes:
+  
+- url: /pdfs/devops/SRS-understandability.pdf
+  title: understandability
+  tags: secure, reliable systems design
+  pic:
+  notes:
+  
+- url: /pdfs/devops/SRS-writing-code.pdf
+  title: writing code
+  tags: secure, reliable systems design
+  pic:
+  notes:
+  
+- url: /pdfs/devops/vagrant-cli-2.0.2.pdf
+  title: CLI v2.0.2
+  tags: vagrant
+  pic:
+  notes:
+  
+- url: /pdfs/devops/vagrant-Up-and-Running-2016-v2.4.pdf
+  title: Up & Running
+  tags: vagrant
+  pic:
+  notes:
+  
