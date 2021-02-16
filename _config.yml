@@ -28,7 +28,7 @@ show_excerpts: true
 header_pages:
   - about.html 
   - math.html # titled as algorithms
-  - behaviors.html
+  - behaviors.html # data-based equivalent = in devt
   - gametheory.html
   - golang.html
   - ideas.html

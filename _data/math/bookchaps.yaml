@@ -1,1145 +1,1145 @@
-- url: 101-Data-Science-Interview-Questions.pdf
+- url: /pdfs/math/101-Data-Science-Interview-Questions.pdf
   title: placeholder
   tags: tbd
 
-- url: 1811.12808.pdf
+- url: /pdfs/math/1811.12808.pdf
   title: placeholder
   tags: tbd
 
-- url: adaptive-basis-function-models-SM.pdf
+- url: /pdfs/math/adaptive-basis-function-models-SM.pdf
   title: placeholder
   tags: tbd
 
-- url: additive-models-trees-ESL.pdf
+- url: /pdfs/math/additive-models-trees-ESL.pdf
   title: additive models
   tags: trees
 
-- url: advertising-DMMD.pdf
+- url: /pdfs/math/advertising-DMMD.pdf
   title: advertising
   tags: use cases
 
-- url: after-model-selection-estimation-CSI.pdf
+- url: /pdfs/math/after-model-selection-estimation-CSI.pdf
   title: placeholder
   tags: tbd
 
-- url: algo-analysis-ADM.pdf
+- url: /pdfs/math/algo-analysis-ADM.pdf
   title: algorithm analysis
   tags: analysis
   notes: complexity, big-o, growth rates (constant, log, linear, superlinear, quadratic, cubic, exponential, factorial), logarithms
 
-- url: algorithms-role-ITA.pdf
+- url: /pdfs/math/algorithms-role-ITA.pdf
   title: placeholder
   tags: tbd
 
-- url: all-pairs-shortest-paths-ITA.pdf
+- url: /pdfs/math/all-pairs-shortest-paths-ITA.pdf
   title: all-pairs shortest path
   tags: search-sort
 
-- url: all-pairs-shortest-paths-JE.pdf
+- url: /pdfs/math/all-pairs-shortest-paths-JE.pdf
   title: all-pairs shortest path
   tags: search-sort
 
-- url: amortization-ITA.pdf
+- url: /pdfs/math/amortization-ITA.pdf
   title: placeholder
   tags: tbd
 
-- url: applications-DLgoodfellow.pdf
+- url: /pdfs/math/applications-DLgoodfellow.pdf
   title: applications
   tags: use cases
 
-- url: applications-DSA.pdf
+- url: /pdfs/math/applications-DSA.pdf
   title: applications
   tags: use cases
 
-- url: applications-RL.pdf
+- url: /pdfs/math/applications-RL.pdf
   title: applications
   tags: use cases
 
-- url: approximate-inference-DLgoodfellow.pdf
+- url: /pdfs/math/approximate-inference-DLgoodfellow.pdf
   title: approximate inference
   tags: approximations
   notes: expectation maximization (EM), MAP inference, sparse coding, variational inference, learned approx inf.
 
-- url: approximation-algos-ADM.pdf
+- url: /pdfs/math/approximation-algos-ADM.pdf
   title: intro
   tags: approximations
 #  notes: reductions (closest pair, longest increasing subsequence, least common multiple, convex hull, hardness reductions, satisfiability
 
-- url: approximation-algos-ITA.pdf
+- url: /pdfs/math/approximation-algos-ITA.pdf
   title: placeholder
   tags: approximations
 
-- url: approximation-off-policy-methods-RL.pdf
+- url: /pdfs/math/approximation-off-policy-methods-RL.pdf
   title: placeholder
   tags: tbd
 
-- url: approximation-on-policy-control-RL.pdf
+- url: /pdfs/math/approximation-on-policy-control-RL.pdf
   title: placeholder
   tags: tbd
 
-- url: approximation-on-policy-prediction-RL.pdf
+- url: /pdfs/math/approximation-on-policy-prediction-RL.pdf
   title: placeholder
   tags: tbd
 
-- url: arbitrary-precision-math-ADM.pdf
+- url: /pdfs/math/arbitrary-precision-math-ADM.pdf
   title: arbitrary precision math
   tags: number theory
 
-- url: attention-mechs-dive.pdf
+- url: /pdfs/math/attention-mechs-dive.pdf
   title: attention
   tags: deep learning architectures
 
-- url: autoencoders-DLgoodfellow.pdf
+- url: /pdfs/math/autoencoders-DLgoodfellow.pdf
   title: autoencoders (DLG)
   tags: deep learning architectures
 
-- url: backtracking-AJE.pdf
+- url: /pdfs/math/backtracking-AJE.pdf
   title: backtracking
   tags: tbd
 
-- url: backtracking-JE.pdf
+- url: /pdfs/math/backtracking-JE.pdf
   title: backtracking
   tags: tbd
 
-- url: bandits-adversarial-vs-stochastic-linear-BA.pdf
+- url: /pdfs/math/bandits-adversarial-vs-stochastic-linear-BA.pdf
   title: placeholder
   tags: tbd
 
-- url: bandits-bayes-BA.pdf
+- url: /pdfs/math/bandits-bayes-BA.pdf
   title: bayes
   tags: bandit algorithms
 
-- url: bandits-combinatorial-BA.pdf
+- url: /pdfs/math/bandits-combinatorial-BA.pdf
   title: placeholder
   tags: bandit algorithms
 
-- url: bandits-concentration-of-measure-BA.pdf
+- url: /pdfs/math/bandits-concentration-of-measure-BA.pdf
   title: placeholder
   tags: bandit algorithms
 
-- url: bandits-contextual-BA.pdf
+- url: /pdfs/math/bandits-contextual-BA.pdf
   title: placeholder
   tags: bandit algorithms
 
-- url: bandits-convex-analysis-BA.pdf
+- url: /pdfs/math/bandits-convex-analysis-BA.pdf
   title: placeholder
   tags: bandit algorithms
 
-- url: bandits-exp3-adversarial-linear-BA.pdf
+- url: /pdfs/math/bandits-exp3-adversarial-linear-BA.pdf
   title: placeholder
   tags: bandit algorithms
 
-- url: bandits-exp3-IX-BA.pdf
+- url: /pdfs/math/bandits-exp3-IX-BA.pdf
   title: placeholder
   tags: bandit algorithms
 
-- url: bandits-exp3.pdf
+- url: /pdfs/math/bandits-exp3.pdf
   title: placeholder
   tags: bandit algorithms
 
-- url: bandits-explore-then-commit-BA.pdf
+- url: /pdfs/math/bandits-explore-then-commit-BA.pdf
   title: placeholder
   tags: bandit algorithms
 
-- url: bandits-follow-the-leader-mirror-descent-BA.pdf
+- url: /pdfs/math/bandits-follow-the-leader-mirror-descent-BA.pdf
   title: placeholder
   tags: bandit algorithms
 
-- url: bandits-index-BA.pdf
+- url: /pdfs/math/bandits-index-BA.pdf
   title: placeholder
   tags: bandit algorithms
 
-- url: bandits-info-theory-BA.pdf
+- url: /pdfs/math/bandits-info-theory-BA.pdf
   title: placeholder
   tags: bandit algorithms
 
-- url: bandits-intro-BA.pdf
+- url: /pdfs/math/bandits-intro-BA.pdf
   title: placeholder
   tags: bandit algorithms
 
-- url: bandits-least-squares-estimators-confidence-bounds-BA.pdf
+- url: /pdfs/math/bandits-least-squares-estimators-confidence-bounds-BA.pdf
   title: placeholder
   tags: bandit algorithms
 
-- url: bandits-least-squares-estimators-optimal-design-BA.pdf
+- url: /pdfs/math/bandits-least-squares-estimators-optimal-design-BA.pdf
   title: placeholder
   tags: bandit algorithms
 
-- url: bandits-lower-bounds-BA.pdf
+- url: /pdfs/math/bandits-lower-bounds-BA.pdf
   title: placeholder
   tags: bandit algorithms
 
-- url: bandits-lower-bounds-high-probability-BA.pdf
+- url: /pdfs/math/bandits-lower-bounds-high-probability-BA.pdf
   title: placeholder
   tags: bandit algorithms
 
-- url: bandits-lower-bounds-instance-dependent-BA.pdf
+- url: /pdfs/math/bandits-lower-bounds-instance-dependent-BA.pdf
   title: placeholder
   tags: bandit algorithms
 
-- url: bandits-lower-bounds-minimax-BA.pdf
+- url: /pdfs/math/bandits-lower-bounds-minimax-BA.pdf
   title: placeholder
   tags: bandit algorithms
 
-- url: bandits-markov-decisions-BA.pdf
+- url: /pdfs/math/bandits-markov-decisions-BA.pdf
   title: placeholder
   tags: bandit algorithms
 
-- url: bandits-non-stationary-BA.pdf
+- url: /pdfs/math/bandits-non-stationary-BA.pdf
   title: placeholder
   tags: bandit algorithms
 
-- url: bandits-partial-monitoring-BA.pdf
+- url: /pdfs/math/bandits-partial-monitoring-BA.pdf
   title: placeholder
   tags: bandit algorithms
 
-- url: bandits-probability-BA.pdf
+- url: /pdfs/math/bandits-probability-BA.pdf
   title: placeholder
   tags: bandit algorithms
 
-- url: bandits-pure-exploration-BA.pdf
+- url: /pdfs/math/bandits-pure-exploration-BA.pdf
   title: placeholder
   tags: bandit algorithms
 
-- url: bandits-ranking-BA.pdf
+- url: /pdfs/math/bandits-ranking-BA.pdf
   title: placeholder
   tags: bandit algorithms
 
-- url: bandits-stochastic-finite-BA.pdf
+- url: /pdfs/math/bandits-stochastic-finite-BA.pdf
   title: placeholder
   tags: bandit algorithms
 
-- url: bandits-stochastic-linear-asymptotic-lower-bounds-BA.pdf
+- url: /pdfs/math/bandits-stochastic-linear-asymptotic-lower-bounds-BA.pdf
   title: placeholder
   tags: bandit algorithms
 
-- url: bandits-stochastic-linear-BA.pdf
+- url: /pdfs/math/bandits-stochastic-linear-BA.pdf
   title: placeholder
   tags: bandit algorithms
 
-- url: bandits-stochastic-linear-finite-many-arms-BA.pdf
+- url: /pdfs/math/bandits-stochastic-linear-finite-many-arms-BA.pdf
   title: placeholder
   tags: bandit algorithms
 
-- url: bandits-stochastic-linear-minimax-lower-bounds-BA.pdf
+- url: /pdfs/math/bandits-stochastic-linear-minimax-lower-bounds-BA.pdf
   title: placeholder
   tags: bandit algorithms
 
-- url: bandits-stochastic-linear-sparsity-BA.pdf
+- url: /pdfs/math/bandits-stochastic-linear-sparsity-BA.pdf
   title: placeholder
   tags: bandit algorithms
 
-- url: bandits-stochastic-markov-BA.pdf
+- url: /pdfs/math/bandits-stochastic-markov-BA.pdf
   title: placeholder
   tags: bandit algorithms
 
-- url: bandits-thompson-sampling-BA.pdf
+- url: /pdfs/math/bandits-thompson-sampling-BA.pdf
   title: placeholder
   tags: bandit algorithms
 
-- url: bandits-UCB-algorithm-asymptotic-optimality-BA.pdf
+- url: /pdfs/math/bandits-UCB-algorithm-asymptotic-optimality-BA.pdf
   title: placeholder
   tags: bandit algorithms
 
-- url: bandits-UCB-algorithm-bernoulli-noise-BA.pdf
+- url: /pdfs/math/bandits-UCB-algorithm-bernoulli-noise-BA.pdf
   title: placeholder
   tags: bandit algorithms
 
-- url: bandits-UCB-algorithm-minimax-optimality-BA.pdf
+- url: /pdfs/math/bandits-UCB-algorithm-minimax-optimality-BA.pdf
   title: placeholder
   tags: bandit algorithms
 
-- url: bandits-upper-confidence-bound-BA.pdf
+- url: /pdfs/math/bandits-upper-confidence-bound-BA.pdf
   title: placeholder
   tags: bandit algorithms
 
-- url: bandwidth-reduction-ADM.pdf
+- url: /pdfs/math/bandwidth-reduction-ADM.pdf
   title: placeholder
   tags: bandit algorithms
 
-- url: basis-expansions-regularization-ESL.pdf
+- url: /pdfs/math/basis-expansions-regularization-ESL.pdf
   title: placeholder
   tags: bandit algorithms
 
-- url: bayes-empirical-estimation-CSI.pdf
+- url: /pdfs/math/bayes-empirical-estimation-CSI.pdf
   title: empirical estimation
   tags: bayes
 
-- url: bayes-inference-CSI.pdf
+- url: /pdfs/math/bayes-inference-CSI.pdf
   title: bayes
   tags: bayes
 
-- url: bayes-inference-PSC.pdf
+- url: /pdfs/math/bayes-inference-PSC.pdf
   title: placeholder
   tags: bayes
 
-- url: bayes-nets-SM.pdf
+- url: /pdfs/math/bayes-nets-SM.pdf
   title: placeholder
   tags: bayes
 
-- url: bayes-NP.pdf
+- url: /pdfs/math/bayes-NP.pdf
   title: placeholder
   tags: bayes
 
-- url: bayes-stats-SM.pdf
+- url: /pdfs/math/bayes-stats-SM.pdf
   title: placeholder
   tags: bayes
 
-#- url: bibliography-dive.pdf
+#- url: /pdfs/math/bibliography-dive.pdf
 #  title: placeholder
 #  tags: tbd
 
-#- url: bibliography-DLgoodfellow.pdf
+#- url: /pdfs/math/bibliography-DLgoodfellow.pdf
 #  title: placeholder
 #  tags: tbd
 
-- url: binary-search-trees-ITA.pdf
+- url: /pdfs/math/binary-search-trees-ITA.pdf
   title: binary search trees
   tags: trees
 
-- url: bin-packing-ADM.pdf
+- url: /pdfs/math/bin-packing-ADM.pdf
   title: placeholder
   tags: tbd
 
-- url: book-ADM.pdf
+- url: /pdfs/math/book-ADM.pdf
   title: ADM
   tags: complete books
 
-- url: book-AJE.pdf
+- url: /pdfs/math/book-AJE.pdf
   title: placeholder
   tags: complete books
 
-- url: book-algorithm-design-manual-ADM.pdf
+- url: /pdfs/math/book-algorithm-design-manual-ADM.pdf
   title: placeholder
   tags: complete books
 
-- url: book-algorithms-elementary-EA.pdf
+- url: /pdfs/math/book-algorithms-elementary-EA.pdf
   title: placeholder
   tags: complete books
 
-- url: book-Algorithms-JeffE.pdf
+- url: /pdfs/math/book-Algorithms-JeffE.pdf
   title: placeholder
   tags: complete books
 
-- url: book-bandits-BA.pdf
+- url: /pdfs/math/book-bandits-BA.pdf
   title: placeholder
   tags: complete books
 
-- url: book-computer-statistical-inference-hastie-CSI.pdf
+- url: /pdfs/math/book-computer-statistical-inference-hastie-CSI.pdf
   title: placeholder
   tags: complete books
 
-- url: book-convex-optimization-CO.pdf
+- url: /pdfs/math/book-convex-optimization-CO.pdf
   title: placeholder
   tags: complete books
 
-- url: book-data-mining-massive-datasets-v2.1-DMMD.pdf
+- url: /pdfs/math/book-data-mining-massive-datasets-v2.1-DMMD.pdf
   title: placeholder
   tags: complete books
 
-- url: book-Data_Structures_and_Apps-DSA.pdf
+- url: /pdfs/math/book-Data_Structures_and_Apps-DSA.pdf
   title: placeholder
   tags: complete books
 
-- url: book-elements-of-statistical-learning-ESL.pdf
+- url: /pdfs/math/book-elements-of-statistical-learning-ESL.pdf
   title: placeholder
   tags: complete books
 
-- url: book-ESL.pdf
+- url: /pdfs/math/book-ESL.pdf
   title: placeholder
   tags: complete books
 
-- url: book-foundations-FDS.pdf
+- url: /pdfs/math/book-foundations-FDS.pdf
   title: placeholder
   tags: complete books
 
-- url: book-ITA.pdf
+- url: /pdfs/math/book-ITA.pdf
   title: placeholder
   tags: complete books
 
-- url: book-machine-learning-probabilistic-MLP.pdf
+- url: /pdfs/math/book-machine-learning-probabilistic-MLP.pdf
   title: placeholder
   tags: complete books
 
-- url: book-math4ml-thomas.pdf
+- url: /pdfs/math/book-math4ml-thomas.pdf
   title: placeholder
   tags: complete books
 
-- url: book-matrix_cookbook_201707.pdf
+- url: /pdfs/math/book-matrix_cookbook_201707.pdf
   title: placeholder
   tags: complete books
 
-- url: book-numerical-algorithms-solomon.pdf
+- url: /pdfs/math/book-numerical-algorithms-solomon.pdf
   title: placeholder
   tags: complete books
 
-- url: book-numerical-python-NP.pdf
+- url: /pdfs/math/book-numerical-python-NP.pdf
   title: placeholder
   tags: complete books
 
-- url: book-prob-stats-cookbook-PSC.pdf
+- url: /pdfs/math/book-prob-stats-cookbook-PSC.pdf
   title: placeholder
   tags: complete books
 
-- url: book-reinforcement-learning-v2-RL.pdf
+- url: /pdfs/math/book-reinforcement-learning-v2-RL.pdf
   title: placeholder
   tags: complete books
 
-- url: book-super-cheatsheet-deep-learning-SCDL.pdf
+- url: /pdfs/math/book-super-cheatsheet-deep-learning-SCDL.pdf
   title: placeholder
   tags: complete books
 
-- url: boosting-additive-trees-ESL.pdf
+- url: /pdfs/math/boosting-additive-trees-ESL.pdf
   title: additive trees
   tags: boosting
 
-- url: bootstrap-confidence-intervals-CSI.pdf
+- url: /pdfs/math/bootstrap-confidence-intervals-CSI.pdf
   title: placeholder
   tags: tbd
 
-- url: b-trees-ITA.pdf
+- url: /pdfs/math/b-trees-ITA.pdf
   title: B trees
   tags: trees
 
-- url: calendar-math-ADM.pdf
+- url: /pdfs/math/calendar-math-ADM.pdf
   title: calendar math
   tags: time series
 
-- url: chinese-postman-ADM.pdf
+- url: /pdfs/math/chinese-postman-ADM.pdf
   title: chinese postman
   tags: search
 
-- url: cliques-ADM.pdf
+- url: /pdfs/math/cliques-ADM.pdf
   title: placeholder
   tags: tbd
 
-- url: clustering-DMMD.pdf
+- url: /pdfs/math/clustering-DMMD.pdf
   title: clustering
   tags: machine learning
 
-- url: clustering-FDS.pdf
+- url: /pdfs/math/clustering-FDS.pdf
   title: clustering
   tags: machine learning
 
-- url: cnns-dive.pdf
+- url: /pdfs/math/cnns-dive.pdf
   title: convolutional (cnn)
   tags: deep learning architectures
 
-- url: cnns-DLgoodfellow.pdf
+- url: /pdfs/math/cnns-DLgoodfellow.pdf
   title: convolutional (cnn)
   tags: deep learning architectures
 
-- url: cnns-modern-dive.pdf
+- url: /pdfs/math/cnns-modern-dive.pdf
   title: convolutional (cnn)
   tags: deep learning architectures
 
-- url: cnns-super-cheatsheet-SCDL.pdf
+- url: /pdfs/math/cnns-super-cheatsheet-SCDL.pdf
   title: convolutional (cnn) cheatsheet
   tags: deep learning architectures
 
-- url: combinational-search-ADM.pdf
+- url: /pdfs/math/combinational-search-ADM.pdf
   title: combinational
   tags: search-sort
 
-- url: combinatorials-ADM.pdf
+- url: /pdfs/math/combinatorials-ADM.pdf
   title: combinatorials
   tags: number theory
   notes: sort search, medians, permutations, subsets, partitions, generating graphs, calendars, job scheduling, satisfiability
 
-- url: complex-numbers-LAY.pdf
+- url: /pdfs/math/complex-numbers-LAY.pdf
   title: complex numbers
   tags: number theory
 
-- url: computation-dive.pdf
+- url: /pdfs/math/computation-dive.pdf
   title: placeholder
   tags: tbd
 
-- url: connected-components-ADM.pdf
+- url: /pdfs/math/connected-components-ADM.pdf
   title: connected components
   tags: tbd
 
-- url: convergence-PSC.pdf
+- url: /pdfs/math/convergence-PSC.pdf
   title: convergence
   tags: tbd
 
-- url: convex-hull-ADM.pdf
+- url: /pdfs/math/convex-hull-ADM.pdf
   title: convex hulls
   tags: tbd
 
-- url: counting-probability-ITA.pdf
+- url: /pdfs/math/counting-probability-ITA.pdf
   title: counting & probability
   tags: tbd
 
-- url: cross-validation-CSI.pdf
+- url: /pdfs/math/cross-validation-CSI.pdf
   title: cross validation
   tags: evaluation
 
-- url: cryptography-ADM.pdf
+- url: /pdfs/math/cryptography-ADM.pdf
   title: cryptography
   tags: number theory
 
-#- url: data-mining-intro-DMMD.pdf
+#- url: /pdfs/math/data-mining-intro-DMMD.pdf
 #  title: placeholder
 #  tags: tbd
 
-- url: data-mining-streams-DMMD.pdf
+- url: /pdfs/math/data-mining-streams-DMMD.pdf
   title: streams
   tags: streams
 
-- url: DataSci-CmndLine-cheat-20190804.pdf
+- url: /pdfs/math/DataSci-CmndLine-cheat-20190804.pdf
   title: command line cheatsheet
   tags: tools
 
-- url: datastructs-ADM.pdf
+- url: /pdfs/math/datastructs-ADM.pdf
   title: ADM
   tags: data structures
 
-- url: datastructs-augmenting-ITA.pdf
+- url: /pdfs/math/datastructs-augmenting-ITA.pdf
   title: augmenting
   tags: data structures
 
-- url: datastructs-disjoint-ITA.pdf
+- url: /pdfs/math/datastructs-disjoint-ITA.pdf
   title: disjoint
   tags: data structures
 
-- url: datastructs-intro-ITA.pdf
+- url: /pdfs/math/datastructs-intro-ITA.pdf
   title: intro
   tags: data structures
 
-- url: decision-theory-PSC.pdf
+- url: /pdfs/math/decision-theory-PSC.pdf
   title: cheatsheet (PSC)
   tags: decision theory
   notes: defs, risk, admissability, bayes, minimax
 
-- url: deep-feedforward-nets-DLgoodfellow.pdf
+- url: /pdfs/math/deep-feedforward-nets-DLgoodfellow.pdf
   title: deep feedforward
   tags: deep learning architectures
 
-- url: deep-generative-models-DLgoodfellow.pdf
+- url: /pdfs/math/deep-generative-models-DLgoodfellow.pdf
   title: generative models
   tags: deep learning architectures
 
-- url: deep-learning-CSI.pdf
+- url: /pdfs/math/deep-learning-CSI.pdf
   title: CSI
   tags: deep learning architectures
 
-- url: deep-learning-dive.pdf
+- url: /pdfs/math/deep-learning-dive.pdf
   title: dive
   tags: deep learning architectures
 
-- url: deep-networks-modern-practices-DLgoodfellow.pdf
+- url: /pdfs/math/deep-networks-modern-practices-DLgoodfellow.pdf
   title: modern practices
   tags: deep learning architectures
 
-- url: depth-first-search-AJE.pdf
+- url: /pdfs/math/depth-first-search-AJE.pdf
   title: depth-first
   tags: search-sort
 
-- url: determinants-LAY.pdf
+- url: /pdfs/math/determinants-LAY.pdf
   title: determinants
   tags: linear algebra
 
-- url: dictionaries-ADM.pdf
+- url: /pdfs/math/dictionaries-ADM.pdf
   title: dictionaries
   tags: data structures
 
-- url: dictionaries-DSA.pdf
+- url: /pdfs/math/dictionaries-DSA.pdf
   title: dictionaries
   tags: data structures
 
-- url: diffeqs-ordinary-NP.pdf
+- url: /pdfs/math/diffeqs-ordinary-NP.pdf
   title: ordinary
   tags: differential equations
 
-- url: diffeqs-partial-NP.pdf
+- url: /pdfs/math/diffeqs-partial-NP.pdf
   title: partial
   tags: differential equations
 
-- url: dimensionality-ESL.pdf
+- url: /pdfs/math/dimensionality-ESL.pdf
   title: ESL
   tags: dimensionality
 
-- url: dimensionality-FDS.pdf
+- url: /pdfs/math/dimensionality-FDS.pdf
   title: FDS
   tags: dimensionality
 
-- url: dimensionality-reduction-DMMD.pdf
+- url: /pdfs/math/dimensionality-reduction-DMMD.pdf
   title: reduction 
   tags: dimensionality
 
-- url: discrete-fourier-xform-ADM.pdf
+- url: /pdfs/math/discrete-fourier-xform-ADM.pdf
   title: discrete fourier transform (DFT)
   tags: polynomials
 
-- url: distributions-multivariate-PSC.pdf
+- url: /pdfs/math/distributions-multivariate-PSC.pdf
   title: multivariate
   tags: distributions
 
-- url: divide-conquer-ITA.pdf
+- url: /pdfs/math/divide-conquer-ITA.pdf
   title: divide & conquer
   tags: tbd
 
-- url: dynamic-programming-ADM.pdf
+- url: /pdfs/math/dynamic-programming-ADM.pdf
   title: ADM
   tags: dynamic programming
 
-- url: dynamic-programming-AJE.pdf
+- url: /pdfs/math/dynamic-programming-AJE.pdf
   title: AJE
   tags: dynamic programming
 
-- url: dynamic-programming-ITA.pdf
+- url: /pdfs/math/dynamic-programming-ITA.pdf
   title: ITA
   tags: dynamic programming
 
-- url: dynamic-programming-JE.pdf
+- url: /pdfs/math/dynamic-programming-JE.pdf
   title: JE
   tags: dynamic programming
 
-- url: dynamic-programming-RL.pdf
+- url: /pdfs/math/dynamic-programming-RL.pdf
   title: RL
   tags: dynamic programming
 
-- url: edge-coloring-ADM.pdf
+- url: /pdfs/math/edge-coloring-ADM.pdf
   title: edge coloring
   tags: vertexes
 
-- url: edge-vertex-connectivity-ADM.pdf
+- url: /pdfs/math/edge-vertex-connectivity-ADM.pdf
   title: edge connectivity
   tags: vertexes
 
-- url: eigenvectors-eigenvalues-LAY.pdf
+- url: /pdfs/math/eigenvectors-eigenvalues-LAY.pdf
   title: eigenvectors, eigenvalues
   tags: linear algebra
 
-- url: eligibility-traces-RL.pdf
+- url: /pdfs/math/eligibility-traces-RL.pdf
   title: eligibility traces
   tags: tbd
 
-- url: ensembles-ESL.pdf
+- url: /pdfs/math/ensembles-ESL.pdf
   title: ESL
   tags: ensembles
 
-- url: equation-solving-NP.pdf
+- url: /pdfs/math/equation-solving-NP.pdf
   title: equation solving
   tags: tbd
 
-- url: exponential-family-SM.pdf
+- url: /pdfs/math/exponential-family-SM.pdf
   title: exponentials
   tags: tbd
 
-- url: factoring-primes-ADM.pdf
+- url: /pdfs/math/factoring-primes-ADM.pdf
   title: factoring primes
   tags: tbd
 
-- url: feedback-edge-vertex-set-ADM.pdf
+- url: /pdfs/math/feedback-edge-vertex-set-ADM.pdf
   title: feedback edge vertex set
   tags: vertexes
 
-- url: fibonacci-heaps-ITA.pdf
+- url: /pdfs/math/fibonacci-heaps-ITA.pdf
   title: fibonacci heaps
   tags: data structures
 
-- url: file-io-NP.pdf
+- url: /pdfs/math/file-io-NP.pdf
   title: python file I/O
   tags: tools
 
-- url: finite-state-machine-minimization-ADM.pdf
+- url: /pdfs/math/finite-state-machine-minimization-ADM.pdf
   title: finite state machines
   tags: tbd
 
-- url: flows-cuts-applications-JE.pdf
+- url: /pdfs/math/flows-cuts-applications-JE.pdf
   title: flows & cuts
   tags: tbd
 
-- url: frequentist-stats-SM.pdf
+- url: /pdfs/math/frequentist-stats-SM.pdf
   title: frequentist stats
   tags: tbd
 
-- url: frequent-itemsets-DMMD.pdf
+- url: /pdfs/math/frequent-itemsets-DMMD.pdf
   title: frequent itemsets
   tags: tbd
 
-#- url: frontiers-RL.pdf
+#- url: /pdfs/math/frontiers-RL.pdf
 #  title: placeholder
 #  tags: tbd
 
-- url: function-estimation-non-parametric-PSC.pdf
+- url: /pdfs/math/function-estimation-non-parametric-PSC.pdf
   title: function estimation
   tags: tbd
 
-- url: gans-dive.pdf
+- url: /pdfs/math/gans-dive.pdf
   title: gans
   tags: deep learning architectures
 
-- url: gaussian-models-SM.pdf
+- url: /pdfs/math/gaussian-models-SM.pdf
   title: SM
   tags: gaussian models
 
-- url: gaussians-SM.pdf
+- url: /pdfs/math/gaussians-SM.pdf
   title: SM
   tags: gaussian models
 
-- url: generative-models-discrete-SM.pdf
+- url: /pdfs/math/generative-models-discrete-SM.pdf
   title: gans - discrete
   tags: deep learning architectures
 
-- url: geometric-primitives-ADM.pdf
+- url: /pdfs/math/geometric-primitives-ADM.pdf
   title: primitives
   tags: geometry
 
-- url: Geometric_topology.pdf
+- url: /pdfs/math/Geometric_topology.pdf
   title: topology
   tags: geometry
 
-- url: geometry-ITA.pdf
+- url: /pdfs/math/geometry-ITA.pdf
   title: intro
   tags: geometry
 
-#- url: getting-started-ITA.pdf
+#- url: /pdfs/math/getting-started-ITA.pdf
 #  title: placeholder
 #  tags: tbd
 
-#- url: glossary-FDS.pdf
+#- url: /pdfs/math/glossary-FDS.pdf
 #  title: placeholder
 #  tags: tbd
 
-#- url: glossary-LAY.pdf
+#- url: /pdfs/math/glossary-LAY.pdf
 #  title: placeholder
 #  tags: tbd
 
-#- url: glossary-machine-learning-GOOG.pdf
+#- url: /pdfs/math/glossary-machine-learning-GOOG.pdf
 #  title: placeholder
 #  tags: tbd
 
-- url: graph-algos-AJE.pdf
+- url: /pdfs/math/graph-algos-AJE.pdf
   title: placeholder
   tags: graphs
 
-- url: graph-algos-ITA.pdf
+- url: /pdfs/math/graph-algos-ITA.pdf
   title: placeholder
   tags: graphs
 
-- url: graph-datastructs-ADM.pdf
+- url: /pdfs/math/graph-datastructs-ADM.pdf
   title: placeholder
   tags: graphs
 
-- url: graph-drawing-ADM.pdf
+- url: /pdfs/math/graph-drawing-ADM.pdf
   title: drawing
   tags: graphs
 
-- url: graph-generation-ADM.pdf
+- url: /pdfs/math/graph-generation-ADM.pdf
   title: generation
   tags: graphs
 
-- url: graph-isomorphism-ADM.pdf
+- url: /pdfs/math/graph-isomorphism-ADM.pdf
   title: isomorphism
   tags: graphs
 
-- url: graph-partition-ADM.pdf
+- url: /pdfs/math/graph-partition-ADM.pdf
   title: partitions
   tags: graphs
 
-- url: graphs-connected-components-ADM.pdf
+- url: /pdfs/math/graphs-connected-components-ADM.pdf
   title: connected components
   tags: graphs
 
-- url: graphs-hard-ADM.pdf
+- url: /pdfs/math/graphs-hard-ADM.pdf
   title: hard 
   tags: graphs
 
-- url: graphs-JE.pdf
+- url: /pdfs/math/graphs-JE.pdf
   title: intro (JE)
   tags: graphs
 
-- url: graphs-polynomial-time-ADM.pdf
+- url: /pdfs/math/graphs-polynomial-time-ADM.pdf
   title: polynomial time
   tags: graphs
 
-- url: graphs-weighted-ADM.pdf
+- url: /pdfs/math/graphs-weighted-ADM.pdf
   title: weighted
   tags: graphs
 
-- url: graph-traversal-ADM.pdf
+- url: /pdfs/math/graph-traversal-ADM.pdf
   title: traversal
   tags: graphs
 
-- url: greedy-algos-AJE.pdf
+- url: /pdfs/math/greedy-algos-AJE.pdf
   title: AJE
   tags: greedy algorithms
 
-- url: greedy-algos-ITA.pdf
+- url: /pdfs/math/greedy-algos-ITA.pdf
   title: ITA
   tags: greedy algorithms
 
-- url: greedy-algos-JE.pdf
+- url: /pdfs/math/greedy-algos-JE.pdf
   title: JE
   tags: greedy algorithms
 
-- url: growth-ITA.pdf
+- url: /pdfs/math/growth-ITA.pdf
   title: growth
   tags: analysis
 
-- url: guidelines-methodology-DLgoodfellow.pdf
+- url: /pdfs/math/guidelines-methodology-DLgoodfellow.pdf
   title: methodology
   tags: analysis
 
-- url: hamiltonian-cycle-ADM.pdf
+- url: /pdfs/math/hamiltonian-cycle-ADM.pdf
   title: hamiltonian cycles
   tags: tbd
 
-- url: hashes-ITA.pdf
+- url: /pdfs/math/hashes-ITA.pdf
   title: hashes
   tags: data structures
 
-- url: heaps-EA.pdf
+- url: /pdfs/math/heaps-EA.pdf
   title: heaps
   tags: data structures
 
-- url: heapsort-ITA.pdf
+- url: /pdfs/math/heapsort-ITA.pdf
   title: heapsort
   tags: sorting
 
-- url: how-to-design-algos-ADM.pdf
+- url: /pdfs/math/how-to-design-algos-ADM.pdf
   title: how to design
   tags: analysis
 
-- url: hypothesis-testing-false-discovery-CSI.pdf
+- url: /pdfs/math/hypothesis-testing-false-discovery-CSI.pdf
   title: hypothesis testing - false discovery
   tags: probability, statistics
 
-- url: hypothesis-testing-PSC.pdf
+- url: /pdfs/math/hypothesis-testing-PSC.pdf
   title: hypothesis testing
   tags: probability, statistics
 
-#- url: image-credits-JE.pdf
+#- url: /pdfs/math/image-credits-JE.pdf
 #  title: placeholder
 #  tags: tbd
 
-#- url: image-credits-LAY.pdf
+#- url: /pdfs/math/image-credits-LAY.pdf
 #  title: placeholder
 #  tags: tbd
 
-#- url: index-CSI.pdf
+#- url: /pdfs/math/index-CSI.pdf
 #  title: placeholder
 #  tags: tbd
 
-#- url: index-DLgoodfellow.pdf
+#- url: /pdfs/math/index-DLgoodfellow.pdf
 #  title: placeholder
 #  tags: tbd
 
-#- url: index-DMMD.pdf
+#- url: /pdfs/math/index-DMMD.pdf
 #  title: placeholder
 #  tags: tbd
 
-#- url: index-FDS.pdf
+#- url: /pdfs/math/index-FDS.pdf
 #  title: placeholder
 #  tags: tbd
 
-#- url: index-ITA.pdf
+#- url: /pdfs/math/index-ITA.pdf
 #  title: placeholder
 #  tags: tbd
 
-#- url: index-LAY.pdf
+#- url: /pdfs/math/index-LAY.pdf
 #  title: placeholder
 #  tags: tbd
 
-#- url: index-NP.pdf
+#- url: /pdfs/math/index-NP.pdf
 #  title: placeholder
 #  tags: tbd
 
-#- url: index-PSC.pdf
+#- url: /pdfs/math/index-PSC.pdf
 #  title: placeholder
 #  tags: tbd
 
-#- url: index-RL.pdf
+#- url: /pdfs/math/index-RL.pdf
 #  title: placeholder
 #  tags: tbd
 
-- url: inequalities-PSC.pdf
+- url: /pdfs/math/inequalities-PSC.pdf
   title: inequalities
   tags: tbd
 
-- url: inference-frequentist-CSI.pdf
+- url: /pdfs/math/inference-frequentist-CSI.pdf
   title: frequentist inference
   tags: tbd
 
-- url: inner-product-length-orthogonality-LAY.pdf
+- url: /pdfs/math/inner-product-length-orthogonality-LAY.pdf
   title: inner product length & orthogonality
   tags: linear algebra
 
-#- url: install-dive.pdf
+#- url: /pdfs/math/install-dive.pdf
 #  title: placeholder
 #  tags: tbd
 
-#- url: install-NP.pdf
+#- url: /pdfs/math/install-NP.pdf
 #  title: placeholder
 #  tags: tbd
 
-- url: integration-NP.pdf
+- url: /pdfs/math/integration-NP.pdf
   title: NP
   tags: integration
 
-- url: interpolation-NP.pdf
+- url: /pdfs/math/interpolation-NP.pdf
   title: NP
   tags: interpolation
 
-- url: intersections-ADM.pdf
+- url: /pdfs/math/intersections-ADM.pdf
   title: intersections
   tags: tbd
 
-#- url: intro-ADM.pdf
+#- url: /pdfs/math/intro-ADM.pdf
 #  title: placeholder
 #  tags: tbd
 
-#- url: intro-CSI.pdf
+#- url: /pdfs/math/intro-CSI.pdf
 #  title: placeholder
 #  tags: tbd
 
-#- url: intro-dive.pdf
+#- url: /pdfs/math/intro-dive.pdf
 #  title: placeholder
 #  tags: tbd
 
-#- url: intro-DLgoodfellow.pdf
+#- url: /pdfs/math/intro-DLgoodfellow.pdf
 #  title: placeholder
 #  tags: tbd
 
-#- url: intro-ESL.pdf
+#- url: /pdfs/math/intro-ESL.pdf
 #  title: placeholder
 #  tags: tbd
 
-#- url: intro-FDS.pdf
+#- url: /pdfs/math/intro-FDS.pdf
 #  title: placeholder
 #  tags: tbd
 
-#- url: intro-JE.pdf
+#- url: /pdfs/math/intro-JE.pdf
 #  title: placeholder
 #  tags: tbd
 
-#- url: intro-SM.pdf
+#- url: /pdfs/math/intro-SM.pdf
 #  title: placeholder
 #  tags: tbd
 
-- url: jackknife-CSI.pdf
+- url: /pdfs/math/jackknife-CSI.pdf
   title: jackknife
   tags: regression
 
-- url: job-scheduling-ADM.pdf
+- url: /pdfs/math/job-scheduling-ADM.pdf
   title: job scheduling
   tags: tbd
 
-- url: kd-trees-ADM.pdf
+- url: /pdfs/math/kd-trees-ADM.pdf
   title: K-D trees
   tags: trees
 
-- url: kernel-smoothing-ESL.pdf
+- url: /pdfs/math/kernel-smoothing-ESL.pdf
   title: smoothing
   tags: kernels
 
-- url: kernels-SM.pdf
+- url: /pdfs/math/kernels-SM.pdf
   title: SM
   tags: kernels
 
-- url: knapsack-problem-ADM.pdf
+- url: /pdfs/math/knapsack-problem-ADM.pdf
   title: knapsack problem
   tags: tbd
 
-- url: large-scale-machine-learning-DMMD.pdf
+- url: /pdfs/math/large-scale-machine-learning-DMMD.pdf
   title: large-scale learning
   tags: tbd
 
-- url: latent-linear-models-SM.pdf
+- url: /pdfs/math/latent-linear-models-SM.pdf
   title: latent (inferred) linear models
   tags: tbd
 
-- url: libraries-DSA.pdf
+- url: /pdfs/math/libraries-DSA.pdf
   title: libraries
   tags: tbd
 
-- url: linear_algebra-DLgoodfellow.pdf
+- url: /pdfs/math/linear_algebra-DLgoodfellow.pdf
   title: DLG
   tags: linear algebra
 
-- url: linear-algebra-LAY.pdf
+- url: /pdfs/math/linear-algebra-LAY.pdf
   title: LAY
   tags: linear algebra
 
-- url: Linear-Algebra-Lay.pdf
+- url: /pdfs/math/Linear-Algebra-Lay.pdf
   title: placeholder
   tags: linear algebra
 
-- url: linear-classification-ESL.pdf
+- url: /pdfs/math/linear-classification-ESL.pdf
   title: linear classification
   tags: tbd
 
-- url: linear-equations-ADM.pdf
+- url: /pdfs/math/linear-equations-ADM.pdf
   title: ADM
   tags: linear algebra
 
-- url: linear-factor-models-DLgoodfellow.pdf
+- url: /pdfs/math/linear-factor-models-DLgoodfellow.pdf
   title: linear factor models
   tags: tbd
 
-- url: linear-nns-dive.pdf
+- url: /pdfs/math/linear-nns-dive.pdf
   title: linear NNs
   tags: tbd
 
-- url: linear-programming-ADM.pdf
+- url: /pdfs/math/linear-programming-ADM.pdf
   title: ADM
   tags: linear programming
 
-- url: linear-programming-ITA.pdf
+- url: /pdfs/math/linear-programming-ITA.pdf
   title: ITA
   tags: linear programming
 
-- url: line-arrangements-ADM.pdf
+- url: /pdfs/math/line-arrangements-ADM.pdf
   title: line arrangements
   tags: geometry
 
-- url: linear-regression-ESL.pdf
+- url: /pdfs/math/linear-regression-ESL.pdf
   title: LR (ESL)
   tags: regression
 
-- url: linear-regression-PSC.pdf
+- url: /pdfs/math/linear-regression-PSC.pdf
   title: LR (PSC)
   tags: regression
 
-- url: linear-regression-SM.pdf
+- url: /pdfs/math/linear-regression-SM.pdf
   title: LR (SM)
   tags: regression
 
-- url: linear-time-sort-ITA.pdf
+- url: /pdfs/math/linear-time-sort-ITA.pdf
   title: linear-time sort
   tags: sorting
 
-- url: link-analysis-DMMD.pdf
+- url: /pdfs/math/link-analysis-DMMD.pdf
   title: link analysis
   tags: graphs
 
-- url: lists-EA.pdf
+- url: /pdfs/math/lists-EA.pdf
   title: lists
   tags: data structures
 
-- url: logistic-regression-SM.pdf
+- url: /pdfs/math/logistic-regression-SM.pdf
   title: logistic regression
   tags: regression
 
-- url: longest-common-substring-ADM.pdf
+- url: /pdfs/math/longest-common-substring-ADM.pdf
   title: LCS
   tags: strings
 
-- url: machine-learning-basics-DLgoodfellow.pdf
+- url: /pdfs/math/machine-learning-basics-DLgoodfellow.pdf
   title: basics
   tags: machine learning
 
-- url: machine-learning-cheat-sheet.pdf
+- url: /pdfs/math/machine-learning-cheat-sheet.pdf
   title: cheatsheet
   tags: machine learning
 
-- url: machine-learning-glossary.pdf
+- url: /pdfs/math/machine-learning-glossary.pdf
   title: glossary
   tags: machine learning
 
-- url: machine-learning-intro-FDS.pdf
+- url: /pdfs/math/machine-learning-intro-FDS.pdf
   title: intro
   tags: machine learning
 
-- url: machine-learning-NP.pdf
+- url: /pdfs/math/machine-learning-NP.pdf
   title: intro
   tags: machine learning
 
-- url: mapreduce-DMMD.pdf
+- url: /pdfs/math/mapreduce-DMMD.pdf
   title: mapreduce
   tags: tools
 
-- url: markov-chain-monte-carlo-CSI.pdf
+- url: /pdfs/math/markov-chain-monte-carlo-CSI.pdf
   title: MCMC (CSI)
   tags: markov
 
-- url: markov-chain-monte-carlo-SM.pdf
+- url: /pdfs/math/markov-chain-monte-carlo-SM.pdf
   title: MCMC (SM)
   tags: markov
 
-- url: markov-chains-explained-visually.pdf
+- url: /pdfs/math/markov-chains-explained-visually.pdf
   title: markov chains
   tags: markov
 
-- url: markov-finite-RL.pdf
+- url: /pdfs/math/markov-finite-RL.pdf
   title: markov-finite
   tags: reinforcement learning
 
-- url: matching-ADM.pdf
+- url: /pdfs/math/matching-ADM.pdf
   title: matching
   tags: tbd
 
-- url: math-dive.pdf
+- url: /pdfs/math/math-dive.pdf
   title: placeholder
   tags: tbd
 
-- url: matrix_cookbook_201707.pdf
+- url: /pdfs/math/matrix_cookbook_201707.pdf
   title: cookbook
   tags: matrices
 
-- url: matrix-determinants-ADM.pdf
+- url: /pdfs/math/matrix-determinants-ADM.pdf
   title: determinants
   tags: matrices
 
-- url: matrix-math-LAY.pdf
+- url: /pdfs/math/matrix-math-LAY.pdf
   title: math ops
   tags: matrices
 
-- url: matrix-multiply-ADM.pdf
+- url: /pdfs/math/matrix-multiply-ADM.pdf
   title: matrix multiplication
   tags: matrices
 
-- url: matrix-ops-ITA.pdf
+- url: /pdfs/math/matrix-ops-ITA.pdf
   title: matrix ops
   tags: matrices
 
-- url: maxflow-ITA.pdf
+- url: /pdfs/math/maxflow-ITA.pdf
   title: maxflow
   tags: tbd
 
-- url: max-likelihood-estimation-CSI.pdf
+- url: /pdfs/math/max-likelihood-estimation-CSI.pdf
   title: max likelihood estimation
   tags: tbd
 
-- url: medial-axis-xforms-ADM.pdf
+- url: /pdfs/math/medial-axis-xforms-ADM.pdf
   title: medial axis transforms
   tags: tbd
 
-- url: medians-ADM.pdf
+- url: /pdfs/math/medians-ADM.pdf
   title: medians
   tags: tbd
 
-- url: medians-orderstats-ITA.pdf
+- url: /pdfs/math/medians-orderstats-ITA.pdf
   title: medians, orderstats
   tags: probability, statistics
 
-- url: methodology-postwar-CSI.pdf
+- url: /pdfs/math/methodology-postwar-CSI.pdf
   title: methodology
   tags: tbd
 
-- url: minimum-spanning-tree-ADM.pdf
+- url: /pdfs/math/minimum-spanning-tree-ADM.pdf
   title: minimum spanning trees
   tags: graphs
 
-- url: minimum-spanning-trees-AJE.pdf
+- url: /pdfs/math/minimum-spanning-trees-AJE.pdf
   title: minimum spanning trees
   tags: graphs
 
-- url: minkowski-sum-ADM.pdf
+- url: /pdfs/math/minkowski-sum-ADM.pdf
   title: minkowski sum
   tags: tbd
 
-- url: min-spanning-tree-JE.pdf
+- url: /pdfs/math/min-spanning-tree-JE.pdf
   title: minimum spanning trees
   tags: graphs
 
-- url: min-spanning-trees-ITA.pdf
+- url: /pdfs/math/min-spanning-trees-ITA.pdf
   title: minimum spanning trees
   tags: graphs
 
-- url: mixture-models-SM.pdf
+- url: /pdfs/math/mixture-models-SM.pdf
   title: mixture models & EM
   tags: machine learning
   notes: latent variable models (LVMs), 
@@ -1147,80 +1147,80 @@
           expectation maximization,
           LVM model selection
 
-#- url: ml-cheatsheet-toc-SM.pdf
+#- url: /pdfs/math/ml-cheatsheet-toc-SM.pdf
 #  title: placeholder
 #  tags: tbd
 
-- url: model-assessment-ESL.pdf
+- url: /pdfs/math/model-assessment-ESL.pdf
   title: model assessment
   tags: analysis
   notes: bias, variance, complexity, errors, cross validation, bootstrap methods, 
 
-- url: model-inference-averaging-ESL.pdf
+- url: /pdfs/math/model-inference-averaging-ESL.pdf
   title: inference averaging
   tags: tbd
 
-- url: monte-carlo-methods-DLgoodfellow.pdf
+- url: /pdfs/math/monte-carlo-methods-DLgoodfellow.pdf
   title: monte carlo
   tags: randomization
 
-- url: monte-carlo-RL.pdf
+- url: /pdfs/math/monte-carlo-RL.pdf
   title: monte carlo
   tags: randomization
 
-- url: motion-planning-ADM.pdf
+- url: /pdfs/math/motion-planning-ADM.pdf
   title: motion planning
   tags: planning algorithms
 
-- url: multithreading-ITA.pdf
+- url: /pdfs/math/multithreading-ITA.pdf
   title: multithreading
   tags: performance
 
-- url: nearest-neighbors-ADM.pdf
+- url: /pdfs/math/nearest-neighbors-ADM.pdf
   title: nearest neighbors
   tags: tbd
 
-- url: network-flow-ADM.pdf
+- url: /pdfs/math/network-flow-ADM.pdf
   title: network flow
   tags: tbd
 
-- url: neural-net-cheatsheet.pdf
+- url: /pdfs/math/neural-net-cheatsheet.pdf
   title: cheatsheet
   tags: deep learning architectures
 
-- url: neural-nets-ESL.pdf
+- url: /pdfs/math/neural-nets-ESL.pdf
   title: intro 
   tags: deep learning architectures
 
-- url: nlp-dive.pdf
+- url: /pdfs/math/nlp-dive.pdf
   title: intro
   tags: nlp
 
-- url: np-complete-ITA.pdf
+- url: /pdfs/math/np-complete-ITA.pdf
   title: np-complete
   tags: analysis
 
-- url: np-hardness-AJE.pdf
+- url: /pdfs/math/np-hardness-AJE.pdf
   title: np-hardness
   tags: analysis
 
-- url: np-hardness-JE.pdf
+- url: /pdfs/math/np-hardness-JE.pdf
   title: np-hardness
   tags: analysis
 
-- url: nstep-bootstrap-RL.pdf
+- url: /pdfs/math/nstep-bootstrap-RL.pdf
   title: placeholder
   tags: tbd
 
-- url: numba-cython-NP.pdf
+- url: /pdfs/math/numba-cython-NP.pdf
   title: Numba, Cython
   tags: tools
 
-- url: number-theory-ITA.pdf
+- url: /pdfs/math/number-theory-ITA.pdf
   title: intro
   tags: number theory
 
-- url: numerical-computation-DLgoodfellow.pdf
+- url: /pdfs/math/numerical-computation-DLgoodfellow.pdf
   title: computation factors
   tags: deep learning
   notes: underflow/overflow, conditioning, gradients, 
@@ -1229,19 +1229,19 @@
         example - linear LS 
 
 
-- url: numericals-ADM.pdf
+- url: /pdfs/math/numericals-ADM.pdf
   title: numerical ops (category)
   tags: machine learning
 
-- url: optimization-ADM.pdf
+- url: /pdfs/math/optimization-ADM.pdf
   title: placeholder
   tags: optimization
 
-- url: optimization-dive.pdf
+- url: /pdfs/math/optimization-dive.pdf
   title: placeholder (Dive)
   tags: optimization
 
-- url: optimization-DLgoodfellow.pdf
+- url: /pdfs/math/optimization-DLgoodfellow.pdf
   title: optimization (DLG)
   tags: deep learning architectures
   notes: early stopping, batching, minibatch, challenges,
@@ -1251,556 +1251,556 @@
         2nd-order methods (newton, conjugate gradients, BFGS),
         meta-algorithms
 
-- url: optimization-NP.pdf
+- url: /pdfs/math/optimization-NP.pdf
   title: optimization (NP)
   tags: optimization
   notes: problem types, univariate, multivariate, nonlinear least squares, constrained
 
-- url: optimization-SM.pdf
+- url: /pdfs/math/optimization-SM.pdf
   title: optimization
   tags: optimization
 
-- url: other-datastructs-DSA.pdf
+- url: /pdfs/math/other-datastructs-DSA.pdf
   title: other
   tags: data structures
 
-- url: other-FDS.pdf
+- url: /pdfs/math/other-FDS.pdf
   title: placeholder
   tags: tbd
 
-- url: pandas-NP.pdf
+- url: /pdfs/math/pandas-NP.pdf
   title: Python-Pandas
   tags: tools
 
-- url: parallel-processing.pdf
+- url: /pdfs/math/parallel-processing.pdf
   title: intro
   tags: parallelism
 
-- url: parametric-inference-PSC.pdf
+- url: /pdfs/math/parametric-inference-PSC.pdf
   title: inference - parametric
   tags: inference
 
-- url: parametric-models-exponentials-CSI.pdf
+- url: /pdfs/math/parametric-models-exponentials-CSI.pdf
   title: exponentials
   tags: tbd
 
-#- url: part-1-basics-DLgoodfellow.pdf
+#- url: /pdfs/math/part-1-basics-DLgoodfellow.pdf
 #  title: placeholder
 #  tags: tbd
 
-- url: partitions-ADM.pdf
+- url: /pdfs/math/partitions-ADM.pdf
   title: partitions
   tags: tbd
 
-- url: PCA-explained-visually.pdf
+- url: /pdfs/math/PCA-explained-visually.pdf
   title: pca
   tags: tbd
 
-- url: perceptrons-dive.pdf
+- url: /pdfs/math/perceptrons-dive.pdf
   title: perceptrons
   tags: deep learning architectures
 
-- url: performance-dive.pdf
+- url: /pdfs/math/performance-dive.pdf
   title: performance
   tags: analysis
 
-- url: permutations-ADM.pdf
+- url: /pdfs/math/permutations-ADM.pdf
   title: permutations
   tags: combinationals
 
-- url: planarity-ADM.pdf
+- url: /pdfs/math/planarity-ADM.pdf
   title: planarity
   tags: tbd
 
-- url: planning-algorithms.pdf
+- url: /pdfs/math/planning-algorithms.pdf
   title: intro
   tags: planning algorithms
 
-- url: point-location-ADM.pdf
+- url: /pdfs/math/point-location-ADM.pdf
   title: point location
   tags: tbd
 
-- url: policy-gradients-RL.pdf
+- url: /pdfs/math/policy-gradients-RL.pdf
   title: intro
   tags: policy gradients
 
-- url: polygon-partitions-ADM.pdf
+- url: /pdfs/math/polygon-partitions-ADM.pdf
   title: partitions
   tags: polygons
 
-- url: polygon-simplification-ADM.pdf
+- url: /pdfs/math/polygon-simplification-ADM.pdf
   title: simplification
   tags: polygons
 
-- url: polynomials-fourier-ITA.pdf
+- url: /pdfs/math/polynomials-fourier-ITA.pdf
   title: fourier
   tags: polynomials
 
-#- url: preface-ITA.pdf
+#- url: /pdfs/math/preface-ITA.pdf
 #  title: placeholder
 #  tags: tbd
 
-#- url: prelims-dive.pdf
+#- url: /pdfs/math/prelims-dive.pdf
 #  title: placeholder
 #  tags: tbd
 
-- url: priority-queues-ADM.pdf
+- url: /pdfs/math/priority-queues-ADM.pdf
   title: priority queues
   tags: queues
 
-- url: priority-queues-DSA.pdf
+- url: /pdfs/math/priority-queues-DSA.pdf
   title: priority queues
   tags: queues
 
-- url: probabilistic-randomized-ITA.pdf
+- url: /pdfs/math/probabilistic-randomized-ITA.pdf
   title: randomized
   tags: probability, statistics
 
-- url: probability-distributions-PSC.pdf
+- url: /pdfs/math/probability-distributions-PSC.pdf
   title: distributions
   tags: probability, statistics
 
-- url: probability-DLgoodfellow.pdf
+- url: /pdfs/math/probability-DLgoodfellow.pdf
   title: intro (Goodfellow)
   tags: probability, statistics
 
-- url: probability-expectation-PSC.pdf
+- url: /pdfs/math/probability-expectation-PSC.pdf
   title: expectation
   tags: probability, statistics
 
-- url: probability-other-math-PSC.pdf
+- url: /pdfs/math/probability-other-math-PSC.pdf
   title: other math
   tags: probability, statistics
 
-- url: probability-random-vars-PSC.pdf
+- url: /pdfs/math/probability-random-vars-PSC.pdf
   title: random variables
   tags: probability, statistics
 
-- url: probability-SM.pdf
+- url: /pdfs/math/probability-SM.pdf
   title: intro (SM)
   tags: probability, statistics
 
-- url: probability-theory-PSC.pdf
+- url: /pdfs/math/probability-theory-PSC.pdf
   title: intro (PSC)
   tags: probability, statistics
 
-- url: prob_cheatsheet_william_chen.pdf
+- url: /pdfs/math/prob_cheatsheet_william_chen.pdf
   title: cheatsheet
   tags: probability, statistics
 
-- url: prob-intro.pdf
+- url: /pdfs/math/prob-intro.pdf
   title: intro
   tags: probability, statistics
 
-- url: prob-stats-cheatsheet2.pdf
+- url: /pdfs/math/prob-stats-cheatsheet2.pdf
   title: cheatsheet
   tags: probability, statistics
 
-- url: prob-stats-cookbook v0.2.1.pdf
+- url: /pdfs/math/prob-stats-cookbook v0.2.1.pdf
   title: cookbook
   tags: probability, statistics
 
-- url: prob-stats-modeling.pdf
+- url: /pdfs/math/prob-stats-modeling.pdf
   title: prob | stats | modeling
   tags: probability, statistics
 
-- url: prototypes-nearest-neighbors-ESL.pdf
+- url: /pdfs/math/prototypes-nearest-neighbors-ESL.pdf
   title: nearest neighbors
   tags: tbd
 
-- url: queues-sequences-EA.pdf
+- url: /pdfs/math/queues-sequences-EA.pdf
   title: queues & sequences
   tags: queues
 
-- url: quicksort-ITA.pdf
+- url: /pdfs/math/quicksort-ITA.pdf
   title: quicksort
   tags: sorting
 
-- url: random-forests-boosting-CSI.pdf
+- url: /pdfs/math/random-forests-boosting-CSI.pdf
   title: random forest boosting
   tags: boosting
 
-- url: random-forests-ESL.pdf
+- url: /pdfs/math/random-forests-ESL.pdf
   title: random forests
   tags: trees
 
-- url: random-graphs-FDS.pdf
+- url: /pdfs/math/random-graphs-FDS.pdf
   title: random graphs
   tags: graphs
 
-- url: random-numbers-ADM.pdf
+- url: /pdfs/math/random-numbers-ADM.pdf
   title: random numbers
   tags: randomization
 
-- url: random-walks-markov-chains-FDS.pdf
+- url: /pdfs/math/random-walks-markov-chains-FDS.pdf
   title: random walks - markov chains
   tags: markov
 
-- url: range-search-ADM.pdf
+- url: /pdfs/math/range-search-ADM.pdf
   title: range search
   tags: search
 
-#- url: README.pdf
+#- url: /pdfs/math/README.pdf
 #  title: placeholder
 #  tags: tbd
 
-- url: recommenders-dive.pdf
+- url: /pdfs/math/recommenders-dive.pdf
   title: recommenders
   tags: recommenders
 
-- url: recommenders-DMMD.pdf
+- url: /pdfs/math/recommenders-DMMD.pdf
   title: intro
   tags: recommenders
 
-- url: recurrent-recursive-nets-DLgoodfellow.pdf
+- url: /pdfs/math/recurrent-recursive-nets-DLgoodfellow.pdf
   title: rnns
   tags: deep learning architectures
 
-- url: recursion-JE.pdf
+- url: /pdfs/math/recursion-JE.pdf
   title: intro
   tags: recursion
 
-- url: red-black-trees-ITA.pdf
+- url: /pdfs/math/red-black-trees-ITA.pdf
   title: red-black
   tags: trees
 
-- url: regression-ridge-CSI.pdf
+- url: /pdfs/math/regression-ridge-CSI.pdf
   title: ridge
   tags: regression
 
-- url: regression-trees-CSI.pdf
+- url: /pdfs/math/regression-trees-CSI.pdf
   title: regression trees
   tags: tbd
 
-- url: regularization-DLgoodfellow.pdf
+- url: /pdfs/math/regularization-DLgoodfellow.pdf
   title: regularization
   tags: regression
 
-- url: representation-learning-DLgoodfellow.pdf
+- url: /pdfs/math/representation-learning-DLgoodfellow.pdf
   title: representation learning
   tags: deep learning architectures
 
-- url: research-p3-DLgoodfellow.pdf
+- url: /pdfs/math/research-p3-DLgoodfellow.pdf
   title: research
   tags: deep learning architectures
 
-- url: resources-ADM.pdf
+- url: /pdfs/math/resources-ADM.pdf
   title: resources
   tags: tbd
 
-#- url: esourcealgos-ADM.pdf
+#- url: /pdfs/math/esourcealgos-ADM.pdf
 #  title: placeholder
 #  tags: tbd
 
-- url: rnns-didl.pdf
+- url: /pdfs/math/rnns-didl.pdf
   title: rnns (DIDL)
   tags: deep learning architectures
 
-- url: rnns-dive.pdf
+- url: /pdfs/math/rnns-dive.pdf
   title: rnns (dive)
   tags: deep learning architectures
 
-- url: rnns-modern-dive.pdf
+- url: /pdfs/math/rnns-modern-dive.pdf
   title: rnns - modern
   tags: deep learning architectures
 
-- url: rnns-super-cheatsheet-SCDL.pdf
+- url: /pdfs/math/rnns-super-cheatsheet-SCDL.pdf
   title: rnn cheatsheet
   tags: deep learning architectures
 
-- url: sampling-PSC.pdf
+- url: /pdfs/math/sampling-PSC.pdf
   title: sampling
   tags: sampling
 
-- url: satisfiability-ADM.pdf
+- url: /pdfs/math/satisfiability-ADM.pdf
   title: satisfiability
   tags: tbd
 
-- url: search-depth-first-JE.pdf
+- url: /pdfs/math/search-depth-first-JE.pdf
   title: depth first
   tags: search
 
-- url: searching-ADM.pdf
+- url: /pdfs/math/searching-ADM.pdf
   title: search
   tags: search
 
-- url: search-methods-ADM.pdf
+- url: /pdfs/math/search-methods-ADM.pdf
   title: methods
   tags: search
 
-- url: set-cover-ADM.pdf
+- url: /pdfs/math/set-cover-ADM.pdf
   title: set cover
   tags: set theory
 
-- url: set-packing-ADM.pdf
+- url: /pdfs/math/set-packing-ADM.pdf
   title: set packing
   tags: set theory
 
-- url: sets-ADM.pdf
+- url: /pdfs/math/sets-ADM.pdf
   title: sets
   tags: set theory
 
-- url: sets-independent-ADM.pdf
+- url: /pdfs/math/sets-independent-ADM.pdf
   title: sets (independent)
   tags: set theory
 
-- url: sets-ITA.pdf
+- url: /pdfs/math/sets-ITA.pdf
   title: sets
   tags: set theory
 
-- url: sets-strings-ADM.pdf
+- url: /pdfs/math/sets-strings-ADM.pdf
   title: sets-strings
   tags: tbd
 
-- url: shape-similarity-ADM.pdf
+- url: /pdfs/math/shape-similarity-ADM.pdf
   title: shape similarity
   tags: tbd
 
-- url: shortest-common-superstring-ADM.pdf
+- url: /pdfs/math/shortest-common-superstring-ADM.pdf
   title: shortest common superstring
   tags: strings
 
-- url: shortest-path-ADM.pdf
+- url: /pdfs/math/shortest-path-ADM.pdf
   title: shortest path
   tags: tbd
 
-- url: signal-processing-NP.pdf
+- url: /pdfs/math/signal-processing-NP.pdf
   title: signal processing
   tags: tbd
 
-- url: similarity-search-DMMD.pdf
+- url: /pdfs/math/similarity-search-DMMD.pdf
   title: similarity search
   tags: tbd
 
-- url: single-source-shortest-paths-ITA.pdf
+- url: /pdfs/math/single-source-shortest-paths-ITA.pdf
   title: shortest path - single source
   tags: tbd
 
-- url: singular-value-decomposition-FDS.pdf
+- url: /pdfs/math/singular-value-decomposition-FDS.pdf
   title: svd
   tags: machine learning
 
-- url: social-graphs-DMMD.pdf
+- url: /pdfs/math/social-graphs-DMMD.pdf
   title: social graphs
   tags: tbd
 
-- url: sorting-ADM.pdf
+- url: /pdfs/math/sorting-ADM.pdf
   title: sorting (ADM)
   tags: search-sort
 
-- url: sort-search-ADM.pdf
+- url: /pdfs/math/sort-search-ADM.pdf
   title: intro (ADM)
   tags: search-sort
 
-- url: sort-search-EA.pdf
+- url: /pdfs/math/sort-search-EA.pdf
   title: intro (EA)
   tags: search-sort
 
-- url: sparse-matrices-graphs-NP.pdf
+- url: /pdfs/math/sparse-matrices-graphs-NP.pdf
   title: sparse data
   tags: matrices
 
-- url: sparse-matrices-graphs-NP.pdf
+- url: /pdfs/math/sparse-matrices-graphs-NP.pdf
   title: sparse data
   tags: graphs
 
-- url: sparse-models-lasso-CSI.pdf
+- url: /pdfs/math/sparse-models-lasso-CSI.pdf
   title: lasso
   tags: regression
 
-- url: spatial-DSA.pdf
+- url: /pdfs/math/spatial-DSA.pdf
   title: DSA
   tags: spatial data
 
-- url: splines-ESL.pdf
+- url: /pdfs/math/splines-ESL.pdf
   title: splines
   tags: tbd
 
-- url: statistical-inference-PSC.pdf
+- url: /pdfs/math/statistical-inference-PSC.pdf
   title: intro (PSC)
   tags: inference
 
-- url: statistics-NP.pdf
+- url: /pdfs/math/statistics-NP.pdf
   title: placeholder
   tags: statistics
 
-- url: statsmodels-NP.pdf
+- url: /pdfs/math/statsmodels-NP.pdf
   title: statsmodel
   tags: tools
 
-- url: steiner-tree-ADM.pdf
+- url: /pdfs/math/steiner-tree-ADM.pdf
   title: steiner trees
   tags: trees
 
-- url: stochastic-process-PSC.pdf
+- url: /pdfs/math/stochastic-process-PSC.pdf
   title: stochastic processes
   tags: tbd
 
-- url: string-matching-ADM.pdf
+- url: /pdfs/math/string-matching-ADM.pdf
   title: string matching
   tags: strings
 
-- url: string-matching-approx-ADM.pdf
+- url: /pdfs/math/string-matching-approx-ADM.pdf
   title: string matching (approx)
   tags: strings
 
-- url: string-matching-ITA.pdf
+- url: /pdfs/math/string-matching-ITA.pdf
   title: string matching
   tags: strings
 
-- url: structured-probabilistic-models-DLgoodfellow.pdf
+- url: /pdfs/math/structured-probabilistic-models-DLgoodfellow.pdf
   title: structured probabilistic models
   tags: tbd
 
-- url: subsets-ADM.pdf
+- url: /pdfs/math/subsets-ADM.pdf
   title: subsets
   tags: set theory
 
-- url: suffix-trees-ADM.pdf
+- url: /pdfs/math/suffix-trees-ADM.pdf
   title: suffix
   tags: trees
 
-- url: summations-ITA.pdf
+- url: /pdfs/math/summations-ITA.pdf
   title: summations
   tags: tbd
 
-- url: supervised-learning-ESL.pdf
+- url: /pdfs/math/supervised-learning-ESL.pdf
   title: supervised learning
   tags: machine learning
 
-- url: support-vector-machines-ESL.pdf
+- url: /pdfs/math/support-vector-machines-ESL.pdf
   title: summary
   tags: support vector machines
 
-- url: support-vector-machines-kernels-CSI.pdf
+- url: /pdfs/math/support-vector-machines-kernels-CSI.pdf
   title: kernels
   tags: support vector machines
 
-- url: survival-analysis-expection-maximization-CSI.pdf
+- url: /pdfs/math/survival-analysis-expection-maximization-CSI.pdf
   title: survival analysis
   tags: machine learning
 
-- url: symbolic-math-NP.pdf
+- url: /pdfs/math/symbolic-math-NP.pdf
   title: intro
   tags: symbolic math
 
-- url: symmetric-matrices-LAY.pdf
+- url: /pdfs/math/symmetric-matrices-LAY.pdf
   title: symmetric
   tags: matrices
 
-- url: tabular-method-planning-RL.pdf
+- url: /pdfs/math/tabular-method-planning-RL.pdf
   title: tabular method planning
   tags: tbd
 
-- url: temporal-distances-RL.pdf
+- url: /pdfs/math/temporal-distances-RL.pdf
   title: temporal
   tags: distances
 
-- url: text-compression-ADM.pdf
+- url: /pdfs/math/text-compression-ADM.pdf
   title: text compression
   tags: strings
 
-- url: the-partition-problem-DLgoodfellow.pdf
+- url: /pdfs/math/the-partition-problem-DLgoodfellow.pdf
   title: the partition problem
   tags: tbd
 
-- url: time-series-PSC.pdf
+- url: /pdfs/math/time-series-PSC.pdf
   title: PSC
   tags: time series
 
-- url: tips-super-cheatsheet-SCDL.pdf
+- url: /pdfs/math/tips-super-cheatsheet-SCDL.pdf
   title: cheatsheet
   tags: tbd
 
-#- url: toc-dive.pdf
+#- url: /pdfs/math/toc-dive.pdf
 #  title: placeholder
 #  tags: table of contents
 
-#- url: toc-DLgoodfellow.pdf
+#- url: /pdfs/math/toc-DLgoodfellow.pdf
 #  title: placeholder
 #  tags: table of contents
 
-#- url: toc-ITA.pdf
+#- url: /pdfs/math/toc-ITA.pdf
 #  title: placeholder
 #  tags: table of contents
 
-- url: tools-dive.pdf
+- url: /pdfs/math/tools-dive.pdf
   title: placeholder
   tags: tools
 
-- url: topic-models-nnmf-hmg-graph-models-FDS.pdf
+- url: /pdfs/math/topic-models-nnmf-hmg-graph-models-FDS.pdf
   title: topic models
   tags: tbd
 
-- url: topological-sort-ADM.pdf
+- url: /pdfs/math/topological-sort-ADM.pdf
   title: topological
   tags: sorting
 
-- url: transitive-closure-ADM.pdf
+- url: /pdfs/math/transitive-closure-ADM.pdf
   title: transitive closure
   tags: tbd
 
-- url: traveling-salesman-ADM.pdf
+- url: /pdfs/math/traveling-salesman-ADM.pdf
   title: traveling salesman
   tags: search
 
-- url: tree-drawing-ADM.pdf
+- url: /pdfs/math/tree-drawing-ADM.pdf
   title: drawing
   tags: trees
 
-- url: trees-EA.pdf
+- url: /pdfs/math/trees-EA.pdf
   title: intro
   tags: trees
 
-- url: triangulation-ADM.pdf
+- url: /pdfs/math/triangulation-ADM.pdf
   title: triangulation
   tags: tbd
 
-- url: undirected-graphs-ESL.pdf
+- url: /pdfs/math/undirected-graphs-ESL.pdf
   title: undirected
   tags: graphs
 
-- url: unsupervised-learning-ESL.pdf
+- url: /pdfs/math/unsupervised-learning-ESL.pdf
   title: unsupervised learning
   tags: machine learning
 
-- url: van-emde-boas-trees-ITA.pdf
+- url: /pdfs/math/van-emde-boas-trees-ITA.pdf
   title: van emde boas trees
   tags: trees
 
-- url: variance-PSC.pdf
+- url: /pdfs/math/variance-PSC.pdf
   title: variances
   tags: statistics
 
-- url: vectors-matrices-ndarrays-NP.pdf
+- url: /pdfs/math/vectors-matrices-ndarrays-NP.pdf
   title: vector | matrix | ndarray ops
   tags: linear algebra
 
-- url: vector-spaces-LAY.pdf
+- url: /pdfs/math/vector-spaces-LAY.pdf
   title: vector spaces
   tags: tbd
 
-- url: vertex-coloring-ADM.pdf
+- url: /pdfs/math/vertex-coloring-ADM.pdf
   title: vertex coloring
   tags: vertexes
 
-- url: vertex-cover-ADM.pdf
+- url: /pdfs/math/vertex-cover-ADM.pdf
   title: vertex covers
   tags: vertexes
 
-- url: vision-dive.pdf
+- url: /pdfs/math/vision-dive.pdf
   title: vision-dive
   tags: tbd
 
-- url: vizualization-NP.pdf
+- url: /pdfs/math/vizualization-NP.pdf
   title: placeholder
   tags: visualization
 
-- url: voronoi-diagrams-ADM.pdf
+- url: /pdfs/math/voronoi-diagrams-ADM.pdf
   title: placeholder
   tags: voronoi
 
-- url: wavelets-FDS.pdf
+- url: /pdfs/math/wavelets-FDS.pdf
   title: FDS
   tags: wavelets
 
