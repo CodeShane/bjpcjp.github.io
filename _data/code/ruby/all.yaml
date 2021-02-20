@@ -434,55 +434,55 @@
 
 - title: DB Adapters
   url: https://www.ruby-toolbox.com/categories/Active_Record_DB_Adapters
-  category: DB Load-Store Options
+  category: DB Options
 
 - title: Standalone Migrations
   url: https://www.ruby-toolbox.com/categories/ActiveRecord_without_Rails
-  category: DB Load-Store Options
+  category: DB Options
 
 - title: Amazon Dynamo
   url: https://www.ruby-toolbox.com/categories/Amazon_DynamoDB
-  category: DB Load-Store Options
+  category: DB Options
 
 - title: Connection Pooling
   url: https://www.ruby-toolbox.com/categories/Connection_Pooling
-  category: DB Load-Store Options
+  category: DB Options
 
 - title: CouchDB
   url: https://www.ruby-toolbox.com/categories/couchdb_clients
-  category: DB Load-Store Options
+  category: DB Options
 
 - title: CSV Parsers
   url: https://www.ruby-toolbox.com/categories/CSV_Parsers
-  category: DB Load-Store Options
+  category: DB Options
 
 - title: Data Migrations
   url: https://www.ruby-toolbox.com/categories/Data_Migration
-  category: DB Load-Store Options
+  category: DB Options
 
 - title: MongoDB
   url: https://www.ruby-toolbox.com/categories/mongodb_clients
-  category: DB Load-Store Options
+  category: DB Options
 
 - title: Rails ActiveRecord
   url: https://www.ruby-toolbox.com/categories/orm
-  category: DB Load-Store Options
+  category: DB Options
 
 - title: Redis
   url: https://www.ruby-toolbox.com/categories/Redis
-  category: DB Load-Store Options
+  category: DB Options
 
 - title: Postgres
   url: https://www.ruby-toolbox.com/projects/pg
-  category: DB Load-Store Options
+  category: DB Options
 
 - title: Sqlite3
   url: https://www.ruby-toolbox.com/projects/sqlite3
-  category: DB Load-Store Options
+  category: DB Options
 
 - title: Mysql2
   url: https://www.ruby-toolbox.com/projects/mysql2
-  category: DB Load-Store Options
+  category: DB Options
 
 
 
@@ -1769,15 +1769,15 @@
 
 - title: Vagrant
   url: https://www.ruby-toolbox.com/projects/vagrant
-  category: DevOps/Provisioning
+  category: DevOps
 
 - title: Chef
   url: https://www.ruby-toolbox.com/projects/chef
-  category: DevOps/Provisioning
+  category: DevOps
 
 - title: Puppet
   url: https://www.ruby-toolbox.com/projects/puppet
-  category: DevOps/Provisioning
+  category: DevOps
 
 
 - title: Puma
@@ -1896,4 +1896,183 @@
   url: https://guides.rubyonrails.org/generators.html#generator-methods
   category: Generators & Templates
 
+- title: Jekyll data files 
+  url: https://jekyllrb.com/docs/datafiles/
+  category: Jekyll 
 
+- title: YAML linter
+  url: http://www.yamllint.com/
+  category: Yaml 
+
+- title: Jekyll categories & tags 
+  url: https://blog.webjeda.com/jekyll-categories/
+  category: Jekyll 
+
+
+- title: Image lazy loading 
+  url: https://ranvir.xyz/blog/lazy-loading-your-images-in-jekyll-blog-improving-page-speed/
+  category: Jekyll 
+
+- title: Bootstrap 4 template 
+  url: https://github.com/jenofdoom/jekyll-bootstrap-4
+  category: Jekyll 
+
+- title: GitHub hosting how-to 
+  url: http://jmcglone.com/guides/github-pages/
+  category: Jekyll 
+
+- title: Cloudant search 
+  url: https://medium.com/@glynn_bird/adding-cloudant-search-to-your-static-jekyll-blog-5ad76b32a902
+  category: Jekyll 
+
+- title: Disqus comments 
+  url: https://desiredpersona.com/disqus-comments-jekyll/
+  category: Jekyll 
+
+- title: SEO metadata tags
+  url: https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/installation.md
+  category: Jekyll 
+
+- title: Algolia search 
+  url: https://forestry.io/blog/search-with-algolia-in-jekyll/
+  category: Jekyll 
+
+- title: Linking series of posts 
+  url: https://engineering.chrobinson.com/how-to/linking-a-series-of-jekyll-posts/
+  category: Jekyll 
+
+- title: Collections
+  url: https://blog.webjeda.com/jekyll-collections/
+  category: Jekyll
+
+- title: Eager Loading & N+1 Queries
+  url: https://news.learnenough.com/eager-loading
+  category: Associations
+
+- title: Active Record without Models 
+  url: https://twitter.com/websebdev/status/1360647965765951497?s=12
+  category: ActiveRecord
+
+- title: text excerpts
+  url: https://boringrails.com/tips/rails-excerpt-helper
+  category: HTML Helpers 
+
+- title: Bcrypt hashing 
+  url: https://rubyweekly.com/link/102532/ad5e785e3b
+  category: Encryption
+
+- title: MongoDB installation 
+  url: https://www.botreetechnologies.com/blog/how-to-install-and-use-mongodb-with-rails6/
+  category: DB Options
+
+- title: Heroku alternatives?
+  url: https://www.reddit.com/r/rails/comments/l59eti/best_alternatives_to_hosting_on_heroku/
+  category: hosting
+
+- title: custom seed files 
+  url: https://stackoverflow.com/questions/19872271/adding-a-custom-seed-file#19872375
+  category: DB seeds 
+
+- title: Webpacker in Rails 6
+  url: https://prathamesh.tech/2019/08/26/understanding-webpacker-in-rails-6/
+  category: Javascript
+
+- title: Rendering with render_async
+  url: https://semaphoreci.com/blog/2017/06/08/speeding-up-rails-pages-with-render-async.html
+  category: Layouts & Rendering
+  source: semaphoreci
+
+- title: Active Record query tricks 
+  url: https://medium.com/@apneadiving/active-records-queries-tricks-2546181a98dd
+  category: ActiveRecord
+
+- title: Devise in Depth 
+  url: https://www.sitepoint.com/devise-authentication-in-depth/
+  category: Authentication
+  source: sitepoint
+
+- title: acts_as_tree 
+  url: https://github.com/amerine/acts_as_tree
+  category: ActiveRecord
+  source: github
+
+- title: Polymorphic Associations
+  url: https://launchschool.com/blog/understanding-polymorphic-associations-in-rails
+  category: Associations
+  source: launchschool
+
+- title: Custom Rake tasks 
+  url: https://dev.to/vinistock/customizing-rails-rake-tasks-3bg5
+  category: Command Line
+  source: dev.to
+
+- title: 42 Performance Tips 
+  url: https://dev.to/mskog/42-performance-tips-for-ruby-on-rails-4aik
+  category: Optimization 
+
+- title: Rails 6 features 
+  url: https://evilmartians.com/chronicles/rails-6-b-sides-and-rarities
+  category: Rails 6
+  source: evilmartians
+
+- title: Rails with Svelte 
+  url: https://medium.com/@nikolalsvk/getting-started-with-svelte-and-rails-6-d8384c80ad6c
+  category: Javascript
+
+- title: Custom Scaffolds 
+  url: https://www.nopio.com/blog/creating-scaffold-generator-rails/
+  category: Scaffolds
+  source: nopio
+
+- title: Continuous Integration with CircleCI 
+  url: https://hixonrails.com/ruby-on-rails-tutorials/ruby-on-rails-set-up-on-github-with-circleci/
+  category: DevOps 
+  source: hixonrails
+
+- title: Intro to secrets & credentials 
+  url: https://rubyweekly.com/link/83853/ad5e785e3b
+  category: TBD 
+
+- title: Rspec configuration 
+  url: https://hixonrails.com/ruby-on-rails-tutorials/ruby-on-rails-testing-rspec-configuration/
+  category: testing 
+
+- title: Fake data generator 
+  url: https://towardsdatascience.com/how-to-create-fake-data-with-faker-a835e5b7a9d9?source=rss----7f60cf5620c9---4
+  category: Data
+
+- title: Security best practices 
+  url: https://hixonrails.com/ruby-on-rails-tutorials/ruby-on-rails-security-best-practices/
+  category: Security
+
+- title: Postgres search 
+  url: https://pganalyze.com/blog/full-text-search-ruby-rails-postgres
+  category: Search Engines
+
+- title: 40 Monitoring Tools 
+  url: https://hixonrails.com/ruby-on-rails-tutorials/ruby-on-rails-application-monitoring/
+  category: Monitoring
+
+- title: ActionMailer configuration
+  url: https://hixonrails.com/ruby-on-rails-tutorials/ruby-on-rails-action-mailer-configuration/
+  category: Email
+
+- title: Metaprogramming concepts 
+  url: https://www.halcyon.hr/posts/exploring-metaprogramming-in-ruby/
+  category: Ruby 
+
+- title: Rails 6 setup 
+  url: https://dev.to/vvo/a-rails-6-setup-guide-for-2019-and-2020-hf5
+  category: Rails 6
+
+- title: Rails Patterns & Antipatterns 
+  url: https://dev.to/appsignal/introduction-to-ruby-on-rails-patterns-and-anti-patterns-2mhc
+  category: TBD 
+
+- title: Memoization
+  url: https://www.honeybadger.io/blog/ruby-rails-memoization/?utm_source=rubyweekly&utm_medium=email&utm_campaign=ruby
+  category: Optimization
+
+- title: Intro to Concerns 
+  url: https://blog.appsignal.com/2020/09/16/rails-concers-to-concern-or-not-to-concern.html
+  category: TBD 

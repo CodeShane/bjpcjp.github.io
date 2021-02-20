@@ -27,16 +27,16 @@ show_excerpts: true
 # navigation links
 header_pages:
   - about.html 
-  - math.html # titled as algorithms
   - behaviors.html # data-based equivalent = in devt
+  - math.html # titled as algorithms
+  - devops.html # was linux.html
   - gametheory.html
   - golang.html
   - ideas.html
-  - devops.html # was linux.html
   - prodmgmt.html
   - python.html 
-  - rails.html
-  #- ruby.html
+  #- rails.html
+  - ruby.html
   #- storytelling.html
   - semiconductors.html
   #- testpage.html
