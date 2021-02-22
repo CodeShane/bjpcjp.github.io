@@ -1,0 +1,87 @@
+---
+title: All things Ruby
+layout: page
+---
+
+{%- assign sorted_records = site.data.code.ruby.all | sort: "category" -%}
+
+{%- assign grouped_sorted_records = sorted_records | group_by: "category" -%}
+
+<!-- TABLE OF CONTENTS -->
+<h2>Tags:</h2>
+<div class="textcard">
+    {%- for tag in grouped_sorted_records -%}
+        <span style="padding:0.75em;">
+            <a href="#{{tag.name}}">{{tag.name}}</a>
+        </span><!-- <br> -->
+    {%- endfor -%}
+    <!-- </div> -->
+</div>
+<br><br>
+
+<!-- MAIN -->
+
+{%- for group in grouped_sorted_records -%}
+    {%- if group.name != "" -%}
+
+        <!-- navigation points. -->
+
+        <span id="{{group.name}}">
+            {{group.name}}
+
+            <!--right-side links: 1) my tweets, 2) "home" navigation -->
+            <span style="float:right;">
+
+                <!--
+                <button>
+                    <a href="https://twitter.com/search?q=({{group.name}})%20(from%3Abrianpiercy)&src=typed_query" 
+                        target="_blank">
+                        My Tweets</a>
+                </button>-->
+
+                <!--
+                <button>
+                <a href="https://duckduckgo.com?q={{group.name}} AND ruby OR rubyonrails"
+                   target="_blank">
+                    Search by topic (DDG)</a>
+                </button>
+                -->
+            </span>
+        <br>
+    
+        <!-- bookmarks are grouped into "groups", and sorted by the title field. -->
+
+        <div class="textcard">
+            <div style="column-count:2;
+                        column-rule: 4px solid #c6d9ec;">
+
+                {%- assign sorted_items = group.items | sort: "title" -%}
+                {%- for item in sorted_items -%}
+
+                    <!-- bookmark sources, if available, float to the right. -->
+
+                    {%- if item.source -%}
+                        <span style="float:right;">
+                            <small><em> {{ item.source }} </em></small>
+                        </span>
+                    {%- endif -%}
+
+                    <a href="{{item.url}}">{{item.title}}</a><br>
+
+                    {%- if item.pic -%}
+                        <img src="{{ item.pic }}"><br>
+                    {%- endif -%}
+
+                    {%- if item.notes -%}
+                        <small><em> {{ item.notes }} </em></small><br>
+                    {%- endif -%}
+
+                {%- endfor -%}
+            </div><br>
+        </div><br><br>
+        </span>
+    {%- endif -%}
+{%- endfor -%}
+<br>
+</div>
+
